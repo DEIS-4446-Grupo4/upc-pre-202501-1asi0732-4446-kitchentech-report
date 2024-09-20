@@ -2,42 +2,5 @@
 
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
-<table>
-  <tr>
-    <th>
-      <div>
-        <img src="./Resources/images/LRS.png" width="100" alt="competencia 1 logo">
-      </div>
-      <div>
-        Long Range Systems
-      </div>
-    </th>
-    <th>
-      <div>
-        <img src="./Resources/images/toast.png" width="100" alt="competencia 1 logo">
-      </div>
-      <div>
-        Toast
-      </div>
-    </th>
-    <th>
-      <div>
-        <img src="./Resources/images/light.png" width="100" alt="competencia 3 logo">
-      </div>
-      <div>
-        Lightspeed
-      </div>
-    </th>
-  </tr>
-  <tr>
-    <td rowspan="2"><strong>Perfil</strong></td>
-  </tr>
-  <tr>
-    <td rowspan="2"><strong>Perfil</strong></td>
-  </tr>
-  <tr>
-    <td rowspan="2"><strong>Perfil</strong></td>
-  </tr>
-</table>
 
 
