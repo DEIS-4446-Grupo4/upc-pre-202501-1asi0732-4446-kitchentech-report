@@ -123,3 +123,37 @@
     <td>Presión competitiva de soluciones más asequibles o especializadas en ciertos nichos del mercado.</td>
   </tr>
 </table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+-  Analizar las fortalezas y debilidades de tus competidores para identificar oportunidades y amenazas en el mercado.
+-  Utilizar herramientas de investigación de mercado para comprender mejor a nuestros clientes y sus necesidades.
+-  Incentivar a los usuarios a compartir su experiencia en las redes sociales y dejar reseñas positivas para mejorar la reputación de la marca.
+-  vigilancia constante sobre las tendencias del mercado y las tecnologías emergentes para seguir siendo competitivo a largo plazo.
+
+## 2.2. Entrevistas.
+### 2.2.1. Diseño de entrevistas.
+**Preguntas Generales** 
+- Nombre completo
+- Edad
+- Ocupación
+- Años de experiencia
+- 
+**LISTADO DE PREGUNTAS SEGMENTO MESEROS**
+1.	¿Cuáles son las principales dificultades que enfrentas al atender a los comensales?
+2.	¿Cuánto tiempo promedio dedicas a tomar pedidos y entregarlos a la cocina?
+3.	¿Qué herramientas o tecnologías utilizas actualmente para gestionar los pedidos?
+4.	¿Cómo impacta el tiempo de espera de los clientes en tu trabajo diario?
+5.	¿Has utilizado alguna tecnología IoT en tu lugar de trabajo? Si es así, ¿cómo ha sido tu experiencia?
+6.	¿Crees que un sistema que detecte automáticamente cuando un cliente necesita atención o cuándo recoger platos sería útil? ¿Por qué?
+7.	¿Qué características te gustaría ver en una herramienta que te ayude a gestionar los pedidos de manera más eficiente?
+
+**LISTADO DE PREGUNTAS SEGMENTO ADMINISTADORES**
+1.	¿Cuáles son los principales retos que enfrentas al gestionar la operación diaria del negocio?
+2.	¿Qué importancia le das a la eficiencia en el servicio al cliente en tu negocio?
+3.	¿Cómo realizas actualmente el seguimiento de los pedidos y la facturación en el negocio?
+4.	¿Qué tan satisfecho estás con las herramientas tecnológicas actuales que utilizas para administrar el negocio?
+5.	¿Cuánto tiempo dedicas a revisar las ventas y la facturación diariamente?
+6.	¿Consideras que la implementación de un sistema IoT podría mejorar la eficiencia operativa y el servicio al cliente? ¿Por qué?
+7.	¿Qué información te gustaría recibir en tiempo real para tomar decisiones más informadas sobre la operación del negocio?
+
+### 2.2.2. Registro de entrevistas.
