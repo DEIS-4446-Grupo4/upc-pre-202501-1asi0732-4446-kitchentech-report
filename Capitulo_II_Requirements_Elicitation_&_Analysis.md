@@ -157,3 +157,158 @@
 7.	¿Qué información te gustaría recibir en tiempo real para tomar decisiones más informadas sobre la operación del negocio?
 
 ### 2.2.2. Registro de entrevistas.
+-  Primera Entrevista:
+-  Segmento: Meseros
+-  Nombre: Jhonny Ruiz
+-  Edad: 22
+-  Ocupación: Estudiante universitario y mesero a tiempo parcial
+-  Enlace: https://drive.google.com/file/d/1LK6Rrf3d5Qc78yCVRLBQN9ohIZkfFp3B/view?usp=drive_link 
+
+-  Resumen:
+Jhonny es un estudiante universitario que trabaja a tiempo parcial en una pollería, el cual conoce los tipos de clientes que son atendidos por él. Y ve con buena idea implementar un sistema de pedidos o llamados a la mesa para optimizar los tiempos de los comensales y mejorar su experiencia en el local. 
+La importancia del tiempo de comunicación entre cliente con mesero y el del mesero con la cocina. Otro punto que menciona es la de atender al comensal, cuando este desea hacer alguna petición, como recoger los platos, cambiar cubiertos, agregar ítems a la mesa. El mesero pueda saber de alguna forma la petición de llamado, sin tardar por lograr ver a este o escucharlo.
+
+<img src="./Resources/images/e1.png" width="600">
+
+
+- Segunda Entrevista:
+- Segmento: Mesero
+- Nombre: Rodrigo Torres
+- Edad: 23
+- Ocupación: Mesero
+- Enlace: Entrevista con Segmento Mesero
+<img src="./Resources/images/e2.png" width="600" >
+
+Resumen:
+Rodrigo trabaja como mesero en una cadena de restaurantes familiares, atendiendo a numerosos comensales a lo largo de su jornada. Observa que el método tradicional de tomar pedidos, escribiéndolos en papel, conlleva un alto riesgo de errores. Esto se agrava cuando se trata de un grupo grande, ya que el proceso se vuelve desorganizado y caótico.
+Rodrigo considera que implementar un sistema de pedidos o de llamadas de mesa sería una gran mejora. Este tipo de sistema no solo facilitaría y aceleraría el proceso de atención a los comensales, sino que también aumentaría la calidad del servicio, aliviando la carga de trabajo de los meseros y mejorando la experiencia general de los clientes.
+
+- Tercera Entrevista:
+- Segmento: Meseros
+- Nombre: Martin Cifuentes
+- Edad: 20
+- Ocupación: Mesero a tiempo parcial en chilis
+- Enlace: https://drive.google.com/file/d/1L8E_H6pFC90pOep6bz4UvaYJ3TwM7G5x/view?usp=drive_link
+<img src="./Resources/images/e3.png" width="600">
+
+Resumen:
+La experiencia de Martin en chillis, se basa en un estilo de atención clásico, donde utiliza cartillas para enviarlo a la cocina para mantener el orden. El tiempo del cliente es vital, ya que este será uno de los actores importantes para la experiencia en el restaurante. Él considera importante la forma de comunicar con el cliente sin necesidad de ver el cliente mientras consume directamente.
+
+- Cuarta Entrevista: 
+- Segmento: ADMINISTADORES
+- Nombre: David Oré Cutipa
+- Edad: 24
+- Ocupación: Ayudante Administrador de polleria
+
+<img src="./Resources/images/e4.png" width="600">
+
+- Resumen:
+Menciona que uno de los mayores retos al manejar el día a día del negocio es la expansión, tanto en términos de popularidad como de establecimiento de la marca. También reconoce que es difícil lograr que los ingresos sean positivos.
+En cuanto al servicio al cliente, lo considera clave para el éxito del negocio, tanto en atención presencial como virtual. Es importante que los clientes se sientan cómodos, por el ambiente, la atención o la puntualidad en la entrega de pedidos, esencial para mantener el prestigio de la marca.
+Para gestionar los pedidos y la facturación, utilizan un proceso donde el cliente llena un formulario (presencial o virtual), se verifican los detalles, y luego se comprueba el inventario para asegurar que todo esté listo para la entrega, priorizando que los pedidos lleguen lo antes posible.
+En cuanto a las herramientas tecnológicas, está satisfecho con lo que usan actualmente, ya que les brinda eficiencia en el trabajo. Por ejemplo, la cartilla de precios actualizada mediante un código QR y los pedidos online a través de plataformas como PedidosYa y Globo, les facilitan llegar a más clientes.
+Dedica unas 8 horas al día a revisar ventas y facturación, ajustando el tiempo según la cantidad de clientes y los días de apertura. Además, considera que la implementación de tecnología IoT, como meseros robóticos y asistentes inteligentes, podría ser muy beneficiosa, ya que mejoraría la eficiencia y ahorraría tiempo, tanto para el negocio como para los clientes.
+Por último, le gustaría tener acceso en tiempo real a las preferencias de los clientes, para poder anticiparse a sus necesidades, mantener el inventario optimizado y tomar decisiones más informadas sobre dónde invertir para seguir creciendo y fortalecer el reconocimiento de su marca de restaurantes.
+
+
+- Quinta Entrevista:
+- Segmento: Administrasdores
+- Nombre: Jorge Rojas
+- Edad: 21
+- Ocupación: Administrador de un restaurante
+- Enlace: https://drive.google.com/file/d/1m5zHGkXGYi23zdqufEjVRE7YN850g_L9/view?usp=drive_link
+ <img src="./Resources/images/e5.png" width="600">
+- Resumen:
+Los principales retos para Jorge, en la gestión diaria del negocio incluyen mantener el flujo de los procesos sin interrupciones, coordinar equipos, y enfrentar imprevistos como la falta de insumos o la rotación de personal, además de la gestión de costos y la consistencia en la calidad del servicio. La eficiencia en el servicio al cliente es fundamental, ya que los clientes valoran tanto la rapidez como la atención personalizada, lo que contribuye a una experiencia positiva. Actualmente, el seguimiento de pedidos y facturación se realiza mediante un sistema POS, que permite un control en tiempo real de los tiempos de servicio y facilita la facturación, aunque siempre hay espacio para mejoras tecnológicas que integren mejor otras áreas, como la gestión de inventarios o el análisis de datos. El uso de IoT podría mejorar la eficiencia operativa, ofreciendo información en tiempo real sobre niveles de inventario, rendimiento de equipos y empleados, además de proporcionar alertas útiles sobre el comportamiento de los clientes. Dedica alrededor de una hora diaria a revisar las ventas y facturación, prestando especial atención a patrones de pedidos, quejas y metas comerciales.
+
+
+- Sexta Entrevista:
+- Segmento: admnistradores
+- Nombre: José Eduardo
+- Edad: 20
+- Ocupación: Administrador
+- Enlace:  https://drive.google.com/file/d/1jFM97hO6cg-0LFss7j3m652epf_1CjAj/view?usp=drive_link 
+
+- Resumen:
+ <img src="./Resources/images/e6.png" width="600">
+La manera de administrar el negocio es realmente clásica, ya que son procesos que normalmente se realizan en el negocio, le gustaría tomar tecnologías que agilicen estos procesos para tomar decisiones más rápidas y considerar un punto de diferencia de la competencia. Utiliza herramientas IoT es muy poco visto en sus competidores, lo cual permite mejorar la atención al cliente. Considera bastante la experiencia del cliente en el restaurante, por lo que ve con buenos ojos optimizar el tiempo de respuesta por parte de la toma del pedido, y ofrecer un cambio de pedido al instante reflejado directamente en la cocina.
+
+### 2.2.3. Análisis de entrevistas.
+
+- Análisis Generales – Segmentos Objetivo
+- Segmento Objetivo: Administradores
+
+El análisis de este administrador revela varios desafíos clave en la gestión diaria de un restaurante. Mantener un flujo de trabajo constante es complicado por imprevistos como la rotación de personal y la falta de insumos, lo que impacta la eficiencia operativa y la calidad del servicio. La gestión de costos y la expansión del negocio también son retos importantes, especialmente en un entorno donde aumentar la popularidad y mantener la rentabilidad es un desafío continuo.
+La atención al cliente se percibe como un factor crítico, ya que la rapidez y la atención personalizada son fundamentales para ofrecer una experiencia positiva. Aunque el sistema de facturación y pedidos que utilizan actualmente ofrece un control en tiempo real, se reconoce que podría mejorarse mediante una mayor integración con otras áreas del negocio, como la gestión de inventarios y el análisis de datos.
+El uso de tecnología IoT aparece como una oportunidad valiosa para optimizar la operación. La información en tiempo real sobre niveles de inventario, rendimiento de equipos y comportamiento del personal podría facilitar una toma de decisiones más eficiente. Además, existe interés en herramientas tecnológicas avanzadas, como meseros robóticos o asistentes inteligentes, que mejorarían tanto la eficiencia operativa como la experiencia del cliente.
+Finalmente, se destaca la importancia de contar con acceso en tiempo real a las preferencias de los clientes. Esto permitiría anticiparse a sus necesidades, optimizar el inventario y tomar decisiones más informadas para impulsar el crecimiento del negocio y fortalecer su posicionamiento en el mercado.
+
+- Segmento Objetivo: Meseros
+
+Este análisis se centra en la necesidad de optimizar la interacción entre los comensales, los meseros, y la cocina en un restaurante. Actualmente, el uso de métodos tradicionales como tomar pedidos en papel genera errores y desorganización, especialmente en grupos grandes. Esto impacta negativamente en la experiencia del cliente y sobrecarga a los meseros.
+Se propone implementar un sistema de pedidos digitales o de llamadas de mesa, que podría mejorar la eficiencia en la toma de pedidos, reducir errores, y agilizar la comunicación entre el cliente, el mesero, y la cocina. Además, este sistema permitiría a los meseros recibir notificaciones sobre peticiones de los comensales, como cambiar cquiertos o agregar ítems, sin depender de señales visuales o auditivas, lo que reduciría tiempos de espera y mejoraría la calidad del servicio.
+En resumen, la implementación de tecnología para gestionar pedidos y comunicaciones en restaurantes tiene el potencial de optimizar el tiempo de servicio, mejorar la experiencia del cliente y aligerar la carga de trabajo de los meseros.
+
+## 2.3. Needfinding.
+
+El Needfinding es una metodología cualitativa y colaborativa utilizada principalmente en el proceso de diseño e innovación para complementar el proceso de diseño de productos. A causa de ello, se presentará a continuación los siguientes puntos:
+
+### 2.3.1. User Personas.
+Segmento Objetivo: Meseros
+
+
+ <img src="./Resources/images/up1.png" width="600">
+
+
+ Segmento Objetivo : Administrador de Negocio
+
+ 
+ <img src="./Resources/images/up2.png" width="600">
+
+### 2.3.2. User Task Matrix.
+- Segmento Objetivo: Meseros
+ <img src="./Resources/images/utm1.png" width="600">
+
+
+- Segmento Objetivo: Administrador de Negocio
+ <img src="./Resources/images/utm2.png" width="600">
+
+### 2.3.3. User Journey Mapping.
+ <img src="./Resources/images/ujm1.png" width="600">
+
+### 2.3.4. Empathy Mapping.
+
+-Segmento Objetivo 1: 
+
+
+ <img src="./Resources/images/em1.png" width="600">
+
+
+-Segmento Objetivo 2:
+
+
+
+ <img src="./Resources/images/em2.png" width="600">
+
+
+### 2.3.5. As-is Scenario Mapping.
+En el siguiente apartado, presentaremos el Mapeo de Escenarios Actuales específicamente diseñado para el proyecto. A continuación, se incluye una representación gráfica del mismo: 
+
+- Segmento de Meseros:
+ <img src="./Resources/images/as1.png" width="600">
+
+- Segmento de Administrador:
+ <img src="./Resources/images/as2.png" width="600">
+
+
+## 2.4. Ubiquitous Language.
+Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso para asegurar su comprensión y que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave. (Actualizar)
+
+ <img src="./Resources/images/u1.png" width="600">
+ <img src="./Resources/images/u2.png" width="600">
+
+
+ 
+En este caso se presentan algunos ejemplares, con el fin de poder visualizar más de Ubiquitous language, compartimos enlace:
+Miro: https://miro.com/app/board/uXjVKkI6spU=/ 
+
