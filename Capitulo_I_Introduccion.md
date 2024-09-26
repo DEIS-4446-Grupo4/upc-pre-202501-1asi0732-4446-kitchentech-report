@@ -72,36 +72,36 @@ Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos
 
 #### 1.2.2.2. Lean UX Assumptions.
 
-## Business Assumptions
-- **La solución IoT reducirá los tiempos de atención**: Se asume que al automatizar la detección de clientes y la gestión de pedidos, los tiempos de atención disminuirán considerablemente, mejorando la eficiencia del servicio.
-- **El mercado está dispuesto a adoptar nuevas tecnologías**: Se asume que los restaurantes, cafeterías y otros negocios de atención al cliente están dispuestos a invertir en tecnología para mejorar sus procesos operativos.
-- **El costo de implementación será recuperable**: Se asume que el costo de implementar los dispositivos IoT y móviles será recuperado rápidamente debido a la mejora en la eficiencia operativa y la satisfacción del cliente.
-- **La solución aumentará la satisfacción del cliente**: Se asume que una atención más rápida y eficiente resultará en una mayor satisfacción del cliente, lo que se traducirá en mayor lealtad y repetición de visitas.
-- **El proyecto es escalable**: Se asume que la solución puede adaptarse a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas de restaurantes.
+**Business Assumptions**
+- *La solución IoT reducirá los tiempos de atención*: Se asume que al automatizar la detección de clientes y la gestión de pedidos, los tiempos de atención disminuirán considerablemente, mejorando la eficiencia del servicio.
+- *El mercado está dispuesto a adoptar nuevas tecnologías*: Se asume que los restaurantes, cafeterías y otros negocios de atención al cliente están dispuestos a invertir en tecnología para mejorar sus procesos operativos.
+- *El costo de implementación será recuperable*: Se asume que el costo de implementar los dispositivos IoT y móviles será recuperado rápidamente debido a la mejora en la eficiencia operativa y la satisfacción del cliente.
+- *La solución aumentará la satisfacción del cliente*: Se asume que una atención más rápida y eficiente resultará en una mayor satisfacción del cliente, lo que se traducirá en mayor lealtad y repetición de visitas.
+- *El proyecto es escalable*: Se asume que la solución puede adaptarse a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas de restaurantes.
 
-## Business Outcome Assumptions
-- **Incremento en las ventas**: Se asume que al mejorar la eficiencia y satisfacción del cliente, las ventas de los establecimientos aumentarán.
-- **Reducción de costos operativos**: Se asume que la automatización de procesos reducirá la necesidad de personal adicional y los costos asociados.
-- **Mejora en la retención de clientes**: Se asume que un servicio más eficiente resultará en una mayor retención de clientes y en recomendaciones boca a boca.
+**Business Outcome Assumptions**
+- *Incremento en las ventas*: Se asume que al mejorar la eficiencia y satisfacción del cliente, las ventas de los establecimientos aumentarán.
+- *Reducción de costos operativos*: Se asume que la automatización de procesos reducirá la necesidad de personal adicional y los costos asociados.
+- *Mejora en la retención de clientes*: Se asume que un servicio más eficiente resultará en una mayor retención de clientes y en recomendaciones boca a boca.
 
-## User Assumptions
-- **Los meseros preferirán un sistema automatizado**: Se asume que los meseros estarán dispuestos a utilizar dispositivos móviles para gestionar pedidos, reconociendo los beneficios en términos de ahorro de tiempo y reducción de errores.
-- **Los clientes valoran la rapidez y eficiencia**: Se asume que los clientes notarán y apreciarán la rapidez en la atención, lo que mejorará su experiencia general en el establecimiento.
-- **El personal administrativo se adaptará fácilmente a la nueva tecnología**: Se asume que los administradores y el personal encargado de la caja y la cocina se adaptarán rápidamente al uso de los nuevos dispositivos, facilitando la integración con el sistema existente.
-- **Los usuarios no tendrán problemas con la interfaz**: Se asume que la interfaz de usuario de los dispositivos móviles será intuitiva y fácil de usar, reduciendo la necesidad de capacitación extensa.
+**User Assumptions**
+- *Los meseros preferirán un sistema automatizado*: Se asume que los meseros estarán dispuestos a utilizar dispositivos móviles para gestionar pedidos, reconociendo los beneficios en términos de ahorro de tiempo y reducción de errores.
+- *Los clientes valoran la rapidez y eficiencia*: Se asume que los clientes notarán y apreciarán la rapidez en la atención, lo que mejorará su experiencia general en el establecimiento.
+- *El personal administrativo se adaptará fácilmente a la nueva tecnología*: Se asume que los administradores y el personal encargado de la caja y la cocina se adaptarán rápidamente al uso de los nuevos dispositivos, facilitando la integración con el sistema existente.
+- *Los usuarios no tendrán problemas con la interfaz*: Se asume que la interfaz de usuario de los dispositivos móviles será intuitiva y fácil de usar, reduciendo la necesidad de capacitación extensa.
 
-## User Outcome Assumptions
-- **Aumento en la satisfacción del mesero**: Se asume que los meseros se sentirán más satisfechos y eficientes en su trabajo gracias a la reducción de tiempos de espera y errores en la gestión de pedidos.
-- **Mejora en la experiencia del cliente**: Se asume que los clientes disfrutarán de una experiencia más fluida y rápida, lo que se traducirá en comentarios positivos y retorno al establecimiento.
-- **Facilidad en la adopción del sistema**: Se asume que la capacitación para el uso del nuevo sistema será breve, resultando en una rápida adopción por parte del personal.
+**User Outcome Assumptions**
+- *Aumento en la satisfacción del mesero*: Se asume que los meseros se sentirán más satisfechos y eficientes en su trabajo gracias a la reducción de tiempos de espera y errores en la gestión de pedidos.
+- *Mejora en la experiencia del cliente*: Se asume que los clientes disfrutarán de una experiencia más fluida y rápida, lo que se traducirá en comentarios positivos y retorno al establecimiento.
+- *Facilidad en la adopción del sistema*: Se asume que la capacitación para el uso del nuevo sistema será breve, resultando en una rápida adopción por parte del personal.
 
-## Feature Assumptions
-- **Detección de entrada de clientes**: Sensores que detectan automáticamente cuando un cliente entra al local, enviando una notificación al sistema para asignar una mesa.
-- **Asignación automática de mesas**: Sistema que sugiere o asigna automáticamente mesas disponibles basándose en la información proporcionada por los sensores.
-- **Gestión de pedidos en tiempo real**: Dispositivos móviles para meseros que permiten tomar pedidos y enviarlos instantáneamente a la cocina y caja, reduciendo tiempos de espera y errores.
-- **Monitoreo de estado de mesas**: Sensores que detectan si hay platos por recoger o si una mesa está desocupada, notificando al personal para que mantengan el área limpia y ordenada.
-- **Interfaz de administración centralizada**: Un panel para administradores que permite monitorear en tiempo real el estado de las mesas, pedidos en curso y realizar ajustes rápidos en el flujo de trabajo.
-- **Integración con sistemas de facturación**: El sistema se conecta con el software de facturación del negocio para automatizar el cobro, reduciendo el tiempo de espera para los clientes al pagar.
+**Feature Assumptions**
+- *Detección de entrada de clientes*: Sensores que detectan automáticamente cuando un cliente entra al local, enviando una notificación al sistema para asignar una mesa.
+- *Asignación automática de mesas*: Sistema que sugiere o asigna automáticamente mesas disponibles basándose en la información proporcionada por los sensores.
+- *Gestión de pedidos en tiempo real*: Dispositivos móviles para meseros que permiten tomar pedidos y enviarlos instantáneamente a la cocina y caja, reduciendo tiempos de espera y errores.
+- *Monitoreo de estado de mesas*: Sensores que detectan si hay platos por recoger o si una mesa está desocupada, notificando al personal para que mantengan el área limpia y ordenada.
+- *Interfaz de administración centralizada*: Un panel para administradores que permite monitorear en tiempo real el estado de las mesas, pedidos en curso y realizar ajustes rápidos en el flujo de trabajo.
+- *Integración con sistemas de facturación*: El sistema se conecta con el software de facturación del negocio para automatizar el cobro, reduciendo el tiempo de espera para los clientes al pagar.
 
 #### 1.2.2.3.	Lean UX Hypothesis Statements.
 
