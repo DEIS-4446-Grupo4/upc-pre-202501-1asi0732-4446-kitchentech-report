@@ -273,16 +273,21 @@ El User Task Matrix es una herramienta que nos permite identificar las tareas cl
  <img src="./Resources/images/utm2.png" width="600">
 
 ### 2.3.3. User Journey Mapping.
+
 El User Journey Mapping es una herramienta esencial para visualizar el recorrido que los usuarios realizan al interactuar con un producto o servicio. Este mapa nos permite identificar cada punto de contacto, desde que los usuarios inician su actividad hasta que completan sus tareas. Al detallar cada etapa del proceso, podemos comprender mejor sus emociones, frustraciones y necesidades, lo que nos ayuda a diseñar soluciones que optimicen su experiencia en todo el recorrido.
+
  <img src="./Resources/images/ujm1.png" width="600">
 
 ### 2.3.4. Empathy Mapping.
+
+-Segmento Objetivo 1:
 El Empathy Map para los meseros nos permite profundizar en su experiencia al identificar lo que piensan, sienten, ven y hacen en su entorno laboral. Al comprender sus emociones y motivaciones, podemos identificar las frustraciones que enfrentan, como la presión por atender múltiples mesas y la necesidad de ser rápidos y precisos en su trabajo. Este mapa nos ayudará a desarrollar soluciones que no solo faciliten sus tareas diarias, sino que también mejoren su bienestar y satisfacción en el servicio.
--Segmento Objetivo 1: 
+
  <img src="./Resources/images/em1.png" width="600">
 
 -Segmento Objetivo 2:
 El Empathy Map para los administradores se centra en sus perspectivas y desafíos en la gestión operativa del restaurante. Al explorar sus pensamientos y sentimientos, podemos identificar las preocupaciones que tienen sobre la eficiencia del flujo de trabajo y la toma de decisiones rápidas. Este entendimiento nos permitirá crear herramientas que les brinden un control más efectivo sobre las operaciones, ayudándoles a cumplir sus objetivos y a mejorar la experiencia tanto para el personal como para los clientes.
+
  <img src="./Resources/images/em2.png" width="600">
 
 
@@ -296,6 +301,7 @@ En el escenario actual, los meseros enfrentan varias fases en su proceso de aten
 
 - Segmento de Administrador:
 En el escenario actual, los administradores pasan por varias fases en la gestión operativa. Comienzan con la supervisión del inventario, realizando un seguimiento manual que puede ser ineficiente. Luego, en la fase de coordinación del personal, asignan tareas y horarios sin herramientas adecuadas. En la fase de generación de reportes de ventas, deben compilar datos manualmente, lo que consume tiempo. Finalmente, en la fase de análisis de ventas y rendimiento, interpretan datos que pueden no estar actualizados, dificultando la toma de decisiones y afectando la operación general.
+
  <img src="./Resources/images/as2.png" width="600">
 
 
