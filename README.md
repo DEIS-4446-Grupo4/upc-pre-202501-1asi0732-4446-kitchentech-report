@@ -67,6 +67,15 @@ Para la creación del informe se llevaron a cabo las siguientes acciones:
 - Estudio de la competencia.
 - Elaboración de User Stories y del Product Backlog.
 
+
+
+
+---
+
+<div align="center">
+    <img src="./Resources/Evidences/TB1.jpg" alt="TB1">
+
+
 ---
 
 
