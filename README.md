@@ -42,8 +42,8 @@ Profesor: Velasquez Nuñez, Angel Augusto
 | 1.2   | 21/08/2024  | Esteban Calderón Chauchi                 | Creación de la portada, índice del informe, registro de entrevistas, y ajustes en el proceso Lean UX                                                 |
 | 1.3    | 25/08/2024  | Franco Surco Reyes                       | Desarrollo del mapeo del recorrido del usuario y formalización de los resultados obtenidos en entrevistas                                             |
 | 1.4    | 30/08/2024  | Nicolas Zagal Vallejo                    | Diseño y análisis de las entrevistas con su respectivo registro                                                                                      |
-| 2.0    | 25/08/2024  | Nicolas Zagal                      | Correcciones de primera version, secciones de US y creacion de mock ups, wireframes y prototipos                                             |
-| 2.1    | 30/08/2024  | Esteban Calderón Vallejo                    | Mejora continua de la seccion  Requirements Elicitation & Analysis                                                                                      |
+| 2.0    | 25/08/2024  | Nicolas Zagal Vallejo                       | Correcciones de primera version, secciones de US y creacion de mock ups, wireframes y prototipos                                             |
+| 2.1    | 30/08/2024  | Esteban Calderón Chauchi                    | Mejora continua de la seccion  Requirements Elicitation & Analysis                                                                                      |
 | 2.2    | 17/08/2024  | Fabrizzio Antonio Castro Manrique        | Elaboracion del Sprint 1                                                      |
 | 2.3   | 18/08/2024  | Alarcon Rondon Sandro                    | Correcciones de Lean Ux Problem Statement e hipotesis como tabien del task de Sprint 1                             |
 
