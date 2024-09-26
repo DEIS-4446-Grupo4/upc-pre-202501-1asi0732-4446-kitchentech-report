@@ -5,11 +5,14 @@ A continuación, se presentan las directrices generales de estilo que definirán
 
 ### 5.1.1. General Style Guidelines
 #### Branding
-*IMAGE*
+<img src="./Resources/images/branding.png">
+
 #### Typography
-*IMAGE*
+<img src="./Resources/images/typography.png">
+
 #### Colors
-*IMAGE*
+<img src="./Resources/images/colors.png">
+
 #### Spacing
 El diseño utiliza un sistema de espaciado basado en múltiplos de 8px para asegurar consistencia entre los distintos elementos de la interfaz. Este sistema permite mantener un ritmo visual agradable y ordenado, mejorando la experiencia de usuario.
 
@@ -17,9 +20,10 @@ Margen y Padding: 8px, 16px, 32px
 
 Separación entre secciones principales: 64px 
 #### Icons
-*IMAGE*
+<img src="./Resources/images/icons.png">
+
 #### Images or Illustrations
-*IMAGE*
+<img src="./Resources/images/images.png">
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
 #### Web Style Guidelines
