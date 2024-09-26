@@ -5,11 +5,14 @@ A continuación, se presentan las directrices generales de estilo que definirán
 
 ### 5.1.1. General Style Guidelines
 #### Branding
-*IMAGE*
+<img src="./Resources/images/branding.png">
+
 #### Typography
-*IMAGE*
+<img src="./Resources/images/typography.png">
+
 #### Colors
-*IMAGE*
+<img src="./Resources/images/colors.png">
+
 #### Spacing
 El diseño utiliza un sistema de espaciado basado en múltiplos de 8px para asegurar consistencia entre los distintos elementos de la interfaz. Este sistema permite mantener un ritmo visual agradable y ordenado, mejorando la experiencia de usuario.
 
@@ -17,9 +20,10 @@ Margen y Padding: 8px, 16px, 32px
 
 Separación entre secciones principales: 64px 
 #### Icons
-*IMAGE*
+<img src="./Resources/images/icons.png">
+
 #### Images or Illustrations
-*IMAGE*
+<img src="./Resources/images/images.png">
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
 #### Web Style Guidelines
@@ -73,7 +77,96 @@ Los sistemas de navegación que se implementaran en Tecnogurus son los siguiente
 
 ## 5.4 Application UX/UI Design
 ### 5.4.1 Application Wireframes
+#### Wireframes Web Application
+<img src="./Resources/images/Wireframes/WF1.png">
+<img src="./Resources/images/Wireframes/WF2.png">
+<img src="./Resources/images/Wireframes/WF3.png">
+
+#### Wireframes Web Application - Segmento Meseros
+<img src="./Resources/images/Wireframes/WFM1.png">
+<img src="./Resources/images/Wireframes/WFM2.png">
+<img src="./Resources/images/Wireframes/WFM3.png">
+<img src="./Resources/images/Wireframes/WFM4.png">
+<img src="./Resources/images/Wireframes/WFM5.png">
+<img src="./Resources/images/Wireframes/WFM6.png">
+<img src="./Resources/images/Wireframes/WFM7.png">
+
+#### Wireframes Web Application - Segmento Administradores
+<img src="./Resources/images/Wireframes/WFA1.png">
+<img src="./Resources/images/Wireframes/WFA2.png">
+<img src="./Resources/images/Wireframes/WFA3.png">
+<img src="./Resources/images/Wireframes/WFA4.png">
+<img src="./Resources/images/Wireframes/WFA5.png">
+<img src="./Resources/images/Wireframes/WFA6.png">
+<img src="./Resources/images/Wireframes/WFA7.png">
+<img src="./Resources/images/Wireframes/WFA8.png">
+<img src="./Resources/images/Wireframes/WFA9.png">
+<img src="./Resources/images/Wireframes/WFA10.png">
+<img src="./Resources/images/Wireframes/WFA11.png">
+<img src="./Resources/images/Wireframes/WFA12.png">
+<img src="./Resources/images/Wireframes/WFA13.png">
+<img src="./Resources/images/Wireframes/WFA14.png">
+<img src="./Resources/images/Wireframes/WFA15.png">
+
+#### Wireframes Mobile Application
+<img src="./Resources/images/Wireframes/WFMA1.png">
+<img src="./Resources/images/Wireframes/WFMA2.png">
+<img src="./Resources/images/Wireframes/WFMA3.png">
+<img src="./Resources/images/Wireframes/WFMA4.png">
+<img src="./Resources/images/Wireframes/WFMA5.png">
+<img src="./Resources/images/Wireframes/WFMA6.png">
+<img src="./Resources/images/Wireframes/WFMA7.png">
+<img src="./Resources/images/Wireframes/WFMA8.png">
+<img src="./Resources/images/Wireframes/WFMA9.png">
+<img src="./Resources/images/Wireframes/WFMA10.png">
+
 ### 5.4.2 Application Wireflow Diagrams
+
 ### 5.4.3 Application Mock-ups
+#### Mock-ups Web Application
+<img src="./Resources/images/Mockups/MU1.png">
+<img src="./Resources/images/Mockups/MU2.png">
+<img src="./Resources/images/Mockups/MU3.png">
+
+#### Muck-ups Web Application - Segmento Meseros
+<img src="./Resources/images/Mockups/MUM1.png">
+<img src="./Resources/images/Mockups/MUM2.png">
+<img src="./Resources/images/Mockups/MUM3.png">
+<img src="./Resources/images/Mockups/MUM4.png">
+<img src="./Resources/images/Mockups/MUM5.png">
+<img src="./Resources/images/Mockups/MUM6.png">
+<img src="./Resources/images/Mockups/MUM7.png">
+
+#### Muck-ups Web Application - Segmento Administradores
+<img src="./Resources/images/Mockups/MUA1.png">
+<img src="./Resources/images/Mockups/MUA2.png">
+<img src="./Resources/images/Mockups/MUA3.png">
+<img src="./Resources/images/Mockups/MUA4.png">
+<img src="./Resources/images/Mockups/MUA5.png">
+<img src="./Resources/images/Mockups/MUA6.png">
+<img src="./Resources/images/Mockups/MUA7.png">
+<img src="./Resources/images/Mockups/MUA8.png">
+<img src="./Resources/images/Mockups/MUA9.png">
+<img src="./Resources/images/Mockups/MUA10.png">
+<img src="./Resources/images/Mockups/MUA11.png">
+<img src="./Resources/images/Mockups/MUA12.png">
+<img src="./Resources/images/Mockups/MUA13.png">
+<img src="./Resources/images/Mockups/MUA14.png">
+<img src="./Resources/images/Mockups/MUA15.png">
+
+#### Wireframes Mobile Application
+<img src="./Resources/images/Mockups/MUMA1.png">
+<img src="./Resources/images/Mockups/MUMA2.png">
+<img src="./Resources/images/Mockups/MUMA3.png">
+<img src="./Resources/images/Mockups/MUMA4.png">
+<img src="./Resources/images/Mockups/MUMA5.png">
+<img src="./Resources/images/Mockups/MUMA6.png">
+<img src="./Resources/images/Mockups/MUMA7.png">
+<img src="./Resources/images/Mockups/MUMA8.png">
+<img src="./Resources/images/Mockups/MUMA9.png">
+<img src="./Resources/images/Mockups/MUMA10.png">
 
 ## 5.5 Application Prototyping
+<img src="./Resources/images/prototyping.png">
+
+Link del Figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=0-1&t=utGFI0ZMZzi5lOJL-1
