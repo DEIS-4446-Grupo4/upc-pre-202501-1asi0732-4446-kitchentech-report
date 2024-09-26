@@ -121,6 +121,49 @@ Los sistemas de navegación que se implementaran en Tecnogurus son los siguiente
 <img src="./Resources/images/Wireframes/WFMA10.png">
 
 ### 5.4.2 Application Wireflow Diagrams
+
 ### 5.4.3 Application Mock-ups
+#### Mock-ups Web Application
+<img src="./Resources/images/Mockups/MU1.png">
+<img src="./Resources/images/Mockups/MU2.png">
+<img src="./Resources/images/Mockups/MU3.png">
+
+#### Muck-ups Web Application - Segmento Meseros
+<img src="./Resources/images/Mockups/MUM1.png">
+<img src="./Resources/images/Mockups/MUM2.png">
+<img src="./Resources/images/Mockups/MUM3.png">
+<img src="./Resources/images/Mockups/MUM4.png">
+<img src="./Resources/images/Mockups/MUM5.png">
+<img src="./Resources/images/Mockups/MUM6.png">
+<img src="./Resources/images/Mockups/MUM7.png">
+
+#### Muck-ups Web Application - Segmento Administradores
+<img src="./Resources/images/Mockups/MUA1.png">
+<img src="./Resources/images/Mockups/MUA2.png">
+<img src="./Resources/images/Mockups/MUA3.png">
+<img src="./Resources/images/Mockups/MUA4.png">
+<img src="./Resources/images/Mockups/MUA5.png">
+<img src="./Resources/images/Mockups/MUA6.png">
+<img src="./Resources/images/Mockups/MUA7.png">
+<img src="./Resources/images/Mockups/MUA8.png">
+<img src="./Resources/images/Mockups/MUA9.png">
+<img src="./Resources/images/Mockups/MUA10.png">
+<img src="./Resources/images/Mockups/MUA11.png">
+<img src="./Resources/images/Mockups/MUA12.png">
+<img src="./Resources/images/Mockups/MUA13.png">
+<img src="./Resources/images/Mockups/MUA14.png">
+<img src="./Resources/images/Mockups/MUA15.png">
+
+#### Wireframes Mobile Application
+<img src="./Resources/images/Mockups/MUMA1.png">
+<img src="./Resources/images/Mockups/MUMA2.png">
+<img src="./Resources/images/Mockups/MUMA3.png">
+<img src="./Resources/images/Mockups/MUMA4.png">
+<img src="./Resources/images/Mockups/MUMA5.png">
+<img src="./Resources/images/Mockups/MUMA6.png">
+<img src="./Resources/images/Mockups/MUMA7.png">
+<img src="./Resources/images/Mockups/MUMA8.png">
+<img src="./Resources/images/Mockups/MUMA9.png">
+<img src="./Resources/images/Mockups/MUMA10.png">
 
 ## 5.5 Application Prototyping
