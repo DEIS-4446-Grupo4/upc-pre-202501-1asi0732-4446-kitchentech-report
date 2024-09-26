@@ -73,6 +73,49 @@ Los sistemas de navegación que se implementaran en Tecnogurus son los siguiente
 
 ## 5.4 Application UX/UI Design
 ### 5.4.1 Application Wireframes
+#### Wireframes Web Application
+<img src="./Resources/images/Wireframes/WF1.png">
+<img src="./Resources/images/Wireframes/WF2.png">
+<img src="./Resources/images/Wireframes/WF3.png">
+
+#### Wireframes Web Application - Segmento Meseros
+<img src="./Resources/images/Wireframes/WFM1.png">
+<img src="./Resources/images/Wireframes/WFM2.png">
+<img src="./Resources/images/Wireframes/WFM3.png">
+<img src="./Resources/images/Wireframes/WFM4.png">
+<img src="./Resources/images/Wireframes/WFM5.png">
+<img src="./Resources/images/Wireframes/WFM6.png">
+<img src="./Resources/images/Wireframes/WFM7.png">
+
+#### Wireframes Web Application - Segmento Administradores
+<img src="./Resources/images/Wireframes/WFA1.png">
+<img src="./Resources/images/Wireframes/WFA2.png">
+<img src="./Resources/images/Wireframes/WFA3.png">
+<img src="./Resources/images/Wireframes/WFA4.png">
+<img src="./Resources/images/Wireframes/WFA5.png">
+<img src="./Resources/images/Wireframes/WFA6.png">
+<img src="./Resources/images/Wireframes/WFA7.png">
+<img src="./Resources/images/Wireframes/WFA8.png">
+<img src="./Resources/images/Wireframes/WFA9.png">
+<img src="./Resources/images/Wireframes/WFA10.png">
+<img src="./Resources/images/Wireframes/WFA11.png">
+<img src="./Resources/images/Wireframes/WFA12.png">
+<img src="./Resources/images/Wireframes/WFA13.png">
+<img src="./Resources/images/Wireframes/WFA14.png">
+<img src="./Resources/images/Wireframes/WFA15.png">
+
+#### Wireframes Mobile Application
+<img src="./Resources/images/Wireframes/WFMA1.png">
+<img src="./Resources/images/Wireframes/WFMA2.png">
+<img src="./Resources/images/Wireframes/WFMA3.png">
+<img src="./Resources/images/Wireframes/WFMA4.png">
+<img src="./Resources/images/Wireframes/WFMA5.png">
+<img src="./Resources/images/Wireframes/WFMA6.png">
+<img src="./Resources/images/Wireframes/WFMA7.png">
+<img src="./Resources/images/Wireframes/WFMA8.png">
+<img src="./Resources/images/Wireframes/WFMA9.png">
+<img src="./Resources/images/Wireframes/WFMA10.png">
+
 ### 5.4.2 Application Wireflow Diagrams
 ### 5.4.3 Application Mock-ups
 
