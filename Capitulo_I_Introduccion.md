@@ -72,44 +72,63 @@ Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos
 
 #### 1.2.2.2. Lean UX Assumptions.
 
-**Business Assumptions**
-- *La solución IoT reducirá los tiempos de atención*: Se asume que al automatizar la detección de clientes y la gestión de pedidos, los tiempos de atención disminuirán considerablemente, mejorando la eficiencia del servicio.
-- *El mercado está dispuesto a adoptar nuevas tecnologías*: Se asume que los restaurantes, cafeterías y otros negocios de atención al cliente están dispuestos a invertir en tecnología para mejorar sus procesos operativos.
-- *El costo de implementación será recuperable*: Se asume que el costo de implementar los dispositivos IoT y móviles será recuperado rápidamente debido a la mejora en la eficiencia operativa y la satisfacción del cliente.
-- *La solución aumentará la satisfacción del cliente*: Se asume que una atención más rápida y eficiente resultará en una mayor satisfacción del cliente, lo que se traducirá en mayor lealtad y repetición de visitas.
-- *El proyecto es escalable*: Se asume que la solución puede adaptarse a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas de restaurantes.
+** Business Assumptions **
+- **La solución IoT reducirá los tiempos de atención**: Se asume que al automatizar la detección de clientes y la gestión de pedidos, los tiempos de atención disminuirán considerablemente, mejorando la eficiencia del servicio.
+- **El mercado está dispuesto a adoptar nuevas tecnologías**: Se asume que los restaurantes, cafeterías y otros negocios de atención al cliente están dispuestos a invertir en tecnología IoT para mejorar sus procesos operativos.
+- **El costo de implementación será recuperable**: Se asume que el costo de implementar dispositivos IoT y móviles será recuperado rápidamente debido a la mejora en la eficiencia operativa y la satisfacción del cliente.
+- **La solución aumentará la satisfacción del cliente**: Se asume que una atención más rápida y eficiente resultará en una mayor satisfacción del cliente, lo que se traducirá en mayor lealtad y repetición de visitas.
+- **El proyecto es escalable**: Se asume que la solución puede adaptarse a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas de restaurantes.
 
-**Business Outcome Assumptions**
-- *Incremento en las ventas*: Se asume que al mejorar la eficiencia y satisfacción del cliente, las ventas de los establecimientos aumentarán.
-- *Reducción de costos operativos*: Se asume que la automatización de procesos reducirá la necesidad de personal adicional y los costos asociados.
-- *Mejora en la retención de clientes*: Se asume que un servicio más eficiente resultará en una mayor retención de clientes y en recomendaciones boca a boca.
+** Business Outcome Assumptions **
+- **Incremento en las ventas**: Se asume que al mejorar la eficiencia y satisfacción del cliente, las ventas de los establecimientos aumentarán.
+- **Reducción de costos operativos**: Se asume que la automatización de procesos reducirá la necesidad de personal adicional y los costos asociados.
+- **Mejora en la retención de clientes**: Se asume que un servicio más eficiente resultará en una mayor retención de clientes y en recomendaciones boca a boca.
 
-**User Assumptions**
-- *Los meseros preferirán un sistema automatizado*: Se asume que los meseros estarán dispuestos a utilizar dispositivos móviles para gestionar pedidos, reconociendo los beneficios en términos de ahorro de tiempo y reducción de errores.
-- *Los clientes valoran la rapidez y eficiencia*: Se asume que los clientes notarán y apreciarán la rapidez en la atención, lo que mejorará su experiencia general en el establecimiento.
-- *El personal administrativo se adaptará fácilmente a la nueva tecnología*: Se asume que los administradores y el personal encargado de la caja y la cocina se adaptarán rápidamente al uso de los nuevos dispositivos, facilitando la integración con el sistema existente.
-- *Los usuarios no tendrán problemas con la interfaz*: Se asume que la interfaz de usuario de los dispositivos móviles será intuitiva y fácil de usar, reduciendo la necesidad de capacitación extensa.
+** User Assumptions **
+- **Los meseros preferirán un sistema automatizado**: Se asume que los meseros estarán dispuestos a utilizar dispositivos móviles para gestionar pedidos, reconociendo los beneficios en términos de ahorro de tiempo y reducción de errores.
+- **Los clientes valoran la rapidez y eficiencia**: Se asume que los clientes notarán y apreciarán la rapidez en la atención, lo que mejorará su experiencia general en el establecimiento.
+- **El personal administrativo se adaptará fácilmente a la nueva tecnología**: Se asume que los administradores y el personal encargado de la caja y la cocina se adaptarán rápidamente al uso de los nuevos dispositivos, facilitando la integración con el sistema existente.
+- **Los usuarios no tendrán problemas con la interfaz**: Se asume que la interfaz de usuario de los dispositivos móviles será intuitiva y fácil de usar, reduciendo la necesidad de capacitación extensa.
 
-**User Outcome Assumptions**
-- *Aumento en la satisfacción del mesero*: Se asume que los meseros se sentirán más satisfechos y eficientes en su trabajo gracias a la reducción de tiempos de espera y errores en la gestión de pedidos.
-- *Mejora en la experiencia del cliente*: Se asume que los clientes disfrutarán de una experiencia más fluida y rápida, lo que se traducirá en comentarios positivos y retorno al establecimiento.
-- *Facilidad en la adopción del sistema*: Se asume que la capacitación para el uso del nuevo sistema será breve, resultando en una rápida adopción por parte del personal.
+** User Outcome Assumptions **
+- **Aumento en la satisfacción del mesero**: Se asume que los meseros se sentirán más satisfechos y eficientes en su trabajo gracias a la reducción de tiempos de espera y errores en la gestión de pedidos a través de tecnología IoT.
+- **Mejora en la experiencia del cliente**: Se asume que los clientes disfrutarán de una experiencia más fluida y rápida, facilitada por el sistema IoT, lo que se traducirá en comentarios positivos y retorno al establecimiento.
+- **Facilidad en la adopción del sistema**: Se asume que la capacitación para el uso del nuevo sistema IoT será breve, resultando en una rápida adopción por parte del personal.
 
-**Feature Assumptions**
-- *Detección de entrada de clientes*: Sensores que detectan automáticamente cuando un cliente entra al local, enviando una notificación al sistema para asignar una mesa.
-- *Asignación automática de mesas*: Sistema que sugiere o asigna automáticamente mesas disponibles basándose en la información proporcionada por los sensores.
-- *Gestión de pedidos en tiempo real*: Dispositivos móviles para meseros que permiten tomar pedidos y enviarlos instantáneamente a la cocina y caja, reduciendo tiempos de espera y errores.
-- *Monitoreo de estado de mesas*: Sensores que detectan si hay platos por recoger o si una mesa está desocupada, notificando al personal para que mantengan el área limpia y ordenada.
-- *Interfaz de administración centralizada*: Un panel para administradores que permite monitorear en tiempo real el estado de las mesas, pedidos en curso y realizar ajustes rápidos en el flujo de trabajo.
-- *Integración con sistemas de facturación*: El sistema se conecta con el software de facturación del negocio para automatizar el cobro, reduciendo el tiempo de espera para los clientes al pagar.
+** Feature Assumptions**
+- **Detección de entrada de clientes mediante IoT**: Sensores IoT que detectan automáticamente cuando un cliente entra al local, enviando una notificación al sistema para asignar una mesa.
+- **Asignación automática de mesas**: Sistema IoT que sugiere o asigna automáticamente mesas disponibles basándose en la información proporcionada por los sensores.
+- **Gestión de pedidos en tiempo real**: Dispositivos móviles conectados a un sistema IoT para meseros que permiten tomar pedidos y enviarlos instantáneamente a la cocina y caja, reduciendo tiempos de espera y errores.
+- **Monitoreo automatizado del estado de mesas**: Sensores que detectan si hay platos por recoger o si una mesa está desocupada, notificando al personal para que mantengan el área limpia y ordenada.
+- **Interfaz de administración centralizada**: Un panel IoT para administradores que permite monitorear en tiempo real el estado de las mesas, pedidos en curso y realizar ajustes rápidos en el flujo de trabajo.
+- **Integración con sistemas de facturación**: El sistema IoT se conecta con el software de facturación del negocio para automatizar el cobro, reduciendo el tiempo de espera para los clientes al pagar.
 
 #### 1.2.2.3.	Lean UX Hypothesis Statements.
 
--  **Si automatizamos la detección de clientes mediante sensores IoT,** entonces los meseros podrán atender a los clientes de manera más rápida y eficiente, **lo que reducirá los tiempos de espera y aumentará la satisfacción del cliente.**
--  **Si implementamos un sistema de gestión de pedidos en tiempo real a través de dispositivos móviles,** entonces los errores en las órdenes disminuirán y el proceso de toma de pedidos será más ágil, lo que mejorará la precisión de los pedidos y la eficiencia del servicio.
--  **Si desarrollamos una interfaz intuitiva y fácil de usar para los dispositivos móviles,** entonces el personal podrá adaptarse rápidamente al nuevo sistema**, lo que reducirá el tiempo de capacitación y mejorará la aceptación de la tecnología por parte de los empleados.**
--  **Si integramos nuestro sistema con el software de facturación existente,** entonces los procesos de cobro serán más rápidos y precisos**, lo que disminuirá los tiempos de espera al final de la experiencia del cliente y mejorará la percepción del servicio.**
--  **Si proporcionamos una solución escalable que se adapte a negocios de diferentes tamaños,** entonces más restaurantes y cafeterías adoptarán la tecnología**, lo que aumentará la cuota de mercado de nuestro startup y generará más ingresos.**
+- **Creemos que lograremos** una reducción significativa en los tiempos de espera y un aumento en la satisfacción del cliente.  
+   **Si** los meseros.
+   **Alcanzan** un servicio más rápido y eficiente.  
+   **Con** la automatización de la detección de clientes mediante sensores IoT.
+
+- **Creemos que lograremos** una mayor precisión en los pedidos y una mejora en la eficiencia del servicio.  
+   **Si** los meseros.
+   **Alcanzan** una disminución de errores en las órdenes y un proceso de toma de pedidos más ágil.  
+   **Con** un sistema de gestión de pedidos en tiempo real.
+
+- **Creemos que lograremos** una rápida adaptación del personal al nuevo sistema.  
+  **Si** los usuarios.
+  **Alcanzan** un menor tiempo de capacitación y mejor aceptación de la tecnología por parte de los empleados,  
+  **Con** esta interfaz amigable.
+
+- **Creemos que lograremos** un proceso de cobro más rápido y preciso, mejorando la percepción del servicio.  
+   **Si** los meseros.  
+   **Alcanzan** una disminución en los tiempos de espera al final de la experiencia del cliente.  
+   **Con** la integración con el software de facturación.
+
+- **Creemos que lograremos** un aumento en la cuota de mercado y mayores ingresos para nuestro startup.  
+   **Si** los usuarios.  
+   **Alcanzan** una mayor adopción de la tecnología por parte de restaurantes y cafeterías.  
+   **Con** una solución IoT escalable.
 
 #### 1.2.2.4. Lean UX Canvas.
 <img src="./Resources/images/Canvas.png" alt="canvas">
