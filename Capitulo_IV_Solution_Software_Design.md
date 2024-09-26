@@ -14,55 +14,55 @@ Es un enfoque visual que reúne a todas las partes interesadas para explorar el 
 
 <img src="./Resources/images/EventStorming.png" >
 
-** Pain Points**
+**Pain Points**
 
 Son los problemas o dificultades que enfrentan los usuarios y las partes interesadas en el contexto del sistema. Identificarlos ayuda a priorizar características y soluciones que realmente aborden las necesidades del usuario.
 
 <img src="./Resources/images/PainPoints.png" >
 
-** Timelines **
+**Timelines**
 
 Se refiere a la secuencia de eventos que ocurren en el sistema a lo largo del tiempo. Establecer una línea de tiempo ayuda a visualizar cómo los eventos interactúan y afectan el flujo de trabajo, así como a identificar puntos críticos en el proceso.
 
 <img src="./Resources/images/TimeLines.png" >
 
-** Pivotal Points **
+**Pivotal Points**
 
 Son momentos clave en el flujo de eventos que pueden cambiar el estado del sistema o influir significativamente en la experiencia del usuario. Identificar estos puntos ayuda a concentrar esfuerzos en las áreas más críticas.
 
 <img src="./Resources/images/PivotalPoints.png" >
 
-** Commands **
+**Commands**
 
 Son las acciones o instrucciones que un usuario o sistema puede ejecutar para provocar un cambio en el estado del sistema. Por ejemplo, "Crear Pedido" o "Actualizar Inventario".
 
 <img src="./Resources/images/Commands.png" >
 
-** Policies **
+**Policies**
 
 Son las reglas o directrices que rigen cómo se deben tomar las decisiones dentro del sistema. Pueden incluir reglas de negocio que determinan cuándo se deben ejecutar ciertos comandos o cómo se deben manejar ciertos eventos.
 
 <img src="./Resources/images/Policies.png" >
 
-** Read Models **
+**Read Models**
 
 Son las representaciones de los datos que se utilizan para responder a consultas o solicitudes de información. Los modelos de lectura están diseñados para optimizar la consulta de datos, separándose de los modelos de escritura para mejorar el rendimiento y la escalabilidad.
 
 <img src="./Resources/images/ReadModels.png" >
 
-** External Systems **
+**External Systems**
 
 Se refiere a otros sistemas o servicios que interactúan con el sistema principal. Identificar estos sistemas ayuda a entender las dependencias y las integraciones necesarias para el funcionamiento del sistema.
 
 <img src="./Resources/images/ExternalSystems.png" >
 
-** Aggregates **
+**Aggregates**
 
 Son grupos de objetos que se tratan como una única unidad para la gestión de datos y la lógica de negocio. Un agregado garantiza la consistencia de sus partes en las operaciones y encapsula la lógica de negocio relacionada.
 
 <img src="./Resources/images/Aggregates.png" >
 
-** Bounded Context **
+**Bounded Context**
 
 Es un límite claro dentro del dominio del sistema donde un modelo particular se aplica. Define la frontera en la que un conjunto de conceptos y términos tiene un significado específico, ayudando a evitar confusiones y a manejar complejidades en sistemas grandes y distribuidos.
 
