@@ -132,6 +132,8 @@ Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos
 
 #### 1.2.2.4. Lean UX Canvas.
 El Lean UX Canvas es una herramienta que nos permite alinear nuestras suposiciones de negocio, usuarios y resultados en un formato claro y colaborativo. A través de este canvas, identificamos hipótesis clave que guían nuestro desarrollo, enfocándonos en resolver problemas reales del usuario mientras cumplimos con los objetivos del negocio. Es una forma ágil de validar nuestras ideas rápidamente y hacer ajustes necesarios antes de avanzar en el proceso.
+
+
 <img src="./Resources/images/Canvas.png" alt="canvas">
 
 ## 1.3. Segmentos objetivos.
