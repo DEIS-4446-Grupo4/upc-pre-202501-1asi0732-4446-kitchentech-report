@@ -64,13 +64,11 @@ La cantidad de sensores o dispositivos se deberán calcular en base a las necesi
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 
-**Problem Statement 1**
+El estado actual de la industria de la restauración se ha enfocado principalmente en los meseros, quienes a menudo tienen dificultades para atender varias mesas al mismo tiempo, lo que resulta en demoras en el servicio y descontento de los clientes. Asimismo, los administradores enfrentan problemas al ingresar los pedidos en el sistema, lo que puede ocasionar retrasos en el despacho de nuevas órdenes y complicar el proceso de facturación. 
 
-Hemos notado que los meseros de estos negocios suelen tener problemas al atender varias mesas a la vez, esto se debe principalmente a que demoran mucho tiempo en una sola de ellas. Muchas veces esto termina por atrasar todo el flujo del pedido demorando la atención de otros clientes. ¿Qué podemos hacer para facilitar el proceso de gestión del pedido para que los clientes queden satisfechos con la eficacia de la atención?
+La falta de un sistema de gestión de pedidos eficiente es una brecha que los productos y servicios actuales no abordan. Nuestra solución abordará esta necesidad mediante la implementación de un sistema basado en IoT que optimice el manejo de pedidos y facilite el trabajo tanto de meseros como de administradores. 
 
-**Problem Statement 2**
-
-Hemos notado que los administradores suelen tener problemas al momento de ingresar los pedidos al sistema ordenes de las mesas. Por ello, a veces se pueden atrasar el despacho de nuevas órdenes. Así mismo, esto afecta también al momento de la facturación ya que, al demorar en ingresar pedidos, también se descuida el aspecto del cobro de estos, lo que puede desencadenar en largos tiempos de espera para el cliente.
+Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos que hemos tenido éxito cuando veamos una reducción en los tiempos de servicio y un aumento en la satisfacción del cliente en nuestro público objetivo.
 
 #### 1.2.2.2. Lean UX Assumptions.
 **Business Assumptions**
