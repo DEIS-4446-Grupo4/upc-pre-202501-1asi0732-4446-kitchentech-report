@@ -168,7 +168,6 @@
 Jhonny es un estudiante universitario que trabaja a tiempo parcial en una pollería, el cual conoce los tipos de clientes que son atendidos por él. Y ve con buena idea implementar un sistema de pedidos o llamados a la mesa para optimizar los tiempos de los comensales y mejorar su experiencia en el local. 
 La importancia del tiempo de comunicación entre cliente con mesero y el del mesero con la cocina. Otro punto que menciona es la de atender al comensal, cuando este desea hacer alguna petición, como recoger los platos, cambiar cubiertos, agregar ítems a la mesa. El mesero pueda saber de alguna forma la petición de llamado, sin tardar por lograr ver a este o escucharlo.
 
-<img src="./Resources/images/e1.png" width="600">
 
 
 - Segunda Entrevista:
