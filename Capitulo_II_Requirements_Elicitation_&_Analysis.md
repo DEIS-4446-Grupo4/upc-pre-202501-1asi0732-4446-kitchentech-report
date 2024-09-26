@@ -255,39 +255,34 @@ El Needfinding es una metodología cualitativa y colaborativa utilizada principa
 
 ### 2.3.1. User Personas.
 Segmento Objetivo: Meseros
-
-
+Los meseros son el personal clave en la atención directa al cliente, responsables de gestionar varios pedidos al mismo tiempo mientras aseguran una experiencia satisfactoria para los comensales. Crear un user persona de meseros nos permite entender mejor sus desafíos diarios, como la presión de manejar múltiples mesas y mantener un servicio rápido y preciso. Al identificar sus necesidades, podremos desarrollar soluciones que les ayuden a desempeñar su trabajo de manera más eficiente y mejorar su interacción con los clientes.
  <img src="./Resources/images/up1.png" width="600">
 
-
  Segmento Objetivo : Administrador de Negocio
-
- 
+Los administradores son los encargados de supervisar y coordinar todos los aspectos operativos del restaurante, desde la asignación de mesas hasta la gestión de facturación y recursos. Desarrollar un user persona de administradores nos permite profundizar en sus responsabilidades y preocupaciones, como mantener el flujo de trabajo fluido y tomar decisiones rápidas y acertadas. Al entender sus objetivos y puntos de dolor, podemos crear soluciones que optimicen sus tareas diarias y faciliten su trabajo.
  <img src="./Resources/images/up2.png" width="600">
 
 ### 2.3.2. User Task Matrix.
+
+El User Task Matrix es una herramienta que nos permite identificar las tareas clave que cada tipo de usuario realiza dentro del sistema. Para cada user persona, se detallan las actividades que deben completar, lo que nos ayuda a priorizar las funcionalidades más importantes y asegurar que el producto responda a sus necesidades específicas. Este enfoque garantiza que las soluciones que implementemos estén alineadas con las responsabilidades y expectativas de cada usuario, facilitando una mejor experiencia de uso y mayor eficiencia en su trabajo.
+
 - Segmento Objetivo: Meseros
  <img src="./Resources/images/utm1.png" width="600">
-
 
 - Segmento Objetivo: Administrador de Negocio
  <img src="./Resources/images/utm2.png" width="600">
 
 ### 2.3.3. User Journey Mapping.
+El User Journey Mapping es una herramienta esencial para visualizar el recorrido que los usuarios realizan al interactuar con un producto o servicio. Este mapa nos permite identificar cada punto de contacto, desde que los usuarios inician su actividad hasta que completan sus tareas. Al detallar cada etapa del proceso, podemos comprender mejor sus emociones, frustraciones y necesidades, lo que nos ayuda a diseñar soluciones que optimicen su experiencia en todo el recorrido.
  <img src="./Resources/images/ujm1.png" width="600">
 
 ### 2.3.4. Empathy Mapping.
-
+El Empathy Map para los meseros nos permite profundizar en su experiencia al identificar lo que piensan, sienten, ven y hacen en su entorno laboral. Al comprender sus emociones y motivaciones, podemos identificar las frustraciones que enfrentan, como la presión por atender múltiples mesas y la necesidad de ser rápidos y precisos en su trabajo. Este mapa nos ayudará a desarrollar soluciones que no solo faciliten sus tareas diarias, sino que también mejoren su bienestar y satisfacción en el servicio.
 -Segmento Objetivo 1: 
-
-
  <img src="./Resources/images/em1.png" width="600">
 
-
 -Segmento Objetivo 2:
-
-
-
+El Empathy Map para los administradores se centra en sus perspectivas y desafíos en la gestión operativa del restaurante. Al explorar sus pensamientos y sentimientos, podemos identificar las preocupaciones que tienen sobre la eficiencia del flujo de trabajo y la toma de decisiones rápidas. Este entendimiento nos permitirá crear herramientas que les brinden un control más efectivo sobre las operaciones, ayudándoles a cumplir sus objetivos y a mejorar la experiencia tanto para el personal como para los clientes.
  <img src="./Resources/images/em2.png" width="600">
 
 
@@ -295,15 +290,12 @@ Segmento Objetivo: Meseros
 En el siguiente apartado, presentaremos el Mapeo de Escenarios Actuales específicamente diseñado para el proyecto. A continuación, se incluye una representación gráfica del mismo: 
 
 - Segmento de Meseros:
-
-Los meseros son el personal clave en la atención directa al cliente, responsables de gestionar varios pedidos al mismo tiempo mientras aseguran una experiencia satisfactoria para los comensales. Crear un user persona de meseros nos permite entender mejor sus desafíos diarios, como la presión de manejar múltiples mesas y mantener un servicio rápido y preciso. Al identificar sus necesidades, podremos desarrollar soluciones que les ayuden a desempeñar su trabajo de manera más eficiente y mejorar su interacción con los clientes.
+En el escenario actual, los meseros enfrentan varias fases en su proceso de atención al cliente. Comienzan con la atención al cliente, donde deben gestionar múltiples mesas y tomar pedidos, lo que puede resultar en errores. Luego, durante la entrega de comida, coordinan con la cocina para asegurar que los pedidos sean correctos. En la fase de estar atentos, deben observar y responder a las necesidades de los clientes, lo cual es complicado en un ambiente ajetreado. Finalmente, en la fase de pago del cliente, manejan la facturación, lo que puede causar demoras y frustraciones.
   
  <img src="./Resources/images/as1.png" width="600">
 
 - Segmento de Administrador:
-
-Los administradores son los encargados de supervisar y coordinar todos los aspectos operativos del restaurante, desde la asignación de mesas hasta la gestión de facturación y recursos. Desarrollar un user persona de administradores nos permite profundizar en sus responsabilidades y preocupaciones, como mantener el flujo de trabajo fluido y tomar decisiones rápidas y acertadas. Al entender sus objetivos y puntos de dolor, podemos crear soluciones que optimicen sus tareas diarias y faciliten su trabajo.
-
+En el escenario actual, los administradores pasan por varias fases en la gestión operativa. Comienzan con la supervisión del inventario, realizando un seguimiento manual que puede ser ineficiente. Luego, en la fase de coordinación del personal, asignan tareas y horarios sin herramientas adecuadas. En la fase de generación de reportes de ventas, deben compilar datos manualmente, lo que consume tiempo. Finalmente, en la fase de análisis de ventas y rendimiento, interpretan datos que pueden no estar actualizados, dificultando la toma de decisiones y afectando la operación general.
  <img src="./Resources/images/as2.png" width="600">
 
 
