@@ -72,14 +72,14 @@ Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos
 
 #### 1.2.2.2. Lean UX Assumptions.
 
-** Business Assumptions **
+**Business Assumptions**
 - **La solución IoT reducirá los tiempos de atención**: Se asume que al automatizar la detección de clientes y la gestión de pedidos, los tiempos de atención disminuirán considerablemente, mejorando la eficiencia del servicio.
 - **El mercado está dispuesto a adoptar nuevas tecnologías**: Se asume que los restaurantes, cafeterías y otros negocios de atención al cliente están dispuestos a invertir en tecnología IoT para mejorar sus procesos operativos.
 - **El costo de implementación será recuperable**: Se asume que el costo de implementar dispositivos IoT y móviles será recuperado rápidamente debido a la mejora en la eficiencia operativa y la satisfacción del cliente.
 - **La solución aumentará la satisfacción del cliente**: Se asume que una atención más rápida y eficiente resultará en una mayor satisfacción del cliente, lo que se traducirá en mayor lealtad y repetición de visitas.
 - **El proyecto es escalable**: Se asume que la solución puede adaptarse a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas de restaurantes.
 
-** Business Outcome Assumptions **
+**Business Outcome Assumptions**
 - **Incremento en las ventas**: Se asume que al mejorar la eficiencia y satisfacción del cliente, las ventas de los establecimientos aumentarán.
 - **Reducción de costos operativos**: Se asume que la automatización de procesos reducirá la necesidad de personal adicional y los costos asociados.
 - **Mejora en la retención de clientes**: Se asume que un servicio más eficiente resultará en una mayor retención de clientes y en recomendaciones boca a boca.
@@ -90,12 +90,12 @@ Nuestro enfoque inicial se dirigirá a estos dos segmentos de clientes. Sabremos
 - **El personal administrativo se adaptará fácilmente a la nueva tecnología**: Se asume que los administradores y el personal encargado de la caja y la cocina se adaptarán rápidamente al uso de los nuevos dispositivos, facilitando la integración con el sistema existente.
 - **Los usuarios no tendrán problemas con la interfaz**: Se asume que la interfaz de usuario de los dispositivos móviles será intuitiva y fácil de usar, reduciendo la necesidad de capacitación extensa.
 
-** User Outcome Assumptions **
+**User Outcome Assumptions**
 - **Aumento en la satisfacción del mesero**: Se asume que los meseros se sentirán más satisfechos y eficientes en su trabajo gracias a la reducción de tiempos de espera y errores en la gestión de pedidos a través de tecnología IoT.
 - **Mejora en la experiencia del cliente**: Se asume que los clientes disfrutarán de una experiencia más fluida y rápida, facilitada por el sistema IoT, lo que se traducirá en comentarios positivos y retorno al establecimiento.
 - **Facilidad en la adopción del sistema**: Se asume que la capacitación para el uso del nuevo sistema IoT será breve, resultando en una rápida adopción por parte del personal.
 
-** Feature Assumptions**
+**Feature Assumptions**
 - **Detección de entrada de clientes mediante IoT**: Sensores IoT que detectan automáticamente cuando un cliente entra al local, enviando una notificación al sistema para asignar una mesa.
 - **Asignación automática de mesas**: Sistema IoT que sugiere o asigna automáticamente mesas disponibles basándose en la información proporcionada por los sensores.
 - **Gestión de pedidos en tiempo real**: Dispositivos móviles conectados a un sistema IoT para meseros que permiten tomar pedidos y enviarlos instantáneamente a la cocina y caja, reduciendo tiempos de espera y errores.
