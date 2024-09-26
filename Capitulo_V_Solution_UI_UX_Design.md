@@ -167,3 +167,6 @@ Los sistemas de navegación que se implementaran en Tecnogurus son los siguiente
 <img src="./Resources/images/Mockups/MUMA10.png">
 
 ## 5.5 Application Prototyping
+<img src="./Resources/images/prototyping.png">
+
+Link del Figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=0-1&t=utGFI0ZMZzi5lOJL-1
