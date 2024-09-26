@@ -68,8 +68,6 @@ Para la creación del informe se llevaron a cabo las siguientes acciones:
 - Elaboración de User Stories y del Product Backlog.
 
 
-
-
 ---
 
 <div align="center">
@@ -77,6 +75,27 @@ Para la creación del informe se llevaron a cabo las siguientes acciones:
 
 
 ---
+
+
+**TP:** Se completaron diversas actividades para la entrega TP, las cuales se encuentran documentadas en el siguiente repositorio de Github del equipo:  
+[Repositorio Github](https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report)
+
+Para la elaboración del informe se realizaron las siguientes tareas:
+
+- Redacción y estructuración en formato Markdown de los puntos asignados a cada miembro, seguido de la realización de commits para registrar el progreso.
+- Documentación de las afectaciones en las herramientas utilizadas y obtención de enlaces de imágenes a través de "issues" en el repositorio del informe.
+- Se coordinaron reuniones de equipo para revisar el avance y evaluar las partes previamente desarrolladas del informe.
+- Agregamos los 2 nuevos capítulos enfocados en el diseño de soluciones y la implementación de productos.
+- Se realiazó la ejecucion  de la primera iteración del Sprint 1, que incluye el desarrollo inicial y las pruebas de la web app.
+
+---
+
+<div align="center">
+    <img src="./Resources/Evidences/TP.jpg" alt="TP">
+
+---
+
+
 
 
 <p align="right">
