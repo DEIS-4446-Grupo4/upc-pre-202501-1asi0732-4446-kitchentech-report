@@ -321,11 +321,24 @@ Los administradores son los encargados de supervisar y coordinar todos los aspec
 
 El User Task Matrix es una herramienta que nos permite identificar las tareas clave que cada tipo de usuario realiza dentro del sistema. Para cada user persona, se detallan las actividades que deben completar, lo que nos ayuda a priorizar las funcionalidades más importantes y asegurar que el producto responda a sus necesidades específicas. Este enfoque garantiza que las soluciones que implementemos estén alineadas con las responsabilidades y expectativas de cada usuario, facilitando una mejor experiencia de uso y mayor eficiencia en su trabajo.
 
-- Segmento Objetivo: Meseros
- <img src="./Resources/images/utm1.png" width="600">
+# User Task Matrix - Antes de la Implementación del Proyecto de IoT para Restaurantes
 
-- Segmento Objetivo: Administrador de Negocio
- <img src="./Resources/images/utm2.png" width="600">
+| **User Persona** | **Tarea Principal**                           | **Objetivo**                                                    | **Frecuencia**        | **Prioridad** |
+|-----------------|----------------------------------------------|----------------------------------------------------------------|-----------------------|---------------|
+| **Mesero**       | Tomar pedidos de clientes                    | Capturar correctamente los pedidos para evitar errores         | Diaria (cada turno)   | Alta          |
+| **Mesero**       | Comunicar cambios de pedidos a la cocina     | Asegurar que la cocina esté informada para evitar confusiones  | Diaria (cada turno)   | Alta          |
+| **Mesero**       | Atender solicitudes de los clientes          | Proporcionar un buen servicio y mejorar la experiencia del cliente | Diaria (varias veces al turno) | Alta          |
+| **Mesero**       | Revisar el estado de los pedidos en cocina   | Asegurar la entrega oportuna de los platos                    | Diaria                 | Media         |
+| **Mesero**       | Tomar nota de quejas y sugerencias de clientes| Recopilar información para mejorar el servicio                 | Semanal               | Media         |
+| **Administrador**| Realizar seguimiento de inventario            | Asegurar que haya suficientes insumos para el funcionamiento   | Semanal               | Alta          |
+| **Administrador**| Revisar el sistema de facturación y pedidos   | Controlar las finanzas y mantener registros precisos           | Diaria/Semanal      | Alta          |
+| **Administrador**| Coordinar horarios y tareas del personal      | Mantener el flujo de trabajo y asegurar que todos estén alineados | Diaria                 | Alta          |
+| **Administrador**| Monitorear el rendimiento del restaurante      | Evaluar la efectividad del servicio y buscar áreas de mejora    | Mensual               | Media         |
+| **Administrador**| Planificar estrategias de marketing            | Aumentar la visibilidad del restaurante y atraer nuevos clientes | Mensual               | Media         |
+
+- **Meseros**: Actualmente, se enfocan en la toma de pedidos, la comunicación con la cocina y la atención al cliente, utilizando métodos tradicionales que pueden llevar a errores y retrasos.
+- **Administradores**: Se centran en el seguimiento de inventario, la revisión de facturación y pedidos, y la coordinación del personal, buscando mejorar la eficiencia operativa.
+
 
 ### 2.3.3. User Journey Mapping.
 
