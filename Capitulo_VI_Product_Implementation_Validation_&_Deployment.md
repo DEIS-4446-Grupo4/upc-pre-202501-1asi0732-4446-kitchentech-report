@@ -273,6 +273,34 @@ Para este sprint, no se han realizado las actividades requeridas en la sección 
 
 #### 6.2.1.5 Execution Evidence for Sprint Review 
 
+En el Sprint 1 se alcanzó a desarrollar una primera versión de las web apps y la landing page
+
+Vistas desarrolladas: Landing page (Hero section):
+
+<img src="./Resources/Evidences/Landing/1.jpg" >
+
+Landing page (About us):
+
+<img src="./Resources/Evidences/Landing/2.jpg" >
+
+Landing page (Members):
+
+<img src="./Resources/Evidences/Landing/3.jpg" >
+
+Landing page (IOT features):
+
+<img src="./Resources/Evidences/Landing/4.jpg" >
+
+Landing page (Galelry section):
+
+<img src="./Resources/Evidences/Landing/5.jpg" >
+
+Landing page (Contact section y footer):
+
+<img src="./Resources/Evidences/Landing/6.jpg" >
+
+
+
 
 
 #### 6.2.1.6 Services Documentation Evidence for Sprint Review
