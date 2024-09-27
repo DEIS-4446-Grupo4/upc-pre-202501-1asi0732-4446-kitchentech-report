@@ -126,8 +126,8 @@ TB1: Participó en la distribución de tareas y el registro de las entrevistas r
   TB1: Estableció metas para el desarrollo de Lean UX y supervisó la creación de documentos estructurales para el informe.<br>TP: Planificó las tareas del Sprint 1, definiendo su alcance y entrega, estableciendo como meta maximizar los story points, y elaboró las guías de estilo.
    <br><br> <strong>Nicolas Zagal Vallejo:</strong><br> 
    TB1: Planificó y ejecutó tareas relacionadas con el mapeo de la experiencia del usuario (User Journey Mapping).<br>TP: Ayudó a cumplir con las user stories del Sprint 1 relacionadas con la aplicación web, contribuyendo también a la mejora continua.
- </td> <td> Para el primer entregable, se estableció un ambiente de colaboración y participación  regular con el fin de establecer las metas, tareas y la inspección de cumplimiento de objetivos
-Para la entrega parcial hemos hecho el desarrollo de un objetivo en general y así desarrollar lo maximo de user stories posibles para entregar un avance que cumpla con los requisitos mas prioritarios.| </td> </tr> </table>
+ </td> <td> TB1: Para el primer entregable, se estableció un ambiente de colaboración y participación  regular con el fin de establecer las metas, tareas y la inspección de cumplimiento de objetivos <br>
+TP: Para este entregable se establecio un ambiente de colaboracion y participacion optimo. Se alcanzaron las metas esperadas en el tiempo esperado. Se trabajo en funcion de un objetivo en general se cumplieron todas las user stories para este sprint para entregar un avance que cumpla con los requisitos mas prioritarios.</td> </tr> </table>
 
 ---
 <p align="right">
