@@ -319,3 +319,10 @@ El administrador del restaurante juega un papel crucial en la supervisión y opt
 | 34 | E04_US_019     | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.        | 4            |
 | 35 | E04_US_020     | Recibir alerta cuando cliente toma asiento en una mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa. | 4            |
 | 36 | E04_US_021     | Recibir alerta cuando un cliente deja la mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                        | 4            |
+ 
+Se realizó el product backlog en trello:
+
+
+<img src="./Resources/Evidences/Trello.jpg" >
+
+Link: https://trello.com/invite/b/66f6fd07c57d7ffb39fd1676/ATTIf7c73a2657fb52ec9e301974ed4454e430361341/sprint-1-tecnogurus 
