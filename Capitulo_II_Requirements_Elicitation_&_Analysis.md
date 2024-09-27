@@ -163,6 +163,9 @@
 -  Edad: 22
 -  Ocupación: Estudiante universitario y mesero a tiempo parcial
 -  Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+-  Duración: 0:00 a 4:47 (4 minutos 47 segundos) 
+
+<img src="./Resources/images/e1.png" width="600" >
 
 -  Resumen:
 Jhonny es un estudiante universitario de 24 años que trabaja a tiempo parcial como mesero en una pollería. Su personalidad es proactiva y observadora, lo que le permite tener un entendimiento claro de los diferentes tipos de clientes que frecuentan el local. Muestra interés en la adopción de nuevas tecnologías para mejorar la experiencia del cliente y la eficiencia operativa del negocio.
@@ -179,7 +182,9 @@ Al ser consultado sobre sus influencias, mencionó que ha visto sistemas similar
 - Nombre: Rodrigo Torres
 - Edad: 23
 - Ocupación: Mesero
-- Enlace: Entrevista con Segmento Mesero
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Duración: 8:53 a 12:21 (3 minutos 28 segundos) 
+
 <img src="./Resources/images/e2.png" width="600" >
 
 Resumen:
@@ -196,7 +201,9 @@ Rodrigo ha observado cómo otras cadenas de restaurantes ya han adoptado tecnolo
 - Nombre: Martin Cifuentes
 - Edad: 20
 - Ocupación: Mesero a tiempo parcial en chilis
-- Enlace: https://drive.google.com/file/d/1L8E_H6pFC90pOep6bz4UvaYJ3TwM7G5x/view?usp=drive_link
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Duración: 4:47 a 8:53 (4 minutos 6 segundos) 
+
 <img src="./Resources/images/e3.png" width="600">
 
 Resumen:
@@ -213,6 +220,8 @@ Aunque Martin está familiarizado con tecnologías de consumo diarias como smart
 - Nombre: David Oré Cutipa
 - Edad: 24
 - Ocupación: Ayudante Administrador de polleria
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Duración: 12:21 a 23:23 (11 minutos 2 segundos) 
 
 <img src="./Resources/images/e4.png" width="600">
 
@@ -233,7 +242,9 @@ Finalmente, David expresó su interés en contar con acceso en tiempo real a las
 - Nombre: Jorge Rojas
 - Edad: 21
 - Ocupación: Administrador de un restaurante
-- Enlace: https://drive.google.com/file/d/1m5zHGkXGYi23zdqufEjVRE7YN850g_L9/view?usp=drive_link
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Duración: 31:31 a 36:39 (5 minutos 8 segundos) 
+
  <img src="./Resources/images/e5.png" width="600">
 - Resumen:
 Jorge, administrador de un negocio en el sector gastronómico, enfrenta diversos retos en la gestión diaria del restaurante. Durante la entrevista, señaló que su principal objetivo es mantener el flujo de los procesos sin interrupciones, lo que incluye coordinar los equipos de trabajo, manejar imprevistos como la falta de insumos o la rotación de personal, y gestionar los costos operativos. Además, destaca la importancia de mantener la consistencia en la calidad del servicio, lo cual es clave para la satisfacción del cliente.
@@ -247,10 +258,11 @@ Jorge dedica aproximadamente una hora diaria a revisar las ventas y la facturaci
 
 - Sexta Entrevista:
 - Segmento: admnistradores
-- Nombre: José Eduardo
+- Nombre: José Eduardo Campos
 - Edad: 20
 - Ocupación: Administrador
-- Enlace:  https://drive.google.com/file/d/1jFM97hO6cg-0LFss7j3m652epf_1CjAj/view?usp=drive_link 
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Duración: 23:23 a 31:31 (8 minutos 8 segundos) 
 
 - Resumen:
  <img src="./Resources/images/e6.png" width="600">
