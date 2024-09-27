@@ -374,13 +374,29 @@ En el escenario actual, los administradores pasan por varias fases en la gestió
 
 
 ## 2.4. Ubiquitous Language.
-Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso para asegurar su comprensión y que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave. (Actualizar)
+Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso para asegurar su comprensión y que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave.
 
- <img src="./Resources/images/u1.png" width="600">
- <img src="./Resources/images/u2.png" width="600">
+- **Pedido**: Una solicitud de un cliente para un plato o bebida específica, que se debe registrar y procesar.
 
+- **Mesero**: El empleado que toma los pedidos de los clientes, los comunica a la cocina y atiende sus necesidades.
 
- 
-En este caso se presentan algunos ejemplares, con el fin de poder visualizar más de Ubiquitous language, compartimos enlace:
-Miro: https://miro.com/app/board/uXjVKkI6spU=/ 
+- **Cocina**: El área del restaurante donde se preparan los alimentos. Incluye a los chefs y el personal de cocina que ejecuta los pedidos.
+
+- **Cliente**: Persona que visita el restaurante y realiza un pedido. Puede interactuar directamente con el mesero o usar herramientas digitales para hacer su pedido.
+
+- **Sistema de Pedidos**: Plataforma digital que permite a los clientes realizar pedidos y a los meseros gestionarlos de manera eficiente.
+
+- **Notificación**: Mensaje enviado al mesero desde el sistema de pedidos para informar sobre un nuevo pedido o solicitud del cliente.
+
+- **Inventario**: Conjunto de insumos y productos disponibles en el restaurante. Su gestión es crucial para asegurar que se pueden satisfacer los pedidos de los clientes.
+
+- **Facturación**: Proceso de registrar las ventas y cobrar a los clientes por los pedidos realizados.
+
+- **Interacción**: Comunicación entre el cliente y el mesero, o entre el mesero y la cocina. Puede ser tanto verbal como digital.
+
+- **Tiempos de Espera**: Duración que un cliente debe esperar desde que realiza un pedido hasta que lo recibe. Un factor crítico en la satisfacción del cliente.
+
+- **Sistema IoT**: Conjunto de dispositivos interconectados que recopilan y analizan datos en tiempo real para mejorar la eficiencia operativa en el restaurante.
+
+- **Mejora Continua**: Proceso de revisión y ajuste de las operaciones del restaurante para aumentar la calidad del servicio y la satisfacción del cliente.
 
