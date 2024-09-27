@@ -22,7 +22,7 @@ Enlace del miro: https://miro.com/app/board/uXjVKkI6spU=/
   
 *Imagen*
 
-- *Visual Paradigm: * Bounded Context Component Diagram
+- *Visual Paradigm:* Bounded Context Component Diagram
   
 *Imagen*
 
