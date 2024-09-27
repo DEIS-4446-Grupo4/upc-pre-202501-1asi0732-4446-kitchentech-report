@@ -378,3 +378,14 @@ https://kitchentech-app.web.app/home-project
 
 
 #### 6.2.1.8 Team Collaboration Insights during Sprint 
+
+Para este entregable se realizó el despliegue de la primera version de la landing page como tambien de la web app. Es to permitió la presencia de los miembros del grupo para intervenir en el desarrollo como de:
+
+Landing page:
+
+<img src="./Resources/Evidences/landing.jpg" >
+
+Weba app:
+
+<img src="./Resources/Evidences/webapp.jpgg" >
+
