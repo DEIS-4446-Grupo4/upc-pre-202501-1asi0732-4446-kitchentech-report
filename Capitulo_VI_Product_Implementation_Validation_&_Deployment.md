@@ -246,15 +246,34 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
     <th>In Progress </th>
   </tr>
 </table>
+
 #### 6.2.1.3 Development Evidence for Sprint Review
 
-*Image*
+Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)
+--- | --- | --- | --- | --- | ---
+tech-kitchen-webapp | feature/sidebar | 4eb7589 |feature/sidebar added | - | 19/09/2023
+tech-kitchen-webapp | feature/inventory | 13fa79a | feature/inventory added | - | 19/09/2023
+tech-kitchen-webapp | feature/sign up | b79d6a8 | feature/sign up added | - | 19/09/2023
+tech-kitchen-webapp | feature/login | 597a41e | feature/login added | - | 21/09/2023
+tech-kitchen-webapp | feature/profile | 02d5eab | feature/profile added | - | 21/09/2023
+tech-kitchen-webapp | feature/product | 9dd841f | feature/product added | - | 21/09/2023
+tech-kitchen-webapp | feature/home-project | 239aecd | feature/home-project added | - | 23/09/2023
+tech-kitchen-webapp | feature/features | 27abcdf |  feature/features added | - | 23/09/2023
+
+LandingPage | feature/aboutus | 5832e79 |feature/aboutus added | - | 25/09/2023
+LandingPage | feature/functionalities | c69748b | feature/functionalities added | - | 25/09/2023
+LandingPage | feature/navbar | 457fd51 | feature/navbar added | - | 25/09/2023
+LandingPage | develop | 4524261 | footer added | - | 19/09/2023
+LandingPage | feature/features | 13c7bbe | feature/features | - | 19/09/2023
+LandingPage | develop | 929a124 | fix: general items | - | 19/09/2023
+
 
 #### 6.2.1.4 Testing Suite Evidence for Sprint Review 
 Para este sprint, no se han realizado las actividades requeridas en la sección de pruebas.  
 
 #### 6.2.1.5 Execution Evidence for Sprint Review 
-*Image*
+
+
 
 #### 6.2.1.6 Services Documentation Evidence for Sprint Review
 Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados, así como los respectivos HTTP methods. 
