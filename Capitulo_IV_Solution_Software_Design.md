@@ -206,10 +206,16 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 
+<img src="./Resources/images/Capitulo 4/4215.png" >
+
 #### 4.2.1.6 Bounded Context Software Achitecture Code Level Diagrams
 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
+<img src="./Resources/images/Capitulo 4/42161.png" >
+
 4.2.1.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42162.png" >
 
 ### 4.2.2 Bounded Context: Identity and Access Management
 #### 4.2.2.1 Domain Layer
@@ -240,10 +246,16 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams 
 
+<img src="./Resources/images/Capitulo 4/4225.png" >
+
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams 
 
+<img src="./Resources/images/Capitulo 4/42261.png" >
+
 4.2.2.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42262.png" >
 
 ### 4.2.3 Bounded Context: Business Management System
 #### 4.2.3.1 Domain Layer
@@ -274,10 +286,16 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams 
 
+<img src="./Resources/images/Capitulo 4/4235.png" >
+
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams 
 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams 
 
-4.2.3.6.1 Bounded Context Database Design Diagram 
+<img src="./Resources/images/Capitulo 4/42361.png" >
+
+4.2.3.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42362.png" >
 
 ### 4.2.4 Bounded Context: IoT Asset Management 
 #### 4.2.4.1 Domain Layer 
@@ -310,9 +328,18 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 - **IoTMonitoringRepository:** Herramientas para monitorear el estado de los dispositivos, el rendimiento de los sensores, y realizar análisis de datos para mejorar la gestión de activos de IoT.
 
 #### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="./Resources/images/Capitulo 4/4245.png" >
+
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams 
+
 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams 
 
+<img src="./Resources/images/Capitulo 4/42461.png" >
+
 4.2.4.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42462.png" >
 
 ### 4.2.5 Bounded Context: Subscription and Payments
 #### 4.2.5.1 Domain Layer
@@ -347,10 +374,17 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 - **PaymentSecurityRepository:** Herramienta para garantizar la seguridad y cumplimiento de las transacciones de pago y datos de clientes.
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="./Resources/images/Capitulo 4/4255.png" >
+
 #### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams 
 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams 
 
+<img src="./Resources/images/Capitulo 4/42561.png" >
+
 4.2.5.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42562.png" >
 
 ### 4.2.6 Bounded Context: Notification Management 
 #### 4.2.6.1 Domain Layer
@@ -379,10 +413,17 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 - **NotificatoinScalabilityRepository:** Herramientas y técnicas para manejar cargas de trabajo intensivas, especialmente durante períodos de alta demanda de notificaciones, asegurando un rendimiento estable y rápido. 
 
 #### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="./Resources/images/Capitulo 4/4265.png" >
+
 #### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams 
 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams 
 
+<img src="./Resources/images/Capitulo 4/42661.png" >
+
 4.2.6.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42662.png" >
 
 ### 4.2.7 Bounded Context: Data Report and Analytics 
 #### 4.2.7.1 Domain Layer 
@@ -416,7 +457,14 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 - **ReportRepository:** Herramientas para la creación, personalización, y distribución de informes, incluyendo plataformas de generación de informes, editores de visualizaciones, y generadores de dashboards. 
 
 #### 4.2.7.5 Bounded Context Software Architecture Component Level Diagrams
+
+<img src="./Resources/images/Capitulo 4/4275.png" >
+
 #### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams 
 4.2.7.6.1 Bounded Context Domain Layer Class Diagrams
 
+<img src="./Resources/images/Capitulo 4/42761.png" >
+
 4.2.7.6.2 Bounded Context Database Design Diagram 
+
+<img src="./Resources/images/Capitulo 4/42762.png" >
