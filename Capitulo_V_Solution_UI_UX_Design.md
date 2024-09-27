@@ -73,7 +73,20 @@ Los sistemas de navegación que se implementaran en Tecnogurus son los siguiente
 
 ## 5.3 Landing Page UI Design
 ### 5.3.1 Landing Page Wireframe
+<img src="./Resources/images/Wireframes/WFLP1.png">
+<img src="./Resources/images/Wireframes/WFLP2.png">
+<img src="./Resources/images/Wireframes/WFLP3.png">
+<img src="./Resources/images/Wireframes/WFLP4.png">
+<img src="./Resources/images/Wireframes/WFLP5.png">
+<img src="./Resources/images/Wireframes/WFLP6.png">
+
 ### 5.3.2 Landing Page Mock-up
+<img src="./Resources/images/Mockups/MULP1.png">
+<img src="./Resources/images/Mockups/MULP2.png">
+<img src="./Resources/images/Mockups/MULP3.png">
+<img src="./Resources/images/Mockups/MULP4.png">
+<img src="./Resources/images/Mockups/MULP5.png">
+<img src="./Resources/images/Mockups/MULP6.png">
 
 ## 5.4 Application UX/UI Design
 ### 5.4.1 Application Wireframes
