@@ -184,9 +184,9 @@ Aquiespecificamos los contenedores de software que soportan la arquitectura, com
 
 #### 4.1.3.4	Software Architecture Deployment Diagrams
 
+Este diagrama representa una arquitectura de software distribuida en la nube donde una **Single-Page Application (SPA)** basada en Angular se ejecuta en navegadores web, mientras que una **Aplicación Móvil** permite a los usuarios realizar llamadas API desde dispositivos iOS o Android. Ambas interactúan con una **Web API Application** desplegada en **Azure App Services** usando Spring Boot, que gestiona las solicitudes y se conecta a una base de datos **MySQL** alojada en **SQL-Railway**. También se incluye una **Edge API Application** en **Cloud Azure** que se comunica con una **IoT Embedded App** escrita en C++ y con dispositivos IoT. La interfaz web es proporcionada por una **Web App** en Firebase, mientras que todas las transacciones de datos se gestionan en bases de datos separadas para la API y la aplicación.
 
-
-<img src="./Resources/images/Capitulo 4/4134.png" >
+<img src="./Resources/Evidences/paradigm.jpg" >
 
 ## 4.2. Tactical-Level Doamin-Driven-Design
 ### 4.2.1 Bounded Context: Profile Management
