@@ -74,6 +74,12 @@ Link del Event Storming: https://miro.com/app/board/uXjVKkI6spU=/
 
 Empleando la metodología de Eventstorming con enfoque en la técnica de "start-with-simple", utilizamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, los cuales son los siguientes: 
 
+Identificación de Valores del Negocio: Hemos analizado los valores clave del negocio, que incluyen la experiencia del usuario llegar a la mesa y ser atendido  por el personal, la rapidad atencion y la eficiencia en la gestión de usuarios.
+
+Identificación de Funcionalidades Clave: 
+Identificamos la funcionalidades básicas y necesarias del negocio, toma de pedido del usuario identificado por mesa, la rapidad atencion al cliente, el orden del inventariado.
+
+
 **Profile Managment:**
 
 <img src="./Resources/images/Capitulo 4/Profile_Management.png" >
@@ -90,9 +96,6 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 <img src="./Resources/images/Capitulo 4/IoT_Asset_Management.png" >
 
-**Subscription and Payments:**
-
-<img src="./Resources/images/Capitulo 4/Subscription_Payments.png" >
 
 **Notification Managment:**
 
@@ -152,23 +155,36 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 ### 4.1.2	Context Mapping
 
+El "Context Mapping" representa cómo los diferentes módulos interactúan con un sistema de gestión empresarial central (Business Management System). En el centro, este sistema actúa como el núcleo que gestiona las interacciones con otros componentes clave como la **Gestión de Perfiles** (Profile Management), que se conforma a las configuraciones del sistema y se apoya en la **Gestión de Identidad y Accesos** (Identity and Access Management) para controlar los permisos de los usuarios. Otros módulos como la **Gestión de Revisiones** (Review Management) y la **Gestión de Notificaciones** (Notification Management) manejan los comentarios y las alertas generadas dentro del sistema, asegurando una interacción fluida entre los usuarios y el sistema.
+
+Además, el diagrama muestra la integración de componentes más especializados, como la **Gestión de Activos IoT** (IoT Management Assets), que interactúa de manera más compleja con el sistema, gestionando dispositivos conectados. También se destaca la **Subscripción y Pagos** (Subscription and Payments), que maneja los pagos y servicios asociados, y el módulo de **Análisis de Informes de Datos** (Data Report Analytics), que procesa y analiza la información generada por el sistema y los dispositivos IoT, brindando retroalimentación valiosa para la toma de decisiones.
+
+
 <img src="./Resources/images/Capitulo 4/412.png" >
 
 ### 4.1.3	Software Architecture
 
 #### 4.1.3.1	Software Architecture System Landscape Diagram
 
+ Este diagrama muestra el panorama general del sistema, destacando las principales entidades involucradas, como los Usuarios, Administrador, y las interacciones del sistema de gestión empresarial con componentes externos como la API de Pago (Payment Gateway API) y el Sistema de Autenticación (Federated Authentication System). Representa las conexiones entre estos actores y cómo interactúan con el sistema para proporcionar acceso a funciones clave como pagos y autenticación.
+
 <img src="./Resources/images/Capitulo 4/4131.png" >
 
 #### 4.1.3.2	Software Architecture Context Level Diagrams
+
+Este diagrama desglosa el contexto a un nivel más detallado, mostrando las interacciones entre los usuarios y el sistema en términos de roles y permisos. Aquí, tanto los Usuarios como los Administradores tienen acceso al Sistema de Gestión Empresarial, pero interactúan de manera diferente, con los usuarios accediendo a características específicas como pagos a través de la API, y los administradores gestionando la autenticación de usuarios.
 
 <img src="./Resources/images/Capitulo 4/4132.png" >
 
 #### 4.1.3.3	Software Architecture Container Level Diagrams
 
-<img src="./Resources/images/Capitulo 4/4133.png" >
+Aquiespecificamos los contenedores de software que soportan la arquitectura, como la Aplicación Web (Web App), la Aplicación Móvil (Mobile App), el Backend y los Dispositivos IoT Gestionados (Managed IoT Devices). Aquí también se destacan las conexiones con el Sistema de Autenticación y la API de Pago, lo que proporciona un mapa claro de cómo los distintos módulos del sistema se comunican entre sí y con componentes externos.
+
+<img src="./Resources/Evidences/structurizr-Contenedores.png" >
 
 #### 4.1.3.4	Software Architecture Deployment Diagrams
+
+
 
 <img src="./Resources/images/Capitulo 4/4134.png" >
 
@@ -206,14 +222,22 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama muestra la arquitectura de software a nivel de componentes dentro de un contexto limitado (Bounded Context). Incluye diferentes componentes del sistema, como servicios o módulos, que interactúan entre sí y con una base de datos central. Cada componente representa una parte del sistema que maneja responsabilidades específicas, y las líneas entre ellos indican el flujo de comunicación. La base de datos actúa como un punto central para el almacenamiento y recuperación de datos, conectando a los distintos componentes. Este diagrama es fundamental para comprender cómo se organiza el sistema en términos de módulos funcionales y su interacción.
+
 <img src="./Resources/images/Capitulo 4/4215.png" >
 
 #### 4.2.1.6 Bounded Context Software Achitecture Code Level Diagrams
-4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+Aquí se detalla la arquitectura del software a nivel de código, presentando la clase User dentro del contexto de dominio. El diagrama muestra los atributos de la clase, como userId, email, firstName, y métodos asociados, como getFullName() y getRoles(). Esta vista es crucial para los desarrolladores, ya que proporciona una representación clara de la estructura y funcionalidad de la clase. Permite entender cómo se almacenan y manejan los datos del usuario y las operaciones que se pueden realizar. Además, ayuda a visualizar la lógica de negocio y facilita la implementación y el mantenimiento del código.
+
 
 <img src="./Resources/images/Capitulo 4/42161.png" >
 
-4.2.1.6.2 Bounded Context Database Design Diagram 
+##### 4.2.1.6.2 Bounded Context Database Design Diagram 
+
+ Este diagrama ilustra el diseño de la base de datos dentro del contexto limitado. Se muestran las tablas, como User y UserRole, junto con sus atributos y relaciones. Las conexiones entre las tablas indican las claves foráneas, representando cómo se vinculan los datos, por ejemplo, asignando roles específicos a los usuarios. Este diagrama es esencial para entender la estructura de almacenamiento y las reglas de integridad referencial. Proporciona una visión clara de cómo se organizan los datos a nivel físico, facilitando la comprensión de las consultas y operaciones que se pueden realizar sobre la base de datos.
 
 <img src="./Resources/images/Capitulo 4/42162.png" >
 
@@ -246,14 +270,22 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams 
 
+Este diagrama muestra la arquitectura a nivel de componentes dentro de un contexto limitado. Incluye componentes como el Authentication API, User Service, y User Profile Service que se comunican entre sí y con una base de datos central. Representa cómo cada componente se encarga de una funcionalidad específica del sistema y cómo se intercambian mensajes entre ellos para cumplir con los requisitos del negocio. La base de datos se presenta como el repositorio central de datos al que acceden los servicios. Este diagrama es crucial para entender la organización modular del sistema y cómo se orquesta el flujo de información entre componentes.
+
 <img src="./Resources/images/Capitulo 4/4225.png" >
 
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
-4.2.2.6.1 Bounded Context Domain Layer Class Diagrams 
+
+
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams 
+
+Presentamos los diagramas de clases del dominio, enfocándose en la lógica específica de las clases IdentityAccessManager y FirebaseAuth. Estas clases contienen métodos como registerUser() y authenticate(), que reflejan las operaciones relacionadas con la gestión de usuarios y autenticación. El diagrama proporciona una vista detallada de la estructura y funcionalidad de las clases, lo cual es útil para los desarrolladores al implementar y mantener el código. También muestra cómo se utiliza la API de Firebase para gestionar la autenticación, ayudando a comprender la interacción entre el código y servicios externos.
 
 <img src="./Resources/images/Capitulo 4/42261.png" >
 
-4.2.2.6.2 Bounded Context Database Design Diagram 
+##### 4.2.2.6.2 Bounded Context Database Design Diagram 
+
+ El diagrama de diseño de base de datos muestra la estructura de las tablas login_client y user_session, así como sus relaciones. La tabla login_client contiene campos como user_id y client_name, mientras que user_session almacena información sobre las sesiones de usuario. Este diagrama es fundamental para entender cómo se almacenan y organizan los datos relacionados con el acceso y la sesión de usuarios en la base de datos. Las relaciones entre las tablas permiten gestionar las sesiones activas y la información de autenticación de manera eficiente, proporcionando una base sólida para la implementación de mecanismos de autenticación y autorización en el sistema.
 
 <img src="./Resources/images/Capitulo 4/42262.png" >
 
@@ -286,14 +318,20 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams 
 
+Este diagrama muestra la organización de los principales componentes de software dentro de un contexto limitado (Bounded Context). Incluye componentes como el Environment Service, Tag Service, Customer Service, y User Service, que interactúan entre sí y con una base de datos central. Cada componente se encarga de una parte específica de la funcionalidad del sistema, como la gestión de entornos, etiquetas y clientes. El diagrama también muestra cómo estos componentes se comunican a través de APIs y colas de mensajería. La base de datos centralizada es el punto de conexión para el almacenamiento y acceso a los datos. Este nivel de vista ayuda a comprender cómo se organiza el sistema en módulos y cómo se gestionan las interacciones entre ellos.
+
 <img src="./Resources/images/Capitulo 4/4235.png" >
 
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams 
-4.2.3.6.1 Bounded Context Domain Layer Class Diagrams 
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams 
+
+El presente diagrama se detalla la estructura de clases en la capa de dominio, mostrando entidades como Environment, Tag, Customer, User, y License. Cada clase incluye atributos y métodos específicos que reflejan las propiedades y comportamientos de las entidades del sistema. Por ejemplo, la clase User tiene atributos como userId y email, y la clase Tag tiene relaciones con otras entidades como Environment y Customer. Este diagrama es fundamental para los desarrolladores, ya que muestra cómo se modelan los datos del negocio en el código, facilitando la implementación y el mantenimiento de la lógica de negocio.
 
 <img src="./Resources/images/Capitulo 4/42361.png" >
 
-4.2.3.6.2 Bounded Context Database Design Diagram 
+##### 4.2.3.6.2 Bounded Context Database Design Diagram 
+
+Ilustramos el diseño de la base de datos asociada al contexto limitado, con tablas como users, tags, y licenses. Cada tabla contiene columnas que representan los atributos de las entidades, y las líneas entre ellas muestran las relaciones a través de claves foráneas. Por ejemplo, la tabla users está relacionada con la tabla tags, indicando que un usuario puede estar asociado con varias etiquetas. Este diagrama es crucial para entender cómo se estructuran y vinculan los datos a nivel físico en la base de datos, asegurando la integridad y consistencia de la información. Facilita la creación de consultas eficientes y la implementación de operaciones de base de datos relacionadas con la gestión de usuarios, etiquetas y licencias.
 
 <img src="./Resources/images/Capitulo 4/42362.png" >
 
@@ -327,17 +365,24 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 - **IoTMonitoringRepository:** Herramientas para monitorear el estado de los dispositivos, el rendimiento de los sensores, y realizar análisis de datos para mejorar la gestión de activos de IoT.
 
-#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams 
+#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
+
+Vemos el diagrama a nivel de componentes de arquitectura de software. En él se destacan varios componentes y su relación con un servidor en la nube, representando cómo se comunican entre sí y con el exterior. Cada componente parece tener una función específica dentro del sistema y se conectan entre ellos mediante líneas de interacción.
 
 <img src="./Resources/images/Capitulo 4/4245.png" >
 
 #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams 
 
-4.2.4.6.1 Bounded Context Domain Layer Class Diagrams 
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams 
+
+Esta seccion se centra en el código a nivel de arquitectura, representando clases en el diagrama de dominio. En este se observa la estructura de una clase con atributos clave como id, code, name, entre otros. También se observan relaciones de herencia o dependencia con otras clases, lo que sugiere que estas interactúan en diferentes niveles de la capa de dominio.
+
 
 <img src="./Resources/images/Capitulo 4/42461.png" >
 
-4.2.4.6.2 Bounded Context Database Design Diagram 
+##### 4.2.4.6.2 Bounded Context Database Design Diagram 
+
+Se presenta un diseño de base de datos. Aquí se observan tablas con campos clave como id, code y name, que podrían representar entidades importantes del sistema. Las relaciones entre las tablas, indicadas por líneas conectivas, sugieren cómo los datos están estructurados y vinculados entre las diferentes entidades en la base de datos.
 
 <img src="./Resources/images/Capitulo 4/42462.png" >
 
@@ -375,14 +420,20 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams 
 
+Este es un diagrama de componentes de arquitectura de software, donde los distintos módulos del sistema interactúan entre sí. Este diagrama presenta elementos como "Subscription", "PaymentGateway" y otros, conectados por líneas que indican flujos de datos o interacción. Además, hay representación de un almacenamiento central, probablemente una base de datos, que respalda estas interacciones.
+
 <img src="./Resources/images/Capitulo 4/4255.png" >
 
 #### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams 
-4.2.5.6.1 Bounded Context Domain Layer Class Diagrams 
+##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams 
+
+Aqui se expone un diagrama de clases a nivel de código. Se visualizan dos clases principales, "SubscriptionManager" y "PaymentGateway", cada una con atributos y métodos. El diagrama también refleja cómo estas clases interactúan o dependen de otras entidades, con flechas que indican el flujo de datos o la relación entre ellas.
 
 <img src="./Resources/images/Capitulo 4/42561.png" >
 
-4.2.5.6.2 Bounded Context Database Design Diagram 
+##### 4.2.5.6.2 Bounded Context Database Design Diagram 
+
+Aqui se presenta un diagrama de diseño de base de datos. Este diagrama incluye tablas o entidades como "Subscription", "Payment_Client", "Provider", entre otras, cada una con campos clave que definen sus propiedades. Las relaciones entre estas tablas están representadas mediante líneas que indican claves foráneas, sugiriendo cómo los datos están interrelacionados dentro del sistema.
 
 <img src="./Resources/images/Capitulo 4/42562.png" >
 
@@ -414,14 +465,20 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams 
 
+Este diagrama a nivel de componentes donde varios módulos del sistema, como "NotificationManager" y "User", están conectados a una base de datos central. Estos componentes parecen intercambiar información, representando el flujo de datos entre diferentes elementos del sistema, probablemente en relación con la gestión de notificaciones y usuarios.
+
 <img src="./Resources/images/Capitulo 4/4265.png" >
 
 #### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams 
-4.2.6.6.1 Bounded Context Domain Layer Class Diagrams 
+##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+
+La clase principal es "NotificationManager", que tiene métodos como sendNotification y readNotification, además de otras dos entidades, "Notification" y "CustomerAMT", que se relacionan con la clase principal. Cada clase contiene atributos que definen sus características y métodos que indican su funcionalidad en el sistema.
 
 <img src="./Resources/images/Capitulo 4/42661.png" >
 
-4.2.6.6.2 Bounded Context Database Design Diagram 
+##### 4.2.6.6.2 Bounded Context Database Design Diagram 
+
+Aqui se ilustra un diagrama de diseño de base de datos. Este muestra tablas o entidades como "notification" y otras relacionadas, con campos específicos como notificationId y content. Las relaciones entre estas tablas están claramente definidas mediante líneas que representan claves foráneas, indicando la estructura de datos y las conexiones dentro del contexto de la base de datos.
 
 <img src="./Resources/images/Capitulo 4/42662.png" >
 
@@ -458,13 +515,19 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 #### 4.2.7.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama muestra la interacción entre un servicio web REST y la base de datos a través de diferentes capas de lógica de negocio. El cliente interactúa con un Controller, que llama a Business Logic y Data Access Layer (DAL) para realizar operaciones. Luego, la DAL accede a la base de datos.
+
 <img src="./Resources/images/Capitulo 4/4275.png" >
 
 #### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams 
-4.2.7.6.1 Bounded Context Domain Layer Class Diagrams
+##### 4.2.7.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama se enfoca en la estructura interna de la capa de dominio, destacando las clases y sus responsabilidades. La lógica de dominio se distribuye en clases como Service y Repository, las cuales manejan la lógica de negocio y el acceso a datos, respectivamente.
 
 <img src="./Resources/images/Capitulo 4/42761.png" >
 
-4.2.7.6.2 Bounded Context Database Design Diagram 
+##### 4.2.7.6.2 Bounded Context Database Design Diagram 
+
+El diseño de la base de datos detalla las relaciones entre tablas clave, como las de Clientes, Órdenes, y Productos. Se muestran las claves primarias y foráneas que conectan las entidades para representar relaciones entre ellas.
 
 <img src="./Resources/images/Capitulo 4/42762.png" >
