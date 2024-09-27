@@ -108,31 +108,24 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 En este presente se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 <table align="center"> <tr> <th>Criterio específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td> <td> <strong>Fabrizzio Antonio Castro Manrique:</strong><br> 
-TB1: Participó en la distribución de tareas y el registro de las entrevistas realizadas.TP: Se involucró en la asignación de tareas del Sprint 1 y desempeñó un papel clave en el diseño de mockups y wireframes.
+TB1: Participó en la distribución de tareas y el registro de las entrevistas realizadas.<br>TP: Se involucró en la asignación de tareas del Sprint 1 y desempeñó un papel clave en el diseño de mockups y wireframes.
 
- <br><br> <strong>Alarcon Rondon Sandro:</strong><br> TB1: Colaboró en la creación de entrevistas y en el diseño táctico de los bounded contexts dentro del enfoque de diseño orientado al dominio.TP: Aportó al equipo mediante la mejora continua de artefactos previos y lideró la elaboración de diagramas de user flows y wire flows, además de gestionar sus tareas del Sprint 1.
+ <br><br> <strong>Alarcon Rondon Sandro:</strong><br> TB1: Colaboró en la creación de entrevistas y en el diseño táctico de los bounded contexts dentro del enfoque de diseño orientado al dominio.<br>TP: Aportó al equipo mediante la mejora continua de artefactos previos y lideró la elaboración de diagramas de user flows y wire flows, además de gestionar sus tareas del Sprint 1.
  
-  <br><br> <strong>Esteban Calderón Chauchi:</strong><br> TB1: Contribuyó al trabajo colaborativo, ayudando en la redacción de secciones clave del informe y en el desarrollo de Lean UX. TP: Lideró el trabajo en equipo en la creación y planificación del Sprint 1, además de desarrollar guías de estilo, mockups y wireframes para webapp.
+  <br><br> <strong>Esteban Calderón Chauchi:</strong><br> TB1: Contribuyó al trabajo colaborativo, ayudando en la redacción de secciones clave del informe y en el desarrollo de Lean UX. <br>TP: Lideró el trabajo en equipo en la creación y planificación del Sprint 1, además de desarrollar guías de estilo, mockups y wireframes para webapp.
   
-   <br><br> <strong>Nicolas Zagal Vallejo:</strong><br>  TB1: Ayudó en el diseño, análisis y documentación de las entrevistas.
-
-TP: Desempeñó un papel activo en la colaboración del equipo, liderando el desarrollo de la primera versión de la aplicación web y elaborando mockups y wireframes para la página web.
+   <br><br> <strong>Nicolas Zagal Vallejo:</strong><br>  TB1: Ayudó en el diseño, análisis y documentación de las entrevistas.<br>TP: Desempeñó un papel activo en la colaboración del equipo, liderando el desarrollo de la primera versión de la aplicación web y elaborando mockups y wireframes para la página web.
    
- </td> <td> TB1: Se hizo un  trabajo regular como equipo para liderar el desarrollo de los puntos que se requerian dentro del informe.
-TP: En esta entrega, se realizaron las bases del diseño de la solución IOT y el primer Sprint donde se entrego la Landing Page y una primera versión de nuestra aplicacion web.
+ </td> <td> TB1: Se hizo un  trabajo regular como equipo para liderar el desarrollo de los puntos que se requerian dentro del informe.<br>TP: En esta entrega, se realizaron las bases del diseño de la solución IOT y el primer Sprint donde se entrego la Landing Page y una primera versión de nuestra aplicacion web.
 </td> </tr> <tr> <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td> <td> <strong>Fabrizzio Antonio Castro Manrique:</strong><br> 
- TB1: Contribuyó al logro de los objetivos relacionados con el análisis y las entrevistas.
-TP: Ayudó a cumplir con los objetivos establecidos para la creación de mockups y wireframes de la aplicación móvil, asegurando que se cumpliera el alcance definido.
+ TB1: Contribuyó al logro de los objetivos relacionados con el análisis y las entrevistas.<br>TP: Ayudó a cumplir con los objetivos establecidos para la creación de mockups y wireframes de la aplicación móvil, asegurando que se cumpliera el alcance definido.
 
   <br><br> <strong>Alarcon Rondon Sandro:</strong><br> 
-  TB1: Desarrolló un plan para el registro de entrevistas y se encargó del diseño táctico en el contexto de diseño orientado al dominio.
-TP: Organizó tareas enfocadas en la mejora continua y logró desarrollar los diagramas de user flow y wire flow.
+  TB1: Desarrolló un plan para el registro de entrevistas y se encargó del diseño táctico en el contexto de diseño orientado al dominio.<br>TP: Organizó tareas enfocadas en la mejora continua y logró desarrollar los diagramas de user flow y wire flow.
   <br><br> <strong>Esteban Calderón Chauchi:</strong><br> 
-  TB1: Estableció metas para el desarrollo de Lean UX y supervisó la creación de documentos estructurales para el informe.
-TP: Planificó las tareas del Sprint 1, definiendo su alcance y entrega, estableciendo como meta maximizar los story points, y elaboró las guías de estilo.
+  TB1: Estableció metas para el desarrollo de Lean UX y supervisó la creación de documentos estructurales para el informe.<br>TP: Planificó las tareas del Sprint 1, definiendo su alcance y entrega, estableciendo como meta maximizar los story points, y elaboró las guías de estilo.
    <br><br> <strong>Nicolas Zagal Vallejo:</strong><br> 
-   TB1: Planificó y ejecutó tareas relacionadas con el mapeo de la experiencia del usuario (User Journey Mapping).
-TP: Ayudó a cumplir con las user stories del Sprint 1 relacionadas con la aplicación web, contribuyendo también a la mejora continua.
+   TB1: Planificó y ejecutó tareas relacionadas con el mapeo de la experiencia del usuario (User Journey Mapping).<br>TP: Ayudó a cumplir con las user stories del Sprint 1 relacionadas con la aplicación web, contribuyendo también a la mejora continua.
  </td> <td> Para el primer entregable, se estableció un ambiente de colaboración y participación  regular con el fin de establecer las metas, tareas y la inspección de cumplimiento de objetivos
 Para la entrega parcial hemos hecho el desarrollo de un objetivo en general y así desarrollar lo maximo de user stories posibles para entregar un avance que cumpla con los requisitos mas prioritarios.| </td> </tr> </table>
 
