@@ -19,4 +19,13 @@
     <li>
     <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_VI_Product_Implementation_Validation_%26_Deployment.md">Capítulo IV: Solution Software Design</a>
   </li>
+  <li>
+    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Conclusiones.md">Conclusiones</a>
+  </li>
+  <li>
+    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Bibliografia.md">Bibliografia</a>
+  </li>
+  <li>
+    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Anexos.md">Anexos</a>
+  </li>
 </ol>
