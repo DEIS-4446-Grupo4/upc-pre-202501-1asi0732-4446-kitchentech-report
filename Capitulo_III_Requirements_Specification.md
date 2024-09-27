@@ -63,6 +63,12 @@ En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específi
     <td><strong>Escenario 1:</strong> Se visualiza la informacion del equipo.<br>Dado que se visualiza la informacion del equipo. Cuando se presione el boton de "Equipo". Entonces la vista del usuario se desplazara a la seccion de equipo.<br><br> <strong>Escenario 2:</strong> No se visualiza la informacion del equipo.<br>Dado que no se visualiza la informacion del equipo.Cuando se presione el boton de "Equipo".Entonces la vista del usuario se mantendra en la seccion actual.</td>
   </tr>
   <tr>
+    <td>E01_TS001</td>
+    <td>Optimizar la velocidad de carga de la Landing Page</td>
+    <td>COMO desarrollador QUIERO optimizar la velocidad de carga de la pagina PARA brindar comodidad al usuario </td>
+    <td><strong>Escenario 1:</strong> La página cargará en menos de 3 segundos.<br>Dado que la pagina carga en menos de 3 segundos. Cuando un usuario ingresa en ella. Entonces esta conforme con el servicio brindado<br><br> <strong>Escenario 2:</strong> La página cargará en 3 segundos o mas.<br>Dado que la pagina demora en cargar 3 segundos o mas. Cuando un usuario ingresa en ella. Entonces no esta conforme con el servicio brindado.</td>
+  </tr>
+  <tr>
     <td colspan="4""><strong>Épica 2: Funcionalidades de Autenticación y Seguridad </strong><br>Como usuario<br>Quiero validar mis datos y poder navegar en la aplicación<br>Para mantener mi cuenta segura y encontrar todos los apartados de forma rápida</td>
   </tr>
   <tr>
@@ -100,6 +106,12 @@ En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específi
     <td>Implementar Sección de regístrate.</td>
     <td>COMO usuario QUIERO visualizar una opcion que me permita registrarme con un plan para mi negocio PARA poder tener acceso a las funcionalidades de la aplicacion.</td>
     <td><strong>Escenario 1:</strong>  El usuario crea correctamente su usuario. <br>Dado que el usuario intenta crear un usuario. Cuando realice todos los pasos y seleccione un plan. Entonces su usuario sera creado y sera redireccionado a la pestaña de Login.<br><br> <strong>Escenario 2:</strong>El usuario no puede crear su usuario <br>Dado que el usuario intenta crear un usuario. Cuando realice todos los pasos y seleccione un plan pero exista una falla en el sistema. Entonces se desplegara una alerta informando que se intente nuevamente mas tarde.<br><br><strong>Escenario 3:</strong> El usuario no puede crear su usuario por no seleccionar un plan.<br>Dado que el usuario intenta crear un usuario. Cuando realice todos los pasos y seleccione un plan pero no seleccione un plan de pago. Entonces se desplegara una alerta informando que debe seleccionar un plan y configurar un metodo de pago.</td>
+  </tr>
+  <tr>
+    <td>E02_TS002</td>
+    <td>Implementar bloqueo de cuenta después de 5 de intentos fallidos de inicio de sesión.</td>
+    <td>COMO desarrollador QUIERO implementar un bloqueo de cuenta al fallar reiteradas veces en iniciar sesion PARA brindar seguridad al usuario</td>
+    <td><strong>Escenario 1:</strong>La cuenta se bloquea tras 5 intentos fallidos de iniciar sesion.<br>Dado que la cuenta se bloquea. Cuando un usuario falla en ingresar 5 veces. Entonces se le ha brindado seguridad al usuario<br><br> <strong>Escenario 2:</strong> La cuenta no se bloquea tras fallar en iniciar sesion multiples vecec.<br> Dado que la cuenta no se bloquea nunca. Cuando un usuario falla en ingresar multiples veces. Entonces su informacion esta desprotegida y es propenso a un ataque de fuerza bruta</td>
   </tr>
   <tr>
     <td colspan="4"><strong>Épica 3: Gestión de perfil y preferencias de usuario  </strong><br>Como usuario<br>Quiero visualizar un apartado para mi perfil<br>Para saber los datos que tengo y poder modificarlos cuando quiera</td>
@@ -143,6 +155,12 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
     <td>COMO mesero QUIERO recibir una alerta cuando hay platos en la mesa y no hay cliente en ella PARA darme cuenta y recoger los platos sucios.</td>
     <td><strong>Escenario 1:</strong> Se envia una alerta de platos en mesa. <br>Dado que un cliente consumio y dejo su mesa. Cuando hayan platos en la mesa y no un cliente sentado. Entonces se enviara una alerta para recoger los platos. <br><br> <strong>Escenario 2:</strong> No se envia ninguna alerta de platos en mesa. <br>Dado que un cliente consumio y dejo su mesa pero el sistema no funcione. Cuando hayan platos en la mesa y no un cliente sentado. Entonces no se enviara una alerta evitando que el mesero se percate de ello dejando el local sucio.</td>
   </tr>
+  <tr>
+    <td>E04_TS004</td>
+    <td>Mostrar información detallada del cliente en la notificación</td>
+    <td>COMO desarrollador QUIERO brindar informacion detallada de la mesa en la notificacion PARA brindar comodidad y eficiencia al mesero</td>
+    <td><strong>Escenario 1:</strong>La notificación muestra información relevante sobre el pedido.<br>Dado que la notificacion muestra informacion relevante. Cuando un mesero la lee. Entonces es capaz de reaccionar a la brevedad<br><br> <strong>Escenario 2:</strong> La notificación no muestrs información relevante sobre el pedido.<br>Dado que la notificacion no muestra informacion relevante. Cuando un mesero la lee. Entonces no sera capaz de reaccionar a la brevedad, teniendo que ampliarla o ingresar a la aplicacion</td>
+  </tr>
   <td colspan="4"><strong>Épica 5: Toma de pedidos.</strong><br>Como usuario mesero<br>Quiero poder tomar pedidos y enviarlos a otras áreas.<br>Para poder agilizar el flujo de trabajo.</td>
   <tr>
     <td>E05_US020</td>
@@ -161,6 +179,12 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
     <td>Enviar pedido guardado a cocina y caja.</td>
     <td>COMO mesero QUIERO poder enviar pedidos a cocina o caja PARA poder continuar con el flujo de trabajo sin necesidad de dictar la orden personalmente demorando la atencion de otros pedidos.</td>
     <td><strong>Escenario 1:</strong> La funcion de enviar ordenes funciona correctamente. <br>Dado que soy un mesero. Cuando quiero enviar una orden a cocina o caja y el sistema funciona. Entonces se envia correctamente. <br><br> <strong>Escenario 2:</strong> La funcion de enviar ordenes no funciona. <br>Dado que soy un mesero. Cuando quiero enviar una orden a cocina o caja y el sistema no funciona. Entonces se no se envia la orden provocando que lo tenga que llevar manualmente.</td>
+  </tr>
+  <tr>
+    <td>E05_TS005</td>
+    <td>Mostrar una vista previa del pedido antes de enviarlo</td>
+    <td>COMO desarrollador QUIERO implementar una vista previa del pedido PARA que el mesero pueda verificar que todo este correcto antes de evniar a cocina la orden</td>
+    <td><strong>Escenario 1:</strong>Se muestra una vista previa de la orden<br>Dado que se muestra una vista previa de la orden. Cuando un mesero esta por enviar el pedido a cocina. Entonces es capaz de verificar que todo este correcto<br><br> <strong>Escenario 2:</strong> No se muestra una vista previa de la orden.<br>Dado que no se muestra una vista previa de la orden. Cuando un mesero esta por enviar el pedido a cocina. Entonces no es capaz de verificar que todo este correcto</td>
   </tr>
   <td colspan="4"><strong>Épica 6: Facturación del negocio.</strong><br>Como usuario administrador<br>Quiero realizar facturaciones.<br>Para brindarle al cliente su comprobante de pago.</td>
   <tr>
@@ -186,6 +210,12 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
     <td>Boletear o facturar la orden.</td>
     <td>COMO administrador QUIERO poder boletear o facturar la orden del cliente cerrando la orden PARA poder emitir los documentos a la SUNAT.</td>
     <td><strong>Escenario 1:</strong> Se emite documento de venta. <br>Dado que soy un administrador. Cuando quiero emitir un documento de venta y el sistema funciona. Entonces se imprime el documento. <br><br> <strong>Escenario 2:</strong> No se emite documento de venta. <br>Dado que soy un administrador. Cuando quiero emitir un documento de venta y el sistema no funciona. Entonces no se imprime el documento y se muestra un error en pantalla.</td>
+  </tr>
+  <tr>
+    <td>E06_TS006k</td>
+    <td>Asociar productos y servicios a categorias</td>
+    <td>COMO desarrollador QUIERO implementar categorias a los productos PARA que el administrador pueda filtrarlos de mejor manera</td>
+    <td><strong>Escenario 1:</strong>Los productos pueden tener una categoria<br>Dado que un producto tiene una categoria. Cuando un administrador filtra los productos. Entonces es capaz de ver con mayor detalle los consumos realizados<br><br> ><strong>Escenario 2:</strong>Los productos no pueden tener una categoria<br>Dado que un producto no puede tener una categoria. Cuando un administrador filtra los productos. Entonces sera mas dificil para el visualizar donde esta su mayor cantidad de ventas<br><br> 
   </tr>
   <td colspan="4"><strong>Épica 7: Control de inventarios.</strong><br>Como usuario administrador<br>Quiero poder ver un resumen de los platos vendidos y cuanto se consumió en cada uno. <br>Para poder llevar un control de mis inventarios como negocio.</td>
   <tr>
