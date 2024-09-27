@@ -6,6 +6,7 @@ Somos Tecnogurus, un startup conformado por estudiantes de la Universidad Peruan
 En esta oportunidad presentamos Tecgnurus una solución IoT que buscara acortar los tiempos de atención de restaurantes por medio de dispositivos tecnológicos que nos ayudaran a facilitar esto. Para ello contaremos con sensores los cuales detectaran si un cliente ha ingresado al local y donde se ha sentado. De la misma forma estos sensores ayudaran a detectar cuando un cliente se para de su mesa o hay platos por recoger. Así mismo ofrecemos una solución tecnológica al tomar los pedidos con dispositivos móviles que trasmitan la información a cocina y caja para llevar un correcto control de las cuentas por clientes o mesas.
 
 Misión: Mejorar los tiempos de producción y atención de un negocio centrado en la atención de comensales. Ya sean restaurantes, cafeterías u hoteles.
+
 Visión: Ser la empresa que proporcione la solución más completa y satisfactoria a esta problemática que afecta este sector.
 ### 1.1.2. Perfiles de integrantes del equipo
 #### Sandro Alarcon Rondon 
@@ -35,6 +36,7 @@ Visión: Ser la empresa que proporcione la solución más completa y satisfactor
 +  Mi nombre es Nicolas Zagal, me considero un miemrbo clave para el equipo debido a mis conocimientos y compromiso. Poseo capacidad para enfrentar desafíos y su disposición para colaborar en el backend y frontend
 
 ## 1.2. Solution Profile
+Para comprender la solución debemos detallar aspectos que se abordaran a lo largo del proyecto y que metas tendremos
 ### 1.2.1 Antecedentes y problemática
 
 *What?* 
@@ -135,6 +137,8 @@ El Lean UX Canvas es una herramienta que nos permite alinear nuestras suposicion
 
 
 <img src="./Resources/images/Canvas.png" alt="canvas">
+
+Lean UX Canvas Completo: https://miro.com/app/board/uXjVKkI6spU=/?share_link_id=282794708200
 
 ## 1.3. Segmentos objetivos.
 Apuntamos a un segmento objetivo que requiera una aplicación integral que les ayude a gestionar eficazmente. 
