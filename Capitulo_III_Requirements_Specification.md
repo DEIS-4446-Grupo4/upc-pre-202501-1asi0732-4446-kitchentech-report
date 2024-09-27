@@ -1,7 +1,7 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
-En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específicamente diseñado para el proyecto. Este mapa representa una visión de cómo se implementan cambios y mejoras en los procesos y sistemas. A continuación, se incluye una representación gráfica del mismo: 
+En la siguiente seccion, presentaremos el Mapeo de Escenarios Futuros específicamente diseñado para el proyecto. Este mapa representa una visión de cómo se implementan cambios y mejoras en los procesos y sistemas. A continuación, se incluye una representación gráfica del mismo: 
 - Segmento de Mesero:
 <img src="./Resources/images/sm1.png" >
 - Segmento de Administrador
@@ -69,7 +69,7 @@ En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específi
     <td><strong>Escenario 1:</strong> La página cargará en menos de 3 segundos.<br>Dado que la pagina carga en menos de 3 segundos. Cuando un usuario ingresa en ella. Entonces esta conforme con el servicio brindado<br><br> <strong>Escenario 2:</strong> La página cargará en 3 segundos o mas.<br>Dado que la pagina demora en cargar 3 segundos o mas. Cuando un usuario ingresa en ella. Entonces no esta conforme con el servicio brindado.</td>
   </tr>
   <tr>
-    <td colspan="4""><strong>Épica 2: Funcionalidades de Autenticación y Seguridad </strong><br>Como usuario<br>Quiero validar mis datos y poder navegar en la aplicación<br>Para mantener mi cuenta segura y encontrar todos los apartados de forma rápida</td>
+    <td colspan="4""><strong>Épica 2: Funcionalidades de Autenticación y Seguridad </strong><br>Como usuario<br>Quiero validar mis datos y poder navegar en la aplicación<br>Para mantener mi cuenta segura y encontrar todos los secciones de forma rápida</td>
   </tr>
   <tr>
     <td>E02_US008</td>
@@ -114,7 +114,7 @@ En el siguiente apartado, presentaremos el Mapeo de Escenarios Futuros específi
     <td><strong>Escenario 1:</strong>La cuenta se bloquea tras 5 intentos fallidos de iniciar sesion.<br>Dado que la cuenta se bloquea. Cuando un usuario falla en ingresar 5 veces. Entonces se le ha brindado seguridad al usuario<br><br> <strong>Escenario 2:</strong> La cuenta no se bloquea tras fallar en iniciar sesion multiples vecec.<br> Dado que la cuenta no se bloquea nunca. Cuando un usuario falla en ingresar multiples veces. Entonces su informacion esta desprotegida y es propenso a un ataque de fuerza bruta</td>
   </tr>
   <tr>
-    <td colspan="4"><strong>Épica 3: Gestión de perfil y preferencias de usuario  </strong><br>Como usuario<br>Quiero visualizar un apartado para mi perfil<br>Para saber los datos que tengo y poder modificarlos cuando quiera</td>
+    <td colspan="4"><strong>Épica 3: Gestión de perfil y preferencias de usuario  </strong><br>Como usuario<br>Quiero visualizar un seccion para mi perfil<br>Para saber los datos que tengo y poder modificarlos cuando quiera</td>
   </tr>
   <tr>
     <td>E03_US014</td>
@@ -284,20 +284,20 @@ El administrador del restaurante juega un papel crucial en la supervisión y opt
 | #  | User Story ID  | Título                         | Descripción                                                                                                                                       | Story Points |
 |----|----------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | 1  | E02_US_009     | Logout                         | COMO cliente QUIERO salir de la aplicación PARA evitar el uso de mi cuenta por otras personas.                                                    | 1            |
-| 2  | E01_US_001     | Apartado de Header             | COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página.                             | 2            |
-| 3  | E01_US_002     | Apartado de Footer             | COMO usuario QUIERO visualizar pie de página que contenga información PARA un mejor entendimiento de la página.                                   | 2            |
+| 2  | E01_US_001     | seccion de Header             | COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página.                             | 2            |
+| 3  | E01_US_002     | seccion de Footer             | COMO usuario QUIERO visualizar pie de página que contenga información PARA un mejor entendimiento de la página.                                   | 2            |
 | 4  | E01_US_004     | Botón para ver más información | COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.                                                    | 2            |
-| 5  | E01_US_005     | Sección de Contacto            | COMO usuario QUIERO observar un apartado “Contacto” PARA comunicarme con el equipo de desarrollo.                                                 | 2            |
+| 5  | E01_US_005     | Sección de Contacto            | COMO usuario QUIERO observar un seccion “Contacto” PARA comunicarme con el equipo de desarrollo.                                                 | 2            |
 | 6  | E01_US_011     | Validación de clave            | COMO cliente QUIERO validar mi clave PARA mantener mi cuenta segura.                                                                              | 1            |
 | 7  | E01_US_012     | Despliegue de Menú             | COMO usuario QUIERO visualizar un menú PARA acceder a las funciones de la aplicación rápidamente.                                                 | 2            |
 | 8  | E02_US_013     | Salir de la sesión             | COMO usuario QUIERO cerrar sesión en mi cuenta PARA iniciar o crear otra cuenta.                                                                  | 2            |
 | 9  | E02_US_014     | Sección de inicio de sesión    | COMO usuario QUIERO iniciar sesión en mi cuenta PARA acceder a la información de la plataforma.                                                   | 2            |
-| 10 | E02_US_015     | Sección de registro            | COMO usuario QUIERO observar un apartado de “Regístrate” PARA crear una cuenta nueva.                                                             | 2            |
+| 10 | E02_US_015     | Sección de registro            | COMO usuario QUIERO observar un seccion de “Regístrate” PARA crear una cuenta nueva.                                                             | 2            |
 | 11 | E03_US_017     | Dirigir a ajustes de la aplicación | COMO usuario QUIERO ir a los ajustes de la aplicación PARA realizar cambios en la configuración.                                              | 2            |
 | 12 | E07_US_037     | Eliminar platos existentes     | COMO administrador QUIERO eliminar platos del menú PARA mantener la oferta actualizada.                                                           | 3            |
 | 13 | E01_US_003     | Barra de Navegación            | COMO usuario QUIERO presionar botones en el encabezado del landing page para desplazarme por la página.                                           | 2            |
-| 14 | E01_US_004     | Descripción de la Start-Up     | COMO usuario QUIERO observar un apartado con información de la página PARA conocer sobre la start-up.                                             | 3            |
-| 15 | E01_US_007     | Sección del equipo             | COMO usuario QUIERO observar un apartado sobre el equipo PARA conocer más sobre los desarrolladores.                                              | 3            |
+| 14 | E01_US_004     | Descripción de la Start-Up     | COMO usuario QUIERO observar un seccion con información de la página PARA conocer sobre la start-up.                                             | 3            |
+| 15 | E01_US_007     | Sección del equipo             | COMO usuario QUIERO observar un seccion sobre el equipo PARA conocer más sobre los desarrolladores.                                              | 3            |
 | 16 | E02_US_008     | Login con PIN/clave            | COMO cliente QUIERO ingresar con PIN PARA acceder a la página principal.                                                                          | 3            |
 | 17 | E02_US_010     | Recuperar contraseña           | COMO cliente QUIERO recuperar mi contraseña PARA ingresar a la aplicación.                                                                        | 3            |
 | 18 | E03_US_016     | Dirigir a perfil de usuario    | COMO cliente QUIERO acceder a mi perfil PARA cambiar cualquier dato que necesite actualización.                                                   | 3            |

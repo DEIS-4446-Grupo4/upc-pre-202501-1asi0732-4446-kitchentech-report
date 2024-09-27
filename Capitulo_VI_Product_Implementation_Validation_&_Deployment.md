@@ -160,7 +160,7 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
     <th>Sección de contacto </th>
     <th>5</th>
     <th>Sección de contacto </th>
-    <th>COMO usuario QUIERO observar un apartado que contenga información de la página PARA poder conocer sobre qué se trata. </th>
+    <th>COMO usuario QUIERO observar una seccion que contenga información de la página PARA poder conocer sobre qué se trata. </th>
     <th>2</th>
     <th>Sandro Alarcon</th>
     <th>Done</th>
@@ -180,7 +180,7 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
     <th>Descripción de la Start-Up </th>
     <th>14</th>
     <th>Descripción de la Start-Up </th>
-    <th>COMO usuario QUIERO observar un apartado “Contacto” PARA poder comunicarme directamente con el equipo de desarrollo.</th>
+    <th>COMO usuario QUIERO observar una seccion “Contacto” PARA poder comunicarme directamente con el equipo de desarrollo.</th>
     <th>2</th>
     <th>Esteban Calderon</th>
     <th>Done</th>
@@ -190,7 +190,7 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
     <th>Sección de información del equipo </th>
     <th>15</th>
     <th>Sección de información del equipo </th>
-    <th>COMO usuario QUIERO observar en el encabezado un apartado de información del equipo PARA conocer más a fondo su desarrollo. </th>
+    <th>COMO usuario QUIERO observar en el encabezado una seccion de información del equipo PARA conocer más a fondo su desarrollo. </th>
     <th>3</th>
     <th>Fabrizzio Castro</th>
     <th>Done</th>
@@ -220,7 +220,7 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
     <th>Sección de registro  </th>
     <th>10</th>
     <th>Sección de registro  </th>
-    <th>COMO usuario QUIERO observar un apartado de “Regístrate” PARA crear una cuenta nueva.  </th>
+    <th>COMO usuario QUIERO observar una seccion de “Regístrate” PARA crear una cuenta nueva.  </th>
     <th>2</th>
     <th>Nicolas Zagal</th>
     <th>Done</th>

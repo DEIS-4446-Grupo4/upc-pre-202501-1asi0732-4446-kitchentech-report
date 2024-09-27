@@ -42,7 +42,7 @@ Para nuestra versión móvil, nos enfocamos en optimizar la experiencia en dispo
 #### IoT Style Guidelines
 Nuestro enfoque en las pautas de estilo para dispositivos IoT, como sensores de movimiento y sonido, se centra en la presentación clara de datos y la eficiencia en la comunicación de información esencial. Aquí están los aspectos clave: 
 
-+	Tendremos un apartado de simulación donde consumiremos las respuestas de los sensores y en base a este en el apartado de simulación se mostrará una imagen representativa del estado de los comensales en una mesa.
++	Tendremos una seccion  de simulación donde consumiremos las respuestas de los sensores y en base a este en la seccion de simulación se mostrará una imagen representativa del estado de los comensales en una mesa.
 
 ## 5.2 Information Architecture
 ### 5.2.1 Organization Systems
