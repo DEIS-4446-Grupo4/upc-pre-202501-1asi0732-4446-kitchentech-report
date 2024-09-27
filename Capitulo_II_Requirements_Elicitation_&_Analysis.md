@@ -162,7 +162,7 @@
 -  Nombre: Jhonny Ruiz
 -  Edad: 22
 -  Ocupación: Estudiante universitario y mesero a tiempo parcial
--  Enlace: https://drive.google.com/file/d/1LK6Rrf3d5Qc78yCVRLBQN9ohIZkfFp3B/view?usp=drive_link 
+-  Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 -  Resumen:
 Jhonny es un estudiante universitario de 24 años que trabaja a tiempo parcial como mesero en una pollería. Su personalidad es proactiva y observadora, lo que le permite tener un entendimiento claro de los diferentes tipos de clientes que frecuentan el local. Muestra interés en la adopción de nuevas tecnologías para mejorar la experiencia del cliente y la eficiencia operativa del negocio.
