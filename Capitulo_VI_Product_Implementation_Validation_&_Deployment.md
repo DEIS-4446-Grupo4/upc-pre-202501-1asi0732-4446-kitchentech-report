@@ -279,7 +279,6 @@ tech-kitchen-webapp | feature/profile | 02d5eab | feature/profile added | - | 21
 tech-kitchen-webapp | feature/product | 9dd841f | feature/product added | - | 21/09/2023
 tech-kitchen-webapp | feature/home-project | 239aecd | feature/home-project added | - | 23/09/2023
 tech-kitchen-webapp | feature/features | 27abcdf |  feature/features added | - | 23/09/2023
-
 LandingPage | feature/aboutus | 5832e79 |feature/aboutus added | - | 25/09/2023
 LandingPage | feature/functionalities | c69748b | feature/functionalities added | - | 25/09/2023
 LandingPage | feature/navbar | 457fd51 | feature/navbar added | - | 25/09/2023
@@ -387,5 +386,5 @@ Landing page:
 
 Weba app:
 
-<img src="./Resources/Evidences/webapp.jpgg" >
+<img src="./Resources/Evidences/webapp.jpg" >
 
