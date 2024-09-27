@@ -319,13 +319,62 @@ Landing page (Contact section y footer):
 
 <img src="./Resources/Evidences/Landing/6.jpg" >
 
+Vistas desarrolladas: Web app (profile):
+
+<img src="./Resources/webapp/1.jpeg" >
+
+
+Web app (login):
+
+<img src="./Resources/webapp/2.jpeg" >
+
+Web app (sign up):
+
+<img src="./Resources/webapp/3.jpeg" >
+
+Web app (caja):
+
+<img src="./Resources/webapp/4.jpeg" >
+
+Web app (cuentas guardadas):
+
+<img src="./Resources/webapp/5.jpeg" >
+
+
+Web app (mov. de caja):
+
+<img src="./Resources/webapp/6.jpeg" >
+
+Web app (productos):
+
+<img src="./Resources/webapp/7.jpeg" >
+
+
 
 
 
 
 #### 6.2.1.6 Services Documentation Evidence for Sprint Review
-Para el presente entregable TP1, la implementación de nuestro Web Services no es solicitado. Por lo tanto, en este punto de Services Documentation Evidence for Sprint Review no hay nada que documentar. En el siguiente Sprint se realizará la documentación de los endpoints desarrollados, así como los respectivos HTTP methods. 
+Para este entregable en el sprint 1, hemos considerado utilizar una fake api, el cual permite concer la funcionalidades y vistas de la web app.
+
+
+https://my-json-server.typicode.com/Techstudents-SW74/Kitchen-fakeAPI 
+
+
+<img src="./Resources/Evidences/fakeapi.jpg" >
+
+
 
 #### 6.2.1.7 Software Deployment Evidence for Sprint Review 
+
+Para este entregable se realizó el despliegue de la primera version de la landing page como tambien de la web app.
+
+https://techstudents-sw74.github.io/
+
+
+
+https://kitchentech-app.web.app/home-project
+
+
 
 #### 6.2.1.8 Team Collaboration Insights during Sprint 
