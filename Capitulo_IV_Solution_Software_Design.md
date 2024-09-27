@@ -76,46 +76,101 @@ Empleando la metodología de Eventstorming con enfoque en la técnica de "start-
 
 **Profile Managment:**
 
+<img src="./Resources/images/Capitulo 4/Profile_Management.png" >
+
 **Identity and Access Management:**
+
+<img src="./Resources/images/Capitulo 4/Identity_Access_Management.png" >
 
 **Business Managment System:**
 
+<img src="./Resources/images/Capitulo 4/Bussiness_Management_System.png" >
+
 **IoT Asset Management:**
+
+<img src="./Resources/images/Capitulo 4/IoT_Asset_Management.png" >
 
 **Subscription and Payments:**
 
+<img src="./Resources/images/Capitulo 4/Subscription_Payments.png" >
+
 **Notification Managment:**
 
+<img src="./Resources/images/Capitulo 4/Notification_management.png" >
+
 **Data Report and Analytics:**
+
+<img src="./Resources/images/Capitulo 4/Data_Report_Analytics.png" >
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
 1. Scenario: Registering in the app
+   
+<img src="./Resources/images/Capitulo 4/41121.png" >
+
 2. Scenario: Pay a subscription
+
+<img src="./Resources/images/Capitulo 4/41122.png" >
+
 3. Real-Time Progress Record
+
+<img src="./Resources/images/Capitulo 4/41123.png" >
+   
 4. Alert the waiter plates ready to be collected
+
+<img src="./Resources/images/Capitulo 4/41124.png" >
 
 #### 4.1.1.3 Bounded Context Canvases
 
 1. Profile Management
+
+<img src="./Resources/images/Capitulo 4/41131.png" >
+
 2. Identity and access management
+
+<img src="./Resources/images/Capitulo 4/41132.png" >
+
 3. Agricultural Management System
+
+<img src="./Resources/images/Capitulo 4/41133.png" >
+
 4. IoT Assets Management
+
+<img src="./Resources/images/Capitulo 4/41134.png" >
+
 5. Data report & Analytics
+
+<img src="./Resources/images/Capitulo 4/41135.png" >
+
 6. Subscription and Payments
+
+<img src="./Resources/images/Capitulo 4/41136.png" >
+
 7. Notification Management
 
+<img src="./Resources/images/Capitulo 4/41137.png" >
+
 ### 4.1.2	Context Mapping
+
+<img src="./Resources/images/Capitulo 4/412.png" >
 
 ### 4.1.3	Software Architecture
 
 #### 4.1.3.1	Software Architecture System Landscape Diagram
 
+<img src="./Resources/images/Capitulo 4/4131.png" >
+
 #### 4.1.3.2	Software Architecture Context Level Diagrams
+
+<img src="./Resources/images/Capitulo 4/4132.png" >
 
 #### 4.1.3.3	Software Architecture Container Level Diagrams
 
+<img src="./Resources/images/Capitulo 4/4133.png" >
+
 #### 4.1.3.4	Software Architecture Deployment Diagrams
+
+<img src="./Resources/images/Capitulo 4/4134.png" >
 
 ## 4.2. Tactical-Level Doamin-Driven-Design
 ### 4.2.1 Bounded Context: Profile Management
