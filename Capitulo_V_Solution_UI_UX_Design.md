@@ -67,9 +67,16 @@ En esta sección, presentaremos el sistema de etiquetado que proporcionará una 
 + **Contact:** En esta sección, los clientes pueden comunicarse con el equipo de Kitchentech.
 
 ### 5.2.3 SEO Tags and Meta Tags
+
+Para mejorar la visibilidad del servicio en los motores de busqueda, se añadiran etiquetas SEO y meta etiquetas en nuestra landing page. Los títulos y funciones core de nuestra appp están optimizados para atraer a los usuarios y a los motores de búsqueda.
+
 ### 5.2.4 Searching System
+
+El sistema de búsquedas de la aplicación permitirá a los meseros buscar sus productos en una lista. Asi mismo, permitira guardarlos en favoritos de manera que aparezcan en la pagina principal a manera de tarjeta para un seleccionado mas eficiente. De la misma manera se desplegaran los pedidos pendientes y las mesas.
+
+
 ### 5.2.5 Navigation System
-Los sistemas de navegación que se implementaran en Tecnogurus son los siguientes: 
+El sistema de navegacion princpial de la aplicacion sera una barra lateral la cual contara con accesos rapidos a todas las funcionalidades de la aplicacion: Caja, pedidos guardados, historial de ventas, reporte de ventas, inventario, movimientos de caja y productos
 
 ## 5.3 Landing Page UI Design
 ### 5.3.1 Landing Page Wireframe
