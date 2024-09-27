@@ -128,7 +128,7 @@
 -  Analizar las fortalezas y debilidades de tus competidores para identificar oportunidades y amenazas en el mercado.
 -  Utilizar herramientas de investigación de mercado para comprender mejor a nuestros clientes y sus necesidades.
 -  Incentivar a los usuarios a compartir su experiencia en las redes sociales y dejar reseñas positivas para mejorar la reputación de la marca.
--  vigilancia constante sobre las tendencias del mercado y las tecnologías emergentes para seguir siendo competitivo a largo plazo.
+-  Vigilancia constante sobre las tendencias del mercado y las tecnologías emergentes para seguir siendo competitivo a largo plazo.
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
@@ -137,7 +137,7 @@
 - Edad
 - Ocupación
 - Años de experiencia
-- 
+
 **LISTADO DE PREGUNTAS SEGMENTO MESEROS**
 1.	¿Cuáles son las principales dificultades que enfrentas al atender a los comensales?
 2.	¿Cuánto tiempo promedio dedicas a tomar pedidos y entregarlos a la cocina?
@@ -277,8 +277,8 @@ En términos generales, José Eduardo se mostró receptivo a la idea de integrar
 
 ### 2.2.3. Análisis de entrevistas.
 
-- Análisis Generales – Segmentos Objetivo
-- Segmento Objetivo: Administradores
+#### **Análisis Generales – Segmentos Objetivo**
+#### ***Segmento Objetivo: Administradores***
 
 Con base en las entrevistas realizadas a administradores del sector de la restauración, se identificaron varios desafíos recurrentes en la gestión diaria. El 75% de los administradores entrevistados mencionaron que uno de los principales retos es mantener un flujo de trabajo continuo, obstaculizado por imprevistos como la rotación de personal y la falta de insumos. Estos factores impactan directamente en la eficiencia operativa y la calidad del servicio, y representan una preocupación constante para la gestión del negocio.
 
@@ -292,7 +292,7 @@ Por último, un 65% de los administradores indicó que contar con acceso a infor
 
 Este análisis evidencia que las características objetivas y subjetivas derivadas de las entrevistas, como los retos de gestión, la importancia del servicio al cliente y el uso potencial de tecnologías, son comunes entre los administradores entrevistados y son necesarias para la construcción de los arquetipos correspondientes.
 
-- Segmento Objetivo: Meseros
+#### ***Segmento Objetivo: Meseros***
 
 Con base en las entrevistas realizadas a meseros, se identificó que el 70% de ellos enfrenta dificultades al utilizar métodos tradicionales, como la toma de pedidos en papel, lo que resulta en un incremento de errores y desorganización, especialmente cuando se atienden grupos grandes. Estos problemas generan una sobrecarga en el trabajo de los meseros y afectan negativamente la experiencia del cliente, creando tiempos de espera más largos y una percepción de servicio deficiente.
 
