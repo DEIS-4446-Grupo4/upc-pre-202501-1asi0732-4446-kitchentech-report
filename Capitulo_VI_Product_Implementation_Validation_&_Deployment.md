@@ -410,18 +410,86 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 
 #### 6.2.2.2. Sprint Backlog 2.
 
-
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned to</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <th>US00?</th>
+    <th>Seccion de Header </th>
+    <th>2</th>
+    <th>Seccion de Header</th>
+    <th>COMO usuario QUIERO    PARA  </th>
+    <th>2</th>
+    <th>Fabrizzio Castro</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US00?</th>
+    <th>Seccion de Footer</th>
+    <th>3</th>
+    <th>Seccion de Footer</th>
+    <th>COMO usuario QUIERO        PARA   </th>
+    <th>1</th>
+    <th>Nicolas Zagal</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US00?</th>
+    <th>Boton para ver mas informacion</th>
+    <th>4</th>
+    <th>Boton para ver mas informacion</th>
+    <th>COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.  </th>
+    <th>1</th>
+    <th>Esteban Calderon</th>
+    <th>Done</th>
+  </tr>
+</table>
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
+
+Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)
+--- | --- | --- | --- | --- | ---
+tech-kitchen-webapp | feature/sidebar | 4eb7589 |feature/sidebar added | - | 23/10/2024
+LandingPage | feature/aboutus | 5832e79 |feature/aboutus added | - | 23/10/2024
+kitchen-tech-backend | feature/aboutus | 5832e79 |feature/aboutus added | - | 23/10/2024
+kitchen-tech | feature/aboutus | 5832e79 |feature/aboutus added | - | 32/10/2024
+Mobile-aplication | feature/aboutus | 5832e79 |feature/aboutus added | - | 3223/10/2024
 
 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-
+Para este sprint, .  
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
+
+En el Sprint 2, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
+
+Mejoras de desarrollo del front end():
+Mejoras de desarrollo del front end():
+
+Capturas de desarrolo: Back end ():
+Capturas de desarrolo: Back end ():
+
+Vistas desarrolladas: Mobile aplication ():
+Vistas desarrolladas: Mobile aplication ():
 
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -456,5 +524,5 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 
 ## 6.4. Video About-the-Product.
 
-
+Link del video: 
 
