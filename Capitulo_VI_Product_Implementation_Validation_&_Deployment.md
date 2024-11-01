@@ -396,15 +396,16 @@ Weba app:
 A continuación, se presenta el Sprint Planning 2, donde se muestran las evidencias de planificación e implementación de web aplication, back end y app mobile. Las evidencias se encuentran disponibles dentro del repositorio de GitHub.
 | Sprint                        | Sprint 2           |
 |-------------------------------|---------------------|
-|Sprint Planning Background  |Initial commit |
+|Sprint Planning Background  | El enfoque de este Sprint es consolidar los componentes críticos de la aplicación móvil, mejorar la interfaz de usuario de la aplicación web y asegurar la funcionalidad del backend. Además, se implementarán las conexiones iniciales para el sistema IoT, habilitando la interacción entre dispositivos y la plataforma para optimizar el flujo en restaurantes. |
 |Date  |15 de octubre del 2024 |
 |Time  |11:00 horas (GMT-5) |
 |Location  |Modalidad remota por Discord  |
 |Prepared by  |Fabrizzio Antonio Castro Manrique  |
 |Attendees (to planning meeting)  |Todos los integrantes del equipo |
-|Sprint 2 – Review Summary  |En el segundo sprint se estableció  |
-|Sprint 2 – Retrospective Summary |Para el segundo sprint |
-|Sprint Goal & User Stories |                     |
+|Sprint 1 – Review Summary  |En el primer sprint se estableció la agrupación de componentes y el despliegue del Landing Page.  |
+|Sprint 1 – Retrospective Summary | Para el primer sprint se estableció desarrollar el Landing Page y dividirlo por secciones. Establecimos un acuerdo de la utilización HTML, CSS y JS para seguir una arquitectura lineal y se pueda tener una mejor limpieza de código para eliminar o agregar secciones dentro de este. Se utilizaron diseños sobrios para poder utilizar conceptos de CSS de una forma más eficiente, asimismo como herramientas que permitieron su despliegue rápido dentro de Github |
+|Sprint Goal & User Stories                     |
+|Sprint 2 Goal | Este sprint se enfocará en desarrollar las primeras versiones funcionales de la aplicación web y móvil, integrándolas con el backend y la edge application. Esto permitirá a los restaurantes gestionar mesas, pedidos y optimizar la atención mediante sensores IoT. Esperamos que la aplicación web permita supervisar mesas, la app móvil facilite la toma de pedidos, y el backend junto a la edge application aseguren una integración fluida. Esto mejorará el servicio y reducirá los tiempos de atención. El objetivo se cumplirá cuando la web, la app móvil y la edge application estén integradas y funcionen correctamente con los sensores para gestionar clientes y pedidos en tiempo real. |
 |Sprint 2 Velocity |  |
 |Sum of Story Points|  |
 
@@ -511,7 +512,17 @@ Vistas desarrolladas: Mobile aplication ():
 
 ### 6.3.1. Diseño de Entrevistas.
 
+- ¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
 
+- ¿La información proporcionada en la landing page te ayudó a comprender cómo la solución IoT podría mejorar la atención en el restaurante?
+- ¿Qué aspectos de la aplicación te resultaron intuitivos o confusos al tomar un pedido?
+- ¿Qué tan fácil te resultó recibir y gestionar notificaciones sobre el estado de las mesas (como la llegada de clientes o platos por recoger)?
+- ¿Sientes que el proceso de enviar pedidos a cocina y caja desde la aplicación agiliza tu flujo de trabajo?
+- ¿Cómo evaluas la velocidad y precisión de la aplicación al registrar cambios en los pedidos?
+- ¿La interfaz de la aplicación facilita la gestión de cuentas y pagos de los clientes? ¿Por qué?
+- ¿Qué tan útil te resulta la opción de recibir alertas cuando los clientes entran o salen del restaurante?
+- ¿Crees que el sistema IoT implementado mejora la experiencia de servicio para el cliente? ¿En qué aspectos?
+- ¿Qué cambiarías o mejorarías en la aplicación para facilitar aún más la atención a los clientes?
 
 ### 6.3.2. Registro de Entrevistas.
 
