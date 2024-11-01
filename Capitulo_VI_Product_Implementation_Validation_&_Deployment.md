@@ -388,3 +388,73 @@ Weba app:
 
 <img src="./Resources/Evidences/webapp.jpg" >
 
+
+### 6.2.2 Sprint 2
+
+#### 6.2.2.1 Sprint Planning 2.
+
+A continuación, se presenta el Sprint Planning 2, donde se muestran las evidencias de planificación e implementación de web aplication, back end y app mobile. Las evidencias se encuentran disponibles dentro del repositorio de GitHub.
+| Sprint                        | Sprint 2           |
+|-------------------------------|---------------------|
+|Sprint Planning Background  |Initial commit |
+|Date  |15 de octubre del 2024 |
+|Time  |11:00 horas (GMT-5) |
+|Location  |Modalidad remota por Discord  |
+|Prepared by  |Fabrizzio Antonio Castro Manrique  |
+|Attendees (to planning meeting)  |Todos los integrantes del equipo |
+|Sprint 2 – Review Summary  |En el segundo sprint se estableció  |
+|Sprint 2 – Retrospective Summary |Para el segundo sprint |
+|Sprint Goal & User Stories |                     |
+|Sprint 2 Velocity |  |
+|Sum of Story Points|  |
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+
+
+## 6.3. Validation Interviews.
+
+
+
+
+### 6.3.1. Diseño de Entrevistas.
+
+
+
+### 6.3.2. Registro de Entrevistas.
+
+
+
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+
+
+## 6.4. Video About-the-Product.
+
+
+
