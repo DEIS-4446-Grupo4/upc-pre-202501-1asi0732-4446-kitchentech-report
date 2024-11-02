@@ -1021,5 +1021,5 @@ IOT Deployment:
 
 ## 6.4. Video About-the-Product.
 
-Link del video: 
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114140_upc_edu_pe/Ec69qyP2xOJOpyxyRbFLQvQBdxpenJBiKMBqLxAPxoCHTg?e=XhhznD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
