@@ -1039,6 +1039,116 @@ Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselli
 ### 6.3.3. Evaluaciones según heurísticas.
 
 
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Soluciones IoT  
+**SECCIÓN**: SW92  
+**PROFESORES**: Todos  
+**AUDITOR**: LosTecnogurus  
+**CLIENTE(S)**: Usuarios entrevistados  
+
+---
+
+**SITE o APP A EVALUAR**: Kitchen Tech
+
+---
+
+### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Crear botón para desplegar menú de opciones de usuario
+2. Implementar botón de ver perfil en menú desplegable
+3. Implementar botón de crear nuevo mesero en menú desplegable
+4. Crear vista de cuentas guardadas, con search bar y cards que incluyan nombre de la cuenta, cliente, costo y botones
+5. Guardar orden en una cuenta
+6. Implementar botón para eliminar cuenta
+7. Guardar orden en una mesa
+8. Actualización de los pedidos y mesas
+9. Implementar botón para cambiar la vista de cuentas guardadas a mesas junto al search bar
+10. Implementar navegación a la página de caja con el pedido guardado al dar clic en la cuenta
+11. Crear botón de agregar nuevos productos
+12. Implementar validaciones para el guardado de productos
+13. Crear vista de productos
+14. Cargar la vista de nuevo producto con los datos del producto guardado para su edición
+15. Crear botón de eliminar producto
+16. Desarrollar vista en la web app de inicio de sesión
+17. Implementar validaciones de credenciales en la vista de iniciar sesión
+18. Crear botón de cerrar sesión en menú desplegable
+
+---
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Crear vista de caja con searchbar y sección acceso directo de productos
+2. Implementar la vista de mesas con sus métodos CRUD
+3. Implementar vista de recuperar contraseña
+4. Implementar validaciones para vista de recuperar contraseña
+5. Implementar ver contraseña en vista de recuperar contraseña
+6. Bloquear acceso a la cuenta tras fallar en iniciar sesión 5 veces
+7. Crear validaciones para registro de nuevo mesero
+8. Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero
+
+---
+
+### ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara a la siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+### TABLA RESUMEN:
+
+| #  | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|----|----------|----------------------|---------------------------------|
+| 1  | Cuestión de confusión entre vistas | 3 | Usability: Consistencia y estándares |
+| 2  | Mejorar la organización de funcionalidades | 3 | Information Architecture: Is it findable? |
+| 3  | Mejora en la sección de pedido para el caso de edición en escenarios de cambios de pedido a último momento | 4 | Usability: Flexibilidad y eficiencia de uso |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1**: Cuestión de confusión entre vistas  
+**Severidad**: 3  
+**Heurística violada**: Usability – Consistencia y estándares  
+
+**Problema**:  
+Los usuarios encuentran dificultades para identificar a qué vista pertenecen ciertas opciones de menú. Esto genera confusión y aumenta el tiempo necesario para completar una tarea específica.
+
+**Recomendación**:  
+Reorganizar las vistas para mejorar la diferenciación visual entre ellas, asegurando que cada vista tenga elementos distintivos claros que guíen al usuario.
+
+---
+
+**PROBLEMA #2**: Mejorar la organización de funcionalidades  
+**Severidad**: 3  
+**Heurística violada**: Information Architecture – Is it findable?  
+
+**Problema**:  
+La disposición de las funcionalidades no permite una rápida localización, lo cual impacta negativamente la experiencia del usuario.
+
+**Recomendación**:  
+Agrupar las funcionalidades de acuerdo con su propósito y frecuencia de uso, proporcionando accesos rápidos a las tareas más comunes.
+
+---
+
+**PROBLEMA #3**: Mejora en la sección de pedido para el caso de edición en escenarios de cambios de pedido a último momento  
+**Severidad**: 4  
+**Heurística violada**: Usability – Flexibilidad y eficiencia de uso  
+
+**Problema**:  
+Cuando un usuario intenta realizar modificaciones de último momento en un pedido, se encuentra con limitaciones en la interfaz que dificultan completar el cambio sin reiniciar el proceso.
+
+**Recomendación**:  
+Implementar una opción de edición rápida para cambios de último momento, que permita al usuario modificar elementos del pedido sin necesidad de repetir los pasos previos.
+
 
 ## 6.4. Video About-the-Product.
 
