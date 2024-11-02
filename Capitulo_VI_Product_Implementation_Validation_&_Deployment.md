@@ -413,10 +413,6 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 
 <table>
   <tr>
-    <th colspan="2">Sprint #</th>
-    <th colspan="6">Sprint 2</th>
-  </tr>
-  <tr>
     <th colspan="2">User Story</th>
     <th colspan="6">Work-Item / Task</th>
   </tr>
@@ -426,39 +422,468 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
     <th>Id</th>
     <th>Title</th>
     <th>Description</th>
-    <th>Estimation (Hours)</th>
+    <th>Estimation (hours)</th>
     <th>Assigned to</th>
     <th>Status</th>
   </tr>
   <tr>
-    <th>US00?</th>
-    <th>Seccion de Header </th>
-    <th>2</th>
-    <th>Seccion de Header</th>
-    <th>COMO usuario QUIERO    PARA  </th>
-    <th>2</th>
-    <th>Fabrizzio Castro</th>
-    <th>Done</th>
+    <th>US009</th>
+    <th>Implementar botón para Cerrar Sesión</th>
+    <td>1</td>
+    <td>Botón de Cerrar Sesión en menú desplegable</td>
+    <td>Como usuario, quiero un botón de "Cerrar Sesión" en el menú para salir fácilmente.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
   </tr>
   <tr>
-    <th>US00?</th>
-    <th>Seccion de Footer</th>
-    <th>3</th>
-    <th>Seccion de Footer</th>
-    <th>COMO usuario QUIERO        PARA   </th>
-    <th>1</th>
-    <th>Nicolas Zagal</th>
-    <th>Done</th>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar método de Recuperación de contraseña</td>
+    <td>Como usuario, quiero un método para recuperar mi contraseña para acceder si la olvido.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
   </tr>
   <tr>
-    <th>US00?</th>
-    <th>Boton para ver mas informacion</th>
-    <th>4</th>
-    <th>Boton para ver mas informacion</th>
-    <th>COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.  </th>
-    <th>1</th>
-    <th>Esteban Calderon</th>
-    <th>Done</th>
+    <th>US010</th>
+    <th>Implementar método de Recuperación de contraseña</th>
+    <td>1</td>
+    <td>Implementar vista de recuperar contraseña</td>
+    <td>Como usuario, quiero una vista para recuperar mi contraseña para reiniciar el acceso a mi cuenta.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar validaciones para vista de recuperar contraseña</td>
+    <td>Como usuario, quiero validaciones en la vista de recuperar contraseña para asegurarme de que los datos ingresados sean correctos.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>Implementar ver contraseña en vista de recuperar contraseña</td>
+    <td>Como usuario, quiero ver mi contraseña en la vista de recuperar contraseña para asegurarme de que la estoy ingresando correctamente.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>TS001</th>
+    <th>Implementar bloqueo de cuenta después de 5 intentos fallidos de inicio de sesión.</th>
+    <td>1</td>
+    <td>Bloquear acceso a la cuenta tras fallar en iniciar sesión 5 veces</td>
+    <td>Como desarrollador, quiero bloquear el acceso a la cuenta tras 5 intentos fallidos de inicio de sesión para mejorar la seguridad del sistema.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>TS002</th>
+    <th>Las contraseñas deben ser cifradas usando JWT</th>
+    <td>1</td>
+    <td>Cifrar contraseñas con JWT</td>
+    <td>Como desarrollador, quiero cifrar contraseñas usando JWT para asegurar la autenticidad y protección de las credenciales de usuario durante la transmisión.</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <th>US014</th>
+    <th>Implementar navegación a perfil de usuario.</th>
+    <td>1</td>
+    <td>Crear botón para desplegar menú de opciones de usuario</td>
+    <td>Como usuario, quiero desplegar el menú de opciones de usuario.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar botón de ver perfil en menú desplegable</td>
+    <td>Como usuario, quiero ver mi perfil en el menú desplegable.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US015</th>
+    <th>Ver y editar datos de usuario.</th>
+    <td>1</td>
+    <td>Backend Implementar edición de datos de usuario</td>
+    <td>Como desarrollador, quiero implementar la edición de datos de usuario en el backend.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Backend - Endpoint del método update del usuario</td>
+    <td>Como desarrollador, quiero implementar un endpoint para actualizar los datos del usuario en el backend.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US016</th>
+    <th>Implementar creación de usuario mesero</th>
+    <td>1</td>
+    <td>Implementar botón de crear nuevo mesero en menú desplegable</td>
+    <td>Como usuario, quiero crear un nuevo mesero en el menú desplegable.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Crear validaciones para registro de nuevo mesero</td>
+    <td>Como usuario, quiero validar el registro de un nuevo mesero para asegurar que la información ingresada sea correcta.</td>
+    <td>1</td>
+    <td></td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>Implementar ver contraseña en la vista de crear nuevo mesero</td>
+    <td>Como usuario, quiero ver la contraseña en la vista de crear nuevo mesero para asegurarme de que la estoy ingresando correctamente.</td>
+    <td>1</td>
+    <td></td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>4</td>
+    <td>Endpoint de métodos de creación y autenticación</td>
+    <td>Como desarrollador, quiero implementar un endpoint para los métodos de creación y autenticación de usuarios en el backend.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+    <tr>
+    <th>US020</th>
+    <th>Agregar productos a una orden.</th>
+    <td>1</td>
+    <td>Crear vista de caja con searchbar y sección acceso directo de productos</td>
+    <td>Como usuario, quiero una vista de caja con una barra de búsqueda y una sección de acceso directo a productos para facilitar la búsqueda y selección rápida de artículos.</td>
+    <td>5</td>
+    <td></td>
+    <td>To Fix</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar edición de acceso directo de productos</td>
+    <td>Como usuario, quiero editar los accesos directos a productos para personalizar y optimizar mi experiencia de compra.</td>
+    <td>2</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>Añadir productos a una orden para el servicio</td>
+    <td>Como usuario, quiero añadir productos a una orden para el servicio para gestionar eficazmente lo que quiero solicitar.</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US021</th>
+    <th>Guardar orden en una mesa.</th>
+    <td>1</td>
+    <td>Backend - Desarrollo del endpoint de las mesas insertado en una orden de cuenta.</td>
+    <td>Como desarrollador, quiero desarrollar el endpoint para insertar mesas en una orden de cuenta para gestionar el seguimiento de las órdenes de manera eficiente.</td>
+    <td>3</td>
+    <td></td>
+    <td>To Review</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Guardar orden en una mesa</td>
+    <td>Como usuario, quiero guardar una orden en una mesa para registrar correctamente los pedidos realizados.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Review</td>
+  </tr>
+  <tr>
+    <th>US022</th>
+    <th>Guardar orden en una cuenta.</th>
+    <td>1</td>
+    <td>Guardar orden en una cuenta</td>
+    <td>Como usuario, quiero guardar una orden en una cuenta para asociar los pedidos con el cliente correspondiente.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Fix</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Backend - Desarrollo del Endpoint de las cuentas</td>
+    <td>Como desarrollador, quiero desarrollar el endpoint de las cuentas en el backend para gestionar la creación y actualización de cuentas de usuario.</td>
+    <td>5</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US028</th>
+    <th>Crear nuevos productos</th>
+    <td>1</td>
+    <td>Crear vista de productos</td>
+    <td>Como usuario, quiero crear una vista de productos para explorar y seleccionar artículos disponibles.</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Crear botón de agregar nuevos productos</td>
+    <td>Como usuario, quiero agregar nuevos productos para poder añadir artículos al inventario fácilmente.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>Implementar validaciones para el guardado de productos</td>
+    <td>Como usuario, quiero validar el guardado de productos para asegurar que la información ingresada sea correcta y completa.</td>
+    <td>2</td>
+    <td></td>
+    <td>To-Review</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>4</td>
+    <td>Implementar campo de agregar insumos a nuevo producto</td>
+    <td>Como usuario, quiero agregar insumos a un nuevo producto para detallar los componentes necesarios para su elaboración.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>5</td>
+    <td>Desarrollo del Endpoint de los productos</td>
+    <td>Como desarrollador, quiero desarrollar el endpoint de productos en el backend para gestionar la creación, actualización y eliminación de productos.</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US042</th>
+    <th>Ver cuentas guardadas</th>
+    <td>1</td>
+    <td>Crear vista de cuentas guardadas, debe contar con un searchbar y cards que incluyan el nombre de la cuenta, cliente, costo y botones</td>
+    <td>Como usuario, quiero una vista de cuentas guardadas con una barra de búsqueda y tarjetas para acceder fácilmente a la información.</td>
+    <td>5</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar navegación a la página de caja con el pedido guardado al dar click en la cuenta</td>
+    <td>Como usuario, quiero navegar a la página de caja con el pedido guardado para revisar y completar mi pedido fácilmente.</td>
+    <td>2</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US043</th>
+    <th>Ver mesas creadas</th>
+    <td>1</td>
+    <td>Implementar botón para cambiar la vista de cuentas guardadas a mesas al costado de la searchbar</td>
+    <td>Como usuario, quiero cambiar la vista de cuentas guardadas a mesas para facilitar la navegación entre las diferentes secciones.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US044</th>
+    <th>Editar mesas creadas</th>
+    <td>1</td>
+    <td>Implementar la vista de mesas con sus métodos CRUD</td>
+    <td>Como desarrollador, quiero implementar la vista de mesas con sus métodos CRUD para gestionar eficientemente la creación, lectura, actualización y eliminación de registros de mesas.</td>
+    <td>5</td>
+    <td></td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <th>TS005</th>
+    <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio</th>
+    <td>1</td>
+    <td>Mantener actualizado en tiempo real los pedidos y mesas</td>
+    <td>Como desarrollador, quiero mantener actualizados en tiempo real los pedidos y mesas para que los usuarios vean la información más reciente.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US045</th>
+    <th>Eliminar cuenta creada</th>
+    <td>1</td>
+    <td>Implementar botón para eliminar cuenta</td>
+    <td>Como usuario, quiero eliminar una cuenta para poder eliminar registros que ya no necesito.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US023</th>
+    <th>Agregar un cliente con DNI o RUC</th>
+    <td>1</td>
+    <td>Implementar botón para agregar un cliente, este debe solicitar tipo de documento, número de documento y nombre del cliente</td>
+    <td>Como usuario, quiero agregar un cliente que solicite el tipo de documento, número de documento y nombre del cliente para poder registrar nuevos clientes de manera sencilla.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>TS009</th>
+    <th>El cliente creado debe guardarse en la base de datos para poder acceder a él en caso se solicite nuevamente</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+<tr>
+    <th>US029</th>
+    <th>Crear nuevos insumos</th>
+    <td>1</td>
+    <td>Crear vista de insumos y su servicio</td>
+    <td>Como usuario, quiero tener una vista de insumos y su servicio para poder gestionar y visualizar la información relacionada con los insumos utilizados.</td>
+    <td>5</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <td>2</td>
+    <td>Crear botón de agregar nuevo insumo</td>
+    <td>Como usuario, quiero agregar un nuevo insumo para poder registrar insumos de manera rápida y sencilla.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <td>3</td>
+    <td>Implementar validaciones para el insumo guardado</td>
+    <td>Como usuario, quiero validar el insumo guardado para asegurar que la información ingresada sea correcta y completa.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <td>4</td>
+    <td>Desarrollo del Endpoint de los Insumos</td>
+    <td>Como desarrollador, quiero desarrollar el endpoint de insumos en el backend para gestionar la creación, actualización y eliminación de insumos.</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US030</th>
+    <th>Editar productos existentes</th>
+    <td>1</td>
+    <td>Implementar botón de editar productos</td>
+    <td>Como usuario, quiero editar productos para poder actualizar la información de los artículos existentes.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <td>2</td>
+    <td>Cargar la vista de nuevo producto con los datos del producto guardado para su edición</td>
+    <td>Como usuario, quiero una vista de nuevo producto con los datos del producto guardado para poder editar la información de manera eficiente.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <th>US031</th>
+    <th>Editar insumos existentes</th>
+    <td>1</td>
+    <td>Implementar botón de editar insumos</td>
+    <td>Como usuario, quiero editar insumos para poder actualizar la información de los insumos existentes.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <td>2</td>
+    <td>Cargar la vista de nuevo insumo con los datos del insumo guardado para su edición</td>
+    <td>Como usuario, quiero una vista de nuevo insumo con los datos del insumo guardado para poder editar la información de manera eficiente.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US032</th>
+    <th>Eliminar productos existentes</th>
+    <td>1</td>
+    <td>Crear botón de eliminar producto</td>
+    <td>Como usuario, quiero eliminar un producto para poder eliminar artículos que ya no son necesarios.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US033</th>
+    <th>Eliminar insumos existentes</th>
+    <td>1</td>
+    <td>Crear botón de eliminar insumo</td>
+    <td>Como usuario, quiero eliminar un insumo para poder eliminar insumos que ya no son necesarios.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>TS006</th>
+    <th>Asociar productos a categorías</th>
+    <td>1</td>
+    <td>Crear campo de categoría en la vista de nuevo producto</td>
+    <td>Como desarrollador, quiero crear un campo de categoría en la vista de nuevo producto para clasificar los productos de manera adecuada.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
   </tr>
 </table>
 
