@@ -406,8 +406,8 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 |Sprint 1 – Retrospective Summary | Para el primer sprint se estableció desarrollar el Landing Page y dividirlo por secciones. Establecimos un acuerdo de la utilización HTML, CSS y JS para seguir una arquitectura lineal y se pueda tener una mejor limpieza de código para eliminar o agregar secciones dentro de este. Se utilizaron diseños sobrios para poder utilizar conceptos de CSS de una forma más eficiente, asimismo como herramientas que permitieron su despliegue rápido dentro de Github |
 |Sprint Goal & User Stories                     |
 |Sprint 2 Goal | Este sprint se enfocará en desarrollar las primeras versiones funcionales de la aplicación web y móvil, integrándolas con el backend y la edge application. Esto permitirá a los restaurantes gestionar mesas, pedidos y optimizar la atención mediante sensores IoT. Esperamos que la aplicación web permita supervisar mesas, la app móvil facilite la toma de pedidos, y el backend junto a la edge application aseguren una integración fluida. Esto mejorará el servicio y reducirá los tiempos de atención. El objetivo se cumplirá cuando la web, la app móvil y la edge application estén integradas y funcionen correctamente con los sensores para gestionar clientes y pedidos en tiempo real. |
-|Sprint 2 Velocity |  |
-|Sum of Story Points|  |
+|Sprint 2 Velocity | 88 points  |
+|Sum of Story Points| 109 Story points |
 
 #### 6.2.2.2. Sprint Backlog 2.
 
