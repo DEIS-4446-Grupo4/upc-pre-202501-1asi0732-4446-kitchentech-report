@@ -919,7 +919,10 @@ la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los a
 En el Sprint 2, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
 
 Mejoras de desarrollo del front end():
-Mejoras de desarrollo del front end():
+<img src="./Resources/Evidences/front-casing.jpg" >
+<img src="./Resources/Evidences/front-accounts.jpg" >
+<img src="./Resources/Evidences/front-tables.jpg" >
+<img src="./Resources/Evidences/front-products.jpg" >
 
 Capturas de desarrolo: Back end ():
 Capturas de desarrolo: Back end ():
