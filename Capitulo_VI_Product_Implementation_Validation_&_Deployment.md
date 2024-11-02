@@ -981,24 +981,21 @@ Descripción
 
 Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review. 
 
-Backend Deployment:
+
 
 <img src="./Resources/Evidences/backenddeployment1_kitchentech.png" >
 
 <img src="./Resources/Evidences/backenddeployment2_kitchentech.png" >
 
-Frontend Deployment:
 
-
-IOT Deployment:
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
+Durante el presente sprint se meustra la colaboración de los integrantes, con el fin distribuir el peso de trabajo de cada uno de los miembros del equipo.
 
+<img src="https://raw.githubusercontent.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/refs/heads/main/Resources/phone/Captura%20de%20pantalla%202024-11-02%20184712.jpg" >
 
 ## 6.3. Validation Interviews.
-
-
 
 
 ### 6.3.1. Diseño de Entrevistas.
