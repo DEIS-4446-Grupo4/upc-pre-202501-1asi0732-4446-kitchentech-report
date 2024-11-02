@@ -891,11 +891,16 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 
 Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)
 --- | --- | --- | --- | --- | ---
-tech-kitchen-webapp | feature/sidebar | 4eb7589 |feature/sidebar added | - | 23/10/2024
-LandingPage | feature/aboutus | 5832e79 |feature/aboutus added | - | 23/10/2024
-kitchen-tech-backend | feature/aboutus | 5832e79 |feature/aboutus added | - | 23/10/2024
-kitchen-tech | feature/aboutus | 5832e79 |feature/aboutus added | - | 32/10/2024
-Mobile-aplication | feature/aboutus | 5832e79 |feature/aboutus added | - | 3223/10/2024
+tech-kitchen-webapp | feature/sidebar | 4eb7589 | feature/sidebar added | Added initial sidebar navigation component | 12/09/2024
+LandingPage | feature/aboutus | 5832e79 | feature/aboutus added | Created About Us section with team details | 15/09/2024
+kitchen-tech-backend | feature/auth | 9fe6712 | feature/auth added | Implemented JWT-based authentication | 18/09/2024
+kitchen-tech | feature/reservations | 2b9f473 | feature/reservations added | Developed reservation system API | 21/09/2024
+Mobile-application | feature/login | 1a3f592 | feature/login added | Created login UI and integrated with backend | 23/09/2024
+tech-kitchen-webapp | feature/cart | 5c8f823 | feature/cart added | Added shopping cart functionality with local storage | 25/09/2024
+LandingPage | feature/contactform | 6d2f481 | feature/contactform added | Built and styled contact form section | 27/09/2024
+kitchen-tech-backend | feature/orders | 7e8d192 | feature/orders API | Implemented order processing API endpoints | 29/09/2024
+kitchen-tech | feature/notifications | 3f5a782 | feature/notifications added | Set up push notifications for order status updates | 01/10/2024
+Mobile-application | feature/checkout | 4b1e982 | feature/checkout added | Designed and integrated checkout screen | 10/09/2024
 
 
 
