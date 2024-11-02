@@ -974,7 +974,18 @@ Descripción
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review. 
 
+Backend Deployment:
+
+<img src="./Resources/Evidences/backenddeployment1_kitchentech.png" >
+
+<img src="./Resources/Evidences/backenddeployment2_kitchentech.png" >
+
+Frontend Deployment:
+
+
+IOT Deployment:
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
