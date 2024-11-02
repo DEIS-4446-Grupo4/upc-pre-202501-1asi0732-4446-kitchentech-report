@@ -901,8 +901,13 @@ Mobile-aplication | feature/aboutus | 5832e79 |feature/aboutus added | - | 3223/
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para este sprint, .  
-
+Para este sprint, no se ha realizado el conjunto de pruebas automatizadas 
+(Unit Tests, Integration Tests, y Acceptance Tests) para los servicios web asociados con las User Stories 
+especificadas. Por lo tanto, no se cuenta con evidencia de testing suite para esta Sprint Review. Esto incluye 
+la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los archivos Steps en el lenguaje de
+ programación. Tampoco se han diseñado ni documentado los Unit Tests, Integration Tests o Acceptance Tests, ni se 
+ han registrado commits en el repositorio relacionados con avances en Testing.
+ 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
 
