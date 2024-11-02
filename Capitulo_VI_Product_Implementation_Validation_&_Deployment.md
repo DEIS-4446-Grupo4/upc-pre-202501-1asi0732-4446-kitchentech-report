@@ -1012,6 +1012,27 @@ IOT Deployment:
 
 ### 6.3.2. Registro de Entrevistas.
 
+-  Primera Entrevista:
+-  Segmento: Meseros
+-  Nombre: Yeret Yucta
+-  Edad: 21
+-  Ocupación: Estudiante universitario y mesero a tiempo parcial
+-  Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110966_upc_edu_pe/ESsC5d2geJZHmvEWDpBGKLgBcXgkFYSqc4YfkWn7CYaRBQ?e=sOxJuy
+-  Duración: 0:00 a 11:21 (11 minutos 21 segundos) 
+
+<img src="./Resources/images/ev1.png" width="600" >
+
+-  Resumen:
+Yeret, un estudiante universitario de 21 años que trabaja a tiempo parcial como mesero en una restaurante familiar, es analítico e ingenioso, lo que le permite actuar de manera correcta con los clientes.
+Comenta que la landing page le ayudó a entender cómo el sistema IoT agiliza su trabajo al permitirle gestionar notificaciones en tiempo real sobre el estado de las mesas y pedidos. Esta información le permite organizarse mejor y reducir tiempos de espera.
+Aspectos intuitivos y confusos: Al tomar un pedido, Yeret encontró que el menú digital es fácil de navegar y le permite incluir especificaciones, aunque sugiere mejorar algunos íconos para que sean más claros.
+Gestión de notificaciones: Yeret considera muy útil la función de notificaciones, ya que son visibles y manejables sin interrumpir su flujo de trabajo, lo cual reduce desplazamientos innecesarios y facilita su labor.
+Envío de pedidos a cocina y caja: Destaca la eficiencia de poder enviar los pedidos directamente a cocina y caja desde la app, ahorrando tiempo y evitando errores durante horas pico.
+Velocidad y precisión de la app: La rapidez y precisión de Kitchen Tech al registrar cambios en pedidos es clave para mejorar la satisfacción del cliente y evitar confusiones.
+Gestión de cuentas y pagos: La interfaz para gestionar cuentas resulta sencilla y permite dividir pagos o registrar transacciones sin dificultad, minimizando errores.
+Alertas de entrada y salida de clientes: Yeret aprecia esta función, ya que le permite atender a los clientes más oportunamente y preparar mesas rápidamente para nuevos clientes.
+Experiencia del cliente: Cree que el sistema IoT mejora la experiencia de servicio, ya que los clientes perciben un servicio más atento y eficiente, con pedidos que llegan rápido y la cuenta lista a tiempo.
+Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselling o sugerencias de platos, además de optimizar íconos y descripciones para hacer la app aún más intuitiva.
 
 
 
