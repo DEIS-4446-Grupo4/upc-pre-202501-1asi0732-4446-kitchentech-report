@@ -30,8 +30,9 @@ Profesor: Velasquez Nuñez, Angel Augusto
 | Fabrizzio Antonio Castro Manrique        | U202110966 |
 | Alarcon Rondon Sandro                    | U202114140 |
 | Esteban Calderón Chauchi                 | U202110966 |
-| Franco Surco Reyes                       | U202015132 |
+| Lucas Sebastian Benedetti Rivas          | U201817461 |
 | Nicolas Zagal Vallejo                    | U20201C429 |
+| Jonatan Omar Curi Montero                | U201912404 |
 
 # Registro de Versiones del Informe
 
@@ -45,8 +46,13 @@ Profesor: Velasquez Nuñez, Angel Augusto
 | 2.0    | 25/08/2024  | Nicolas Zagal Vallejo                       | Correcciones de primera version, secciones de US y creacion de mock ups, wireframes y prototipos                                             |
 | 2.1    | 30/08/2024  | Esteban Calderón Chauchi                    | Mejora continua de la seccion  Requirements Elicitation & Analysis                                                                                      |
 | 2.2    | 17/08/2024  | Fabrizzio Antonio Castro Manrique        | Elaboracion del Sprint 1                                                      |
-| 2.3   | 18/08/2024  | Alarcon Rondon Sandro                    | Correcciones de Lean Ux Problem Statement e hipotesis como tabien del task de Sprint 1                             |
-
+| 2.3   | 18/09/2024  | Alarcon Rondon Sandro                    | Correcciones de Lean Ux Problem Statement e hipotesis como tabien del task de Sprint 1                             |
+| 3.1   | 10/10/2024  | Alarcon Rondon Sandro      |                           |
+| 3.2   | 12/10/2024  | Nicolas Zagal Vallejo       |                           |
+| 3.3   | 12/10/2024  | Fabrizzio Antonio Castro Manrique     |                           |
+| 3.4   | 20/10/2024  | Lucas Sebastian Benedetti Rivas      |                           |
+| 3.5   | 25/10/2024  | Jonatan Omar Curi Montero      |                           |
+| 4.1   | 09/11/2024  | Alarcon Rondon Sandro      |                           |
 
 ---
 
