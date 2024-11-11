@@ -47,13 +47,17 @@ Profesor: Velasquez Nuñez, Angel Augusto
 | 2.1    | 30/08/2024  | Esteban Calderón Chauchi                    | Mejora continua de la seccion  Requirements Elicitation & Analysis                                                                                      |
 | 2.2    | 17/08/2024  | Fabrizzio Antonio Castro Manrique        | Elaboracion del Sprint 1                                                      |
 | 2.3   | 18/09/2024  | Alarcon Rondon Sandro                    | Correcciones de Lean Ux Problem Statement e hipotesis como tabien del task de Sprint 1                             |
-| 3.1   | 10/10/2024  | Alarcon Rondon Sandro      |                           |
+| 3.1   | 10/10/2024  | Alarcon Rondon Sandro      |    Elaboracion de estructura del Sprint 2                         |
 | 3.2   | 12/10/2024  | Nicolas Zagal Vallejo       |                           |
 | 3.3   | 12/10/2024  | Fabrizzio Antonio Castro Manrique     |                           |
 | 3.4   | 20/10/2024  | Lucas Sebastian Benedetti Rivas      |                           |
 | 3.5   | 25/10/2024  | Jonatan Omar Curi Montero      |                           |
-| 4.1   | 09/11/2024  | Alarcon Rondon Sandro      |                           |
-
+| 4.1   | 09/11/2024  | Alarcon Rondon Sandro      |          Elaboracion de estructura del Sprint 3                  |
+| 4.2   | 12/11/2024  | Nicolas Zagal Vallejo       |                           |
+| 4.3   | 12/11/2024  | Fabrizzio Antonio Castro Manrique     |                           |
+| 4.4   | 17/11/2024  | Lucas Sebastian Benedetti Rivas      |                           |
+| 4.5   | 17/11/2024  | Jonatan Omar Curi Montero      |                           |
+| 4.6   | 19/11/2024  | Esteban Calderón Chauchi        |                           |
 ---
 
 # Project Report Collaboration Insights
