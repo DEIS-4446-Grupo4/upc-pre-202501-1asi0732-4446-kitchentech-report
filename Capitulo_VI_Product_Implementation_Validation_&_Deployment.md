@@ -900,9 +900,9 @@ tech-kitchen-webapp | feature/cart | 5c8f823 | feature/cart added | Added shoppi
 LandingPage | feature/contactform | 6d2f481 | feature/contactform added | Built and styled contact form section | 27/09/2024
 kitchen-tech-backend | feature/orders | 7e8d192 | feature/orders API | Implemented order processing API endpoints | 29/09/2024
 kitchen-tech | feature/notifications | 3f5a782 | feature/notifications added | Set up push notifications for order status updates | 01/10/2024
-Mobile-application | feature/checkout | 4b1e982 | feature/checkout added | Designed and integrated checkout screen | 10/09/2024
-
-
+Mobile-application | feature/checkout | 4b1e982 | feature/checkout added | Designed and integrated checkout screen | 09/10/2024
+Mobile-application | feature/cashier | 2f41e324 | feature/cashier added | Designed and integrated cashier screen | 10/10/2024
+Mobile-application | feature/payment | 1a3f592 | feature/payment added | Designed payment screen | 10/10/2024
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
@@ -925,11 +925,21 @@ Mejoras de desarrollo del front end():
 <img src="./Resources/Evidences/front-products.jpg" >
 
 Capturas de desarrolo: Back end ():
-Capturas de desarrolo: Back end ():
+
+<img src="./Resources/Backend/Captura de pantalla 2024-11-10 215414.jpg" >
+
+<img src="./Resources/Backend/WhatsApp Image 2024-11-01 at 1.51.59 PM.jpeg" >
 
 Vistas desarrolladas: Mobile aplication ():
-Vistas desarrolladas: Mobile aplication ():
+<img src="./Resources/phone/Captura de pantalla 2024-11-02 184126.jpg" >
 
+<img src="./Resources/phone/Captura de pantalla 2024-11-02 184144.jpg" >
+
+<img src="./Resources/phone/Captura de pantalla 2024-11-02 184159.jpg" >
+
+<img src="./Resources/phone/Captura de pantalla 2024-11-02 184210.jpg" >
+
+<img src="./Resources/phone/Captura de pantalla 2024-11-02 184712.jpg" >
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -1002,6 +1012,145 @@ Esta sección recopila la evidencia del despliegue de software realizado durante
 Durante el presente sprint se meustra la colaboración de los integrantes, con el fin distribuir el peso de trabajo de cada uno de los miembros del equipo.
 
 <img src="https://raw.githubusercontent.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/refs/heads/main/Resources/phone/Captura%20de%20pantalla%202024-11-02%20184712.jpg" >
+
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1 Sprint Planning 3.
+
+A continuación, se presenta el Sprint Planning 3, donde se muestran las evidencias de planificación e implementación del Landing Page. Las evidencias se encuentran disponibles dentro del repositorio de GitHub.
+| Sprint                        | Sprint 3            |
+|-------------------------------|---------------------|
+|Sprint Planning Background  |Initial commit |
+|Date  |10 de Noviembre del 2024 |
+|Time  |13:00 horas (GMT-5) |
+|Location  |Modalidad remota por Discord  |
+|Prepared by  |Fabrizzio Antonio Castro Manrique  |
+|Attendees (to planning meeting)  |Todos los integrantes del equipo |
+|Sprint 3 – Review Summary  |En el primer sprint se estableció la agrupación de componentes y el despliegue del Landing Page. |
+|Sprint 3 – Retrospective Summary | |
+|Sprint Goal & User Stories |                     |
+|Sprint 1 Velocity |  |
+|Sum of Story Points|  |
+
+#### 6.2.3.2. Sprint Backlog 3.
+
+
+<table>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (hours)</th>
+    <th>Assigned to</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <th>US009</th>
+    <th>Implementar botón para Cerrar Sesión</th>
+    <td>1</td>
+    <td>Botón de Cerrar Sesión en menú desplegable</td>
+    <td>Como usuario, quiero un botón de "Cerrar Sesión" en el menú para salir fácilmente.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>Implementar método de Recuperación de contraseña</td>
+    <td>Como usuario, quiero un método para recuperar mi contraseña para acceder si la olvido.</td>
+    <td>1</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <th>US010</th>
+    <th>Implementar método de Recuperación de contraseña</th>
+    <td>1</td>
+    <td>Implementar vista de recuperar contraseña</td>
+    <td>Como usuario, quiero una vista para recuperar mi contraseña para reiniciar el acceso a mi cuenta.</td>
+    <td>3</td>
+    <td></td>
+    <td>To-Do</td>
+  </tr> 
+  <tr>
+    <th>US021</th>
+    <th>Guardar orden en una mesa.</th>
+    <td>1</td>
+    <td>Backend - Desarrollo del endpoint de las mesas insertado en una orden de cuenta.</td>
+    <td>Como desarrollador, quiero desarrollar el endpoint para insertar mesas en una orden de cuenta para gestionar el seguimiento de las órdenes de manera eficiente.</td>
+    <td>3</td>
+    <td></td>
+    <td>To Review</td>
+  </tr> 
+  
+</table>
+
+
+#### 6.2.3.3. Development Evidence for Sprint Review.
+
+Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)
+--- | --- | --- | --- | --- | ---
+tech-kitchen-webapp | feature/sidebar | 4eb7589 | feature/sidebar added | Added initial sidebar navigation component | 12/11/2024
+
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Para este sprint, no se ha realizado el conjunto de pruebas automatizadas 
+(Unit Tests, Integration Tests, y Acceptance Tests) para los servicios web asociados con las User Stories 
+especificadas. Por lo tanto, no se cuenta con evidencia de testing suite para esta Sprint Review. Esto incluye 
+la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los archivos Steps en el lenguaje de
+ programación. Tampoco se han diseñado ni documentado los Unit Tests, Integration Tests o Acceptance Tests, ni se 
+ han registrado commits en el repositorio relacionados con avances en Testing.
+
+#### 6.2.3.5. Execution Evidence for Sprint Review.
+
+
+En el Sprint 2, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
+
+
+
+Capturas de desarrolo de IOT device ():
+
+
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
+
+
+Backend Development of Kitchen Tech
+
+| Endpoint                                               | Método  | Controlador              | Función                                                                                   |
+|--------------------------------------------------------|---------|--------------------------|-------------------------------------------------------------------------------------------|
+| `/api/kitchentech/v1/auth/register-restaurant`         | `POST`  | `AuthController`         | Registra todos los restaurantes que trabajan en Kitchen Tech.                             |
+
+
+Descripción
+
+- **AuthController**: Gestiona las operaciones CRUD para la autenticación de usuarios.
+
+
+
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
+
+
+Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review. 
+
+
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint.
+
+Durante el presente sprint se meustra la colaboración de los integrantes, con el fin distribuir el peso de trabajo de cada uno de los miembros del equipo.
+
+<img src="/Resources/Evidences/Sprint3.jpg" >
+
 
 ## 6.3. Validation Interviews.
 
