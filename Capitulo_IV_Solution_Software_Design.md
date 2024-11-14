@@ -233,13 +233,13 @@ Este diagrama muestra la arquitectura de software a nivel de componentes dentro 
 Aquí se detalla la arquitectura del software a nivel de código, presentando la clase User dentro del contexto de dominio. El diagrama muestra los atributos de la clase, como userId, email, firstName, y métodos asociados, como getFullName() y getRoles(). Esta vista es crucial para los desarrolladores, ya que proporciona una representación clara de la estructura y funcionalidad de la clase. Permite entender cómo se almacenan y manejan los datos del usuario y las operaciones que se pueden realizar. Además, ayuda a visualizar la lógica de negocio y facilita la implementación y el mantenimiento del código.
 
 
-<img src="./Resources/images/Capitulo 4/42161.png" >
+<img src="./Resources/PART 6/1.jpg" >
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram 
 
  Este diagrama ilustra el diseño de la base de datos dentro del contexto limitado. Se muestran las tablas, como User y UserRole, junto con sus atributos y relaciones. Las conexiones entre las tablas indican las claves foráneas, representando cómo se vinculan los datos, por ejemplo, asignando roles específicos a los usuarios. Este diagrama es esencial para entender la estructura de almacenamiento y las reglas de integridad referencial. Proporciona una visión clara de cómo se organizan los datos a nivel físico, facilitando la comprensión de las consultas y operaciones que se pueden realizar sobre la base de datos.
 
-<img src="./Resources/images/Capitulo 4/42162.png" >
+<img src="./Resources/PART 6/2.jpg" >
 
 ### 4.2.2 Bounded Context: Identity and Access Management
 #### 4.2.2.1 Domain Layer
@@ -327,13 +327,13 @@ Este diagrama muestra la organización de los principales componentes de softwar
 
 El presente diagrama se detalla la estructura de clases en la capa de dominio, mostrando entidades como Environment, Tag, Customer, User, y License. Cada clase incluye atributos y métodos específicos que reflejan las propiedades y comportamientos de las entidades del sistema. Por ejemplo, la clase User tiene atributos como userId y email, y la clase Tag tiene relaciones con otras entidades como Environment y Customer. Este diagrama es fundamental para los desarrolladores, ya que muestra cómo se modelan los datos del negocio en el código, facilitando la implementación y el mantenimiento de la lógica de negocio.
 
-<img src="./Resources/images/Capitulo 4/42361.png" >
+<img src="./Resources/PART 6/42361Image.png" >
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagram 
 
 Ilustramos el diseño de la base de datos asociada al contexto limitado, con tablas como users, tags, y licenses. Cada tabla contiene columnas que representan los atributos de las entidades, y las líneas entre ellas muestran las relaciones a través de claves foráneas. Por ejemplo, la tabla users está relacionada con la tabla tags, indicando que un usuario puede estar asociado con varias etiquetas. Este diagrama es crucial para entender cómo se estructuran y vinculan los datos a nivel físico en la base de datos, asegurando la integridad y consistencia de la información. Facilita la creación de consultas eficientes y la implementación de operaciones de base de datos relacionadas con la gestión de usuarios, etiquetas y licencias.
 
-<img src="./Resources/images/Capitulo 4/42362.png" >
+<img src="./Resources/PART 6/4.jpg" >
 
 ### 4.2.4 Bounded Context: IoT Asset Management 
 #### 4.2.4.1 Domain Layer 
@@ -369,7 +369,7 @@ Ilustramos el diseño de la base de datos asociada al contexto limitado, con tab
 
 Vemos el diagrama a nivel de componentes de arquitectura de software. En él se destacan varios componentes y su relación con un servidor en la nube, representando cómo se comunican entre sí y con el exterior. Cada componente parece tener una función específica dentro del sistema y se conectan entre ellos mediante líneas de interacción.
 
-<img src="./Resources/images/Capitulo 4/4245.png" >
+<img src="./Resources/PART 6/5.jpg" >
 
 #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams 
 
@@ -378,13 +378,13 @@ Vemos el diagrama a nivel de componentes de arquitectura de software. En él se 
 Esta seccion se centra en el código a nivel de arquitectura, representando clases en el diagrama de dominio. En este se observa la estructura de una clase con atributos clave como id, code, name, entre otros. También se observan relaciones de herencia o dependencia con otras clases, lo que sugiere que estas interactúan en diferentes niveles de la capa de dominio.
 
 
-<img src="./Resources/images/Capitulo 4/42461.png" >
+<img src="./Resources/PART 6/6.jpg" >
 
 ##### 4.2.4.6.2 Bounded Context Database Design Diagram 
 
 Se presenta un diseño de base de datos. Aquí se observan tablas con campos clave como id, code y name, que podrían representar entidades importantes del sistema. Las relaciones entre las tablas, indicadas por líneas conectivas, sugieren cómo los datos están estructurados y vinculados entre las diferentes entidades en la base de datos.
 
-<img src="./Resources/images/Capitulo 4/42462.png" >
+<img src="./Resources/PART 6/7.jpg" >
 
 ### 4.2.5 Bounded Context: Subscription and Payments
 #### 4.2.5.1 Domain Layer
