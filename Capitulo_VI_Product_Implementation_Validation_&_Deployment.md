@@ -433,8 +433,8 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
     <td>Botón de Cerrar Sesión en menú desplegable</td>
     <td>Como usuario, quiero un botón de "Cerrar Sesión" en el menú para salir fácilmente.</td>
     <td>1</td>
-    <td></td>
-    <td>To-Do</td>
+    <td>Nicolas Zagal</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td></td>
