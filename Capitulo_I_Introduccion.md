@@ -25,12 +25,17 @@ Visión: Ser la empresa que proporcione la solución más completa y satisfactor
 +  En mi desarrollo académico, he adquirido diversas habilidades en C++, SQL, Python, Angular y .NET. Dentro de mi trayectoria en Ingeniería de Software, he logrado obtener una compresión más clara sobre los conceptos que abarcan los proyectos centrados en el desarrollo de aplicaciones.
 
 
-#### Franco Surco Reyes
-<img src="./Resources/images/foto_upc.jpg" width="150px" height="150px" >
+#### Lucas Benedetti Rivas
+<img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-lucas.jpeg" width="150px" height="150px" >
 
-+  Soy estudiante de la carrera de ingeniería de Software en la universidad Peruana de Ciencias Aplicadas, elegí esta carrera por mi pasión por la programación e interés por la tecnología. Me considero una persona responsable y colaborativa, por lo que apoyaré al grupo en lo que se necesite. Además, tengo conocimientos de programación en C++, Python, HTML, CSS, JavaScript y modelado de base de datos en SQL Server
-
++  Soy un joven de 24 años, estudiante del 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Además de mis estudios, me apasiona el desarrollo de aplicaciones web, utlizando Vue.js y Java con Springboot como herramientas principales, actividad a la que dedico gran parte de mi tiempo libre. Profesionalmente, me desempeño como practicante en una entidad financiera, donde he tenido la oportunidad de aplicar metodologías ágiles y participar en la mejora continua de procesos críticos.	
 #### Nicolas Zagal Vallejo
+
+#### Jonatan Curi Montero
+<img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-jonatan.jpg" width="150px" height="150px" >
+
++ Soy un estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Poseo conocimientos en los lenguajes TypeScript y Javascript. También, en frameworks como Angular, Vue y .Net. Tengo experiencia en el desarrollo de aplicaciones web, enfocandome principalmente en el Frontend. Considero que la comunicación es una característica fundamental en el equipo de trabajo. Profesionalmente, me encuentro haciendo practicas en una empresa que brinda servicios de contabilidad y facturación electronica en aplicacion web.	
+
 <img src="./Resources/images/nicolas.jpg" width="150px" height="150px" >
 
 +  Mi nombre es Nicolas Zagal, me considero un miemrbo clave para el equipo debido a mis conocimientos y compromiso. Poseo capacidad para enfrentar desafíos y su disposición para colaborar en el backend y frontend
