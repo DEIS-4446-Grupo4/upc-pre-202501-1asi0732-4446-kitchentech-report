@@ -101,7 +101,7 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
 |Attendees (to planning meeting)  |Todos los integrantes del equipo |
 |Sprint 1 – Review Summary  |En el primer sprint se estableció la agrupación de componentes y el despliegue del Landing Page. |
 |Sprint 1 – Retrospective Summary |Para el primer sprint se estableció desarrollar el Landing Page y dividirlo por secciones. Establecimos un acuerdo de la utilización HTML, CSS y JS para seguir una arquitectura lineal y se pueda tener una mejor limpieza de código para eliminar o agregar secciones dentro de este. Se utilizaron diseños sobrios para poder utilizar conceptos de CSS de una forma más eficiente, asimismo como herramientas que permitieron su despliegue rápido dentro de Github |
-|Sprint Goal & User Stories |                     |
+|Sprint Goal & User Stories | Este sprint se enfocará en desarrollar las primeras versiones funcionales del Landing Page y Aplicación web, integrándolas con el propio prototipado descrito en el informe. Esto permitirá a los restaurantes, clientes y usuarios del rubro conocer la información evidencial de la solución del proyecto KitchenTech. Esperamos que el Landing Page aseguren una divulgación de información apropiada del proyecto y que las primeras vistas de la Aplicación Web sirva de evidencia hacia el público sobre nuestro trabajo y alcance. Esto mejorará la recepción de atención de nuestro público objetivo. El objetivo se cumplirá cuando evidenciemos en las entrevistas de validación que la información y desarrollo ofrecido en este Sprint es el adecuado en nuestra solución de proyecto a nuestros usuarios objetivo.                    |
 |Sprint 1 Velocity | 33 |
 |Sum of Story Points| 33 |
 
