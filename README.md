@@ -104,6 +104,47 @@ Para la elaboración del informe se realizaron las siguientes tareas:
 
 ---
 
+**TB2:** Se completaron diversas actividades para la entrega TB2, las cuales se encuentran documentadas en el siguiente repositorio de Github del equipo:  
+[Repositorio Github](https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report)
+
+Para la elaboración del informe se realizaron las siguientes tareas:
+
+- Redacción y estructuración en formato Markdown de los puntos asignados a cada miembro, seguido de la realización de commits para registrar el progreso.
+- Documentación de las afectaciones en las herramientas utilizadas y obtención de enlaces de imágenes en el repositorio del informe.
+- Se realizó el documentación con el sprint 2, que se dividió por cada miembro del equipo para el presente entregable.
+
+
+
+---
+
+<div align="center">
+    <img src="./Resources/" alt="TP">
+
+---
+
+
+
+**TF:** Se completaron diversas actividades para la entrega Tf, las cuales se encuentran documentadas en el siguiente repositorio de Github del equipo:  
+[Repositorio Github](https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report)
+
+Para la elaboración del informe se realizaron las siguientes tareas:
+
+- Redacción y estructuración en formato Markdown de los puntos asignados a cada miembro, seguido de la realización de commits para registrar el progreso.
+- Documentación de las afectaciones en las herramientas utilizadas y obtención de enlaces de imágenes en el repositorio del informe.
+- Se realizó el documentación con el sprint 3, que se dividió por cada miembro del equipo para el presente entregable.
+- Se concluyeron con la elaboración de los sistemas que fueron; app mobile, web app, back end y dispositivo IOT.
+- Elaboración de la documentación de los sitemas desarrollados para este sprint 3.
+
+
+
+---
+
+<div align="center">
+    <img src="./Resources/" alt="TF">
+
+---
+
+
 
 
 # Student Outcome
@@ -116,28 +157,33 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 En este presente se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-<table align="center"> <tr> <th>Criterio específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td> <td> <strong>Fabrizzio Antonio Castro Manrique:</strong>
+<table align="center"> <tr> <th>Criterio específico</th> <th>Acciones Realizadas</th> <th>Conclusiones</th> </tr> <tr> <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td> 
+    <td> <strong>Fabrizzio Antonio Castro Manrique:</strong>
 <br> TB1: Participó en la distribución de tareas y el registro de las entrevistas realizadas.
 <br>TP: Se involucró en la asignación de tareas del Sprint 1 y desempeñó un papel clave en el diseño de mockups y wireframes.
-<br>TB2:
-<br>TF:
+<br>TB2: Se organizó la distribución de los Features según las habilidades del equipo, armándolo equitativamente en nuestro Trello.
+ <br>TF1: Se motivó la autorreflexión sobre los Statements a mejorar y a adecuar una mejor comunicación a la hora de modificar documentación y código.<br><br>
+
 
  <br><br> <strong>Alarcon Rondon Sandro:</strong>
  <br> TB1: Colaboró en la creación de entrevistas y en el diseño táctico de los bounded contexts dentro del enfoque de diseño orientado al dominio.
  <br>TP: Aportó al equipo mediante la mejora continua de artefactos previos y lideró la elaboración de diagramas de user flows y wire flows, además de gestionar sus tareas del Sprint 1.
  <br>TB2:
  <br>TF:
+ 
  <br><br> <strong>Lucas Sebastian Benedetti Rivas:</strong>
-  <br>TB2: 
-  <br>TF:
+  <br>TB1: Se implementaron sesiones de retrospectiva con el equipo para identificar áreas de mejora y celebrar los logros alcanzados.<br>
+TP: Se adoptó la metodología Scrum, permitiendo iteraciones constantes y revisiones conjuntas del progreso del proyecto.<br>
+TF: Se implementó el uso de historias de usuario bien definidas, promoviendo que cada integrante del equipo entienda el propósito y el valor de las tareas asignadas.<br><br>
+
   <br><br> <strong>Jonatan Omar Curi Montero:</strong>
   <br>TB2:
   <br>TF:
   <br><br> <strong>Esteban Calderón Chauchi:</strong>
     <br> TB1: Contribuyó al trabajo colaborativo, ayudando en la redacción de secciones clave del informe y en el desarrollo de Lean UX. 
     <br>TP: Lideró el trabajo en equipo en la creación y planificación del Sprint 1, además de desarrollar guías de estilo, mockups y wireframes para webapp.
-    <br>TB2:
-  <br>TF:
+    <br>TB2: Se estructuró la asignación de tareas en función de las fortalezas y especialidades de cada miembro del equipo, distribuyéndolas equitativamente en nuestro tablero de trabajo en Trello.<br>
+TF: Se promovió la toma de decisiones compartida, alentando a cada miembro del equipo a aportar ideas y perspectivas en las reuniones de planificación, para fortalecer el compromiso con los objetivos.<br>
    <br><br> <strong>Nicolas Zagal Vallejo:</strong>
    <br>  TB1: Ayudó en el diseño, análisis y documentación de las entrevistas.
    <br>TP: Desempeñó un papel activo en la colaboración del equipo, liderando el desarrollo de la primera versión de la aplicación web y elaborando mockups y wireframes para la página web.
@@ -146,31 +192,35 @@ En este presente se describe las acciones realizadas y enunciados de conclusione
    
  </td> <td> 
  TB1: Se hizo un  trabajo regular como equipo para liderar el desarrollo de los puntos que se requerian dentro del informe.
- <br>TP: En esta entrega, se realizaron las bases del diseño de la solución IOT y el primer Sprint donde se entrego la Landing Page y una primera versión de nuestra aplicacion web.
- <br>TB2:
- <br>TF:
+ <br>TP: En esta entrega, como equipo se realizaron las bases del diseño de la solución IOT y el primer Sprint donde se entrego la Landing Page y una primera versión de nuestra aplicacion web.
+ <br>TB2:El equipo demostró una fuerte capacidad de colaboración, donde el liderazgo compartido fue clave para la resolución de problemas complejos y la mejora continua. El uso de metodologías ágiles facilitó el trabajo conjunto.
+ <br>TF:El equipo sostuvo una buena interacción incluso durante los altibajos que mandaron a reconstruir al equipo, logramos mantener un trabajo ordenado y tomando la iniciativa siempre.
 </td> </tr> <tr> <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td> <td> 
 <strong>Fabrizzio Antonio Castro Manrique:</strong><br> 
  TB1: Contribuyó al logro de los objetivos relacionados con el análisis y las entrevistas.
  <br>TP: Ayudó a cumplir con los objetivos establecidos para la creación de mockups y wireframes de la aplicación móvil, asegurando que se cumpliera el alcance definido.
- <br>TB2:
- <br>TF:
+ <br>TB2: Para esta entrega se focalizó en los deadlines ya que la mayoría de los pendientes se valorizan de esta forma; se tomó una estrategia de trabajo paralelo.<br>
+TF: Interpretar la gestión del tiempo de cada uno y fomentar más reuniones, ya sea entre pocos o entre todos, para muchas tareas o tareas puntuales.<br><br>
+
   <br><br> <strong>Alarcon Rondon Sandro:</strong>
   <br> TB1: Desarrolló un plan para el registro de entrevistas y se encargó del diseño táctico en el contexto de diseño orientado al dominio.
   <br>TP: Organizó tareas enfocadas en la mejora continua y logró desarrollar los diagramas de user flow y wire flow.
   <br>TB2:
   <br>TF:
   <br><br> <strong>Lucas Sebastian Benedetti Rivas:</strong>
-  <br>TB2: 
-  <br>TF:
+  <br>TB1: Se organizaron tiempos de integración, donde todos los miembros participaron en la definición de objetivos a largo plazo y las estrategias para alcanzarlos.<br>
+    TB2: <br>
+TP: Se promovió el aprendizaje continuo, motivando al equipo a realizar investigaciones adicionales y capacitaciones en áreas de mejora.<br>
+TF: Identificar las fortalezas y estilos de cada miembro, permitiendo ajustes que faciliten la colaboración.<br><br>
+
   <br><br> <strong>Jonatan Omar Curi Montero:</strong>
   <br>TB2: 
   <br>TF:
   <br><br> <strong>Esteban Calderón Chauchi:</strong>
   <br> TB1: Estableció metas para el desarrollo de Lean UX y supervisó la creación de documentos estructurales para el informe.
   <br>TP: Planificó las tareas del Sprint 1, definiendo su alcance y entrega, estableciendo como meta maximizar los story points, y elaboró las guías de estilo.
-  <br>TB2:
-  <br>TF:
+  <br>TB2: Se priorizó la asignación de roles claros y se establecieron puntos de control regulares, permitiendo que el equipo mantuviera el enfoque en los objetivos y cumpliera los plazos acordados.<br>
+TF: Fomentar la comunicación abierta y respetuosa, incentivando la participación activa de todos los miembros en la definición de metas y planificación de tareas.<br>
    <br><br> <strong>Nicolas Zagal Vallejo:</strong><br> 
    TB1: Planificó y ejecutó tareas relacionadas con el mapeo de la experiencia del usuario (User Journey Mapping).
    <br>TP: Ayudó a cumplir con las user stories del Sprint 1 relacionadas con la aplicación web, contribuyendo también a la mejora continua.
