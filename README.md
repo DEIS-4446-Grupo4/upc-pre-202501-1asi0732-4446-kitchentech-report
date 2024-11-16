@@ -187,8 +187,8 @@ TF: Se promovió la toma de decisiones compartida, alentando a cada miembro del 
    <br><br> <strong>Nicolas Zagal Vallejo:</strong>
    <br>  TB1: Ayudó en el diseño, análisis y documentación de las entrevistas.
    <br>TP: Desempeñó un papel activo en la colaboración del equipo, liderando el desarrollo de la primera versión de la aplicación web y elaborando mockups y wireframes para la página web.
-   <br>TB2:
-   <br>TF:
+   <br>TB2: Se realizo un analisis de los Task de cada user story en funcion de asignar los story points respectivas a cada uno para una correcta asignacion de cargas de trabajo.
+   <br>TF: Se promovio el trabajo en equipo repartiendo los tasks respectivas a la aplicacion web al equipo de trabajo y promoviendo a la comunicacion active del equipo.
    
  </td> <td> 
  TB1: Se hizo un  trabajo regular como equipo para liderar el desarrollo de los puntos que se requerian dentro del informe.
@@ -228,8 +228,9 @@ TF: Fomentar la comunicación abierta y respetuosa, incentivando la participaci�
    <br>TF:
  </td> <td> TB1: Para el primer entregable, se estableció un ambiente de colaboración y participación  regular con el fin de establecer las metas, tareas y la inspección de cumplimiento de objetivos 
  <br>TP: Para este entregable se establecio un ambiente de colaboracion y participacion optimo. Se alcanzaron las metas esperadas en el tiempo esperado. Se trabajo en funcion de un objetivo en general se cumplieron todas las user stories para este sprint para entregar un avance que cumpla con los requisitos mas prioritarios.
- <br>TB2:
- <br>TF:
+ <br>TB2: Se establecieron plazos de entrega para cada task en funcion de completar el sprint goal. Asi mismo se busco la comunicacion activa con cada subequipo de trabajo integrando el flujo de trabajo de todo el equipo.
+ <br>TF: Se promovio el trabajo colaborativo repartiendo cada task en funcion de las habilidades independientes de cada integrante repartiendo las cargas de trabajo de manera equitativa.
+
 </td> </tr> </table>
 
 ---
