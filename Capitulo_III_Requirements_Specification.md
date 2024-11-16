@@ -263,6 +263,35 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     <td>COMO administrador QUIERO Poder eliminar los platos existentes PARA mantener mis platos actualizados.</td>
     <td><strong>Escenario 1:</strong>  El producto se elimina correctamente.<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto. Entonces el producto se elimina correctamente. <br><br> <strong>Escenario 2:</strong> El producto no ha sido eliminado<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto pero el sistema no funciona. Entonces el producto no se elimina y muestra un mensaje de error</td>
   </tr>
+   <tr>
+    <td colspan="4"><strong>Épica 10: Dispositivo IoT</strong><br>Como Administrador del Restaurante<br>Quiero automatizar algunas funciones cubiertas por mi planilla<br>Para mejorar los tiempos y definir mejor los roles de mis empleados</td>
+  </tr>
+  <tr>
+    <td>E010_US043</td>
+    <td>Inventariado de Insumos mediante IoT</td>
+    <td>COMO Administrador de restaurante, quiero recibir informacion actualizada cuando los insumos críticos estén bajos, para planificar mejor las compras y evitar interrupciones en el servicio.</td>
+    <td><strong>Escenario 1:</strong> Registro automático del inventario
+Dado que el dispositivo IoT está conectado correctamente.
+Cuando se detecte una entrada o salida de insumos.
+Entonces el sistema actualizará automáticamente el inventario en tiempo real.
+<br><br>
+<strong>Escenario 2:</strong> Alerta de nivel crítico de inventario
+Dado que el nivel de un insumo está por debajo del umbral crítico definido.
+Cuando el sistema reciba la lectura del dispositivo IoT.
+Entonces se emitirá una alerta al administrador para reabastecer.</td>
+  </tr>
+  <tr>
+    <td>E010_US044</td>
+    <td>Detectar Mesas y Clientes mediante IoT</td>
+    <td>COMO Administrador de restaurante, quiero conocer en tiempo real la ocupación de las mesas y el número de clientes, para optimizar la asignación de recursos y reducir los tiempos de espera.</td>
+    <td><strong>Escenario 1:</strong> Detección de ocupación de mesas<br>
+    Dado que el dispositivo IoT está en funcionamiento.
+    Cuando una mesa sea ocupada.
+    Entonces el sistema actualizará el estado de la mesa a "Ocupada" en la interfaz del administrador.<br><br>
+    <strong>Escenario 2:</strong> Estimación del número de clientes por mesa. Dado que el dispositivo IoT detecta clientes en una mesa.
+    Cuando los sensores identifiquen el número de personas. Entonces el sistema reflejará esta información en la interfaz con un margen de error no mayor al 5%.</td>
+</tr>
+
 </table>
 
 
@@ -319,7 +348,9 @@ El administrador del restaurante juega un papel crucial en la supervisión y opt
 | 34 | E04_US_019     | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.        | 4            |
 | 35 | E04_US_020     | Recibir alerta cuando cliente toma asiento en una mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa. | 4            |
 | 36 | E04_US_021     | Recibir alerta cuando un cliente deja la mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                        | 4            |
- 
+| 43  | E010_US043     | Inventariado de Insumos mediante IoT       | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio. | 5            |
+| 44  | E010_US044     | Detectar Mesas y Clientes mediante IoT     | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 8            |
+
 Se realizó el product backlog en trello:
 
 
