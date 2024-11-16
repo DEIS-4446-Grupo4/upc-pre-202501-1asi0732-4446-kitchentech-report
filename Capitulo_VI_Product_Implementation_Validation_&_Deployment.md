@@ -1029,6 +1029,8 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
 |Sprint 3 – Review Summary  |En el primer sprint se estableció la agrupación de componentes y el despliegue del Landing Page. |
 |Sprint 3 – Retrospective Summary | |
 |Sprint Goal & User Stories |                     |
+|Sprint 3 Goal |      Nuestro objetivo se enfoca en ofrecer el detalle de nuestra solución a nuestros visitantes mediante el Landing Page, mejorar el proceso del manejo de estados de las mesas integradas con dispositivos IOT, integrar el Mobile Application con la funcionalidad desplegada API REST de toma de pedidos por los meseros e implementar el modelo físico IOT utilizado para la solución de KitchenTech. 
+Creemos que este objetivo otorgará un flujo eficaz para los meseros en la toma de pedidos, mayor rápidez en el flujo de estados de las mesas y la integración del Mobile Application con las funcionalidades del IOT. Esto se confirmará cuando los administradores validen el proceso de estados de las mesas con eficacia, los meseros puedan tomar pedidos a los comensales desde su dispositivo móvil, y los desarrolladores integren el dispositivo físico IOT final.               |
 |Sprint 1 Velocity |  |
 |Sum of Story Points|  |
 
@@ -1113,7 +1115,7 @@ la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los a
 #### 6.2.3.5. Execution Evidence for Sprint Review.
 
 
-En el Sprint 2, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
+En el Sprint 3, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
 
 
 
