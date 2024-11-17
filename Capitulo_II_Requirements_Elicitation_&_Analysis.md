@@ -291,6 +291,7 @@ Los meseros son el personal clave en la atención directa al cliente, responsabl
 
  Segmento Objetivo : Administrador de Negocio
 Los administradores son los encargados de supervisar y coordinar todos los aspectos operativos del restaurante, desde la asignación de mesas hasta la gestión de facturación y recursos. Desarrollar un user persona de administradores nos permite profundizar en sus responsabilidades y preocupaciones, como mantener el flujo de trabajo fluido y tomar decisiones rápidas y acertadas. Al entender sus objetivos y puntos de dolor, podemos crear soluciones que optimicen sus tareas diarias y faciliten su trabajo.
+<br>
  <img src="./Resources/images/up2.png" width="600">
 
 ### 2.3.2. User Task Matrix.
