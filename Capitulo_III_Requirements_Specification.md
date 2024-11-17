@@ -212,7 +212,7 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
     <td><strong>Escenario 1:</strong> Se emite documento de venta. <br>Dado que soy un administrador. Cuando quiero emitir un documento de venta y el sistema funciona. Entonces se imprime el documento. <br><br> <strong>Escenario 2:</strong> No se emite documento de venta. <br>Dado que soy un administrador. Cuando quiero emitir un documento de venta y el sistema no funciona. Entonces no se imprime el documento y se muestra un error en pantalla.</td>
   </tr>
   <tr>
-    <td>E06_TS006k</td>
+    <td>E06_TS006</td>
     <td>Asociar productos y servicios a categorias</td>
     <td>COMO desarrollador QUIERO implementar categorias a los productos PARA que el administrador pueda filtrarlos de mejor manera</td>
     <td><strong>Escenario 1:</strong>Los productos pueden tener una categoria<br>Dado que un producto tiene una categoria. Cuando un administrador filtra los productos. Entonces es capaz de ver con mayor detalle los consumos realizados<br><br> ><strong>Escenario 2:</strong>Los productos no pueden tener una categoria<br>Dado que un producto no puede tener una categoria. Cuando un administrador filtra los productos. Entonces sera mas dificil para el visualizar donde esta su mayor cantidad de ventas<br><br> 
@@ -263,6 +263,110 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     <td>COMO administrador QUIERO Poder eliminar los platos existentes PARA mantener mis platos actualizados.</td>
     <td><strong>Escenario 1:</strong>  El producto se elimina correctamente.<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto. Entonces el producto se elimina correctamente. <br><br> <strong>Escenario 2:</strong> El producto no ha sido eliminado<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto pero el sistema no funciona. Entonces el producto no se elimina y muestra un mensaje de error</td>
   </tr>
+  <tr>
+    <td colspan="4"><strong>Épica 8: Estadísticas de negocio</strong><br>Como Administrador del Restaurante<br>Quiero visualizar y gráficos de las cuentas creadas mensualmente y del desempeño del personal en la atención que brinda<br>Para monitorear la eficiencia de la aplicación en la empresa</td>
+  </tr>
+  <tr>
+    <td>E08_US034</td>
+    <td>Ver resumen de ventas.</td>
+    <td>COMO administrador QUIERO visualizar un resumen de las ventas realizadas POR cada período de tiempo PARA analizar el rendimiento de los platos y tomar decisiones informadas.</td>
+    <td><strong>Escenario 1:</strong> El resumen de ventas se muestra correctamente.<br>Dado que soy administrador. Cuando selecciono un período de tiempo en el filtro y solicito el resumen de ventas. Entonces el sistema genera y muestra un informe con los datos de ventas detallados y organizados por plato, fecha y cantidad.  
+    <br> <strong>Escenario 2:</strong> El resumen de ventas no se muestra.<br>Dado que soy administrador. Cuando selecciono un período de tiempo y solicito el resumen, pero ocurre un error en el sistema. Entonces se muestra un mensaje indicando que el resumen de ventas no está disponible en ese momento y recomendando reintentar más tarde.</td>
+  </tr>
+  <tr>
+    <td>E08_US035</td>
+    <td>Filtrar ventas por productos</td>
+    <td>COMO administrador QUIERO filtrar las ventas por productos específicos PARA identificar los más vendidos y optimizar la oferta del menú.</td>
+    <td><strong>Escenario 1:</strong> Las ventas filtradas por producto se muestran correctamente.<br>Dado que soy administrador. Cuando selecciono un producto específico en el filtro y solicito ver las ventas. Entonces el sistema muestra un resumen detallado de las ventas relacionadas con ese producto, incluyendo fecha, cantidad vendida y total generado.  
+    <br> <strong>Escenario 2:</strong> Las ventas filtradas por producto no se muestran.<br>Dado que soy administrador. Cuando selecciono un producto específico en el filtro y solicito las ventas, pero ocurre un error en el sistema. Entonces se muestra un mensaje indicando que las ventas no están disponibles en ese momento y recomendando reintentar más tarde.</td>
+</tr>
+<tr>
+    <td>E08_US036</td>
+    <td>Filtrar ventas por productos</td>
+    <td>COMO administrador QUIERO filtrar las ventas por productos específicos PARA evaluar el desempeño individual de cada producto y tomar decisiones basadas en datos.</td>
+    <td><strong>Escenario 1:</strong> Las ventas filtradas por producto se muestran correctamente.<br>
+    Dado que soy administrador. Cuando selecciono un producto específico desde el filtro y hago clic en "Ver resumen". Entonces el sistema genera y muestra un informe detallado de las ventas del producto, que incluye fecha, unidades vendidas, ingresos totales y comparación con otros períodos.  
+    <br><br> <strong>Escenario 2:</strong> El sistema muestra un error al filtrar ventas.<br>
+    Dado que soy administrador. Cuando selecciono un producto específico y solicito ver el resumen de ventas, pero el sistema falla. Entonces se muestra un mensaje de error indicando que los datos no están disponibles y sugiriendo intentar nuevamente o contactar al soporte técnico.</td>
+</tr>
+  <tr>
+    <td>E08_US037</td>
+    <td>Generar salida de dinero en caja</td>
+    <td>COMO administrador QUIERO registrar las salidas de dinero de la caja PARA llevar un control preciso de los movimientos financieros y justificar los gastos realizados.</td>
+    <td><strong>Escenario 1:</strong> La salida de dinero se registra correctamente.<br>
+    Dado que soy administrador. Cuando ingreso los detalles de una salida de dinero, como el monto, la fecha, y el motivo, y hago clic en "Registrar salida". Entonces el sistema guarda la información correctamente y la muestra en el historial de movimientos financieros.  
+    <br><br> <strong>Escenario 2:</strong> El sistema muestra un error al registrar la salida.<br>
+    Dado que soy administrador. Cuando ingreso los detalles de una salida de dinero y hago clic en "Registrar salida", pero ocurre un error en el sistema. Entonces se muestra un mensaje de error indicando que no se pudo completar el registro y sugiriendo reintentar o contactar al soporte técnico.</td>
+</tr>
+  
+<tr>
+    <td>E08_US038</td>
+    <td>Generar ingreso de dinero en caja</td>
+    <td>COMO administrador QUIERO registrar los ingresos de dinero en la caja PARA llevar un control financiero y justificar los depósitos realizados.</td>
+    <td><strong>Escenario 1:</strong> El ingreso de dinero se registra correctamente.<br>
+    Dado que soy administrador. Cuando ingreso los detalles de un ingreso de dinero, como el monto, la fecha, y el motivo, y hago clic en "Registrar ingreso". Entonces el sistema guarda la información correctamente y la muestra en el historial de movimientos financieros.  
+    <br><br> <strong>Escenario 2:</strong> El sistema muestra un error al registrar el ingreso.<br>
+    Dado que soy administrador. Cuando ingreso los detalles de un ingreso de dinero y hago clic en "Registrar ingreso", pero ocurre un error en el sistema. Entonces se muestra un mensaje de error indicando que no se pudo completar el registro y sugiriendo reintentar o contactar al soporte técnico.</td>
+</tr>
+<tr>
+    <td>E08_US039</td>
+    <td>Ver historial de ventas</td>
+    <td>COMO administrador QUIERO visualizar el historial de ventas realizadas PARA analizar el rendimiento general de la caja y realizar auditorías.</td>
+    <td><strong>Escenario 1:</strong> El historial de ventas se muestra correctamente.<br>
+    Dado que soy administrador. Cuando accedo a la sección de historial de ventas y selecciono un rango de fechas. Entonces el sistema muestra un listado detallado con las transacciones realizadas, incluyendo fecha, productos vendidos y montos.  
+    <br><br> <strong>Escenario 2:</strong> El historial de ventas no se muestra.<br>
+    Dado que soy administrador. Cuando accedo a la sección de historial de ventas y selecciono un rango de fechas, pero ocurre un error en el sistema. Entonces se muestra un mensaje indicando que los datos no están disponibles y sugiriendo reintentar más tarde o contactar al soporte técnico.</td>
+</tr>
+<tr>
+    <td>E08_US040</td>
+    <td>Ver resumen de productos restantes</td>
+    <td>COMO administrador QUIERO visualizar un resumen de los productos restantes en inventario PARA gestionar las existencias y planificar compras de manera eficiente.</td>
+    <td><strong>Escenario 1:</strong> El resumen de productos restantes se muestra correctamente.<br>
+    Dado que soy administrador. Cuando accedo a la sección de inventario y solicito el resumen de productos. Entonces el sistema genera un informe con las cantidades disponibles de cada producto, organizadas por categoría y prioridad.  
+    <br><br> <strong>Escenario 2:</strong> El resumen de productos restantes no se muestra.<br>
+    Dado que soy administrador. Cuando accedo a la sección de inventario y solicito el resumen de productos, pero ocurre un error en el sistema. Entonces se muestra un mensaje indicando que el resumen no está disponible y sugiriendo reintentar más tarde o contactar al soporte técnico.</td>
+</tr>
+
+  
+  <tr>
+    <td colspan="4">
+        <strong>Épica 9: Despliegue de aplicación</strong><br>
+       COMO Administrador del Restaurante<br>
+        QUIERO automatizar algunas funciones actualmente cubiertas por mi planilla<br>
+        PARA optimizar los tiempos de ejecución de tareas, mejorar la productividad y definir con mayor claridad los roles y responsabilidades de mis empleados.
+    </td>
+</tr>
+<tr>
+    <td>E09_US041</td>
+    <td>Despliegue del Backend</td>
+    <td>COMO Administrador de restaurante QUIERO que el sistema procese y actualice en tiempo real la ocupación de las mesas y el número de clientes DETECTADOS por dispositivos IoT PARA optimizar la asignación de recursos y reducir los tiempos de espera.</td>
+    <td>
+        <strong>Escenario 1:</strong> Actualización de ocupación de mesas<br>
+        Dado que el dispositivo IoT está conectado al Backend.<br>
+        Cuando una mesa sea ocupada.<br>
+        Entonces el Backend actualizará automáticamente el estado de la mesa a "Ocupada" en la base de datos.<br><br>
+        <strong>Escenario 2:</strong> Registro del número de clientes por mesa<br>
+        Dado que el dispositivo IoT detecta clientes en una mesa.<br>
+        Cuando los sensores identifiquen el número de personas sentadas.<br>
+        Entonces el Backend procesará y almacenará esta información con un margen de error no mayor al 5%.
+    </td>
+</tr>
+<tr>
+    <td>E09_US042</td>
+    <td>Despliegue del App Web</td>
+    <td>COMO Administrador de restaurante QUIERO visualizar en tiempo real la ocupación de las mesas y el número de clientes en la interfaz web PARA tomar decisiones rápidas y mejorar la experiencia de los clientes.</td>
+    <td>
+        <strong>Escenario 1:</strong> Visualización de ocupación de mesas<br>
+        Dado que la App Web está sincronizada con el Backend.<br>
+        Cuando el estado de una mesa cambie a "Ocupada".<br>
+        Entonces la App Web actualizará en tiempo real la ocupación en la interfaz del administrador.<br><br>
+        <strong>Escenario 2:</strong> Visualización del número de clientes por mesa<br>
+        Dado que el Backend ha procesado datos de ocupación.<br>
+        Cuando la App Web reciba la información del número de clientes por mesa.<br>
+        Entonces mostrará estos datos en un panel visual, permitiendo identificar rápidamente las mesas con mayor ocupación.
+    </td>
+</tr>
+  
    <tr>
     <td colspan="4"><strong>Épica 10: Dispositivo IoT</strong><br>Como Administrador del Restaurante<br>Quiero automatizar algunas funciones cubiertas por mi planilla<br>Para mejorar los tiempos y definir mejor los roles de mis empleados</td>
   </tr>
