@@ -21,7 +21,7 @@ En la siguiente seccion, presentaremos el Mapeo de Escenarios Futuros específic
     <td colspan="4"><strong>Épica 1: Landing page</strong><br>Como usuario<br>Quiero visualizar una página dedicada a la aplicación<br>Para saber acerca de ella e ingresar a la aplicación</td>
   </tr>
   <tr>
-    <td>E01_USO 01</td>
+    <td>E01_US001</td>
     <td>Desarrollar el header de la web</td>
     <td>COMO usuario QUIERO visualizar un encabezado de página que contenga opciones de navegación PARA poder desplazarme por la página</td>
     <td><strong>Escenario 1:</strong> Se visualiza el header<br>Dado que se visualiza el header. Cuando se ubique en la parte superior de la página. Entonces podrá visualizar las distintas opciones disponibles para navegar por la página.<br><br><strong>Escenario 2:</strong> No se visualiza el header. Dado que no se visualiza el header.      Cuando se ubique en la parte superior de la página.<br>Entonces no podrá navegar fácilmente.</td>
