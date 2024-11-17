@@ -3,7 +3,7 @@
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 Somos Tecnogurus, un startup conformado por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Solucionamos problemáticas con herramientas tecnológicas para automatizar y acelerar procesos.
-En esta oportunidad presentamos Tecgnurus una solución IoT que buscara acortar los tiempos de atención de restaurantes por medio de dispositivos tecnológicos que nos ayudaran a facilitar esto. Para ello contaremos con sensores los cuales detectaran si un cliente ha ingresado al local y donde se ha sentado. De la misma forma estos sensores ayudaran a detectar cuando un cliente se para de su mesa o hay platos por recoger. Así mismo ofrecemos una solución tecnológica al tomar los pedidos con dispositivos móviles que trasmitan la información a cocina y caja para llevar un correcto control de las cuentas por clientes o mesas.
+En esta oportunidad presentamos Tecgnurus una solución IoT que buscará acortar los tiempos de atención de restaurantes por medio de dispositivos tecnológicos que nos ayudaran a facilitar esto. Para ello contaremos con sensores los cuales detectaran si un cliente ha ingresado al local y donde se ha sentado. De la misma forma estos sensores ayudaran a detectar cuando un cliente se para de su mesa o hay platos por recoger. Así mismo ofrecemos una solución tecnológica al tomar los pedidos con dispositivos móviles y caja para llevar un correcto control de las cuentas por clientes o mesas.
 
 Misión: Mejorar los tiempos de producción y atención de un negocio centrado en la atención de comensales. Ya sean restaurantes, cafeterías u hoteles.
 
@@ -65,10 +65,10 @@ Los principales afectados por esta problemática son los meseros de estos negoci
 Esto se da principalmente por la falta de personal o la falta de herramientas que ayuden a gestionar los pedidos, alargando así los procesos.
 
 *How?* 
-El proyecto deberá llevarse a cabo utilizando sensores y dispositivos móviles de modo que se pueda detectar cuando un cliente nuevo ingresar, donde se sienta y si hay platos en la mesa. También se agilizará el proceso de gestionar el despacho del pedido mediante la expedición de comandas detalladas eficazmente.
+El proyecto deberá llevarse a cabo utilizando sensores y dispositivos móviles de modo que se pueda detectar cuando un cliente nuevo ingresa, donde se sienta y si hay platos en la mesa. También se agilizará el proceso de gestionar el despacho del pedido mediante la expedición de comandas detalladas eficazmente.
 
 *How much?* 
-La cantidad de sensores o dispositivos se deberán calcular en base a las necesidades del cliente. Se estima el uso de un dispositivo para la entrada del local, así como un dispositivo por cada mesa y silla. Por otro lado, para la recepción de comandas se necesitará un dispositivo por mesero que se encargará de enviar información y uno por cada caja y centro de despacho de alimentos ya sea cocina, barra u otro. Este último se centrará en recibir la información. 
+La cantidad de sensores o dispositivos se deberán calcular en base a las necesidades del cliente. Se estima el uso de un dispositivo para la entrada del local, así como un dispositivo por cada mesa y silla. Por otro lado, para la recepción de comandas se necesitará un dispositivo móvil por mesero que se encargará de enviar información y uno por cada caja y centro de despacho de alimentos ya sea cocina, barra u otro. Este último se centrará en recibir la información. 
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
@@ -152,6 +152,6 @@ Apuntamos a un segmento objetivo que requiera una aplicación integral que les a
 Entre ellos están:
 
 -  **Mesero**
-Es el encargado de gestionar los y atender los pedidos de los comensales. Ellos son los principales afectados puesto que deben dar el mejor servicio y de la manera más eficaz.
+Es el encargado de gestionar y atender los pedidos de los comensales. Ellos son los principales afectados puesto que deben dar el mejor servicio y de la manera más eficaz.
 -  **Administrador**
-Este segmento buscara obtener el detalle de los platos vendidos, así como de conocer los montos de facturación del negocio.
+Este segmento buscara obtener el detalle de las cuentas de comensales creadas, así como conocer el flujo de la gestión de las mesas con los dispositivos IOT, y vista de los productos e insumos.
