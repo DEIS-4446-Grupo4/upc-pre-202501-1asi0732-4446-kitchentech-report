@@ -1067,7 +1067,17 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como desarrollador, quiero desplegar el backend en Azure para que el sistema esté disponible en la nube.</td>
       <td>1</td>
       <td>Fabrizzio Castro</td>
-      <td>To-do</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+    <th>TS041</th>
+    <th>Despliegue del Backend</th>
+    <td>2</td>
+    <td>Actualización del API REST desplegado con los nuevos endpoints</td>
+    <td>Como desarrollador, quiero actualizar el API REST desplegado con los nuevos endpoints en Azure para asegurar que el sistema esté disponible y que las funcionalidades del backend sean accesibles desde la nube.        </td>
+    <td>1</td>
+    <td>Fabrizzio Castro</td>
+    <td>Done</td>
    </tr>
    <tr>
       <th>US013</th>
@@ -1230,6 +1240,16 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>To-fix</td>
    </tr>
    <tr>
+    <th>TS042</th>
+    <th>Despliegue del App Web.</th>
+    <td>1</td>
+    <td>Despliegue Automático del repositorio de Frontend (main)</td>
+    <td>Como desarrollador, quiero implementar el despliegue automático del repositorio de Frontend para asegurar que los cambios se reflejen rápidamente en la aplicación web y que los usuarios siempre tengan acceso a       la versión más reciente.</td>
+    <td>3</td>
+    <td>Lucas Benedetti</td>
+    <td>Done</td>
+   </tr>
+   <tr>
       <th>TS042</th>
       <th>Despliegue del App Web.</th>
       <td>2</td>
@@ -1237,7 +1257,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como desarrollador, quiero desplegar el App Web para asegurar que las funcionalidades estén correctamente integradas con el backend y que los usuarios puedan interactuar con los datos en tiempo real.</td>
       <td>3</td>
       <td>Lucas Benedetti</td>
-      <td>Done</td>
+      <td>To-fix</td>
    </tr>
    <tr>
       <th>TS044</th>
