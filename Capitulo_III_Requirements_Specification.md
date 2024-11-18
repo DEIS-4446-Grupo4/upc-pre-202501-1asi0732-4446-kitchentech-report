@@ -259,16 +259,16 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
   </tr>
   <tr>
     <td>E07_US032</td>
-    <td>Editar platos existentes.</td>
-    <td>COMO administrador QUIERO poder editar los datos de los platos que ya tengo creados PARA poder actualizarlos en caso sea necesario.</td>
-    <td><strong>Escenario 1:</strong> Se modifica el plato correctemante. <br>Dado que soy administrador. Cuando quiero modificar un plato y le doy click al boton guardar. Entonces el plato se modifica correctamente. <br><br> <strong>Escenario 2:</strong> No es posible modificar el plato <br> Dado que soy administrador. Cuando quiero modificar un plato y le doy click al boton guardar pero el sistema no funciona. Entonces el plato no se modifica y se muestra una alerta indicando el error.</td>
+    <td>Editar insumos existentes.</td>
+    <td>COMO administrador QUIERO poder editar los datos de los insumos que ya tengo creados PARA poder actualizarlos en caso sea necesario.</td>
+    <td><strong>Escenario 1:</strong> Se modifica el insumo correctemante. <br>Dado que soy administrador. Cuando quiero modificar un insumo y le doy click al boton guardar. Entonces el insumo se modifica correctamente. <br><br> <strong>Escenario 2:</strong> No es posible modificar el insumo <br> Dado que soy administrador. Cuando quiero modificar un insumo y le doy click al boton guardar pero el sistema no funciona. Entonces el insumo no se modifica y se muestra una alerta indicando el error.</td>
   </tr>
   </tr>
   <tr>
     <td>E07_US033</td>
-    <td>Eliminar platos existentes.</td>
-    <td>COMO administrador QUIERO Poder eliminar los platos existentes PARA mantener mis platos actualizados.</td>
-    <td><strong>Escenario 1:</strong>  El producto se elimina correctamente.<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto. Entonces el producto se elimina correctamente. <br><br> <strong>Escenario 2:</strong> El producto no ha sido eliminado<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto pero el sistema no funciona. Entonces el producto no se elimina y muestra un mensaje de error</td>
+    <td>Eliminar insumos existentes.</td>
+    <td>COMO administrador QUIERO Poder eliminar los insumos existentes PARA mantener mis platos actualizados.</td>
+    <td><strong>Escenario 1:</strong>  El producto se elimina correctamente.<br>Dado que soy administrador. Cuando doy click al boton de eliminar producto. Entonces el producto se elimina correctamente. <br><br> <strong>Escenario 2:</strong> El producto no ha sido eliminado<br>Dado que soy administrador. Cuando doy click al boton de eliminar insumo pero el sistema no funciona. Entonces el producto no se elimina y muestra un mensaje de error</td>
   </tr>
   <tr>
     <td colspan="4"><strong>Épica 8: Estadísticas de negocio</strong><br>Como Administrador del Restaurante<br>Quiero visualizar y gráficos de las cuentas creadas mensualmente y del desempeño del personal en la atención que brinda<br>Para monitorear la eficiencia de la aplicación en la empresa</td>
