@@ -182,10 +182,20 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
   </tr>
   <tr>
     <td>E05_TS005</td>
-    <td>Mostrar una vista previa del pedido antes de enviarlo</td>
-    <td>COMO desarrollador QUIERO implementar una vista previa del pedido PARA que el mesero pueda verificar que todo este correcto antes de evniar a cocina la orden</td>
-    <td><strong>Escenario 1:</strong>Se muestra una vista previa de la orden<br>Dado que se muestra una vista previa de la orden. Cuando un mesero esta por enviar el pedido a cocina. Entonces es capaz de verificar que todo este correcto<br><br> <strong>Escenario 2:</strong> No se muestra una vista previa de la orden.<br>Dado que no se muestra una vista previa de la orden. Cuando un mesero esta por enviar el pedido a cocina. Entonces no es capaz de verificar que todo este correcto</td>
+    <td>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio</td>
+    <td>COMO Desarrollador QUIERO implementar un sistema que sincronice en tiempo real las cuentas y estados de las mesas PARA garantizar que toda la información esté actualizada y sea accesible para los usuarios del negocio.</td>
+    <td>
+        <strong>Escenario 1:</strong> Sincronización en tiempo real de cuentas y mesas<br>
+        Dado que el sistema está configurado para sincronización en tiempo real.<br>
+        Cuando un usuario realiza un cambio en las cuentas o mesas (como añadir un pedido o marcar una mesa como ocupada).<br>
+        Entonces estos cambios se reflejan inmediatamente en todas las interfaces conectadas.<br><br>
+        <strong>Escenario 2:</strong> Fallo en la sincronización en tiempo real<br>
+        Dado que el sistema experimenta un problema de sincronización.<br>
+        Cuando un usuario realiza un cambio en las cuentas o mesas.<br>
+        Entonces los cambios no se reflejan en las interfaces de otros usuarios, y se muestra un mensaje de error indicando el problema.
+    </td>
   </tr>
+
   <td colspan="4"><strong>Épica 6: Facturación del negocio.</strong><br>Como usuario administrador<br>Quiero realizar facturaciones.<br>Para brindarle al cliente su comprobante de pago.</td>
   <tr>
     <td>E06_US023</td>
