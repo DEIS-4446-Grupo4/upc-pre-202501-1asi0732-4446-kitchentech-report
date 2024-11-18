@@ -1072,6 +1072,16 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
    <tr>
       <th>US013</th>
       <th>Implementar navegación mediante Sidebar.</th>
+      <td>1</td>
+      <td>Implementar el componente de navgecacion Sidebar.</td>
+      <td>Como administrador, quiero poder navegar rápidamente en la aplicación para monitorear muchas ventanas al mismo tiempo.</td>
+      <td>3</td>
+      <td>Nicolas Zagal</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <th>US013</th>
+      <th>Implementar navegación mediante Sidebar.</th>
       <td>2</td>
       <td>Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero</td>
       <td>Como mesero, quiero tener un menú lateral para navegar fácilmente entre las opciones del sistema.</td>
