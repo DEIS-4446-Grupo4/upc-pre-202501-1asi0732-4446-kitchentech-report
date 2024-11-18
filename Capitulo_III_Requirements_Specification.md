@@ -344,18 +344,18 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     </td>
 </tr>
 <tr>
-    <td>E09_US041</td>
+    <td>T09_US041</td>
     <td>Despliegue del Backend</td>
-    <td>COMO Administrador de restaurante QUIERO que el sistema procese y actualice en tiempo real la ocupación de las mesas y el número de clientes DETECTADOS por dispositivos IoT PARA optimizar la asignación de recursos y reducir los tiempos de espera.</td>
+    <td>COMO Desarrollador DESEO contar con un sistema de despliegue automatizado y confiable para la aplicación backend, PARA que podamos implementar nuevas versiones sin interrupciones en el servicio y con un proceso que minimice los errores y reduzca los tiempos de inactividad.</td>
     <td>
-        <strong>Escenario 1:</strong> Actualización de ocupación de mesas<br>
-        Dado que el dispositivo IoT está conectado al Backend.<br>
-        Cuando una mesa sea ocupada.<br>
-        Entonces el Backend actualizará automáticamente el estado de la mesa a "Ocupada" en la base de datos.<br><br>
-        <strong>Escenario 2:</strong> Registro del número de clientes por mesa<br>
-        Dado que el dispositivo IoT detecta clientes en una mesa.<br>
-        Cuando los sensores identifiquen el número de personas sentadas.<br>
-        Entonces el Backend procesará y almacenará esta información con un margen de error no mayor al 5%.
+        <strong>Escenario 1:</strong> Creación de recurso exitosa<br>
+        Dado que el backend recibe una solicitud de creación de recurso con datos válidos.<br>
+        Cuando el recurso se crea exitosamente<br>
+        Entonces responde con un código de estado 201 Created y la respuesta incluye el identificador único del nuevo recurso<br><br>
+        <strong>Escenario 2:</strong> Solicitud inválida debido a datos mal formateados<br>
+        Dado el backend recibe una solicitud con datos mal formateados o incompletos.<br>
+        Cuando el backend valida los datos de la solicitud .<br>
+        Entonces sponde con un código de estado 400 Bad Request y la respuesta contiene un mensaje de error que describe el problema específico de la solicitud
     </td>
 </tr>
 <tr>
