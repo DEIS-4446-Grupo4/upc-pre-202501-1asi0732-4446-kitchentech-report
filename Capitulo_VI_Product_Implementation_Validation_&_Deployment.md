@@ -1020,7 +1020,7 @@ Durante el presente sprint se meustra la colaboración de los integrantes, con e
 A continuación, se presenta el Sprint Planning 3, donde se muestran las evidencias de planificación e implementación del Landing Page. Las evidencias se encuentran disponibles dentro del repositorio de GitHub.
 | Sprint                        | Sprint 3            |
 |-------------------------------|---------------------|
-|Sprint Planning Background  |Initial commit |
+|Sprint Planning Background  |fix-1 Web Config Fix |
 |Date  |10 de Noviembre del 2024 |
 |Time  |13:00 horas (GMT-5) |
 |Location  |Modalidad remota por Discord  |
