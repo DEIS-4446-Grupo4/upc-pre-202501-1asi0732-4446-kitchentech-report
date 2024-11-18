@@ -1084,7 +1084,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <th>Detectar Mesas y Clientes mediante IoT.</th>
       <td>1</td>
       <td>Cargar numero de mesa y nombre de cuenta en la caja al dar click en una cuenta guardada</td>
-      <td>         </td>
+      <td> Como mesero, quiero cargar rápidamente el número de mesa y el nombre de la cuenta en la caja para facilitar la gestión de la cuenta. </td>
       <td>3</td>
       <td>Esteban Calderon</td>
       <td>In-Process</td>
@@ -1104,7 +1104,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <th>Detectar Mesas y Clientes mediante IoT.</th>
       <td>3</td>
       <td>Implementar update para actualizar la cantidad maxima de comensales en una mesa</td>
-      <td>    </td>
+      <td>Como administrador, quiero poder actualizar la cantidad máxima de comensales en una mesa para adaptarme a cambios en la disponibilidad de espacio. </td>
       <td>5</td>
       <td>Lucas Benedetti</td>
       <td>In-Process</td>
