@@ -219,6 +219,13 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
   </tr>
   <td colspan="4"><strong>Épica 7: Control de inventarios.</strong><br>Como usuario administrador<br>Quiero poder ver un resumen de los platos vendidos y cuanto se consumió en cada uno. <br>Para poder llevar un control de mis inventarios como negocio.</td>
   <tr>
+    <td>E07_TS008</td>
+    <td>Los insumos deben relacionarse con los productos. Al guardar uno en una cuenta, los productos o insumos deben restarse del stock</td>
+    <td>COMO desarrollador QUIERO quiero que los insumos tengan opción de anidarse a productos mediante SQL PARA poder añadir y quitar insumos durante la inserción de un producto</td>
+    <td><strong>Escenario 1:</strong> Los insumos se relacionan correctamente con los productos. <br>Dado que soy desarrollador Cuando asocio un insumo a un producto y realizo una venta. Entonces los insumos y productos relacionados se descuentan correctamente del stock, y se muestra un mensaje de confirmación indicando la operación exitosa. <br><br> <strong>Escenario 2:</strong> Error al relacionar insumos con productos. <br>Dado que soy desarrollador Cuando intento asociar un insumo a un producto y se produce un error en la base de datos, 
+Entonces se muestra un mensaje de error indicando que la operación no pudo completarse, y el stock permanece sin cambios.</td>
+  </tr>
+  <tr>
     <td>E07_US027</td>
     <td>Ver resumen de ventas.</td>
     <td>COMO administrador QUIERO poder ver el resumen de ventas por dias PARA poder saber cuanto se vendio.</td>
