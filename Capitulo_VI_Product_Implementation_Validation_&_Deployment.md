@@ -1073,7 +1073,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <th>US013</th>
       <th>Implementar navegación mediante Sidebar.</th>
       <td>1</td>
-      <td>Implementar el componente de navgecacion Sidebar.</td>
+      <td>Implementar el componente de navegación Sidebar.</td>
       <td>Como administrador, quiero poder navegar rápidamente en la aplicación para monitorear muchas ventanas al mismo tiempo.</td>
       <td>3</td>
       <td>Nicolas Zagal</td>
@@ -1090,17 +1090,17 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>In-Process</td>
    </tr>
    <tr>
-      <th>US044</th>
+      <th>TS044</th>
       <th>Detectar Mesas y Clientes mediante IoT.</th>
       <td>1</td>
-      <td>Cargar numero de mesa y nombre de cuenta en la caja al dar click en una cuenta guardada</td>
+      <td>Cargar número de mesa y nombre de cuenta en la caja al dar click en una cuenta guardada</td>
       <td> Como mesero, quiero cargar rápidamente el número de mesa y el nombre de la cuenta en la caja para facilitar la gestión de la cuenta. </td>
       <td>3</td>
       <td>Esteban Calderon</td>
       <td>In-Process</td>
    </tr>
    <tr>
-      <th>US044</th>
+      <th>TS044</th>
       <th>Detectar Mesas y Clientes mediante IoT.</th>
       <td>2</td>
       <td>Implementar el método Update en la vista de caja cuando se cargue una cuenta</td>
@@ -1110,10 +1110,10 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>In-Process</td>
    </tr>
    <tr>
-      <th>US044</th>
+      <th>TS044</th>
       <th>Detectar Mesas y Clientes mediante IoT.</th>
       <td>3</td>
-      <td>Implementar update para actualizar la cantidad maxima de comensales en una mesa</td>
+      <td>Implementar update para actualizar la cantidad máxima de comensales en una mesa</td>
       <td>Como administrador, quiero poder actualizar la cantidad máxima de comensales en una mesa para adaptarme a cambios en la disponibilidad de espacio. </td>
       <td>5</td>
       <td>Lucas Benedetti</td>
@@ -1132,10 +1132,20 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
    <tr>
       <th>US016</th>
       <th>Recibir alerta cuando un cliente cruza la puerta del local.</th>
-      <td>2</td>
-      <td>Crear validaciones para registro de nuevo mesero</td>
+      <td>1</td>
+      <td>Implementar creación de usuario mesero</td>
       <td>Como administrador, quiero recibir una alerta cuando un cliente entre al local para ofrecerle una atención rápida.</td>
       <td>1</td>
+      <td>Fabrizzio Castro</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US016</th>
+      <th>Recibir alerta cuando un cliente cruza la puerta del local.</th>
+      <td>2</td>
+      <td>Crear validaciones para registro de nuevo mesero</td>
+      <td>Como administrador, quiero que se implemente la funcionalidad de alertas cuando un cliente entre al local, para garantizar que los meseros puedan ofrecer una atención rápida y eficiente.</td>
+      <td>3</td>
       <td>Fabrizzio Castro</td>
       <td>To-review</td>
    </tr>
@@ -1180,7 +1190,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>To-review</td>
    </tr>
    <tr>
-      <th>US031</th>
+      <th>US032</th>
       <th>Editar insumos existentes.</th>
       <td>1</td>
       <td>Implementar botón de editar insumos</td>
@@ -1190,7 +1200,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>To-review</td>
    </tr>
    <tr>
-      <th>US031</th>
+      <th>US032</th>
       <th>Editar insumos existentes.</th>
       <td>2</td>
       <td>Cargar la vista de nuevo insumo con los datos del insumo guardado para su edición</td>
