@@ -1230,6 +1230,16 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>To-fix</td>
    </tr>
    <tr>
+      <th>TS042</th>
+      <th>Despliegue del App Web.</th>
+      <td>2</td>
+      <td>Crear una vista de historial de modificaciones la rama de desarrollo</td>
+      <td>Como desarrollador, quiero desplegar el App Web para asegurar que las funcionalidades estén correctamente integradas con el backend y que los usuarios puedan interactuar con los datos en tiempo real.</td>
+      <td>3</td>
+      <td>Lucas Benedetti</td>
+      <td>Done</td>
+   </tr>
+   <tr>
       <th>TS044</th>
       <th>Detección IoT para mesas y clientes.</th>
       <td>1</td>
