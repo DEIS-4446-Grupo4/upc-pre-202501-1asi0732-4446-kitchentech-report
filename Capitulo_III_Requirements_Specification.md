@@ -227,6 +227,21 @@ y se muestra una alerta en el sistema indicando esto asi como un link a su cuent
     <td>COMO desarrollador QUIERO implementar categorias a los productos PARA que el administrador pueda filtrarlos de mejor manera</td>
     <td><strong>Escenario 1:</strong>Los productos pueden tener una categoria<br>Dado que un producto tiene una categoria. Cuando un administrador filtra los productos. Entonces es capaz de ver con mayor detalle los consumos realizados<br><br> ><strong>Escenario 2:</strong>Los productos no pueden tener una categoria<br>Dado que un producto no puede tener una categoria. Cuando un administrador filtra los productos. Entonces sera mas dificil para el visualizar donde esta su mayor cantidad de ventas<br><br> 
   </tr>
+  <tr>
+    <td>E06_TS009</td>
+    <td>El cliente creado debe guardarse en la base de datos para poder acceder a él en caso se solicite nuevamente</td>
+    <td>COMO Desarrollador QUIERO implementar una funcionalidad que registre los datos de los clientes en la base de datos PARA asegurar que estén disponibles para futuras consultas y operaciones.</td>
+    <td>
+        <strong>Escenario 1:</strong> Registro exitoso del cliente<br>
+        Dado que el sistema recibe datos válidos de un cliente.<br>
+        Cuando el cliente es creado en el sistema.<br>
+        Entonces los datos se guardan correctamente en la base de datos y se genera un identificador único para el cliente.<br><br>
+        <strong>Escenario 2:</strong> Fallo en el registro del cliente<br>
+        Dado que el sistema recibe datos incompletos o inválidos para el cliente.<br>
+        Cuando se intenta crear el cliente en el sistema.<br>
+        Entonces el sistema responde con un mensaje de error indicando el problema y no guarda los datos en la base de datos.
+    </td>
+  </tr>
   <td colspan="4"><strong>Épica 7: Control de inventarios.</strong><br>Como usuario administrador<br>Quiero poder ver un resumen de los platos vendidos y cuanto se consumió en cada uno. <br>Para poder llevar un control de mis inventarios como negocio.</td>
   <tr>
     <td>E07_TS008</td>
@@ -354,7 +369,7 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     </td>
 </tr>
 <tr>
-    <td>T09_US041</td>
+    <td>E09_TS041</td>
     <td>Despliegue del Backend</td>
     <td>COMO Desarrollador DESEO contar con un sistema de despliegue automatizado y confiable para la aplicación backend, PARA que podamos implementar nuevas versiones sin interrupciones en el servicio y con un proceso que minimice los errores y reduzca los tiempos de inactividad.</td>
     <td>
@@ -369,7 +384,7 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     </td>
 </tr>
 <tr>
-    <td>T09_US042</td>
+    <td>E09_TS042</td>
     <td>Despliegue del App Web</td>
     <td>COMO Desarrollador DESEO implementar una interfaz web que muestre en tiempo real la ocupación de las mesas y el número de clientes PARA facilitar la toma de decisiones rápidas y mejorar la experiencia de los administradores del restaurante.</td>
     <td>
@@ -388,7 +403,7 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     <td colspan="4"><strong>Épica 10: Dispositivo IoT</strong><br>Como Administrador del Restaurante<br>Quiero automatizar algunas funciones cubiertas por mi planilla<br>Para mejorar los tiempos y definir mejor los roles de mis empleados</td>
   </tr>
   <tr>
-    <td>T010_US043</td>
+    <td>E010_TS043</td>
     <td>Inventariado de Insumos mediante IoT</td>
     <td>COMO Desarrollador DESEO implementar un sistema que actualice automáticamente el inventario mediante dispositivos IoT PARA garantizar información precisa y alertar cuando los insumos críticos estén bajos,   evitando interrupciones en el servicio.</td>
     <td>
@@ -403,7 +418,7 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     </td>
   </tr>
   <tr>
-    <td>T010_US044</td>
+    <td>E010_TS044</td>
     <td>Detectar Mesas y Clientes mediante IoT</td>
     <td>COMO Desarrollador DESEO integrar dispositivos IoT para detectar en tiempo real la ocupación de mesas y el número de clientes PARA optimizar la asignación de recursos y reducir los tiempos de espera en el restaurante.</td>
     <td>
