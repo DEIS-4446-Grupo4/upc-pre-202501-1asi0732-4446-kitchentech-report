@@ -359,18 +359,18 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     </td>
 </tr>
 <tr>
-    <td>E09_US042</td>
+    <td>T09_US042</td>
     <td>Despliegue del App Web</td>
-    <td>COMO Administrador de restaurante QUIERO visualizar en tiempo real la ocupación de las mesas y el número de clientes en la interfaz web PARA tomar decisiones rápidas y mejorar la experiencia de los clientes.</td>
+    <td>COMO Desarrollador DESEO implementar una interfaz web que muestre en tiempo real la ocupación de las mesas y el número de clientes PARA facilitar la toma de decisiones rápidas y mejorar la experiencia de los administradores del restaurante.</td>
     <td>
-        <strong>Escenario 1:</strong> Visualización de ocupación de mesas<br>
-        Dado que la App Web está sincronizada con el Backend.<br>
-        Cuando el estado de una mesa cambie a "Ocupada".<br>
-        Entonces la App Web actualizará en tiempo real la ocupación en la interfaz del administrador.<br><br>
-        <strong>Escenario 2:</strong> Visualización del número de clientes por mesa<br>
-        Dado que el Backend ha procesado datos de ocupación.<br>
-        Cuando la App Web reciba la información del número de clientes por mesa.<br>
-        Entonces mostrará estos datos en un panel visual, permitiendo identificar rápidamente las mesas con mayor ocupación.
+        <strong>Escenario 1:</strong> Actualización en tiempo real<br>
+        Dado que la App Web está conectada al Backend y sincronizada correctamente.<br>
+        Cuando el estado de una mesa cambie a "Disponible" o "Ocupada".<br>
+        Entonces la App Web reflejará automáticamente el nuevo estado en la interfaz del administrador.<br><br>
+        <strong>Escenario 2:</strong> Error en la sincronización de datos<br>
+        Dado que la App Web intenta sincronizarse con el Backend.<br>
+        Cuando se produzca un fallo en la conexión o en el procesamiento de datos.<br>
+        Entonces la App Web mostrará un mensaje de error indicando que los datos no están actualizados y sugerirá intentar nuevamente.
     </td>
 </tr>
   
@@ -378,30 +378,35 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
     <td colspan="4"><strong>Épica 10: Dispositivo IoT</strong><br>Como Administrador del Restaurante<br>Quiero automatizar algunas funciones cubiertas por mi planilla<br>Para mejorar los tiempos y definir mejor los roles de mis empleados</td>
   </tr>
   <tr>
-    <td>E010_US043</td>
+    <td>T010_US043</td>
     <td>Inventariado de Insumos mediante IoT</td>
-    <td>COMO Administrador de restaurante, quiero recibir informacion actualizada cuando los insumos críticos estén bajos, para planificar mejor las compras y evitar interrupciones en el servicio.</td>
-    <td><strong>Escenario 1:</strong> Registro automático del inventario
-Dado que el dispositivo IoT está conectado correctamente.
-Cuando se detecte una entrada o salida de insumos.
-Entonces el sistema actualizará automáticamente el inventario en tiempo real.
-<br><br>
-<strong>Escenario 2:</strong> Alerta de nivel crítico de inventario
-Dado que el nivel de un insumo está por debajo del umbral crítico definido.
-Cuando el sistema reciba la lectura del dispositivo IoT.
-Entonces se emitirá una alerta al administrador para reabastecer.</td>
+    <td>COMO Desarrollador DESEO implementar un sistema que actualice automáticamente el inventario mediante dispositivos IoT PARA garantizar información precisa y alertar cuando los insumos críticos estén bajos,   evitando interrupciones en el servicio.</td>
+    <td>
+        <strong>Escenario 1:</strong> Registro automático del inventario<br>
+        Dado que el dispositivo IoT está conectado correctamente.<br>
+        Cuando se detecte una entrada o salida de insumos.<br>
+        Entonces el sistema actualizará automáticamente el inventario en tiempo real.<br><br>
+        <strong>Escenario 2:</strong> Alerta de nivel crítico de inventario<br>
+        Dado que el nivel de un insumo está por debajo del umbral crítico definido.<br>
+        Cuando el sistema reciba la lectura del dispositivo IoT.<br>
+        Entonces se emitirá una alerta al administrador para reabastecer.
+    </td>
   </tr>
   <tr>
-    <td>E010_US044</td>
+    <td>T010_US044</td>
     <td>Detectar Mesas y Clientes mediante IoT</td>
-    <td>COMO Administrador de restaurante, quiero conocer en tiempo real la ocupación de las mesas y el número de clientes, para optimizar la asignación de recursos y reducir los tiempos de espera.</td>
-    <td><strong>Escenario 1:</strong> Detección de ocupación de mesas<br>
-    Dado que el dispositivo IoT está en funcionamiento.
-    Cuando una mesa sea ocupada.
-    Entonces el sistema actualizará el estado de la mesa a "Ocupada" en la interfaz del administrador.<br><br>
-    <strong>Escenario 2:</strong> Estimación del número de clientes por mesa. Dado que el dispositivo IoT detecta clientes en una mesa.
-    Cuando los sensores identifiquen el número de personas. Entonces el sistema reflejará esta información en la interfaz con un margen de error no mayor al 5%.</td>
-</tr>
+    <td>COMO Desarrollador DESEO integrar dispositivos IoT para detectar en tiempo real la ocupación de mesas y el número de clientes PARA optimizar la asignación de recursos y reducir los tiempos de espera en el restaurante.</td>
+    <td>
+        <strong>Escenario 1:</strong> Detección de ocupación de mesas<br>
+        Dado que el dispositivo IoT está en funcionamiento.<br>
+        Cuando una mesa sea ocupada.<br>
+        Entonces el sistema actualizará el estado de la mesa a "Ocupada" en la interfaz del administrador.<br><br>
+        <strong>Escenario 2:</strong> Estimación del número de clientes por mesa<br>
+        Dado que el dispositivo IoT detecta clientes en una mesa.<br>
+        Cuando los sensores identifiquen el número de personas.<br>
+        Entonces el sistema reflejará esta información en la interfaz con un margen de error no mayor al 5%.
+    </td>
+  </tr>
 
 </table>
 
