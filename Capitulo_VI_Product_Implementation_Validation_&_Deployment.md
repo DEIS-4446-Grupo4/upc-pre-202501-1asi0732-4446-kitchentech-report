@@ -1035,7 +1035,6 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
 
 #### 6.2.3.2. Sprint Backlog 3.
 
-
 <table>
   <tr>
     <th colspan="2">User Story</th>
@@ -1051,227 +1050,132 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
     <th>Assigned to</th>
     <th>Status</th>
   </tr>
-
-   <tr>
+  <tr>
     <th>US023</th>
-    <th> Agregar un cliente con DNI o RUC. </th>
+    <th>Agregar un cliente con DNI o RUC.</th>
     <td>1</td>
-    <td>Implementar boton para agregar un cliente, este debe solicitar tipo de documento, numero de documento y nombre del cliente</td>
-    <td></td>
+    <td>Implementar botón para agregar un cliente, este debe solicitar tipo de documento, número de documento y nombre del cliente</td>
+    <td>Como usuario, quiero poder agregar clientes con su DNI o RUC para registrar sus datos en el sistema.</td>
     <td>1</td>
     <td></td>
     <td>To-do</td>
   </tr>
-    <tr>
+  <tr>
     <th>TS041</th>
-    <th>Despliegue del Backend  </th>
+    <th>Despliegue del Backend</th>
     <td>1</td>
     <td>Despliegue de Backend en Azure</td>
-    <td> </td>
+    <td>Como desarrollador, quiero desplegar el backend en Azure para que el sistema esté disponible en la nube.</td>
     <td>1</td>
     <td></td>
     <td>To-do</td>
   </tr>
   <tr>
     <th>US013</th>
-    <th> Implementar navegacion mediante Sidebar. </th>
+    <th>Implementar navegación mediante Sidebar.</th>
     <td>1</td>
-    <td>Crear un Sidebar que incluya los botones de navegacion a todas las opciones de Mesero</td>
-    <td></td>
+    <td>Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero</td>
+    <td>Como mesero, quiero tener un menú lateral para navegar fácilmente entre las opciones del sistema.</td>
     <td>1</td>
     <td></td>
     <td>In-Process</td>
   </tr>
   <tr>
     <th>US044</th>
-    <th> Detectar Mesas y Clientes mediante IoT	 </th>
+    <th>Detectar Mesas y Clientes mediante IoT.</th>
     <td>2</td>
-    <td> Implementar el metodo Update en la vista de caja cuando se cargue una cuenta</td>
-    <td></td>
+    <td>Implementar el método Update en la vista de caja cuando se cargue una cuenta</td>
+    <td>Como administrador, quiero detectar mesas y clientes automáticamente mediante IoT para optimizar la gestión de mesas.</td>
     <td>1</td>
     <td></td>
     <td>In-Process</td>
   </tr>
- <tr>
-    <th>US044</th>
-    <th>Detectar Mesas y Clientes mediante IoT	 </th>
-    <td>1</td>
-    <td> Cargar numero de mesa y nombre de cuenta en la caja al dar click en una cuenta guardada</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>In-Process</td>
-  </tr>
-<tr>
-    <th>US044</th>
-    <th> Detectar Mesas y Clientes mediante IoT	</th>
-    <td>3</td>
-    <td> Implementar update para actualizar la cantidad maxima de comensales en una mesa</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>In-Process</td>
-  </tr>
-<tr>
+  <tr>
     <th>TS005</th>
-    <th> Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio </th>
+    <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
     <td>1</td>
-    <td>Optimizar el API para que actualización de las mesas por información IOT</td>
-    <td></td>
+    <td>Optimizar el API para que actualización de las mesas por información IoT</td>
+    <td>Como administrador, quiero que las cuentas y mesas se actualicen en tiempo real para evitar errores en la gestión.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
-<tr>
+  <tr>
     <th>US016</th>
-    <th>Recibir alerta cuando un cliente cruza la puerta del local.	  </th>
+    <th>Recibir alerta cuando un cliente cruza la puerta del local.</th>
     <td>2</td>
     <td>Crear validaciones para registro de nuevo mesero</td>
-    <td></td>
+    <td>Como administrador, quiero recibir una alerta cuando un cliente entre al local para ofrecerle una atención rápida.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
   <tr>
     <th>US028</th>
-    <th> Filtrar ventas por platos </th>
+    <th>Filtrar ventas por platos.</th>
     <td>4</td>
-    <td> Implementar campo de agregar insumos a nuevo producto</td>
-    <td></td>
+    <td>Implementar campo de agregar insumos a nuevo producto</td>
+    <td>Como administrador, quiero poder filtrar las ventas por platos para identificar los más vendidos.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
-   <tr>
+  <tr>
     <th>US029</th>
-    <th> Crear nuevos insumos. </th>
+    <th>Crear nuevos insumos.</th>
     <td>1</td>
-    <td> Crear vista de insumos y su servicio</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-
-   <tr>
-    <th>US029</th>
-    <th>Crear nuevos insumos. </th>
-    <td>2</td>
-    <td> Crear boton de agregar nuevo insumo</td>
-    <td></td>
+    <td>Crear vista de insumos y su servicio</td>
+    <td>Como administrador, quiero poder registrar nuevos insumos para mantener actualizado el inventario.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
-   <tr>
-    <th>US029</th>
-    <th>  Crear nuevos insumos. </th>
-    <td>3</td>
-    <td> Implementar validaciones para el insumo guardado</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-    <tr>
+  <tr>
     <th>US031</th>
-    <th>Editar insumos existentes </th>
+    <th>Editar insumos existentes.</th>
     <td>1</td>
-    <td> Implementar boton de editar insumos</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-   <tr>
-    <th>US031</th>
-    <th>    </th>
-    <td>2</td>
-    <td> Cargar la vista de nuevo insumo con los datos del insumo guardado para su edicion</td>
-    <td></td>
+    <td>Implementar botón de editar insumos</td>
+    <td>Como administrador, quiero poder editar insumos existentes para corregir errores o actualizar información.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
   <tr>
     <th>US033</th>
-    <th>Eliminar insumos existentes </th>
+    <th>Eliminar insumos existentes.</th>
     <td>1</td>
-    <td> Crear boton de eliminar insumo</td>
-    <td></td>
+    <td>Crear botón de eliminar insumo</td>
+    <td>Como administrador, quiero eliminar insumos existentes para mantener limpio y actualizado el inventario.</td>
     <td>1</td>
     <td></td>
     <td>To-review</td>
   </tr>
-
-<tr>
-    <th>TS041</th>
-    <th>Despliegue del Backend </th>
-    <td>1</td>
-    <td>Actualización del API REST desplegado con los nuevos endpoints</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
-
-  <tr>
-    <th>TS042</th>
-    <th> Despliegue del App Web</th>
-    <td>1</td>
-    <td> Despliegue Automático del repositorio de Frontend (main)</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
   <tr>
     <th>US020</th>
-    <th> Agregar productos a una orden.	</th>
+    <th>Agregar productos a una orden.</th>
     <td>1</td>
-    <td> Crear vista de caja con searchbar y seccion acceso directo de productos</td>
-    <td></td>
+    <td>Crear vista de caja con searchbar y sección acceso directo de productos</td>
+    <td>Como mesero, quiero agregar productos rápidamente a una orden para agilizar el servicio.</td>
     <td>1</td>
     <td></td>
     <td>To-fix</td>
   </tr>
   <tr>
-    <th>TS042</th>
-    <th> Despliegue del App Web</th>
-    <td>1</td>
-    <td>  Crear una vista de funcionalidad en desarrollo </td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
-
- <tr>
     <th>TS044</th>
-    <th>Detectar Mesas y Clientes mediante IoT</th>
+    <th>Detectar Mesas y Clientes mediante IoT.</th>
     <td>1</td>
-    <td>  Conectar IoT a Backend Desplegado con el DB Table </td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
-   <tr>
-    <th>TS044</th>
-    <th>Detectar Mesas y Clientes mediante IoT </th>
-    <td>2</td>
-    <td> Logica de Agregación de Clientes mediante Sensores </td>
-    <td></td>
+    <td>Conectar IoT a Backend Desplegado con el DB Table</td>
+    <td>Como desarrollador, quiero integrar los datos de IoT al backend para obtener información de clientes en tiempo real.</td>
     <td>1</td>
     <td></td>
     <td>To-fix</td>
   </tr>
-   <tr>
+  <tr>
     <th>TS043</th>
-    <th>Inventariado de Insumos mediante IoT  </th>
+    <th>Inventariado de Insumos mediante IoT.</th>
     <td>2</td>
-    <td> Logica de Detención de Objetos</td>
-    <td></td>
+    <td>Lógica de Detección de Objetos</td>
+    <td>Como administrador, quiero automatizar el inventariado de insumos con IoT para reducir errores humanos.</td>
     <td>1</td>
     <td></td>
     <td>Done</td>
