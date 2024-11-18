@@ -1034,160 +1034,253 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
 |Sum of Story Points|  |
 
 #### 6.2.3.2. Sprint Backlog 3.
-
 <table>
+   <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+   </tr>
+   <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (hours)</th>
+      <th>Assigned to</th>
+      <th>Status</th>
+   </tr>
+   <tr>
+      <th>US023</th>
+      <th>Agregar un cliente con DNI o RUC.</th>
+      <td>1</td>
+      <td>Implementar botón para agregar un cliente, este debe solicitar tipo de documento, número de documento y nombre del cliente</td>
+      <td>Como usuario, quiero poder agregar clientes con su DNI o RUC para registrar sus datos en el sistema.</td>
+      <td>3</td>
+      <td>Sandro Alarcon</td>
+      <td>To-do</td>
+   </tr>
+   <tr>
+      <th>TS041</th>
+      <th>Despliegue del Backend</th>
+      <td>1</td>
+      <td>Despliegue de Backend en Azure</td>
+      <td>Como desarrollador, quiero desplegar el backend en Azure para que el sistema esté disponible en la nube.</td>
+      <td>1</td>
+      <td>Fabrizzio Castro</td>
+      <td>To-do</td>
+   </tr>
+   <tr>
+      <th>US013</th>
+      <th>Implementar navegación mediante Sidebar.</th>
+      <td>2</td>
+      <td>Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero</td>
+      <td>Como mesero, quiero tener un menú lateral para navegar fácilmente entre las opciones del sistema.</td>
+      <td>5</td>
+      <td>Nicolas Zagal</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <th>US044</th>
+      <th>Detectar Mesas y Clientes mediante IoT.</th>
+      <td>1</td>
+      <td>Cargar numero de mesa y nombre de cuenta en la caja al dar click en una cuenta guardada</td>
+      <td>         </td>
+      <td>3</td>
+      <td>Esteban Calderon</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <th>US044</th>
+      <th>Detectar Mesas y Clientes mediante IoT.</th>
+      <td>2</td>
+      <td>Implementar el método Update en la vista de caja cuando se cargue una cuenta</td>
+      <td>Como administrador, quiero detectar mesas y clientes automáticamente mediante IoT para optimizar la gestión de mesas.</td>
+      <td>1</td>
+      <td>Jonatan Curi</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <th>US044</th>
+      <th>Detectar Mesas y Clientes mediante IoT.</th>
+      <td>3</td>
+      <td>Implementar update para actualizar la cantidad maxima de comensales en una mesa</td>
+      <td>    </td>
+      <td>5</td>
+      <td>Lucas Benedetti</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <th>TS005</th>
+      <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
+      <td>1</td>
+      <td>Optimizar el API para que actualización de las mesas por información IoT</td>
+      <td>Como administrador, quiero que las cuentas y mesas se actualicen en tiempo real para evitar errores en la gestión.</td>
+      <td>3</td>
+      <td>Sandro Alarcon</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US016</th>
+      <th>Recibir alerta cuando un cliente cruza la puerta del local.</th>
+      <td>2</td>
+      <td>Crear validaciones para registro de nuevo mesero</td>
+      <td>Como administrador, quiero recibir una alerta cuando un cliente entre al local para ofrecerle una atención rápida.</td>
+      <td>1</td>
+      <td>Fabrizzio Castro</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US028</th>
+      <th>Filtrar ventas por platos.</th>
+      <td>4</td>
+      <td>Implementar campo de agregar insumos a nuevo producto</td>
+      <td>Como administrador, quiero poder filtrar las ventas por platos para identificar los más vendidos.</td>
+      <td>5</td>
+      <td>Nicolas Zagal</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US029</th>
+      <th>Crear nuevos insumos.</th>
+      <td>1</td>
+      <td>Crear vista de insumos y su servicio</td>
+      <td>Como administrador, quiero poder registrar nuevos insumos para mantener actualizado el inventario.</td>
+      <td>3</td>
+      <td>Esteban Calderon</td>
+      <td>To-review</td>
+   </tr>
   <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="6">Work-Item / Task</th>
-  </tr>
-  <tr>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Estimation (hours)</th>
-    <th>Assigned to</th>
-    <th>Status</th>
-  </tr>
-  <tr>
-    <th>US023</th>
-    <th>Agregar un cliente con DNI o RUC.</th>
-    <td>1</td>
-    <td>Implementar botón para agregar un cliente, este debe solicitar tipo de documento, número de documento y nombre del cliente</td>
-    <td>Como usuario, quiero poder agregar clientes con su DNI o RUC para registrar sus datos en el sistema.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <th>TS041</th>
-    <th>Despliegue del Backend</th>
-    <td>1</td>
-    <td>Despliegue de Backend en Azure</td>
-    <td>Como desarrollador, quiero desplegar el backend en Azure para que el sistema esté disponible en la nube.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <th>US013</th>
-    <th>Implementar navegación mediante Sidebar.</th>
-    <td>1</td>
-    <td>Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero</td>
-    <td>Como mesero, quiero tener un menú lateral para navegar fácilmente entre las opciones del sistema.</td>
-    <td>1</td>
-    <td></td>
-    <td>In-Process</td>
-  </tr>
-  <tr>
-    <th>US044</th>
-    <th>Detectar Mesas y Clientes mediante IoT.</th>
-    <td>2</td>
-    <td>Implementar el método Update en la vista de caja cuando se cargue una cuenta</td>
-    <td>Como administrador, quiero detectar mesas y clientes automáticamente mediante IoT para optimizar la gestión de mesas.</td>
-    <td>1</td>
-    <td></td>
-    <td>In-Process</td>
-  </tr>
-  <tr>
-    <th>TS005</th>
-    <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
-    <td>1</td>
-    <td>Optimizar el API para que actualización de las mesas por información IoT</td>
-    <td>Como administrador, quiero que las cuentas y mesas se actualicen en tiempo real para evitar errores en la gestión.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US016</th>
-    <th>Recibir alerta cuando un cliente cruza la puerta del local.</th>
-    <td>2</td>
-    <td>Crear validaciones para registro de nuevo mesero</td>
-    <td>Como administrador, quiero recibir una alerta cuando un cliente entre al local para ofrecerle una atención rápida.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US028</th>
-    <th>Filtrar ventas por platos.</th>
-    <td>4</td>
-    <td>Implementar campo de agregar insumos a nuevo producto</td>
-    <td>Como administrador, quiero poder filtrar las ventas por platos para identificar los más vendidos.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US029</th>
-    <th>Crear nuevos insumos.</th>
-    <td>1</td>
-    <td>Crear vista de insumos y su servicio</td>
-    <td>Como administrador, quiero poder registrar nuevos insumos para mantener actualizado el inventario.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US031</th>
-    <th>Editar insumos existentes.</th>
-    <td>1</td>
-    <td>Implementar botón de editar insumos</td>
-    <td>Como administrador, quiero poder editar insumos existentes para corregir errores o actualizar información.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US033</th>
-    <th>Eliminar insumos existentes.</th>
-    <td>1</td>
-    <td>Crear botón de eliminar insumo</td>
-    <td>Como administrador, quiero eliminar insumos existentes para mantener limpio y actualizado el inventario.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-review</td>
-  </tr>
-  <tr>
-    <th>US020</th>
-    <th>Agregar productos a una orden.</th>
-    <td>1</td>
-    <td>Crear vista de caja con searchbar y sección acceso directo de productos</td>
-    <td>Como mesero, quiero agregar productos rápidamente a una orden para agilizar el servicio.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
-  <tr>
-    <th>TS044</th>
-    <th>Detectar Mesas y Clientes mediante IoT.</th>
-    <td>1</td>
-    <td>Conectar IoT a Backend Desplegado con el DB Table</td>
-    <td>Como desarrollador, quiero integrar los datos de IoT al backend para obtener información de clientes en tiempo real.</td>
-    <td>1</td>
-    <td></td>
-    <td>To-fix</td>
-  </tr>
-  <tr>
-    <th>TS043</th>
-    <th>Inventariado de Insumos mediante IoT.</th>
-    <td>2</td>
-    <td>Lógica de Detección de Objetos</td>
-    <td>Como administrador, quiero automatizar el inventariado de insumos con IoT para reducir errores humanos.</td>
-    <td>1</td>
-    <td></td>
-    <td>Done</td>
-  </tr>
+      <th>US029</th>
+      <th>Crear nuevos insumos.</th>
+      <td>2</td>
+      <td>Crear botón de agregar nuevo insumo</td>
+      <td>Como administrador, quiero registrar nuevos insumos para mantener actualizado el inventario.</td>
+      <td>3</td>
+      <td>Lucas Benedetti</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US029</th>
+      <th>Crear nuevos insumos.</th>
+      <td>3</td>
+      <td>Implementar validaciones para el insumo guardado</td>
+      <td>Como administrador, quiero asegurarme de que los datos de los nuevos insumos sean válidos antes de guardarlos.</td>
+      <td>1</td>
+      <td>Jonatan Curi</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US031</th>
+      <th>Editar insumos existentes.</th>
+      <td>1</td>
+      <td>Implementar botón de editar insumos</td>
+      <td>Como administrador, quiero editar insumos existentes para corregir errores o actualizar información.</td>
+      <td>3</td>
+      <td>Esteban Calderon</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US031</th>
+      <th>Editar insumos existentes.</th>
+      <td>2</td>
+      <td>Cargar la vista de nuevo insumo con los datos del insumo guardado para su edición</td>
+      <td>Como administrador, quiero pre-cargar los datos del insumo para facilitar su edición.</td>
+      <td>1</td>
+      <td>Nicolas Zagal</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US033</th>
+      <th>Eliminar insumos existentes.</th>
+      <td>1</td>
+      <td>Crear botón de eliminar insumo</td>
+      <td>Como administrador, quiero eliminar insumos no deseados para mantener el inventario actualizado.</td>
+      <td>3</td>
+      <td>Fabrizzio Castro</td>
+      <td>To-review</td>
+   </tr>
+   <tr>
+      <th>US020</th>
+      <th>Agregar productos a una orden.</th>
+      <td>1</td>
+      <td>Crear vista de caja con searchbar y sección acceso directo de productos</td>
+      <td>Como mesero, quiero agregar productos rápidamente a una orden para agilizar el servicio.</td>
+      <td>5</td>
+      <td>Sandro Alarcon</td>
+      <td>To-fix</td>
+   </tr>
+   <tr>
+      <th>TS044</th>
+      <th>Detección IoT para mesas y clientes.</th>
+      <td>1</td>
+      <td>Conectar IoT a Backend Desplegado con el DB Table</td>
+      <td>Como desarrollador, quiero conectar dispositivos IoT al backend para obtener información en tiempo real.</td>
+      <td>1</td>
+      <td>Lucas Benedetti</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <th>TS044</th>
+      <th>Detección IoT para mesas y clientes.</th>
+      <td>2</td>
+      <td>Lógica de Agregación de Clientes mediante Sensores</td>
+      <td>Como administrador, quiero que los sensores agreguen información de clientes para mejorar la experiencia.</td>
+      <td>3</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <th>TS043</th>
+      <th>Inventariado de Insumos mediante IoT.</th>
+      <td>1</td>
+      <td>Conectar IoT a Backend Desplegado con el BD Supply</td>
+      <td>Como desarrollador, quiero conectar dispositivos IoT al backend para gestionar el inventario automáticamente.</td>
+      <td>5</td>
+      <td>Esteban Calderon</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <th>TS043</th>
+      <th>Inventariado de Insumos mediante IoT.</th>
+      <td>2</td>
+      <td>Lógica de Detección de Objetos</td>
+      <td>Como administrador, quiero automatizar el inventariado con IoT para reducir errores humanos.</td>
+      <td>3</td>
+      <td>Nicolas Zagal</td>
+      <td>Done</td>
+   </tr>
+
+
+
+
+  
 </table>
 
 
 #### 6.2.3.3. Development Evidence for Sprint Review.
 
-Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)
---- | --- | --- | --- | --- | ---
-tech-kitchen-webapp | feature/sidebar | 4eb7589 | feature/sidebar added | Added initial sidebar navigation component | 12/11/2024
+Repository             | Branch                    | Commit Id  | Commit Message                 | Commit Message Body                                                | Commited on (Date)
+---                    | ---                        | ---        | ---                            | ---                                                                | ---
+tech-kitchen-webapp    | feature/feedback           | d7a8c63    | feature/feedback added         | Integrated feedback form for customer reviews                      | 11/11/2024
+tech-kitchen-webapp    | feature/user-profile       | b2e5f47    | feature/user-profile added     | Developed user profile page with update functionality              | 13/11/2024
+tech-kitchen-webapp    | feature/dashboard          | f9c3e28    | feature/dashboard added        | Created admin dashboard for order and user management              | 16/11/2024
+tech-kitchen-webapp    | feature/promotions         | a3d4f92    | feature/promotions added       | Added promotions section for seasonal offers                       | 18/11/2024
+tech-kitchen-webapp    | feature/menu               | c8f6b52    | feature/menu added             | Implemented dynamic menu rendering with category filters           | 19/11/2024
+kitchen-tech-backend   | feature/inventory          | e4a7c62    | feature/inventory API added    | Developed API endpoints for inventory management                   | 11/11/2024
+kitchen-tech-backend   | feature/delivery           | f7b9e32    | feature/delivery API added     | Added endpoints for tracking delivery status                       | 13/11/2024
+kitchen-tech-backend   | feature/reports            | a5c6d14    | feature/reports added          | Generated API for sales and inventory reports                      | 15/11/2024
+kitchen-tech-backend   | feature/roles              | d3b2e41    | feature/roles API added        | Implemented role-based access control endpoints                    | 17/11/2024
+kitchen-tech-backend   | feature/settings           | c4f8d61    | feature/settings added         | Created API for managing system configuration                      | 19/11/2024
+Mobile-application     | feature/registration       | b1c4d82    | feature/registration added     | Built user registration flow and validation checks                 | 12/11/2024
+Mobile-application     | feature/history            | e8d7f54    | feature/history added          | Designed order history screen with detailed views                  | 14/11/2024
+Mobile-application     | feature/preferences        | f2c8a91    | feature/preferences added      | Added user preferences functionality for notifications              | 16/11/2024
+Mobile-application     | feature/reviews            | d3e5b73    | feature/reviews added          | Created product review and rating screen                           | 18/11/2024
+Mobile-application     | feature/table-booking      | b5c4a61    | feature/table-booking added    | Implemented table booking feature integrated with backend          | 20/11/2024
+kitchen-tech           | feature/analytics          | a9c7e42    | feature/analytics added        | Created analytics dashboard for sales trends                       | 12/11/2024
+kitchen-tech           | feature/settings-ui        | d5a4f72    | feature/settings-ui added      | Designed user interface for system settings                        | 14/11/2024
+kitchen-tech           | feature/loyalty            | e2b7f93    | feature/loyalty program added  | Added API support for customer loyalty programs                    | 16/11/2024
+kitchen-tech           | feature/social-login       | b3d6c41    | feature/social-login added     | Integrated social login (Google, Facebook) functionality           | 18/11/2024
+kitchen-tech           | feature/coupons            | c7e2a84    | feature/coupons added          | Developed coupon management system for promotions                  | 19/11/2024
 
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
