@@ -1242,7 +1242,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
    <tr>
       <th>TS044</th>
       <th>Detección IoT para mesas y clientes.</th>
-      <td>2</td>
+      <td>4</td>
       <td>Lógica de Agregación de Clientes mediante Sensores</td>
       <td>Como administrador, quiero que los sensores agreguen información de clientes para mejorar la experiencia.</td>
       <td>3</td>
