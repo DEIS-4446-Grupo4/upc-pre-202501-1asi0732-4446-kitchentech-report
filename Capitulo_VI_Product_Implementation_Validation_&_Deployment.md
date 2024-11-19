@@ -931,6 +931,7 @@ Capturas de desarrolo: Back end ():
 <img src="./Resources/Backend/WhatsApp Image 2024-11-01 at 1.51.59 PM.jpeg" >
 
 Vistas desarrolladas: Mobile aplication ():
+
 <img src="./Resources/phone/Captura de pantalla 2024-11-02 184126.jpg" >
 
 <img src="./Resources/phone/Captura de pantalla 2024-11-02 184144.jpg" >
