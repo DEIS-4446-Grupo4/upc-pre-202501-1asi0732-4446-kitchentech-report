@@ -1166,8 +1166,8 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Implementar campo de agregar insumos a nuevo producto</td>
       <td>Como administrador, quiero poder filtrar las ventas por platos para identificar los más vendidos.</td>
       <td>5</td>
-      <td>Nicolas Zagal</td>
-      <td>To-review</td>
+      <td>Fabrizzio Castro</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US029</th>
