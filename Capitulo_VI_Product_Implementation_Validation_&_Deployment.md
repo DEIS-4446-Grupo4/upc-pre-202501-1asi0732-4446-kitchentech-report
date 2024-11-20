@@ -101,7 +101,8 @@ A continuación, se presenta el Sprint Planning 1, donde se muestran las evidenc
 |Attendees (to planning meeting)  |Todos los integrantes del equipo |
 |Sprint 1 – Review Summary  |En el primer sprint se estableció la agrupación de componentes y el despliegue del Landing Page. |
 |Sprint 1 – Retrospective Summary |Para el primer sprint se estableció desarrollar el Landing Page y dividirlo por secciones. Establecimos un acuerdo de la utilización HTML, CSS y JS para seguir una arquitectura lineal y se pueda tener una mejor limpieza de código para eliminar o agregar secciones dentro de este. Se utilizaron diseños sobrios para poder utilizar conceptos de CSS de una forma más eficiente, asimismo como herramientas que permitieron su despliegue rápido dentro de Github |
-|Sprint Goal & User Stories | Este sprint se enfocará en desarrollar las primeras versiones funcionales del Landing Page y Aplicación web, integrándolas con el propio prototipado descrito en el informe. Esto permitirá a los restaurantes, clientes y usuarios del rubro conocer la información evidencial de la solución del proyecto KitchenTech. Esperamos que el Landing Page aseguren una divulgación de información apropiada del proyecto y que las primeras vistas de la Aplicación Web sirva de evidencia hacia el público sobre nuestro trabajo y alcance. Esto mejorará la recepción de atención de nuestro público objetivo. El objetivo se cumplirá cuando evidenciemos en las entrevistas de validación que la información y desarrollo ofrecido en este Sprint es el adecuado en nuestra solución de proyecto a nuestros usuarios objetivo.                    |
+|Sprint Goal & User Stories | Este sprint, *nuestro objetivo se enfocará* en informar a nuestros visitantes sobre el funcionamiento esperado de la aplicación web mediante las descripciones de las secciones que se muestran la Landing Page. Además, se desarrollará la Web Application inicial para brindar a los administradores y meseros una herramienta que permita visualizar las cuentas de los comensales, entender el flujo básico del sistema y realizar pruebas iniciales de las funcionalidades CRUD implementadas con una fake api. Creemos que este objetivo permitirá a los visitantes comprender la importancia del sistema y su conexión con las operaciones del restaurante, además de generar buenas expectativas en los administradores y meseros gracias a la presentación clara de las funcionalidades iniciales, como la creación y visualización de cuentas. El objetivo se cumplirá cuando los visitantes tengan claridad sobre el propósito de la solución presentada, los administradores y meseros validen que el flujo básico de gestión de cuentas es funcional y fácil de entender, y los desarrolladores puedan recibir retroalimentación inicial para las siguientes iteraciones.
+|
 |Sprint 1 Velocity | 33 |
 |Sum of Story Points| 33 |
 
@@ -402,8 +403,8 @@ A continuación, se presenta el Sprint Planning 2, donde se muestran las evidenc
 |Location  |Modalidad remota por Discord  |
 |Prepared by  |Fabrizzio Antonio Castro Manrique  |
 |Attendees (to planning meeting)  |Todos los integrantes del equipo |
-|Sprint 1 – Review Summary  |En el primer sprint, se logró la agrupación inicial de los componentes necesarios para establecer el flujo CRUD de las cuentas de comensales y la implementación de la lógica de asignación de mesas. Además, se trabajó en un prototipo funcional para la validación del flujo de pedidos, asegurando que la lógica de negocio conectara correctamente con el backend y los dispositivos IoT. Este trabajo sentó las bases para la integración entre el Edge Server y la aplicación móvil, facilitando pruebas preliminares en un entorno controlado.  |
-|Sprint 1 – Retrospective Summary | Durante este sprint, se definieron los pilares para el desarrollo del flujo CRUD de cuentas de comensales y el prototipado de mesas. El equipo decidió utilizar una arquitectura basada en endpoints clave para garantizar la comunicación en tiempo real entre el IoT y el sistema de gestión. Se estableció el uso de herramientas de prototipado rápidas y la documentación de flujos para alinear al equipo técnico con la lógica de negocio. Aunque el desarrollo fue exitoso, se identificaron áreas de mejora en la coordinación entre las capas de backend e IoT, lo que será priorizado en los siguientes sprints. |
+|Sprint 2 – Review Summary  |En el primer sprint, se logró la agrupación inicial de los componentes necesarios para establecer el flujo CRUD de las cuentas de comensales y la implementación de la lógica de asignación de mesas. Además, se trabajó en un prototipo funcional para la validación del flujo de pedidos, asegurando que la lógica de negocio conectara correctamente con el backend y los dispositivos IoT. Este trabajo sentó las bases para la integración entre el Edge Server y la aplicación móvil, facilitando pruebas preliminares en un entorno controlado.  |
+|Sprint 2 – Retrospective Summary | Durante este sprint, se definieron los pilares para el desarrollo del flujo CRUD de cuentas de comensales y el prototipado de mesas. El equipo decidió utilizar una arquitectura basada en endpoints clave para garantizar la comunicación en tiempo real entre el IoT y el sistema de gestión. Se estableció el uso de herramientas de prototipado rápidas y la documentación de flujos para alinear al equipo técnico con la lógica de negocio. Aunque el desarrollo fue exitoso, se identificaron áreas de mejora en la coordinación entre las capas de backend e IoT, lo que será priorizado en los siguientes sprints. |
 |Sprint Goal & User Stories                     |
 |Sprint 2 Goal | Este sprint, *nuestro objetivo se enfocará* en informar a nuestros visitantes con el funcionamiento de la aplicación web y móvil esperado mediante el video "About The Team" publicado en el Landing Page, desarrollar las vistas de las cuentas de comensales para el entendimiento de los administradores y meseros sobre el flujo CRUD implementado, implementar el prototipado de las mesas con la validación del flujo correcto de los pedidos de los comensales  integrándolas con el Backend y la Edge Application para orientar a los usuarios sobre la lógica de negocio inducida y para que los desarrolladores detecten funcionamiento correcto entre el Endpoint de mesas integrado con el Edge Server y el Mobile Application, actualizar el CloudServer del Backend para trabajar con los endpoints de cuentas de comensales y toma de pedidos para que los desarrolladores puedan trabajar con data real. *Creemos que* este objetivo asegurará que los visitantes entiendan la importancia que tienen de los dispositivos Iot con las actualizaciones de los estados de las mesas, buenas expectativas de los meseros y administradores debido a las funcionalidades de toma de pedido, creación de cuenta, asignación a mesa y creación del cliente, una mejora significativa al desenvolvimiento de los desarrolladores debido al despliegue de endpoints clave como el de la gestión de mesas y productos. *El objetivo se cumplirá cuando* los visitantes tengan claridad del vinculo de los dispositivos IOT integrado hacia las mesas y productos con KitchenTech, los administradores y meseros validen que la lógica de negocio no es afectada por el flujo de toma de pedidos; creación de cuentas y que las mesas interactuen en tiempo real con el IOT, los desarrollares hayan mejorado su rendimiento en un 20% debido a los endpoints y Web Application desplegados.  |
 |Sprint 2 Velocity | 88 points  |
@@ -1031,8 +1032,8 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
 |Sprint 3 – Retrospective Summary | Durante este sprint, el equipo mantuvo un enfoque colaborativo y logró avances significativos en múltiples áreas clave, incluyendo la integración del IoT, optimización de la aplicación móvil y despliegue de vistas críticas en el Frontend. Sin embargo, se enfrentaron desafíos relacionados con la latencia inicial en la comunicación entre el Edge Server y el Mobile Application, que fueron mitigados al implementar mejoras en el manejo de eventos en tiempo real. También se identificó la necesidad de mayor documentación técnica para facilitar las pruebas de los dispositivos IoT físicos. En futuras iteraciones, se buscará priorizar la automatización de pruebas para endpoints críticos y mejorar la coordinación entre los equipos de desarrollo y validación. |
 |Sprint Goal & User Stories |                     |
 |Sprint 3 Goal | *Nuestro objetivo se enfoca* en ofrecer el detalle de los nuevos features implementados en las secciones de "About the product" y "About the team" del Landing Page a nuestros visitantes, disminuir la latencia de los estados de las mesas integradas con dispositivos IOT en el Edge Application para la eficiencia del flujo de negocio orientado a los meseros y administradores, optimizar el Mobile Application con los nuevos endpoints de gestión de ordenes y cuentas para agilizar el proceso de atención a los clientes de los meseros, desplegar el Frontend con las vistas de Productos, Insumos y Clientes en el Cloud Server para que los desarrollares realicen validaciones de flujo e implementar el modelo físico IOT utilizado para la solución de KitchenTech. *Creemos* que este objetivo otorgará eficiencia hacia el trabajo de los meseros en la toma de pedidos, mayor rápidez en la actualización de estados de las mesas para el seguimiento continuo de los administradores y meseros, la comunicación actualizada del Mobile Application con el Backend para el envío de información correcta a los usuarios, las pruebas necesarias en el flujo del Frontend para los desarrolladores y mejor entendimiento de los dispositivos IOT usados en KitchenTech. *Esto se confirmará cuando* los visitantes entiendan el proceso de gestión de mesas y pedidos con dispositivos IOT ofrecida por KitchenTech, los administradores y meseros validen el proceso eficiente de estados de las mesas, los meseros puedan tomar pedidos eficientemente a los comensales desde su dispositivo móvil con información correcta, los desarrolladores hayan realizado con éxito las pruebas funcionales de las principales vistas de KitchenTech y los desarrolladores integren y presenten el dispositivos físicos IOT utilizados en la solución ofrecida.      |
-|Sprint 1 Velocity |  |
-|Sum of Story Points|  |
+|Sprint 3 Velocity |  72 |
+|Sum of Story Points| 63 |
 
 #### 6.2.3.2. Sprint Backlog 3.
 <table>
@@ -1347,12 +1348,49 @@ la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los a
 
 #### 6.2.3.5. Execution Evidence for Sprint Review.
 
+En el Sprint 3.
 
-En el Sprint 3, se logró desarrollar la aplicacion mobile, back end y version mejorada del front end:
+Se logró el desarrollo de la aplicacion mobile:
 
 
 
-Capturas de desarrolo de IOT device ():
+Mejoras del back end:
+
+
+
+Mejoras del front end:
+
+
+
+Desarrollo de dispositivo IOT en wokwi:
+
+
+
+<img src="Resources/DISPOSITIVO%20WOKWI/WhatsApp%20Image%202024-11-18%20at%207.46.10%20PM.jpeg" >
+
+<img src="Resources/DISPOSITIVO%20WOKWI/WhatsApp%20Image%202024-11-18%20at%207.46.25%20PM.jpeg" >
+
+Desarrollo de dispositivo IOT físico:
+
+
+Uso de componentes fisicos de IOT
+Arduino UNO
+Buzzer
+Led rojo
+Led amarillo
+Led verde
+Display de 7 segmentos y 2 digitos de 18 pines
+Botón 
+Potenciometro
+Resistencia de 390 ohms x8
+Resistencia de 100 ohms x3
+Cable de cobre
+Protoboard
+
+<img src="Resources/DISPOSITIVO%20IOT%20FISICO/WhatsApp%20Image%202024-11-18%20at%207.54.01%20PM.jpeg" >
+<img src="Resources/DISPOSITIVO%20IOT%20FISICO/WhatsApp%20Image%202024-11-18%20at%207.54.00%20PM%20(1).jpeg" >
+<img src="/Resources/DISPOSITIVO%20IOT%20FISICO/WhatsApp%20Image%202024-11-18%20at%207.54.00%20PM.jpeg" >
+
 
 
 
@@ -1423,8 +1461,59 @@ Esta sección recopila la evidencia del despliegue de software realizado durante
 #### 6.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante el presente sprint se meustra la colaboración de los integrantes, con el fin distribuir el peso de trabajo de cada uno de los miembros del equipo.
+<table border="1">
+  <thead>
+    <tr>
+      <th>Alumno</th>
+      <th>Actividad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sandro Alarcón</td>
+      <td>Desarrollo de backend, mobile app, Embedded app IoT</td>
+    </tr>
+    <tr>
+      <td>Fabrizzio Castro</td>
+      <td>Desarrollo de backend, mobile app, Landing Page, Embedded app IoT</td>
+    </tr>
+    <tr>
+      <td>Nicolás Zagal</td>
+      <td>Desarrollo de backend, mobile app, Embedded app IoT</td>
+    </tr>
+    <tr>
+      <td>Esteban Calderón</td>
+      <td>Desarrollo de backend, mobile app, Frontend, Embedded app IoT</td>
+    </tr>
+    <tr>
+      <td>Jonatan Curi</td>
+      <td>Desarrollo de backend, mobile app, Embedded app IoT</td>
+    </tr>
+    <tr>
+      <td>Lucas Benedetti</td>
+      <td>Desarrollo de backend, mobile app, Embedded app IoT</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <img src="/Resources/Evidences/Sprint3.jpg" >
+
+Mobile App:
+
+
+
+Backend:
+
+
+
+IoT Embedded App:
+
+
+
+Landing Page:
+
+
 
 
 ## 6.3. Validation Interviews.
