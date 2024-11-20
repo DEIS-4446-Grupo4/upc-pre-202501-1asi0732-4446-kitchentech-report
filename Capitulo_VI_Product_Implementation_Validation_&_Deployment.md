@@ -1386,7 +1386,7 @@ En esta sección, se realizaron **acceptance tests** en los endpoints de la API 
 - **GetProductByRestaurant**: Endpoint para obtener productos específicos de un restaurante, donde se verificó que la consulta retorne correctamente los productos asociados a un restaurante dado.
 <img src="Resources/Evidences/GetProductByRestaurant.jpeg" >
 - **GetRestaurant**: Endpoint para obtener detalles de un restaurante, validando que los datos del restaurante (nombre, dirección, tipo de cocina, etc.) se recuperen correctamente.
-<img src="Resources/Evidences/GetRestaurant.jpeg" >
+<img src="Resources/Evidences/GetRestaurnant.jpeg" >
 - **GetSupplyByRestaurant**: Endpoint para obtener los suministros disponibles para un restaurante, asegurando que la información de suministros esté correctamente asociada y se muestre sin errores.
 <img src="Resources/Evidences/GetSupplyByRestaurant.jpeg" >
 
