@@ -1269,7 +1269,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero eliminar insumos no deseados para mantener el inventario actualizado.</td>
       <td>3</td>
       <td>Fabrizzio Castro</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US020</th>
