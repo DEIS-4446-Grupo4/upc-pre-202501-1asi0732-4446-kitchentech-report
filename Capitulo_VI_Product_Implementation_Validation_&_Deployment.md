@@ -1139,7 +1139,37 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero que las cuentas y mesas se actualicen en tiempo real para evitar errores en la gestión.</td>
       <td>3</td>
       <td>Sandro Alarcon</td>
-      <td>To-review</td>
+      <td>Done</td>
+   </tr>
+  <tr>
+      <th>TS005</th>
+      <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
+      <td>2</td>
+      <td>Conectar con servicios la creación de las cuentas por medio de la aplicación movil</td>
+      <td>Como desarrollador, quiero conectar servicios que actualicen las cuentas en tiempo real para asegurar la correcta gestión.</td>
+      <td>5</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
+   </tr>
+  <tr>
+      <th>TS005</th>
+      <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
+      <td>3</td>
+      <td>Visualizar el estado de las mesas en tiempo real por medio de la aplicación movil</td>
+      <td>Como desarrollador, quiero implementar funcionalidades que muestren el estado de las mesas en tiempo real para garantizar la precisión de la información.</td>
+      <td>3</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
+   </tr>
+  <tr>
+      <th>TS005</th>
+      <th>Mantener las cuentas y mesas guardadas actualizadas en tiempo real para todos los usuarios del negocio.</th>
+      <td>4</td>
+      <td>Visualizar todas las cuentas del restaurante en tiempo real por medio de la aplicación movil</td>
+      <td>Como desarrollador, quiero habilitar la visualización de todas las cuentas en tiempo real para garantizar un manejo eficiente de los datos.</td>
+      <td>3</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US016</th>
