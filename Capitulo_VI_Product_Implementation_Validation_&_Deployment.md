@@ -1219,7 +1219,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero poder registrar nuevos insumos para mantener actualizado el inventario.</td>
       <td>3</td>
       <td>Esteban Calderon</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
   <tr>
       <th>US029</th>
@@ -1229,7 +1229,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero registrar nuevos insumos para mantener actualizado el inventario.</td>
       <td>3</td>
       <td>Lucas Benedetti</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US029</th>
@@ -1239,7 +1239,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero asegurarme de que los datos de los nuevos insumos sean válidos antes de guardarlos.</td>
       <td>1</td>
       <td>Jonatan Curi</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US032</th>
@@ -1249,7 +1249,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero editar insumos existentes para corregir errores o actualizar información.</td>
       <td>3</td>
       <td>Esteban Calderon</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US032</th>
@@ -1259,7 +1259,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero pre-cargar los datos del insumo para facilitar su edición.</td>
       <td>1</td>
       <td>Nicolas Zagal</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US033</th>
