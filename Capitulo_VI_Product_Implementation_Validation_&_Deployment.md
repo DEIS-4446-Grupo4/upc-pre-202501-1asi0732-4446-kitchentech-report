@@ -1129,7 +1129,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero detectar mesas y clientes automáticamente mediante IoT para optimizar la gestión de mesas.</td>
       <td>1</td>
       <td>Jonatan Curi</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>TS044</th>
@@ -1139,7 +1139,27 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero poder actualizar la cantidad máxima de comensales en una mesa para adaptarme a cambios en la disponibilidad de espacio. </td>
       <td>5</td>
       <td>Lucas Benedetti</td>
-      <td>In-Process</td>
+      <td>Done</td>
+   </tr>
+     <tr>
+      <th>TS044</th>
+      <th>Detección IoT para mesas y clientes.</th>
+      <td>4</td>
+      <td>Lógica de Agregación de Clientes mediante Sensores</td>
+      <td>Como administrador, quiero que los sensores agreguen información de clientes para mejorar la experiencia.</td>
+      <td>3</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <th>TS044</th>
+      <th>Detección IoT para mesas y clientes.</th>
+      <td>5</td>
+      <td>Conectar IoT a Backend Desplegado con el DB Table</td>
+      <td>Como desarrollador, quiero conectar dispositivos IoT al backend para obtener información en tiempo real.</td>
+      <td>1</td>
+      <td>Lucas Benedetti</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>TS005</th>
@@ -1189,7 +1209,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero recibir una alerta cuando un cliente entre al local para ofrecerle una atención rápida.</td>
       <td>1</td>
       <td>Fabrizzio Castro</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US016</th>
@@ -1199,7 +1219,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como administrador, quiero que se implemente la funcionalidad de alertas cuando un cliente entre al local, para garantizar que los meseros puedan ofrecer una atención rápida y eficiente.</td>
       <td>3</td>
       <td>Fabrizzio Castro</td>
-      <td>To-review</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>US028</th>
@@ -1299,26 +1319,6 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como desarrollador, quiero desplegar el App Web para asegurar que las funcionalidades estén correctamente integradas con el backend y que los usuarios puedan interactuar con los datos en tiempo real.</td>
       <td>3</td>
       <td>Lucas Benedetti</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <th>TS044</th>
-      <th>Detección IoT para mesas y clientes.</th>
-      <td>1</td>
-      <td>Conectar IoT a Backend Desplegado con el DB Table</td>
-      <td>Como desarrollador, quiero conectar dispositivos IoT al backend para obtener información en tiempo real.</td>
-      <td>1</td>
-      <td>Lucas Benedetti</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <th>TS044</th>
-      <th>Detección IoT para mesas y clientes.</th>
-      <td>4</td>
-      <td>Lógica de Agregación de Clientes mediante Sensores</td>
-      <td>Como administrador, quiero que los sensores agreguen información de clientes para mejorar la experiencia.</td>
-      <td>3</td>
-      <td>Jonatan Curi</td>
       <td>Done</td>
    </tr>
    <tr>
