@@ -1350,19 +1350,50 @@ la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los a
 
 En el Sprint 3.
 
-Se logró el desarrollo de la aplicacion mobile:
+Desarrollo de la aplicacion mobile:
+
+Se logró mejoras de la aplicación mobile y conexión con el back end desarrollado, secciones dentro de la app logran ser accesibles e interactivas para el usuario en la app.
+
+<img src="Resources/MOBILE/6235MobileExecutionEvidenceforSprintReview1.jpeg" >
+
+<img src="Resources/MOBILE/6235MobileExecutionEvidenceforSprintReview2.jpeg" >
+
+
+<img src="Resources/MOBILE/6235MobileExecutionEvidenceforSprintReview3.jpeg" >
+
+
+<img src="Resources/MOBILE/6235MobileExecutionEvidenceforSprintReview4.jpeg" >
+
+<img src="Resources/MOBILE/6235MobileExecutionEvidenceforSprintReview5.jpeg" >
+
+
+*Mejoras del back end:*
+
+En el backend del proyecto, incluye la mejora de la funcionalidad correspondiente al controlador de tablas y al controlador de suministros, enfocándose específicamente en gestionar esas áreas.
+
+
+<img src="Resources/BACKEND/6235BackendExecutionEvidenceforSprintReview1.png" >
+
+
+<img src="Resources/BACKEND/6235BackendExecutionEvidenceforSprintReview2.png" >
+
+<img src="Resources/BACKEND/6235BackendExecutionEvidenceforSprintReview3.png" >
+
+<img src="Resources/BACKEND/6235BackendExecutionEvidenceforSprintReview4.png" >
+
+<img src="Resources/BACKEND/6235BackendExecutionEvidenceforSprintReview5.png" >
+
+*Mejoras del front end:*
+
+En el frontend del proyecto, se ha implementado la mejora de la funcionalidad correspondiente al controlador de tablas y al controlador de suministros, centrándose específicamente en optimizar la gestión y visualización de esas áreas.
+
+<img src="Resources/webapp/sprint 3 (1).jpeg" >
+
+<img src="Resources/webapp/sprint 3 (2).jpeg" >
 
 
 
-Mejoras del back end:
-
-
-
-Mejoras del front end:
-
-
-
-Desarrollo de dispositivo IOT en wokwi:
+*Desarrollo de dispositivo IOT en wokwi:*
 
 
 
@@ -1370,22 +1401,14 @@ Desarrollo de dispositivo IOT en wokwi:
 
 <img src="Resources/DISPOSITIVO%20WOKWI/WhatsApp%20Image%202024-11-18%20at%207.46.25%20PM.jpeg" >
 
-Desarrollo de dispositivo IOT físico:
+*Desarrollo de dispositivo IOT físico:*
 
 
-Uso de componentes fisicos de IOT
-Arduino UNO
-Buzzer
-Led rojo
-Led amarillo
-Led verde
-Display de 7 segmentos y 2 digitos de 18 pines
-Botón 
-Potenciometro
-Resistencia de 390 ohms x8
-Resistencia de 100 ohms x3
-Cable de cobre
-Protoboard
+El dispositivo IoT utiliza una variedad de componentes físicos para su funcionamiento. Entre ellos, el Arduino UNO actúa como el controlador principal que gestiona las entradas y salidas del sistema. Un buzzer se emplea para emitir alertas sonoras, mientras que un conjunto de LEDs de colores (rojo, amarillo y verde) proporciona señales visuales para diferentes estados del sistema. 
+
+El dispositivo también incluye un display de 7 segmentos con 2 dígitos y 18 pines, que se utiliza para mostrar información en tiempo real, como valores o estados del sistema. Un botón permite la interacción del usuario, y un potenciómetro ajusta ciertos parámetros, como la intensidad de una señal o el brillo de los LEDs. 
+
+Además, se utilizan resistencias de diferentes valores (390 ohms x8 y 100 ohms x3) para limitar la corriente y proteger los componentes electrónicos. Los cables de cobre y una protoboard facilitan las conexiones eléctricas y el montaje del circuito, permitiendo una configuración modular y flexible. Este conjunto de elementos hace posible el desarrollo de un dispositivo IoT funcional y adaptable a diversas aplicaciones.
 
 <img src="Resources/DISPOSITIVO%20IOT%20FISICO/WhatsApp%20Image%202024-11-18%20at%207.54.01%20PM.jpeg" >
 <img src="Resources/DISPOSITIVO%20IOT%20FISICO/WhatsApp%20Image%202024-11-18%20at%207.54.00%20PM%20(1).jpeg" >
