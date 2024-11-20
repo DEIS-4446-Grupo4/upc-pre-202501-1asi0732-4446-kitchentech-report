@@ -1109,7 +1109,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como mesero, quiero tener un menú lateral para navegar fácilmente entre las opciones del sistema.</td>
       <td>5</td>
       <td>Nicolas Zagal</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>TS044</th>
@@ -1279,7 +1279,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como mesero, quiero agregar productos rápidamente a una orden para agilizar el servicio.</td>
       <td>5</td>
       <td>Sandro Alarcon</td>
-      <td>To-fix</td>
+      <td>Done</td>
    </tr>
    <tr>
     <th>TS042</th>
@@ -1299,7 +1299,7 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>Como desarrollador, quiero desplegar el App Web para asegurar que las funcionalidades estén correctamente integradas con el backend y que los usuarios puedan interactuar con los datos en tiempo real.</td>
       <td>3</td>
       <td>Lucas Benedetti</td>
-      <td>To-fix</td>
+      <td>Done</td>
    </tr>
    <tr>
       <th>TS044</th>
