@@ -1057,10 +1057,20 @@ A continuación, se presenta el Sprint Planning 3, donde se muestran las evidenc
       <td>1</td>
       <td>Implementar botón para agregar un cliente, este debe solicitar tipo de documento, número de documento y nombre del cliente</td>
       <td>Como usuario, quiero poder agregar clientes con su DNI o RUC para registrar sus datos en el sistema.</td>
-      <td>3</td>
+      <td>5</td>
       <td>Sandro Alarcon</td>
-      <td>To-do</td>
+      <td>Done</td>
    </tr>
+   <tr>
+      <th>US023</th>
+      <th>Agregar un cliente con DNI o RUC.</th>
+      <td>2</td>
+      <td>Asignar al cliente el valor total de su compra por medio de la aplicación móvil</td>
+      <td>Como desarrollador, quiero implementar una funcionalidad que permita agregar clientes con su DNI o RUC para registrar sus datos correctamente en el sistema.</td>
+      <td>5</td>
+      <td>Jonatan Curi</td>
+      <td>Done</td>
+  </tr>
    <tr>
       <th>TS041</th>
       <th>Despliegue del Backend</th>
