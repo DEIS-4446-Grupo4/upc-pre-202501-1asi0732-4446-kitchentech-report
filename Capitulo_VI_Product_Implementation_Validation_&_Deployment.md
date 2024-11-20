@@ -1522,10 +1522,27 @@ Descripción
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
-
 Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review. 
 
+Sistema IoT desarrollado en Wowki: https://wokwi.com/projects/413125558423921665  
 
+<img src="/Resources/Software_Sprint3.png" >
+
+Sistema IoT desarrollado Fisico: https://wokwi.com/projects/414828372688887809
+
+<img src="/Resources/Software_Sprint3_Fisico.png" >
+
+Backend desplegado en Azure:
+
+<img src="/Resources/SoftwareBackend.png" >
+
+FrontEnd Desplegado en Netlife:
+
+<img src="/Resources/FrontEnd_Deploy.png" >
+
+Database Desplegado en Railway:
+
+<img src="/Resources/Dtabase_Deploy.png" >
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -1565,24 +1582,46 @@ Durante el presente sprint se meustra la colaboración de los integrantes, con e
   </tbody>
 </table>
 
+Frontend – Aplicación Web: 
+
+Se desarrollo arreglos y desarrollo de nuevos features de visualización de mesas, cuentas y a mejorar la vida de features existentes de anteriores sprints. Se presenta el Contributors del repositorio frontend: 
+
+<img src="/Resources/teamcollaboration_sprint3/Contributors_Front_Web.png" >
+
+Asimismo, se presenta los commits elaborados en los últimos días del Sprint: 
+
+<img src="/Resources/teamcollaboration_sprint3/Commits_Front_Web.png" >
+
+Backend: 
+
+Se realizo mejoras y cambios en los endpoints desarrollados, en el caso de este sprint respecto a los utilizados para el frontend. Se presenta el Contributors del repositorio frontend: 
+
+<img src="/Resources/teamcollaboration_sprint3/Contributors_Back_End.png" >
+
+Asimismo, se presenta los commits elaborados en los últimos días del Sprint: 
+
+<img src="/Resources/teamcollaboration_sprint3/Commits_Back_End.png" >
+
+Frontend - Mobile: 
+
+Se genero las ultimas historias para completar el flujo de los paths referente al figma, se generó la conexión entre el backend y el mobile. 
+
+<img src="/Resources/teamcollaboration_sprint3/Contributors_Front_Mobile.png" >
+
+Asimismo, se presenta los commits elaborados en los últimos días del Sprint: 
+
+<img src="/Resources/teamcollaboration_sprint3/Commits_Front_Mobile.png" >
+
+Sistema IoT: 
+
+Se genero la conexión entre backend y iot, asi como historias relacionadas a la ocupación de mesas, y stock de insumos. 
+
+<img src="/Resources/teamcollaboration_sprint3/Contributors_IOT.png" >
+Asimismo, se presenta los commits elaborados en los últimos días del Sprint: 
+
+<img src="/Resources/teamcollaboration_sprint3/Commits_IOT.png" >
 
 <img src="/Resources/Evidences/Sprint3.jpg" >
-
-Mobile App:
-
-
-
-Backend:
-
-
-
-IoT Embedded App:
-
-
-
-Landing Page:
-
-
 
 
 ## 6.3. Validation Interviews.
