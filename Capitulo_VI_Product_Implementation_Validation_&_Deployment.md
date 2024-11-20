@@ -1738,5 +1738,8 @@ Implementar una opción de edición rápida para cambios de último momento, que
 
 ## 6.4. Video About-the-Product.
 
-Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114140_upc_edu_pe/Ec69qyP2xOJOpyxyRbFLQvQBdxpenJBiKMBqLxAPxoCHTg?e=XhhznD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<img src="./Resources/Captura%20de%20pantalla%202024-11-20%20153403.jpg" width="600" >
 
+Link del video: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114140_upc_edu_pe/EaqhnartN6VJg2EjVpn_JHMBveX2afjIaD7vEMi0vNSXDw?e=Dj4t0K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
