@@ -1379,12 +1379,18 @@ kitchen-tech           | feature/coupons            | c7e2a84    | feature/coupo
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
-Para este sprint, no se ha realizado el conjunto de pruebas automatizadas 
-(Unit Tests, Integration Tests, y Acceptance Tests) para los servicios web asociados con las User Stories 
-especificadas. Por lo tanto, no se cuenta con evidencia de testing suite para esta Sprint Review. Esto incluye 
-la ausencia de archivos .feature en Gherkin para pruebas BDD, así como de los archivos Steps en el lenguaje de
- programación. Tampoco se han diseñado ni documentado los Unit Tests, Integration Tests o Acceptance Tests, ni se 
- han registrado commits en el repositorio relacionados con avances en Testing.
+En esta sección, se realizaron **acceptance tests** en los endpoints de la API para cada una de las funcionalidades incluidas en este Sprint. Las funcionalidades relacionadas a estos tests son:
+
+- **Login**: Endpoint para la autenticación de usuarios, donde se validó el acceso con credenciales correctas e incorrectas, garantizando que los usuarios puedan iniciar sesión de manera segura.
+<img src="Resources/Evidences/Login.jpeg" >
+- **GetProductByRestaurant**: Endpoint para obtener productos específicos de un restaurante, donde se verificó que la consulta retorne correctamente los productos asociados a un restaurante dado.
+<img src="Resources/Evidences/GetProductByRestaurant.jpeg" >
+- **GetRestaurant**: Endpoint para obtener detalles de un restaurante, validando que los datos del restaurante (nombre, dirección, tipo de cocina, etc.) se recuperen correctamente.
+<img src="Resources/Evidences/GetRestaurant.jpeg" >
+- **GetSupplyByRestaurant**: Endpoint para obtener los suministros disponibles para un restaurante, asegurando que la información de suministros esté correctamente asociada y se muestre sin errores.
+<img src="Resources/Evidences/GetSupplyByRestaurant.jpeg" >
+
+Las pruebas realizadas en estos endpoints incluyen la validación de las respuestas (códigos de estado HTTP, datos retornados) y las condiciones de borde (por ejemplo, manejo de datos no encontrados, autenticación incorrecta). Las pruebas también se realizaron para asegurar que la API cumpla con los requisitos de rendimiento y seguridad establecidos para el Sprint.
 
 #### 6.2.3.5. Execution Evidence for Sprint Review.
 
