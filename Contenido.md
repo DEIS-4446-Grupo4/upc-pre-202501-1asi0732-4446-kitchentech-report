@@ -2,30 +2,36 @@
 
 <ol>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_I_Introduccion.md">Capítulo I: Introducción</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/1_Capitulo_I_Introduccion.md">Capítulo I: Introducción</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_II_Requirements_Elicitation_%26_Analysis.md">Capítulo II: Requirements Elicitation & Analysis</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/2_Capitulo_II_Requirements_Elicitation_%26_Analysis.md">Capítulo II: Requirements Elicitation & Analysis</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_III_Requirements_Specification.md">Capítulo III: Requirements Specification</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/3_Capitulo_III_Requirements_Specification.md">Capítulo III: Requirements Specification</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_IV_Solution_Software_Design.md">Capítulo IV: Solution Software Design</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/4_Capitulo_IV_Product_Design.md">Capítulo IV: Product Design</a>
   </li>
     <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_V_Solution_UI_UX_Design.md">Capítulo IV: Solution Software Design</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/5_Capitulo_V_Product_Implementation.md">Capítulo V: Product Implementation</a>
   </li>
     <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Capitulo_VI_Product_Implementation_Validation_%26_Deployment.md">Capítulo IV: Solution Software Design</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/6_Capitulo_VI_Product_Verification_&_Validation.md">Capítulo VI: Product Verifiction & Validation</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Conclusiones.md">Conclusiones</a>
+    <a href="">Capítulo VII: DevOps Practices //No vinculado aun</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Bibliografia.md">Bibliografia</a>
+    <a href="">Capítulo VIII: Experiment-Driven Development //No vinculado aun</a>
   </li>
   <li>
-    <a href="https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report/blob/main/Anexos.md">Anexos</a>
+    <a href="">Conclusiones //No vinculado aun</a>
+  </li>
+  <li>
+    <a href="">Bibliografia //No vinculado aun/a>
+  </li>
+  <li>
+    <a href="">Anexos //No vinculado aun</a>
   </li>
 </ol>
