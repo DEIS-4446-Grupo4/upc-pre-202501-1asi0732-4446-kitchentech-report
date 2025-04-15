@@ -9,32 +9,20 @@ Misión: Mejorar los tiempos de producción y atención de un negocio centrado e
 
 Visión: Ser la empresa que proporcione la solución más completa y satisfactoria a esta problemática que afecta este sector.
 ### 1.1.2. Perfiles de integrantes del equipo
-#### Sandro Alarcon Rondon 
+#### AAAA
 <img src="./Resources/images/sandro.jpg" width="150px" height="150px" >
 
-+  Soy estudiante de la carrera de ingenieria de software, he realizado proyectos en c++, java y c#, los cuales tengo conocimientos básicos y tambien he realizado proyectos con framework como Angular y Vue.
-
-#### Fabrizzio Antonio Castro Manrique
+#### AAAA
 <img src="./Resources/images/fabrizzio.png" width="150px" height="150px" >
 
-+  Tengo desenvolvimientos en desarrollo web y arquitectura de software, he trabajado en proyectos de angular, vue y react para Front-end. Para Back-end C# .NET y SpringBoot.
-
-#### Esteban Calderón Chauchi
+#### AAAA
 <img src="./Resources/images/esteban.jpg" width="150px" height="150px" >
 
-+  En mi desarrollo académico, he adquirido diversas habilidades en C++, SQL, Python, Angular y .NET. Dentro de mi trayectoria en Ingeniería de Software, he logrado obtener una compresión más clara sobre los conceptos que abarcan los proyectos centrados en el desarrollo de aplicaciones.
-
-
-#### Lucas Benedetti Rivas
+#### AAAA
 <img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-lucas.jpeg" width="150px" height="150px" >
 
-+  Soy un joven de 24 años, estudiante del 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Además de mis estudios, me apasiona el desarrollo de aplicaciones web, utlizando Vue.js y Java con Springboot como herramientas principales, actividad a la que dedico gran parte de mi tiempo libre. Profesionalmente, me desempeño como practicante en una entidad financiera, donde he tenido la oportunidad de aplicar metodologías ágiles y participar en la mejora continua de procesos críticos.	
-
-
-#### Jonatan Curi Montero
+#### AAAA
 <img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-jonatan.jpg" width="150px" height="150px" >
-
-+ Soy un estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Poseo conocimientos en los lenguajes TypeScript y Javascript. También, en frameworks como Angular, Vue y .Net. Tengo experiencia en el desarrollo de aplicaciones web, enfocandome principalmente en el Frontend. Considero que la comunicación es una característica fundamental en el equipo de trabajo. Profesionalmente, me encuentro haciendo practicas en una empresa que brinda servicios de contabilidad y facturación electronica en aplicacion web.	
 
 #### Nicolas Zagal Vallejo
 
