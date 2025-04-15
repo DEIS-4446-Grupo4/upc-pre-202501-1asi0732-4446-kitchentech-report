@@ -40,7 +40,7 @@ Profesor: Lennin Percy Cenas Vasquez
 # Project Report Collaboration Insights
 
 **TB1:** Se realizaron diversas actividades para la entrega TB1, disponibles en el siguiente repositorio de Github del equipo:  
-[Repositorio Github](https://github.com/Techstudents-SW74/upc-pre-202402--si572-SW74-tecnogurus-report)
+[Repositorio Github](https://github.com/orgs/DEIS-4446-Grupo4/repositories)
 
 Para la creación del informe se llevaron a cabo las siguientes acciones:
 
