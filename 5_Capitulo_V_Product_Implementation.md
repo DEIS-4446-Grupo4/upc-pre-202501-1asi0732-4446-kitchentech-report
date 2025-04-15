@@ -1,9 +1,9 @@
-# Capítulo V: Solution UI/UX Design
+# Capítulo IV: Product Design
 
-## 5.1. Style Guidelines
+## 4.1. Style Guidelines
 A continuación, se presentan las directrices generales de estilo que definirán la presentación y consistencia visual de nuestra solución, enfocada los servicios de nuestros clientes. Estas guías aseguran que el diseño mantenga una coherencia en todos los puntos de contacto con el usuario, garantizando una experiencia visual fluida y profesional. 
 
-### 5.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines
 #### Branding
 <img src="./Resources/images/branding.png">
 
@@ -25,7 +25,7 @@ Separación entre secciones principales: 64px
 #### Images or Illustrations
 <img src="./Resources/images/images.png">
 
-### 5.1.2 Web, Mobile and IoT Style Guidelines
+### 4.1.2 Web, Mobile and IoT Style Guidelines
 #### Web Style Guidelines
 En nuestras pautas de estilo web, priorizamos la adaptación de nuestros principios de diseño a la experiencia de usuario en entornos de navegación en línea. Esto incluye: 
 
@@ -44,8 +44,8 @@ Nuestro enfoque en las pautas de estilo para dispositivos IoT, como sensores de 
 
 +	Tendremos una seccion  de simulación donde consumiremos las respuestas de los sensores y en base a este en la seccion de simulación se mostrará una imagen representativa del estado de los comensales en una mesa.
 
-## 5.2 Information Architecture
-### 5.2.1 Organization Systems
+## 4.2 Information Architecture
+### 4.2.1 Organization Systems
 Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje impactante como si estamos navegando por una página web. Luego se presentarán ejemplos de la jerarquía visual que se prevé implementar en nuestras aplicaciones. 
 
 El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera: 
@@ -56,7 +56,7 @@ El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación
 + Luego de realizar ello, pasamos a una sección de simulación donde se definirá el estado de los comensales y su mesa en sí, gracias a los datos devueltos por los sensores de movimientos y sonidos. 
 + Con estos datos, la aplicación puede ofrecer un servicio personalizado automático con alertas que se delegará a los meseros, que podrán revisar en qué estado se encuentra cada mesa y cómo afecta a su flujo.
 
-### 5.2.2 Labelling System
+### 4.2.2 Labelling System
 En esta sección, presentaremos el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada aplicación. Comenzaremos detallando los encabezados que estarán disponibles en nuestra Landing page. \
 
 + **Inicio/Home:** Esta sección preseleccionada por defecto ofrecerá una breve descripción que representará la aplicación y proporcionará una idea del objetivo principal de esta. 
@@ -66,20 +66,20 @@ En esta sección, presentaremos el sistema de etiquetado que proporcionará una 
 + **Team:**  En esta sección los clientes pueden ver al equipo de desarrollo de la aplicación. 
 + **Contact:** En esta sección, los clientes pueden comunicarse con el equipo de Kitchentech.
 
-### 5.2.3 SEO Tags and Meta Tags
+### 4.2.3 SEO Tags and Meta Tags
 
 Para mejorar la visibilidad del servicio en los motores de busqueda, se añadiran etiquetas SEO y meta etiquetas en nuestra landing page. Los títulos y funciones core de nuestra appp están optimizados para atraer a los usuarios y a los motores de búsqueda.
 
-### 5.2.4 Searching System
+### 4.2.4 Searching System
 
 El sistema de búsquedas de la aplicación permitirá a los meseros buscar sus productos en una lista. Asi mismo, permitira guardarlos en favoritos de manera que aparezcan en la pagina principal a manera de tarjeta para un seleccionado mas eficiente. De la misma manera se desplegaran los pedidos pendientes y las mesas.
 
 
-### 5.2.5 Navigation System
+### 4.2.5 Navigation System
 El sistema de navegacion princpial de la aplicacion sera una barra lateral la cual contara con accesos rapidos a todas las funcionalidades de la aplicacion: Caja, pedidos guardados, historial de ventas, reporte de ventas, inventario, movimientos de caja y productos
 
-## 5.3 Landing Page UI Design
-### 5.3.1 Landing Page Wireframe
+## 4.3 Landing Page UI Design
+### 4.3.1 Landing Page Wireframe
 <img src="./Resources/images/Wireframes/WFLP1.png">
 <img src="./Resources/images/Wireframes/WFLP2.png">
 <img src="./Resources/images/Wireframes/WFLP3.png">
@@ -87,7 +87,7 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 <img src="./Resources/images/Wireframes/WFLP5.png">
 <img src="./Resources/images/Wireframes/WFLP6.png">
 
-### 5.3.2 Landing Page Mock-up
+### 4.3.2 Landing Page Mock-up
 <img src="./Resources/images/Mockups/MULP1.png">
 <img src="./Resources/images/Mockups/MULP2.png">
 <img src="./Resources/images/Mockups/MULP3.png">
@@ -95,8 +95,8 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 <img src="./Resources/images/Mockups/MULP5.png">
 <img src="./Resources/images/Mockups/MULP6.png">
 
-## 5.4 Application UX/UI Design
-### 5.4.1 Application Wireframes
+## 4.4 Application UX/UI Design
+### 4.4.1 Application Wireframes
 #### Wireframes Web Application
 <img src="./Resources/images/Wireframes/WF1.png">
 <img src="./Resources/images/Wireframes/WF2.png">
@@ -186,7 +186,59 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 <img src="./Resources/images/Mockups/MUMA9.png">
 <img src="./Resources/images/Mockups/MUMA10.png">
 
-## 5.5 Application Prototyping
+## 4.5 Application Prototyping
 <img src="./Resources/images/prototyping.png">
 
 Link del Figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=0-1&t=utGFI0ZMZzi5lOJL-1
+
+## 4.6 Domain-Driven Software Architecture 
+
+### 4.6.1 Sofware Architecture Context Diagram
+Este diagrama desglosa el contexto a un nivel más detallado, mostrando las interacciones entre los usuarios y el sistema en términos de roles y permisos. Aquí, tanto los Usuarios como los Administradores tienen acceso al Sistema de Gestión Empresarial, pero interactúan de manera diferente, con los usuarios accediendo a características específicas como pagos a través de la API, y los administradores gestionando la autenticación de usuarios.
+
+<img src="./Resources/images/Capitulo 4/4132.png" >
+
+### 4.6.2 Software Architecture Container Diagram
+Aquiespecificamos los contenedores de software que soportan la arquitectura, como la Aplicación Web (Web App), la Aplicación Móvil (Mobile App), el Backend y los Dispositivos IoT Gestionados (Managed IoT Devices). Aquí también se destacan las conexiones con el Sistema de Autenticación y la API de Pago, lo que proporciona un mapa claro de cómo los distintos módulos del sistema se comunican entre sí y con componentes externos.
+
+<img src="./Resources/Evidences/structurizr-Contenedores.png" >
+
+### 4.6.3 Software Architecture Components Diagram
+Este diagrama muestra la arquitectura de software a nivel de componentes dentro de un contexto limitado (Bounded Context). Incluye diferentes componentes del sistema, como servicios o módulos, que interactúan entre sí y con una base de datos central. Cada componente representa una parte del sistema que maneja responsabilidades específicas, y las líneas entre ellos indican el flujo de comunicación. La base de datos actúa como un punto central para el almacenamiento y recuperación de datos, conectando a los distintos componentes. Este diagrama es fundamental para comprender cómo se organiza el sistema en términos de módulos funcionales y su interacción.
+
+<img src="./Resources/images/Capitulo 4/4215.png" >
+
+Este diagrama muestra la arquitectura a nivel de componentes dentro de un contexto limitado. Incluye componentes como el Authentication API, User Service, y User Profile Service que se comunican entre sí y con una base de datos central. Representa cómo cada componente se encarga de una funcionalidad específica del sistema y cómo se intercambian mensajes entre ellos para cumplir con los requisitos del negocio. La base de datos se presenta como el repositorio central de datos al que acceden los servicios. Este diagrama es crucial para entender la organización modular del sistema y cómo se orquesta el flujo de información entre componentes.
+
+<img src="./Resources/images/Capitulo 4/4225.png" >
+
+Este diagrama muestra la organización de los principales componentes de software dentro de un contexto limitado (Bounded Context). Incluye componentes como el Environment Service, Tag Service, Customer Service, y User Service, que interactúan entre sí y con una base de datos central. Cada componente se encarga de una parte específica de la funcionalidad del sistema, como la gestión de entornos, etiquetas y clientes. El diagrama también muestra cómo estos componentes se comunican a través de APIs y colas de mensajería. La base de datos centralizada es el punto de conexión para el almacenamiento y acceso a los datos. Este nivel de vista ayuda a comprender cómo se organiza el sistema en módulos y cómo se gestionan las interacciones entre ellos.
+
+<img src="./Resources/images/Capitulo 4/4235.png" >
+Vemos el diagrama a nivel de componentes de arquitectura de software. En él se destacan varios componentes y su relación con un servidor en la nube, representando cómo se comunican entre sí y con el exterior. Cada componente parece tener una función específica dentro del sistema y se conectan entre ellos mediante líneas de interacción.
+
+<img src="./Resources/PART 6/5.jpg" >
+
+Este es un diagrama de componentes de arquitectura de software, donde los distintos módulos del sistema interactúan entre sí. Este diagrama presenta elementos como "Subscription", "PaymentGateway" y otros, conectados por líneas que indican flujos de datos o interacción. Además, hay representación de un almacenamiento central, probablemente una base de datos, que respalda estas interacciones.
+
+<img src="./Resources/images/Capitulo 4/4255.png" >
+
+Este diagrama a nivel de componentes donde varios módulos del sistema, como "NotificationManager" y "User", están conectados a una base de datos central. Estos componentes parecen intercambiar información, representando el flujo de datos entre diferentes elementos del sistema, probablemente en relación con la gestión de notificaciones y usuarios.
+
+<img src="./Resources/images/Capitulo 4/4265.png" >
+
+El diagrama muestra la interacción entre un servicio web REST y la base de datos a través de diferentes capas de lógica de negocio. El cliente interactúa con un Controller, que llama a Business Logic y Data Access Layer (DAL) para realizar operaciones. Luego, la DAL accede a la base de datos.
+
+<img src="./Resources/images/Capitulo 4/4275.png" >
+
+
+
+## 4.7 Software Object-Oriented Design
+
+### 4.7.1 Class Diagrams
+
+### 4.7.2 Class Dictionary 
+
+## 4.8 Database Dedsign
+
+## 4.8.1 Relational/Non-Relational Database Diagram. 
