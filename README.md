@@ -25,15 +25,16 @@ Profesor: Lennin Percy Cenas Vasquez
 
 #### Team Members
 
-| Integrante                               | Código     |
-| ---------------------------------------- | ---------- |
-| Nicolas Zagal Vallejo                    | U20201C429 |
+| Integrante            | Código     |
+|-----------------------|------------|
+| Nicolas Zagal Vallejo | U20201C429 |
+| Johan Príncipe Godoy  | u202014511 |
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor                                    | Descripción de la modificación                                                                                                                       |
-|---------|-------------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0    | 17/08/2024  | Nicolás Zagal Vallejo        | Desarrollo del capitulo e Introducción, Requirements Elicitation, Specification, Product Design y Product Implementation|                                                         |
+| Versión | Fecha      | Autor                 | Descripción de la modificación                                                                                           |
+|---------|------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 17/08/2024 | Nicolás Zagal Vallejo | Desarrollo del capitulo e Introducción, Requirements Elicitation, Specification, Product Design y Product Implementation |                                                         |
 
 ---
 

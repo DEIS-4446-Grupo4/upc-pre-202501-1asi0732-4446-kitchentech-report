@@ -15,15 +15,10 @@ Visión: Ser la empresa que proporcione la solución más completa y satisfactor
 #### AAAA
 <img src="./Resources/images/fabrizzio.png" width="150px" height="150px" >
 
-#### AAAA
-<img src="./Resources/images/esteban.jpg" width="150px" height="150px" >
+#### Johan Príncipe Godoy
+<img src="https://github.com/W3bW0rks/Project-Report/blob/1387b57f0bf4a86fc34d9d0a688142d5ad6aaf95/assets/Johan-Principe.png?raw=true" width="150px" height="150px"/>
 
-#### AAAA
-<img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-lucas.jpeg" width="150px" height="150px" >
-
-#### AAAA
-<img src="https://raw.githubusercontent.com/Grupo01-Soluciones-IoT/Report-Project/refs/heads/main/images/profile-jonatan.jpg" width="150px" height="150px" >
-
++ Mi nombre es Johan Príncipe, considero que seré un aporte importante al equipo debido a mis conocimientos en programación y mi capacidad para resolver problemas. Me apasiona el desarrollo de software y la creación de soluciones innovadoras. Estoy comprometido a contribuir al éxito del proyecto y a aprender de mis compañeros.
 #### Nicolas Zagal Vallejo
 
 <img src="./Resources/images/nicolas.jpg" width="150px" height="150px" >
