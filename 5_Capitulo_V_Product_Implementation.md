@@ -196,7 +196,18 @@ Esta sección recopila la evidencia del despliegue de software realizado durante
 
 ### 5.2.6. RESTful API documentation
 
+En esta sección, se realizaron **acceptance tests** en los endpoints de la API para cada una de las funcionalidades incluidas en este Sprint. Las funcionalidades relacionadas a estos tests son:
 
+- **Login**: Endpoint para la autenticación de usuarios, donde se validó el acceso con credenciales correctas e incorrectas, garantizando que los usuarios puedan iniciar sesión de manera segura.
+  <img src="Resources/Evidences/Login.jpeg" >
+- **GetProductByRestaurant**: Endpoint para obtener productos específicos de un restaurante, donde se verificó que la consulta retorne correctamente los productos asociados a un restaurante dado.
+  <img src="Resources/Evidences/GetProductByRestaurant.jpeg" >
+- **GetRestaurant**: Endpoint para obtener detalles de un restaurante, validando que los datos del restaurante (nombre, dirección, tipo de cocina, etc.) se recuperen correctamente.
+  <img src="Resources/Evidences/getRestaurnant.jpeg" >
+- **GetSupplyByRestaurant**: Endpoint para obtener los suministros disponibles para un restaurante, asegurando que la información de suministros esté correctamente asociada y se muestre sin errores.
+  <img src="Resources/Evidences/GetSupplyByRestaurant.jpeg" >
+
+Las pruebas realizadas en estos endpoints incluyen la validación de las respuestas (códigos de estado HTTP, datos retornados) y las condiciones de borde (por ejemplo, manejo de datos no encontrados, autenticación incorrecta). Las pruebas también se realizaron para asegurar que la API cumpla con los requisitos de rendimiento y seguridad establecidos para el Sprint.
 
 ### 5.2.7. Team Collaboration Insights
 
