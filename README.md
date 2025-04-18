@@ -25,10 +25,12 @@ Profesor: Lennin Percy Cenas Vasquez
 
 #### Team Members
 
-| Integrante            | Código     |
-|-----------------------|------------|
-| Nicolas Zagal Vallejo | U20201C429 |
-| Johan Príncipe Godoy  | u202014511 |
+| Integrante                         | Código     |
+|------------------------------------|------------|
+| Diego Jesus Alonso Garay           | U20221d014 |
+| Gabriel Anthony Braithuaite Toledo | U20201e889 |
+| Johan Príncipe Godoy               | u202014511 |
+| Nicolas Zagal Vallejo              | U20201C429 |
 
 # Registro de Versiones del Informe
 
@@ -71,11 +73,11 @@ Para la creación del informe se llevaron a cabo las siguientes acciones:
 </tr> 
 
 <tr> 
-<td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td> 
+<td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software.</td> 
 <td> </td>
 </tr> 
 <tr> 
-<td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td> 
+<td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
 
 </td> 
