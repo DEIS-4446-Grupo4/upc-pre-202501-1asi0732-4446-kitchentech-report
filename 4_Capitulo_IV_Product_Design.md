@@ -280,7 +280,57 @@ El diagrama muestra la interacción entre un servicio web REST y la base de dato
 #### Bounded Context: Data Report and Analytics
 <img src="./Resources/images/Capitulo 4/42761.png" >
 
-### 4.9.2 Class Dictionary 
+### 4.9.2 Class Dictionary
+#### Bounded Context: Profile Management
+| Class Name | Description                                                                                           |
+|------------|-------------------------------------------------------------------------------------------------------|
+| Role       | Representa los diferentes roles de usuario en el sistema, como administrador, mesero, etc.            |
+| User       | Representa a los usuarios del personal, como meseros y administradores, que tienen acceso al sistema. |
+| Restaurant | Representa un restaurante, incluyendo su nombre, ubicación y otros detalles relevantes.               |
+
+#### Bounded Context: Identity and Access Management
+| Class Name            | Description                                                             |
+|-----------------------|-------------------------------------------------------------------------|
+| IdentityAccessManager | Gestiona la autenticación y autorización de los usuarios en el sistema. |
+| FireBaseAuth          | Proporciona la funcionalidad de autenticación utilizando Firebase.      |
+
+#### Bounded Context: Business Management System
+| Class Name | Description                                                                                              |
+|------------|----------------------------------------------------------------------------------------------------------|
+| Client     | Representa a los clientes del restaurante, incluyendo su información de contacto y preferencias.         |
+| Account    | Representa la cuenta de un cliente, incluyendo detalles de facturación y pagos.                          |
+| Product    | Representa los productos ofrecidos por el restaurante, incluyendo su nombre, precio y categoría.         |
+| Supply     | Representa los suministros necesarios para la operación del restaurante, incluyendo su cantidad y costo. | |
+
+#### Bounded Context: IoT Asset Management
+| Class Name | Description                                                               |
+|------------|---------------------------------------------------------------------------|
+| Table      | Representa una mesa en el restaurante, incluyendo su número y capacidad.  |
+| Sensor     | Representa un sensor IoT, incluyendo su tipo y estado.                    |
+| Location   | Representa la ubicación de un sensor o dispositivo IoT en el restaurante. |
+| SensorType | Representa el tipo de sensor, como sensor de movimiento o sonido.         |
+
+#### Bounded Context: Subscription and Payments
+| Class Name          | Description                                                                                               |
+|---------------------|-----------------------------------------------------------------------------------------------------------|
+| SubscriptionManager | Gestiona las suscripciones de los clientes, incluyendo la activación y cancelación.                       |
+| PaymentGateway      | Proporciona la funcionalidad de procesamiento de pagos, incluyendo la integración con servicios externos. |
+| PaymentPolicy       | Define las políticas de pago, incluyendo métodos aceptados y términos de servicio.                        |
+
+#### Bounded Context: Notification Management
+| Class Name          | Description                                                                              |
+|---------------------|------------------------------------------------------------------------------------------|
+| NotificationManager | Gestiona las notificaciones enviadas a los usuarios, incluyendo alertas y recordatorios. |
+| Notification        | Representa una notificación, incluyendo su tipo, contenido y estado.                     |
+| CustomerAlert       | Representa una alerta enviada a un cliente, incluyendo su contenido y estado.            |
+
+#### Bounded Context: Data Report and Analytics
+| Class Name     | Description                                                                                |
+|----------------|--------------------------------------------------------------------------------------------|
+| SoundManager   | Gestiona los sonidos y alertas emitidos por el sistema, incluyendo su configuración.       |
+| MotionManager  | Gestiona los datos de movimiento de los sensores, incluyendo su análisis y almacenamiento. |
+| PaymentManager | Gestiona los pagos realizados por los clientes, incluyendo su procesamiento y registro.    |
+
 
 ## 4.10. Database Design
 ## 4.10.1. Relational/Non-Relational Database Diagram. 
