@@ -9,8 +9,10 @@ Misión: Mejorar los tiempos de producción y atención de un negocio centrado e
 
 Visión: Ser la empresa que proporcione la solución más completa y satisfactoria a esta problemática que afecta este sector.
 ### 1.1.2. Perfiles de integrantes del equipo
-#### AAAA
-<img src="./Resources/images/sandro.jpg" width="150px" height="150px" >
+#### Diego Jesus Alonso Garay
+<img src="./Resources/images/diego.jpeg" width="150px" height="150px" >
+
++ Mi nombre es Diego Alonso, me considero una persona intuitiva y busco siempre ver el lado positivo de las cosas, pero siempre con los pies sobre la tierra. Por lo general siempre busco dar lo necesario para realizar un buen trabajo y presentar correctamente algún proyecto.
 
 #### Gabriel Anthony Braithuaite Toledo
 <img src="./Resources/images/gabriel.jpg" width="150px" height="150px" >
