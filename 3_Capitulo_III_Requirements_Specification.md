@@ -3,8 +3,11 @@
 ## 3.1. To-Be Scenario Mapping.
 En la siguiente seccion, presentaremos el Mapeo de Escenarios Futuros específicamente diseñado para el proyecto. Este mapa representa una visión de cómo se implementan cambios y mejoras en los procesos y sistemas. A continuación, se incluye una representación gráfica del mismo: 
 - Segmento de Mesero:
+
 <img src="./Resources/images/sm1.png" >
+
 - Segmento de Administrador
+
 <img src="./Resources/images/sm2.png" >
 
 ## 3.2. User Stories.
@@ -65,17 +68,17 @@ En la siguiente seccion, presentaremos el Mapeo de Escenarios Futuros específic
   <tr>
     <td>E01_TS001</td>
     <td>Optimizar la velocidad de carga de la Landing Page</td>
-    <td>COMO desarrollador QUIERO optimizar la velocidad de carga de la pagina PARA brindar comodidad al usuario </td>
-    <td><strong>Escenario 1:</strong> La página cargará en menos de 3 segundos.<br>Dado que la pagina carga en menos de 3 segundos. Cuando un usuario ingresa en ella. Entonces esta conforme con el servicio brindado<br><br> <strong>Escenario 2:</strong> La página cargará en 3 segundos o mas.<br>Dado que la pagina demora en cargar 3 segundos o mas. Cuando un usuario ingresa en ella. Entonces no esta conforme con el servicio brindado.</td>
+    <td>COMO desarrollador QUIERO optimizar la velocidad de carga de la página PARA brindar comodidad al usuario</td>
+    <td><strong>Escenario 1:</strong> La página cargará en menos de 3 segundos.<br>Dado que la página carga en menos de 3 segundos. Cuando un usuario ingresa en ella. Entonces está conforme con el servicio brindado<br><br> <strong>Escenario 2:</strong> La página cargará en 3 segundos o más.<br>Dado que la página demora en cargar 3 segundos o más. Cuando un usuario ingresa en ella. Entonces no está conforme con el servicio brindado.</td>
   </tr>
   <tr>
-    <td colspan="4""><strong>Épica 2: Funcionalidades de Autenticación y Seguridad </strong><br>Como usuario<br>Quiero validar mis datos y poder navegar en la aplicación<br>Para mantener mi cuenta segura y encontrar todos los secciones de forma rápida</td>
+    <td colspan="4"><strong>Épica 2: Funcionalidades de Autenticación y Seguridad </strong><br>Como usuario<br>Quiero validar mis datos y poder navegar en la aplicación<br>Para mantener mi cuenta segura y encontrar todas las secciones de forma rápida</td>
   </tr>
   <tr>
     <td>E02_US008</td>
     <td>Implementar Login con PIN/clave</td>
-    <td>COMO usuario QUIERO acceder a la aplicacion mediante un usuario y contraseña PARA mantener mi informacion del negocio segura</td>
-    <td><strong>Escenario 1:</strong> El usuario ingresa correctamente el usuario y contraseña.<br>Dado que el cliente ingresa sus credenciales válidas. Cuando de click al botón de "Ingresar". Entonces será dirigido a la página principal de la app. <br><br> <strong>Escenario 2:</strong> El usuario ingresa un usuario o contraseña incorrecto. <br>Dado que el cliente ingreso sus credenciales invalidas. Cuando de click al boton de "Ingresar". Entonces mostrara un mensaje de error </td>
+    <td>COMO usuario QUIERO acceder a la aplicación mediante un usuario y contraseña PARA mantener mi información del negocio segura</td>
+    <td><strong>Escenario 1:</strong> El usuario ingresa correctamente el usuario y contraseña.<br>Dado que el cliente ingresa sus credenciales válidas. Cuando dé click al botón de "Ingresar". Entonces será dirigido a la página principal de la app. <br><br> <strong>Escenario 2:</strong> El usuario ingresa un usuario o contraseña incorrecto. <br>Dado que el cliente ingresó sus credenciales inválidas. Cuando dé click al botón de "Ingresar". Entonces mostrará un mensaje de error</td>
   </tr>
   <tr>
     <td>E02_US009</td>
@@ -435,8 +438,58 @@ Entonces no se generan los graficos y se muestra un error indicando que no se pu
 
 </table>
 
+## 3.3. Product Backlog
 
-## 3.3. Impact Mapping.
+| #  | User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Points |
+|----|---------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1  | E02_US_009    | Logout                                                           | COMO cliente QUIERO salir de la aplicación PARA evitar el uso de mi cuenta por otras personas.                                                                                                            | 1            |
+| 2  | E01_US_001    | seccion de Header                                                | COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página.                                                                                     | 2            |
+| 3  | E01_US_002    | seccion de Footer                                                | COMO usuario QUIERO visualizar pie de página que contenga información PARA un mejor entendimiento de la página.                                                                                           | 2            |
+| 4  | E01_US_004    | Botón para ver más información                                   | COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.                                                                                                            | 2            |
+| 5  | E01_US_005    | Sección de Contacto                                              | COMO usuario QUIERO observar un seccion “Contacto” PARA comunicarme con el equipo de desarrollo.                                                                                                          | 2            |
+| 6  | E01_US_011    | Validación de clave                                              | COMO cliente QUIERO validar mi clave PARA mantener mi cuenta segura.                                                                                                                                      | 1            |
+| 7  | E01_US_012    | Despliegue de Menú                                               | COMO usuario QUIERO visualizar un menú PARA acceder a las funciones de la aplicación rápidamente.                                                                                                         | 2            |
+| 8  | E02_US_013    | Salir de la sesión                                               | COMO usuario QUIERO cerrar sesión en mi cuenta PARA iniciar o crear otra cuenta.                                                                                                                          | 2            |
+| 9  | E02_US_014    | Sección de inicio de sesión                                      | COMO usuario QUIERO iniciar sesión en mi cuenta PARA acceder a la información de la plataforma.                                                                                                           | 2            |
+| 10 | E02_US_015    | Sección de registro                                              | COMO usuario QUIERO observar un seccion de “Regístrate” PARA crear una cuenta nueva.                                                                                                                      | 2            |
+| 11 | E03_US_017    | Dirigir a ajustes de la aplicación                               | COMO usuario QUIERO ir a los ajustes de la aplicación PARA realizar cambios en la configuración.                                                                                                          | 2            |
+| 12 | E07_US_037    | Eliminar platos existentes                                       | COMO administrador QUIERO eliminar platos del menú PARA mantener la oferta actualizada.                                                                                                                   | 3            |
+| 13 | E01_US_003    | Barra de Navegación                                              | COMO usuario QUIERO presionar botones en el encabezado del landing page para desplazarme por la página.                                                                                                   | 2            |
+| 14 | E01_US_004    | Descripción de la Start-Up                                       | COMO usuario QUIERO observar un seccion con información de la página PARA conocer sobre la start-up.                                                                                                      | 3            |
+| 15 | E01_US_007    | Sección del equipo                                               | COMO usuario QUIERO observar un seccion sobre el equipo PARA conocer más sobre los desarrolladores.                                                                                                       | 3            |
+| 16 | E02_US_008    | Login con PIN/clave                                              | COMO cliente QUIERO ingresar con PIN PARA acceder a la página principal.                                                                                                                                  | 3            |
+| 17 | E02_US_010    | Recuperar contraseña                                             | COMO cliente QUIERO recuperar mi contraseña PARA ingresar a la aplicación.                                                                                                                                | 3            |
+| 18 | E03_US_016    | Dirigir a perfil de usuario                                      | COMO cliente QUIERO acceder a mi perfil PARA cambiar cualquier dato que necesite actualización.                                                                                                           | 3            |
+| 19 | E03_US_018    | Ver y editar datos de usuario                                    | COMO usuario QUIERO ver y editar mi información PARA mantenerla actualizada.                                                                                                                              | 3            |
+| 20 | E04_US_022    | Recibir alerta cuando hay platos y no hay cliente en mesa        | COMO mesero QUIERO recibir una alerta cuando hay platos sucios en una mesa sin clientes PARA poder recogerlos.                                                                                            | 3            |
+| 21 | E05_US_024    | Guardar pedidos                                                  | COMO mesero QUIERO guardar los pedidos de una mesa PARA enviarlos a caja o cocina.                                                                                                                        | 3            |
+| 22 | E06_US_025    | Imprimir pre-cuenta                                              | COMO administrador QUIERO imprimir el resumen de una orden PARA entregárselo al cliente antes de pagar.                                                                                                   | 3            |
+| 23 | E06_US_026    | Cobrar orden                                                     | COMO administrador QUIERO cobrar la orden de un cliente con diversos métodos de pago PARA brindar comodidad al cliente.                                                                                   | 3            |
+| 24 | E06_US_030    | Boletear o facturar la orden                                     | COMO administrador QUIERO emitir una factura o boleta PARA enviarla a la SUNAT después del pago.                                                                                                          | 3            |
+| 25 | E07_US_032    | Filtrar ventas por platos                                        | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos.                                                                                                                    | 4            |
+| 26 | E07_US_036    | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 4            |
+| 27 | E05_US_023    | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 4            |
+| 28 | E05_US_025    | Enviar pedido guardado a cocina y caja                           | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente.                                                                    | 4            |
+| 29 | E06_US_027    | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 4            |
+| 30 | E07_US_031    | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 4            |
+| 31 | E07_US_033    | Ver resumen de productos restantes                               | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock.                                                                                         | 4            |
+| 32 | E07_US_034    | Ingresar nuevos productos al inventario                          | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado.                                                                                          | 4            |
+| 33 | E07_US_035    | Crear platos nuevos                                              | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden.                                                         | 4            |
+| 34 | E04_US_019    | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.                                                                                                  | 4            |
+| 35 | E04_US_020    | Recibir alerta cuando cliente toma asiento en una mesa           | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa.                                                                                 | 4            |
+| 36 | E04_US_021    | Recibir alerta cuando un cliente deja la mesa                    | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                                                                                               | 4            |
+| 43 | E010_US043    | Inventariado de Insumos mediante IoT                             | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio.  | 5            |
+| 44 | E010_US044    | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 8            |
+
+Se realizó el product backlog en trello:
+
+
+<img src="./Resources/Evidences/Trello.jpg" >
+
+Link: https://trello.com/invite/b/66f6fd07c57d7ffb39fd1676/ATTIf7c73a2657fb52ec9e301974ed4454e430361341/sprint-1-tecnogurus
+
+
+## 3.4. Impact Mapping.
 
 **Segmento Mesero**
 
@@ -450,51 +503,3 @@ El administrador del restaurante juega un papel crucial en la supervisión y opt
 
 <img src="./Resources/images/im2.png" >
 
-## 3.4 Product Backlog
-| #  | User Story ID  | Título                         | Descripción                                                                                                                                       | Story Points |
-|----|----------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1  | E02_US_009     | Logout                         | COMO cliente QUIERO salir de la aplicación PARA evitar el uso de mi cuenta por otras personas.                                                    | 1            |
-| 2  | E01_US_001     | seccion de Header             | COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página.                             | 2            |
-| 3  | E01_US_002     | seccion de Footer             | COMO usuario QUIERO visualizar pie de página que contenga información PARA un mejor entendimiento de la página.                                   | 2            |
-| 4  | E01_US_004     | Botón para ver más información | COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.                                                    | 2            |
-| 5  | E01_US_005     | Sección de Contacto            | COMO usuario QUIERO observar un seccion “Contacto” PARA comunicarme con el equipo de desarrollo.                                                 | 2            |
-| 6  | E01_US_011     | Validación de clave            | COMO cliente QUIERO validar mi clave PARA mantener mi cuenta segura.                                                                              | 1            |
-| 7  | E01_US_012     | Despliegue de Menú             | COMO usuario QUIERO visualizar un menú PARA acceder a las funciones de la aplicación rápidamente.                                                 | 2            |
-| 8  | E02_US_013     | Salir de la sesión             | COMO usuario QUIERO cerrar sesión en mi cuenta PARA iniciar o crear otra cuenta.                                                                  | 2            |
-| 9  | E02_US_014     | Sección de inicio de sesión    | COMO usuario QUIERO iniciar sesión en mi cuenta PARA acceder a la información de la plataforma.                                                   | 2            |
-| 10 | E02_US_015     | Sección de registro            | COMO usuario QUIERO observar un seccion de “Regístrate” PARA crear una cuenta nueva.                                                             | 2            |
-| 11 | E03_US_017     | Dirigir a ajustes de la aplicación | COMO usuario QUIERO ir a los ajustes de la aplicación PARA realizar cambios en la configuración.                                              | 2            |
-| 12 | E07_US_037     | Eliminar platos existentes     | COMO administrador QUIERO eliminar platos del menú PARA mantener la oferta actualizada.                                                           | 3            |
-| 13 | E01_US_003     | Barra de Navegación            | COMO usuario QUIERO presionar botones en el encabezado del landing page para desplazarme por la página.                                           | 2            |
-| 14 | E01_US_004     | Descripción de la Start-Up     | COMO usuario QUIERO observar un seccion con información de la página PARA conocer sobre la start-up.                                             | 3            |
-| 15 | E01_US_007     | Sección del equipo             | COMO usuario QUIERO observar un seccion sobre el equipo PARA conocer más sobre los desarrolladores.                                              | 3            |
-| 16 | E02_US_008     | Login con PIN/clave            | COMO cliente QUIERO ingresar con PIN PARA acceder a la página principal.                                                                          | 3            |
-| 17 | E02_US_010     | Recuperar contraseña           | COMO cliente QUIERO recuperar mi contraseña PARA ingresar a la aplicación.                                                                        | 3            |
-| 18 | E03_US_016     | Dirigir a perfil de usuario    | COMO cliente QUIERO acceder a mi perfil PARA cambiar cualquier dato que necesite actualización.                                                   | 3            |
-| 19 | E03_US_018     | Ver y editar datos de usuario  | COMO usuario QUIERO ver y editar mi información PARA mantenerla actualizada.                                                                      | 3            |
-| 20 | E04_US_022     | Recibir alerta cuando hay platos y no hay cliente en mesa | COMO mesero QUIERO recibir una alerta cuando hay platos sucios en una mesa sin clientes PARA poder recogerlos.         | 3            |
-| 21 | E05_US_024     | Guardar pedidos                | COMO mesero QUIERO guardar los pedidos de una mesa PARA enviarlos a caja o cocina.                                                                | 3            |
-| 22 | E06_US_025     | Imprimir pre-cuenta            | COMO administrador QUIERO imprimir el resumen de una orden PARA entregárselo al cliente antes de pagar.                                           | 3            |
-| 23 | E06_US_026     | Cobrar orden                   | COMO administrador QUIERO cobrar la orden de un cliente con diversos métodos de pago PARA brindar comodidad al cliente.                           | 3            |
-| 24 | E06_US_030     | Boletear o facturar la orden   | COMO administrador QUIERO emitir una factura o boleta PARA enviarla a la SUNAT después del pago.                                                  | 3            |
-| 25 | E07_US_032     | Filtrar ventas por platos      | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos.                                                            | 4            |
-| 26 | E07_US_036     | Editar platos existentes       | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                   | 4            |
-| 27 | E05_US_023     | Tomar pedidos de la mesa       | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                           | 4            |
-| 28 | E05_US_025     | Enviar pedido guardado a cocina y caja | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente.    | 4            |
-| 29 | E06_US_027     | Crear un cliente con DNI o RUC | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                              | 4            |
-| 30 | E07_US_031     | Ver resumen de ventas          | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                          | 4            |
-| 31 | E07_US_033     | Ver resumen de productos restantes | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock.                             | 4            |
-| 32 | E07_US_034     | Ingresar nuevos productos al inventario | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado.                         | 4            |
-| 33 | E07_US_035     | Crear platos nuevos            | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden. | 4            |
-| 34 | E04_US_019     | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.        | 4            |
-| 35 | E04_US_020     | Recibir alerta cuando cliente toma asiento en una mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa. | 4            |
-| 36 | E04_US_021     | Recibir alerta cuando un cliente deja la mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                        | 4            |
-| 43  | E010_US043     | Inventariado de Insumos mediante IoT       | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio. | 5            |
-| 44  | E010_US044     | Detectar Mesas y Clientes mediante IoT     | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 8            |
-
-Se realizó el product backlog en trello:
-
-
-<img src="./Resources/Evidences/Trello.jpg" >
-
-Link: https://trello.com/invite/b/66f6fd07c57d7ffb39fd1676/ATTIf7c73a2657fb52ec9e301974ed4454e430361341/sprint-1-tecnogurus 
