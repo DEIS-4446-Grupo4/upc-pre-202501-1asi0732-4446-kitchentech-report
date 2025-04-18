@@ -1,244 +1,204 @@
-# Capítulo IV: Product Design
-
-## 4.1. Style Guidelines
-A continuación, se presentan las directrices generales de estilo que definirán la presentación y consistencia visual de nuestra solución, enfocada los servicios de nuestros clientes. Estas guías aseguran que el diseño mantenga una coherencia en todos los puntos de contacto con el usuario, garantizando una experiencia visual fluida y profesional. 
-
-### 4.1.1. General Style Guidelines
-#### Branding
-<img src="./Resources/images/branding.png">
-
-#### Typography
-<img src="./Resources/images/typography.png">
-
-#### Colors
-<img src="./Resources/images/colors.png">
-
-#### Spacing
-El diseño utiliza un sistema de espaciado basado en múltiplos de 8px para asegurar consistencia entre los distintos elementos de la interfaz. Este sistema permite mantener un ritmo visual agradable y ordenado, mejorando la experiencia de usuario.
-
-Margen y Padding: 8px, 16px, 32px 
-
-Separación entre secciones principales: 64px 
-#### Icons
-<img src="./Resources/images/icons.png">
-
-#### Images or Illustrations
-<img src="./Resources/images/images.png">
-
-### 4.1.2 Web, Mobile and IoT Style Guidelines
-#### Web Style Guidelines
-En nuestras pautas de estilo web, priorizamos la adaptación de nuestros principios de diseño a la experiencia de usuario en entornos de navegación en línea. Esto incluye: 
-
-+ **Diseño Responsivo:** Establecemos directrices para la adaptación de la interfaz a diferentes tamaños de pantalla, como los formatos 16:9, desde computadoras de escritorio hasta tabletas. Garantizamos que la experiencia de usuario sea óptima en diversos dispositivos.
-+ **Navegación:** Para una navegación intuitiva, utilizaremos una barra de navegación (Navbar) para organizar los menús en el caso de la landing page, para la web app utilizaremos un sidebar para un mayor entendimiento y mayor rapidez en la adaptabilidad del usuario para con la aplicación. Además, como parte de las prácticas de diseño responsivo, implementaremos un "Botón hamburguesa" en el menú para facilitar la navegación en pantallas más pequeñas.
-
-#### Mobile Style Guidelines
-Para nuestra versión móvil, nos enfocamos en optimizar la experiencia en dispositivos móviles, asegurando una interfaz eficiente y amigable para el usuario. Esto incluye: 
-
-+ **Diseño de Pantalla:** Definimos la disposición de elementos en pantallas más pequeñas, considerando proporciones específicas para Android y iOS, para garantizar una usabilidad efectiva y una navegación sencilla. 
-+ **Adaptación de Contenido:** Ofrecemos recomendaciones para adaptar y priorizar el contenido en dispositivos móviles, manteniendo su relevancia y utilidad, y asegurando una experiencia de usuario coherente en diferentes sistemas operativos móviles. 
-+ **Compatibilidad de Dispositivos:** Aseguramos que la aplicación móvil sea compatible con una amplia variedad de dispositivos y sistemas operativos móviles, abarcando tanto Android como iOS.
-
-#### IoT Style Guidelines
-Nuestro enfoque en las pautas de estilo para dispositivos IoT, como sensores de movimiento y sonido, se centra en la presentación clara de datos y la eficiencia en la comunicación de información esencial. Aquí están los aspectos clave: 
-
-+	Tendremos una seccion  de simulación donde consumiremos las respuestas de los sensores y en base a este en la seccion de simulación se mostrará una imagen representativa del estado de los comensales en una mesa.
-
-## 4.2 Information Architecture
-### 4.2.1 Organization Systems
-Establecer una jerarquía visual clara es fundamental para la creación de una página web altamente optimizada. Esto se debe a la forma en que nuestros sistemas visuales están interconectados; tenemos la tendencia natural de escanear y procesar rápidamente diversos elementos visuales, como bordes, contrastes, tamaños y movimientos, para evaluar y comprender nuestro entorno. Esta dinámica es aplicable tanto si estamos contemplando un paisaje impactante como si estamos navegando por una página web. Luego se presentarán ejemplos de la jerarquía visual que se prevé implementar en nuestras aplicaciones. 
-
-El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera: 
-
-+ En principio, el usuario ingresa sesión o se registra, para poder acceder a los servicios que brindamos este debe primero adquirir uno de nuestros planes de subscripción. 
-+ Luego de iniciar sesión y adquirir una licencia, el usuario puede acceder a nuestros servicios que están ordenados en un sidebar para un mayor entendimiento por parte del usuario. 
-+ El flujo es el siguiente, el usuario registra una nueva cuenta indicando la cantidad de comensales, su engargado y más datos relevantes mediante un formulario. 
-+ Luego de realizar ello, pasamos a una sección de simulación donde se definirá el estado de los comensales y su mesa en sí, gracias a los datos devueltos por los sensores de movimientos y sonidos. 
-+ Con estos datos, la aplicación puede ofrecer un servicio personalizado automático con alertas que se delegará a los meseros, que podrán revisar en qué estado se encuentra cada mesa y cómo afecta a su flujo.
-
-### 4.2.2 Labelling System
-En esta sección, presentaremos el sistema de etiquetado que proporcionará una descripción concisa y clara de la información presentada en cada aplicación. Comenzaremos detallando los encabezados que estarán disponibles en nuestra Landing page. \
-
-+ **Inicio/Home:** Esta sección preseleccionada por defecto ofrecerá una breve descripción que representará la aplicación y proporcionará una idea del objetivo principal de esta. 
-+ **Conócenos/About Us:** En esta sección, los clientes podrán obtener información sobre nuestro equipo, ver nuestra misión, visión, conocer quiénes somos y qué hacemos. 
-+ **IoT:** En esta sección, los clientes pueden ver información sobre cómo se implementará IoT en la aplicación y como este mejorará la administración del negocio del sector alimenticio. 
-+ **Servicios/Services:** La sección de características se encuentra dividida en segmentos objetivos, donde mostraremos los beneficios que nuestro sistema ofrece para cada uno de ellos. 
-+ **Team:**  En esta sección los clientes pueden ver al equipo de desarrollo de la aplicación. 
-+ **Contact:** En esta sección, los clientes pueden comunicarse con el equipo de Kitchentech.
-
-### 4.2.3 SEO Tags and Meta Tags
-
-Para mejorar la visibilidad del servicio en los motores de busqueda, se añadiran etiquetas SEO y meta etiquetas en nuestra landing page. Los títulos y funciones core de nuestra appp están optimizados para atraer a los usuarios y a los motores de búsqueda.
-
-### 4.2.4 Searching System
-
-El sistema de búsquedas de la aplicación permitirá a los meseros buscar sus productos en una lista. Asi mismo, permitira guardarlos en favoritos de manera que aparezcan en la pagina principal a manera de tarjeta para un seleccionado mas eficiente. De la misma manera se desplegaran los pedidos pendientes y las mesas.
 
 
-### 4.2.5 Navigation System
-El sistema de navegacion princpial de la aplicacion sera una barra lateral la cual contara con accesos rapidos a todas las funcionalidades de la aplicacion: Caja, pedidos guardados, historial de ventas, reporte de ventas, inventario, movimientos de caja y productos
+# Capitulo V: Product Implamentation
 
-## 4.3 Landing Page UI Design
-### 4.3.1 Landing Page Wireframe
-<img src="./Resources/images/Wireframes/WFLP1.png">
-<img src="./Resources/images/Wireframes/WFLP2.png">
-<img src="./Resources/images/Wireframes/WFLP3.png">
-<img src="./Resources/images/Wireframes/WFLP4.png">
-<img src="./Resources/images/Wireframes/WFLP5.png">
-<img src="./Resources/images/Wireframes/WFLP6.png">
+## 5.1 Software Configuration Management 
+### 5.1.1 Software Development Environment Configuration
+En esta sección se presentan los softwares correspondientes utilizados por los miembros del equipo y los enlaces utilizados para que cada uno tenga asignado el rol de administrador y pueda ejecutar sus cambios al proyecto:  
+- **Miro:** Event Storming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases
+*Imagen*
 
-### 4.3.2 Landing Page Mock-up
-<img src="./Resources/images/Mockups/MULP1.png">
-<img src="./Resources/images/Mockups/MULP2.png">
-<img src="./Resources/images/Mockups/MULP3.png">
-<img src="./Resources/images/Mockups/MULP4.png">
-<img src="./Resources/images/Mockups/MULP5.png">
-<img src="./Resources/images/Mockups/MULP6.png">
+Enlace del miro: https://miro.com/app/board/uXjVKkI6spU=/ 
 
-## 4.4 Application UX/UI Design
-### 4.4.1 Application Wireframes
-#### Wireframes Web Application
-<img src="./Resources/images/Wireframes/WF1.png">
-<img src="./Resources/images/Wireframes/WF2.png">
-<img src="./Resources/images/Wireframes/WF3.png">
+- *Lucidchart:* Context Mapping, DDD Bounded Context Class Diagram
+  
+*Imagen*
 
-#### Wireframes Web Application - Segmento Meseros
-<img src="./Resources/images/Wireframes/WFM1.png">
-<img src="./Resources/images/Wireframes/WFM2.png">
-<img src="./Resources/images/Wireframes/WFM3.png">
-<img src="./Resources/images/Wireframes/WFM4.png">
-<img src="./Resources/images/Wireframes/WFM5.png">
-<img src="./Resources/images/Wireframes/WFM6.png">
-<img src="./Resources/images/Wireframes/WFM7.png">
+- *Structurizr:* C4 Model System, Container, Component Diagram
+  
+*Imagen*
 
-#### Wireframes Web Application - Segmento Administradores
-<img src="./Resources/images/Wireframes/WFA1.png">
-<img src="./Resources/images/Wireframes/WFA2.png">
-<img src="./Resources/images/Wireframes/WFA3.png">
-<img src="./Resources/images/Wireframes/WFA4.png">
-<img src="./Resources/images/Wireframes/WFA5.png">
-<img src="./Resources/images/Wireframes/WFA6.png">
-<img src="./Resources/images/Wireframes/WFA7.png">
-<img src="./Resources/images/Wireframes/WFA8.png">
-<img src="./Resources/images/Wireframes/WFA9.png">
-<img src="./Resources/images/Wireframes/WFA10.png">
-<img src="./Resources/images/Wireframes/WFA11.png">
-<img src="./Resources/images/Wireframes/WFA12.png">
-<img src="./Resources/images/Wireframes/WFA13.png">
-<img src="./Resources/images/Wireframes/WFA14.png">
-<img src="./Resources/images/Wireframes/WFA15.png">
+- *Vertabelo:* DDD Database Diagram
+  
+*Imagen*
 
-#### Wireframes Mobile Application
-<img src="./Resources/images/Wireframes/WFMA1.png">
-<img src="./Resources/images/Wireframes/WFMA2.png">
-<img src="./Resources/images/Wireframes/WFMA3.png">
-<img src="./Resources/images/Wireframes/WFMA4.png">
-<img src="./Resources/images/Wireframes/WFMA5.png">
-<img src="./Resources/images/Wireframes/WFMA6.png">
-<img src="./Resources/images/Wireframes/WFMA7.png">
-<img src="./Resources/images/Wireframes/WFMA8.png">
-<img src="./Resources/images/Wireframes/WFMA9.png">
-<img src="./Resources/images/Wireframes/WFMA10.png">
+- *Visual Paradigm:* Bounded Context Component Diagram
+  
+*Imagen*
 
-### 5.4.2 Application Wireflow Diagrams
+- *Visual Studio Code:* Software Development
+  
+*Imagen*
 
-### 5.4.3 Application Mock-ups
-#### Mock-ups Web Application
-<img src="./Resources/images/Mockups/MU1.png">
-<img src="./Resources/images/Mockups/MU2.png">
-<img src="./Resources/images/Mockups/MU3.png">
+  
+- *Figma:* Web/Mobile Prototype & User Flow
+  
+*Imagen*
 
-#### Muck-ups Web Application - Segmento Meseros
-<img src="./Resources/images/Mockups/MUM1.png">
-<img src="./Resources/images/Mockups/MUM2.png">
-<img src="./Resources/images/Mockups/MUM3.png">
-<img src="./Resources/images/Mockups/MUM4.png">
-<img src="./Resources/images/Mockups/MUM5.png">
-<img src="./Resources/images/Mockups/MUM6.png">
-<img src="./Resources/images/Mockups/MUM7.png">
+Enlace del figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=27-667&node-type=canvas&t=yWeXn4Jr6F7oE6yY-0 
 
-#### Muck-ups Web Application - Segmento Administradores
-<img src="./Resources/images/Mockups/MUA1.png">
-<img src="./Resources/images/Mockups/MUA2.png">
-<img src="./Resources/images/Mockups/MUA3.png">
-<img src="./Resources/images/Mockups/MUA4.png">
-<img src="./Resources/images/Mockups/MUA5.png">
-<img src="./Resources/images/Mockups/MUA6.png">
-<img src="./Resources/images/Mockups/MUA7.png">
-<img src="./Resources/images/Mockups/MUA8.png">
-<img src="./Resources/images/Mockups/MUA9.png">
-<img src="./Resources/images/Mockups/MUA10.png">
-<img src="./Resources/images/Mockups/MUA11.png">
-<img src="./Resources/images/Mockups/MUA12.png">
-<img src="./Resources/images/Mockups/MUA13.png">
-<img src="./Resources/images/Mockups/MUA14.png">
-<img src="./Resources/images/Mockups/MUA15.png">
+### 5.1.2 Source Code Management
+El manejo y la gestión de las diferentes modificaciones que se llevaron a cabo, fueron mediante una organización de GitHub para nuestro Startup. 
 
-#### Wireframes Mobile Application
-<img src="./Resources/images/Mockups/MUMA1.png">
-<img src="./Resources/images/Mockups/MUMA2.png">
-<img src="./Resources/images/Mockups/MUMA3.png">
-<img src="./Resources/images/Mockups/MUMA4.png">
-<img src="./Resources/images/Mockups/MUMA5.png">
-<img src="./Resources/images/Mockups/MUMA6.png">
-<img src="./Resources/images/Mockups/MUMA7.png">
-<img src="./Resources/images/Mockups/MUMA8.png">
-<img src="./Resources/images/Mockups/MUMA9.png">
-<img src="./Resources/images/Mockups/MUMA10.png">
+Organización: https://github.com/Techstudents-SW74 
 
-## 4.5 Application Prototyping
-<img src="./Resources/images/prototyping.png">
+Repositorio de Landing Page: https://github.com/Techstudents-SW74/LandingPage 
 
-Link del Figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=0-1&t=utGFI0ZMZzi5lOJL-1
+Deployment del Landing Page: https://techstudents-sw74.github.io/ 
 
-## 4.6 Domain-Driven Software Architecture 
+Asimismo, se establecieron dos ramas correspondientes para el desarrollo:  
 
-### 4.6.1 Sofware Architecture Context Diagram
-Este diagrama desglosa el contexto a un nivel más detallado, mostrando las interacciones entre los usuarios y el sistema en términos de roles y permisos. Aquí, tanto los Usuarios como los Administradores tienen acceso al Sistema de Gestión Empresarial, pero interactúan de manera diferente, con los usuarios accediendo a características específicas como pagos a través de la API, y los administradores gestionando la autenticación de usuarios.
+- Main: esta rama cuenta con la versión estable de nuestra landing page luego de que cada componente haya sido aprobado mediante una pull request. 
 
-<img src="./Resources/images/Capitulo 4/4132.png" >
+- develop: esta rama cuenta con versiones donde se pusieron a prueba los componentes que cada integrante implemento a la landing page
 
-### 4.6.2 Software Architecture Container Diagram
-Aquiespecificamos los contenedores de software que soportan la arquitectura, como la Aplicación Web (Web App), la Aplicación Móvil (Mobile App), el Backend y los Dispositivos IoT Gestionados (Managed IoT Devices). Aquí también se destacan las conexiones con el Sistema de Autenticación y la API de Pago, lo que proporciona un mapa claro de cómo los distintos módulos del sistema se comunican entre sí y con componentes externos.
+### 5.1.3 Source Code Style Guide & Conventions
 
-<img src="./Resources/Evidences/structurizr-Contenedores.png" >
+###HTML:
+Se aplicarán las directrices de “HTML Style Guide and Coding” de W3Schools, destacando convenciones clave como declarar siempre el tipo de documento (<!DOCTYPE>), utilizar etiquetas y atributos en minúsculas para mantener un código limpio y organizado, y cerrar todas las etiquetas para prevenir errores. Se colocarán comillas en los valores de los atributos y se especificarán siempre los atributos alt, width y height en las imágenes para mejorar la accesibilidad y el SEO. Además, no se omitirán las etiquetas <head> y los metadatos esenciales para la optimización en motores de búsqueda.
 
-### 4.6.3 Software Architecture Components Diagram
-Este diagrama muestra la arquitectura de software a nivel de componentes dentro de un contexto limitado (Bounded Context). Incluye diferentes componentes del sistema, como servicios o módulos, que interactúan entre sí y con una base de datos central. Cada componente representa una parte del sistema que maneja responsabilidades específicas, y las líneas entre ellos indican el flujo de comunicación. La base de datos actúa como un punto central para el almacenamiento y recuperación de datos, conectando a los distintos componentes. Este diagrama es fundamental para comprender cómo se organiza el sistema en términos de módulos funcionales y su interacción.
+### CSS:
+Basado en la “Google HTML/CSS Style Guide”, se seguirán prácticas recomendadas como usar nombres de clase generales, cortos y descriptivos, empleando guiones para separar palabras. Se evitarán los selectores de ID, priorizando selectores de clase, y se utilizarán propiedades abreviadas como margin, padding, y border para mejorar la legibilidad y reducir el número de líneas de código. Estas convenciones aseguran un estilo CSS más limpio y escalable.
 
-<img src="./Resources/images/Capitulo 4/4215.png" >
+### JavaScript:
+Se implementarán las “JavaScript Best Practices” recomendadas por el W3C, priorizando nombres cortos y fáciles de entender para variables y funciones. Se evitará el uso de variables globales (var), prefiriendo let o const para evitar colisiones de nombres y errores a largo plazo. Se documentarán y comentarán solo las partes necesarias del código, explicando las secciones complejas, y se adoptarán notaciones y operadores sencillos para manipular estructuras de datos.
 
-Este diagrama muestra la arquitectura a nivel de componentes dentro de un contexto limitado. Incluye componentes como el Authentication API, User Service, y User Profile Service que se comunican entre sí y con una base de datos central. Representa cómo cada componente se encarga de una funcionalidad específica del sistema y cómo se intercambian mensajes entre ellos para cumplir con los requisitos del negocio. La base de datos se presenta como el repositorio central de datos al que acceden los servicios. Este diagrama es crucial para entender la organización modular del sistema y cómo se orquesta el flujo de información entre componentes.
+### Gherkin:
+Para las pruebas, se seguirá la guía “Gherkin Conventions for Readable Specifications”, organizando claramente los bloques Given-When-Then mediante la indentación adecuada y el uso de la palabra clave "And" para pasos adicionales. Se utilizarán tablas cuando los pasos requieran mayor información y se emplearán comillas simples para los parámetros en los escenarios, mejorando la legibilidad. Los escenarios múltiples se separarán con comentarios para facilitar la organización visual.
 
-<img src="./Resources/images/Capitulo 4/4225.png" >
+### Frontend y Backend:
+La landing page y las aplicaciones web seguirán las pautas de diseño de Material Design, utilizando Angular Material como biblioteca de componentes de UI. El frontend será desarrollado en Angular Framework, combinando HTML5, CSS3 y JavaScript/TypeScript para los aspectos estáticos y lógicos de las aplicaciones. En el backend, se implementarán servicios web bajo el estilo arquitectónico RESTful API usando Spring Boot y Java como lenguaje principal.
 
-Este diagrama muestra la organización de los principales componentes de software dentro de un contexto limitado (Bounded Context). Incluye componentes como el Environment Service, Tag Service, Customer Service, y User Service, que interactúan entre sí y con una base de datos central. Cada componente se encarga de una parte específica de la funcionalidad del sistema, como la gestión de entornos, etiquetas y clientes. El diagrama también muestra cómo estos componentes se comunican a través de APIs y colas de mensajería. La base de datos centralizada es el punto de conexión para el almacenamiento y acceso a los datos. Este nivel de vista ayuda a comprender cómo se organiza el sistema en módulos y cómo se gestionan las interacciones entre ellos.
+### Control de versiones:
+El control de versiones será gestionado con GIT desde GitHub, siguiendo las prácticas de GitFlow Workflow junto con Conventional Commits y Semantic Versioning. Esto permitirá una integración continua, con despliegues automáticos y manejo eficiente de hotfixes.
 
-<img src="./Resources/images/Capitulo 4/4235.png" >
-Vemos el diagrama a nivel de componentes de arquitectura de software. En él se destacan varios componentes y su relación con un servidor en la nube, representando cómo se comunican entre sí y con el exterior. Cada componente parece tener una función específica dentro del sistema y se conectan entre ellos mediante líneas de interacción.
 
-<img src="./Resources/PART 6/5.jpg" >
+### 5.1.4 Software Deployment Configuration
+La siguiente tabla presenta los commits del repositorio del landing page en GitHub:
 
-Este es un diagrama de componentes de arquitectura de software, donde los distintos módulos del sistema interactúan entre sí. Este diagrama presenta elementos como "Subscription", "PaymentGateway" y otros, conectados por líneas que indican flujos de datos o interacción. Además, hay representación de un almacenamiento central, probablemente una base de datos, que respalda estas interacciones.
+| Id del commit                            | Commit                                                                  |
+|------------------------------------------|-------------------------------------------------------------------------|
+| babf1bf8b1439d841dc4fde5b33f2aac61105ce0 | Initial commit                                                          |
+| 6aff73d0b39a7c9a4d5ae1c99d9338f9c6bd662d | Part 1                                                                  |
+| b001457e48e36f514a12f978dbb9475c25c50e06 | Part 2                                                                  |
+| -                                        | Merge branch 'main' of https://github.com/Techstudents-SW74/LandingPage |
+| 70f08b4f25df21ae3535a38c6a58269014181cfd | Part 3                                                                  |
+| bd7bee8feec07792a080e8d29913ebeb7db84b6e | Part 4                                                                  |
+| d38272d239da0f26d26452496e6d3e89f8a871fe | (feat) "add header & footer"                                            |
 
-<img src="./Resources/images/Capitulo 4/4255.png" >
+## 5.2 Produt Implementation & Deployment
+En esta sección, se explicará y evidenciará el proceso de despliegue para la Landing page de nuestro startup, utilizando la herramienta de despliegue. Para lograr este objetivo se utilizó el CLI de esta herramienta y el GitHub donde se creó el repositorio. 
 
-Este diagrama a nivel de componentes donde varios módulos del sistema, como "NotificationManager" y "User", están conectados a una base de datos central. Estos componentes parecen intercambiar información, representando el flujo de datos entre diferentes elementos del sistema, probablemente en relación con la gestión de notificaciones y usuarios.
+### 5.2.1 Sprint Backlogs
 
-<img src="./Resources/images/Capitulo 4/4265.png" >
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint </th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned to</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <th>US001</th>
+    <th>Seccion de Header </th>
+    <th>2</th>
+    <th>Seccion de Header</th>
+    <th>COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página. </th>
+    <th>2</th>
+    <th>Fabrizzio Castro</th>
+    <th>Done</th>
+  </tr>
+</table>
 
-El diagrama muestra la interacción entre un servicio web REST y la base de datos a través de diferentes capas de lógica de negocio. El cliente interactúa con un Controller, que llama a Business Logic y Data Access Layer (DAL) para realizar operaciones. Luego, la DAL accede a la base de datos.
 
-<img src="./Resources/images/Capitulo 4/4275.png" >
+### 5.2.2 Implemented Landing Page Evidence
+Vistas desarrolladas: Landing page (Hero section):
+
+<img src="./Resources/Evidences/Landing/1.jpg" >
+
+Landing page (About us):
+
+<img src="./Resources/Evidences/Landing/2.jpg" >
+
+Landing page (Members):
+
+<img src="./Resources/Evidences/Landing/3.jpg" >
+
+Landing page (IOT features):
+
+<img src="./Resources/Evidences/Landing/4.jpg" >
+
+Landing page (Galelry section):
+
+<img src="./Resources/Evidences/Landing/5.jpg" >
+
+Landing page (Contact section y footer):
+
+<img src="./Resources/Evidences/Landing/6.jpg" >
+
+
+### 5.2.3 Implemented Frontend-Web Application Evidence
+
+Vistas desarrolladas: Web app (profile):
+
+<img src="./Resources/webapp/1.jpeg" >
+
+
+Web app (login):
+
+<img src="./Resources/webapp/2.jpeg" >
+
+Web app (sign up):
+
+<img src="./Resources/webapp/3.jpeg" >
+
+Web app (caja):
+
+<img src="./Resources/webapp/4.jpeg" >
+
+Web app (cuentas guardadas):
+
+<img src="./Resources/webapp/5.jpeg" >
+
+
+Web app (mov. de caja):
+
+<img src="./Resources/webapp/6.jpeg" >
+
+Web app (productos):
+
+<img src="./Resources/webapp/7.jpeg" >
+
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
+
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+
+### 5.2.6. RESTful API documentation
 
 
 
-## 4.7 Software Object-Oriented Design
+### 5.2.7. Team Collaboration Insights
 
-### 4.7.1 Class Diagrams
 
-### 4.7.2 Class Dictionary 
+## 5.3. Video About-the-Product.
 
-## 4.8 Database Dedsign
+<img src="./Resources/Captura%20de%20pantalla%202024-11-20%20153403.jpg" width="600" >
 
-## 4.8.1 Relational/Non-Relational Database Diagram. 
+Link del video: 
+
+https://www.youtube.com/watch?v=rSsDI6MaP-4
