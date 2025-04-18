@@ -130,8 +130,14 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 
 ## 4.5 Mobile Applications Prototyping
 ### 4.5.1 Android Mobile Application Prototyping
+Para la aplicación móvil de Android, se ha desarrollado un prototipo que permite a los usuarios interactuar con las funcionalidades principales de la aplicación. Este prototipo incluye pantallas para el registro de usuarios, inicio de sesión, gestión de pedidos y visualización de datos en tiempo real. A continuación se presentan algunas capturas de pantalla del prototipo:
+
+<img src="./Resources/Evidences/mobile_application_prototyping.jpeg">
 
 ### 4.5.2 iOS Mobile Application Prototyping
+Para la aplicación móvil de iOS, se ha creado un prototipo que permite a los usuarios experimentar con las funcionalidades clave de la aplicación. Este prototipo incluye pantallas para el registro de usuarios, inicio de sesión, gestión de pedidos y visualización de datos en tiempo real. A continuación se presentan algunas capturas de pantalla del prototipo:
+
+<img src="./Resources/Evidences/mobile_application_prototyping.jpeg">
 
 ## 4.6 Web Application UX/UI Design
 ### 4.6.1 Web Application Wireframes
