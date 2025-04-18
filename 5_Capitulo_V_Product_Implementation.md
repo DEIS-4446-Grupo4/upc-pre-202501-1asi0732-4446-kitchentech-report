@@ -187,6 +187,12 @@ Web app (productos):
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review.
+
+
+<img src="./Resources/Evidences/backenddeployment1_kitchentech.png" >
+
+<img src="./Resources/Evidences/backenddeployment2_kitchentech.png" >
 
 ### 5.2.6. RESTful API documentation
 
