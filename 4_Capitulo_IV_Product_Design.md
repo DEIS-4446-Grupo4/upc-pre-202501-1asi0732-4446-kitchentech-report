@@ -259,9 +259,49 @@ El diagrama muestra la interacción entre un servicio web REST y la base de dato
 ## 4.9 Software Object-Oriented Design
 
 ### 4.9.1 Class Diagrams
+#### Bounded Context: Profile Management
+<img src="./Resources/PART 6/1.jpg" >
+
+#### Bounded Context: Identity and Access Management
+<img src="./Resources/images/Capitulo 4/42261.png" >
+
+#### Bounded Context: Business Management System
+<img src="./Resources/PART 6/42361Image.png" >
+
+#### Bounded Context: IoT Asset Management
+<img src="./Resources/PART 6/6.jpg" >
+
+#### Bounded Context: Subscription and Payments
+<img src="./Resources/images/Capitulo 4/42561.png" >
+
+#### Bounded Context: Notification Management
+<img src="./Resources/images/Capitulo 4/42661.png" >
+
+#### Bounded Context: Data Report and Analytics
+<img src="./Resources/images/Capitulo 4/42761.png" >
 
 ### 4.9.2 Class Dictionary 
 
-## 4.10. Database Dedsign
-
+## 4.10. Database Design
 ## 4.10.1. Relational/Non-Relational Database Diagram. 
+
+#### Bounded Context: Profile Management
+<img src="./Resources/PART 6/2.jpg" >
+
+#### Bounded Context: Identity and Access Management
+<img src="./Resources/images/Capitulo 4/42262.png" >
+
+#### Bounded Context: Business Management System
+<img src="./Resources/PART 6/4.jpg" >
+
+#### Bounded Context: IoT Asset Management
+<img src="./Resources/PART 6/7.jpg" >
+
+#### Bounded Context: Subscription and Payments
+<img src="./Resources/images/Capitulo 4/42562.png" >
+
+#### Bounded Context: Notification Management
+<img src="./Resources/images/Capitulo 4/42662.png" >
+
+#### Bounded Context: Data Report and Analytics
+<img src="./Resources/images/Capitulo 4/42762.png" >
