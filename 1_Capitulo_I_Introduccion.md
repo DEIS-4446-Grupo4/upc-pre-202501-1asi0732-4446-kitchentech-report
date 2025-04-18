@@ -12,9 +12,10 @@ Visión: Ser la empresa que proporcione la solución más completa y satisfactor
 #### AAAA
 <img src="./Resources/images/sandro.jpg" width="150px" height="150px" >
 
-#### AAAA
-<img src="./Resources/images/fabrizzio.png" width="150px" height="150px" >
+#### Gabriel Anthony Braithuaite Toledo
+<img src="./Resources/images/gabriel.jpg" width="150px" height="150px" >
 
++ Mi nombre es Gabriel Braithuaite, considero que podré aportar al equipo con mi creatividad, disposición para trabajar y con mis conocimientos. Tengo la voluntad de aprender cosas nuevas y crecer junto a mi equipo a lo largo del tiempo que trabajemos juntos.
 #### Johan Príncipe Godoy
 <img src="https://github.com/W3bW0rks/Project-Report/blob/1387b57f0bf4a86fc34d9d0a688142d5ad6aaf95/assets/Johan-Principe.png?raw=true" width="150px" height="150px"/>
 
