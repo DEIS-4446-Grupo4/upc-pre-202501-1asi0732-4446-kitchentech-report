@@ -86,7 +86,7 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 ### 4.3.1 Landing Page Wireframe
 <img src="./Resources/images/Wireframes/WFLP1.png">
 <img src="./Resources/images/Wireframes/WFLP2.png">
-<img src="./Resources/images/Wireframes/WFLP3.png">
+<img src="./Resources/our_team_wireframe.png">
 <img src="./Resources/images/Wireframes/WFLP4.png">
 <img src="./Resources/images/Wireframes/WFLP5.png">
 <img src="./Resources/images/Wireframes/WFLP6.png">
@@ -94,7 +94,7 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 ### 4.3.2 Landing Page Mock-up
 <img src="./Resources/images/Mockups/MULP1.png">
 <img src="./Resources/images/Mockups/MULP2.png">
-<img src="./Resources/images/Mockups/MULP3.png">
+<img src="./Resources/our_team_mockup.png">
 <img src="./Resources/images/Mockups/MULP4.png">
 <img src="./Resources/images/Mockups/MULP5.png">
 <img src="./Resources/images/Mockups/MULP6.png">
