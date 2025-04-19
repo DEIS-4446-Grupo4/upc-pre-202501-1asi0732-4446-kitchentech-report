@@ -40,11 +40,11 @@ Enlace del figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-i
 ### 5.1.2 Source Code Management
 El manejo y la gestión de las diferentes modificaciones que se llevaron a cabo, fueron mediante una organización de GitHub para nuestro Startup. 
 
-Organización: https://github.com/Techstudents-SW74 
+Organización: https://github.com/DEIS-4446-Grupo4
 
-Repositorio de Landing Page: https://github.com/Techstudents-SW74/LandingPage 
+Repositorio de Landing Page: https://github.com/DEIS-4446-Grupo4/landing-page.git 
 
-Deployment del Landing Page: https://techstudents-sw74.github.io/ 
+Deployment del Landing Page: https://landing-page-kitchentech.vercel.app 
 
 Asimismo, se establecieron dos ramas correspondientes para el desarrollo:  
 
@@ -134,7 +134,7 @@ Landing page (About us):
 
 Landing page (Members):
 
-<img src="./Resources/Evidences/Landing/3.jpg" >
+<img src="./Resources/our_team_mockup.png">
 
 Landing page (IOT features):
 
