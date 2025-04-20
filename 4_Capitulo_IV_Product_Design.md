@@ -114,6 +114,50 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 
 ### 4.4.2 Mobile Application Wireflow Diagrams
 
+User Goal 1: Registrar una venta desde la selección de productos hasta el cobro
+
+Segmento objetivo: Mesero
+
+
+![Resource](/Resources/images/wireflow1.png)
+
+Explicación del flujo:
+
+- El usuario inicia sesión con su cuenta.
+- En la pantalla de productos, selecciona ítems tocando sobre ellos.
+- Se muestra la cuenta actual con totales e impuestos.
+- El usuario elige un método de pago.
+- Se confirma el cobro y se emite el comprobante.
+
+User Goal 2: Guardar cuenta asociada a una mesa
+
+Segmento objetivo: Mesero
+
+![Resource](/Resources/images/wireflow2.png)
+
+Explicación del flujo:
+
+- El usuario agrega productos a una nueva cuenta desde la pantalla principal.
+
+- Luego accede a la cuenta y elige la opción “Guardar Cuenta”.
+
+- Introduce el nombre de la mesa o cliente (ejm: “Mesa 5”).
+
+- El sistema guarda la cuenta y la lista en la sección de “Cuentas Guardadas” para continuarla más tarde.
+
+User Goal 3: Revisar el resumen de ventas del día
+
+Segmento objetivo: Administrador
+
+![Resource](/Resources/images/wireflow3.png)
+
+Explicación del flujo:
+
+- El usuario inicia sesión con su cuenta de administrador.
+- Desde la vista principal del sistema, el administrador accede a la opción “Resumen de ventas”.
+- Se abre una pantalla con los totales acumulados en soles y dólares, así como el número de ventas realizadas durante el día.
+- Esta vista permite analizar la productividad sin necesidad de emitir reportes externos.
+
 ### 4.4.3 Mobile Application Mock-ups
 <img src="./Resources/images/Mockups/MUMA1.png">
 <img src="./Resources/images/Mockups/MUMA2.png">
@@ -127,6 +171,8 @@ El sistema de navegacion princpial de la aplicacion sera una barra lateral la cu
 <img src="./Resources/images/Mockups/MUMA10.png">
 
 ### 4.4.4 Mobile Application User Flow Diagrams
+
+
 
 ## 4.5 Mobile Applications Prototyping
 ### 4.5.1 Android Mobile Application Prototyping
