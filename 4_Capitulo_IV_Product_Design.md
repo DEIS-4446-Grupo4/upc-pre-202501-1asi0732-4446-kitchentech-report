@@ -172,7 +172,35 @@ Explicación del flujo:
 
 ### 4.4.4 Mobile Application User Flow Diagrams
 
+User Flow 1: Registrar una venta completa
 
+Segmento objetivo: Meseros
+
+![Resource](/Resources/images/userflow1.png)
+
+Explicación del flujo:
+
+El mesero inicia sesión en el sistema, selecciona productos del menú y accede a la cuenta para revisar el subtotal e impuestos. Luego, procede al cobro del pedido eligiendo un método de pago como tarjeta o efectivo. Finalmente, el sistema muestra el total cobrado y permite emitir un comprobante de venta.
+
+User Flow 2: Guardar una cuenta para una mesa
+
+Segmento objetivo: Meseros
+
+![Resource](/Resources/images/userflow2.png)
+
+Explicación del flujo:
+
+El mesero selecciona productos desde el catálogo y accede a la cuenta actual. En lugar de cobrar, elige guardar la cuenta ingresando el nombre o número de mesa. La cuenta queda almacenada en la lista de “Cuentas guardadas” para poder retomarla y continuar con la venta más adelante.
+
+User Flow 3: Revisar el resumen de ventas del día
+
+Segmento objetivo: Administradores
+
+![Resource](/Resources/images/userflow3.png)
+
+Explicación del flujo:
+
+El administrador accede al sistema y desde la vista principal ingresa a la sección de “Resumen de ventas”. Allí puede consultar el total acumulado en soles y dólares, así como la cantidad de ventas realizadas en el día, lo que le permite monitorear el rendimiento económico del restaurante.
 
 ## 4.5 Mobile Applications Prototyping
 ### 4.5.1 Android Mobile Application Prototyping
