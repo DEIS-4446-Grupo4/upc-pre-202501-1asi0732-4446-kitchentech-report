@@ -247,6 +247,10 @@ Para la aplicación móvil de iOS, se ha creado un prototipo que permite a los u
 <img src="./Resources/images/Wireframes/WFA15.png">
 
 ### 4.6.2 Web Application WireFlow Diagrams
+<img src="./Resources/images/WebWireFlow1.png">
+<img src="./Resources/images/WebWireFlow2.png">
+<img src="./Resources/images/WebWireFlow3.png">
+<img src="./Resources/images/WebWireFlow4.png">
 
 ### 4.6.3 Web Application Mock-ups
 #### Mock-ups Web Application
@@ -281,7 +285,11 @@ Para la aplicación móvil de iOS, se ha creado un prototipo que permite a los u
 <img src="./Resources/images/Mockups/MUA15.png">
 
 ### 4.6.4 Web Application User Flow Diagrams
-
+<img src="./Resources/images/WebUserFlow1.png">
+<img src="./Resources/images/WebUserFlow2.png">
+<img src="./Resources/images/WebUserFlow3.png">
+<img src="./Resources/images/WebUserFlow4.png">
+<img src="./Resources/images/WebUserFlow5.png">
 
 ## 4.7 Web Applications Prototyping
 <img src="./Resources/images/prototyping.png">
