@@ -247,10 +247,57 @@ Para la aplicación móvil de iOS, se ha creado un prototipo que permite a los u
 <img src="./Resources/images/Wireframes/WFA15.png">
 
 ### 4.6.2 Web Application WireFlow Diagrams
-<img src="./Resources/images/WebWireFlow1.png">
-<img src="./Resources/images/WebWireFlow2.png">
-<img src="./Resources/images/WebWireFlow3.png">
-<img src="./Resources/images/WebWireFlow4.png">
+
+User Goal 1: Registrar una venta desde la selección de productos hasta el cobro
+
+Segmento objetivo: Mesero
+
+<img src="./Resources/images/wireweb1.png">
+
+Explicación del flujo:
+
+- El usuario inicia sesión con su cuenta.
+- Después de agregar la cuenta correspondiente se accede a la pantalla de cobro.
+- Se muestra la cuenta con totales e impuestos.
+- El usuario elige un método de pago.
+- Se confirma el cobro y se emite el comprobante de pago.
+
+User Goal 2: Guardar cuenta asociada a una mesa
+
+Segmento objetivo: Mesero
+
+<img src="./Resources/images/wireweb2.png">
+
+Explicación del flujo:
+
+- El usuario agrega productos a una nueva cuenta desde la pantalla principal.
+- Luego accede a la cuenta y elige la opción “Guardar venta”.
+- Se podrá ver el movimiento hecho anteriormente.
+- Dentro de las cuentas guardadas se podra ver a que mesa le corresponde dicha cuenta.
+
+User Goal 3: Revisar el resumen de ventas del día
+
+Segmento objetivo: Administrador
+
+<img src="./Resources/images/wireweb3.png">
+
+Explicación del flujo:
+
+- El usuario inicia sesión con su cuenta de administrador.
+- Desde la vista principal del sistema, el administrador accede a la opción “Reporte de ventas”.
+- Se abre una pantalla con toda la inforamción correspondiente a las ventas.
+
+User Goal 4: Agregar Stock
+
+Segmento objetivo: Administrador
+
+<img src="./Resources/images/wireweb3.png">
+
+Explicación del flujo:
+
+- El usuario inicia sesión con su cuenta de administrador.
+- Desde la vista principal del sistema, el administrador accede a la opción “Inventario”.
+- Se abre una pantalla con el almacen y dentro se puede agregar un Stock.
 
 ### 4.6.3 Web Application Mock-ups
 #### Mock-ups Web Application
