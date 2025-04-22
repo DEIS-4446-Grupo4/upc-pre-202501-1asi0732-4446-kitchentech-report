@@ -332,11 +332,36 @@ Explicación del flujo:
 <img src="./Resources/images/Mockups/MUA15.png">
 
 ### 4.6.4 Web Application User Flow Diagrams
-<img src="./Resources/images/WebUserFlow1.png">
-<img src="./Resources/images/WebUserFlow2.png">
-<img src="./Resources/images/WebUserFlow3.png">
-<img src="./Resources/images/WebUserFlow4.png">
-<img src="./Resources/images/WebUserFlow5.png">
+
+User Flow 1: Registrar una venta completa
+
+Segmento objetivo: Meseros
+
+<img src="./Resources/images/userweb1.png">
+
+Explicación del flujo:
+
+El mesero inicia sesión en el sistema, selecciona productos del menú y agrega la cuenta para la venta. Luego, procede al cobro del pedido eligiendo un método de pago. Finalmente, el sistema muestra el total cobrado y permite emitir un comprobante de venta.
+
+User Flow 2: Guardar una cuenta para una mesa
+
+Segmento objetivo: Meseros
+
+<img src="./Resources/images/userweb2.png">
+
+Explicación del flujo:
+
+El mesero inicia sesión en el sistema, selecciona productos del menú y agrega la cuenta para la venta. La cuenta queda almacenada en la lista de “Cuentas guardadas”. Dentro de la seccion "Mesas" se puede ver a que mesa esta asignada cada cuenta.
+
+User Flow 3: Agregar un producto nuevo a la lista
+
+Segmento objetivo: Administradores
+
+<img src="./Resources/images/userweb3.png">
+
+Explicación del flujo:
+
+El administrador accede al sistema y desde la vista principal ingresa a la sección de “Productos”. Allí puede consultar la lista de productos almacenados y también podrá agregar algún producto nuevo. Se abrirá la pantalla donde se tienen que agregar los datos de dicho producto, incluyendo sus insumos.
 
 ## 4.7 Web Applications Prototyping
 <img src="./Resources/images/prototyping.png">
