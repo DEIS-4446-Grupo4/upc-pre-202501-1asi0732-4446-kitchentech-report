@@ -35,7 +35,7 @@ Enlace del miro: https://miro.com/app/board/uXjVKkI6spU=/
   
 *Imagen*
 
-Enlace del figma: https://www.figma.com/design/nyBckh8w59BwWU4cN4DRW9/IoT?node-id=27-667&node-type=canvas&t=yWeXn4Jr6F7oE6yY-0 
+Enlace del figma: https://www.figma.com/design/R6y8A0ThMExKQZWHWnzsS8/KitchenTech---Landing-Page?m=auto&t=n8aCxpzzdt35lHmn-6 
 
 ### 5.1.2 Source Code Management
 El manejo y la gestión de las diferentes modificaciones que se llevaron a cabo, fueron mediante una organización de GitHub para nuestro Startup. 
@@ -54,7 +54,7 @@ Asimismo, se establecieron dos ramas correspondientes para el desarrollo:
 
 ### 5.1.3 Source Code Style Guide & Conventions
 
-###HTML:
+### HTML:
 Se aplicarán las directrices de “HTML Style Guide and Coding” de W3Schools, destacando convenciones clave como declarar siempre el tipo de documento (<!DOCTYPE>), utilizar etiquetas y atributos en minúsculas para mantener un código limpio y organizado, y cerrar todas las etiquetas para prevenir errores. Se colocarán comillas en los valores de los atributos y se especificarán siempre los atributos alt, width y height en las imágenes para mejorar la accesibilidad y el SEO. Además, no se omitirán las etiquetas <head> y los metadatos esenciales para la optimización en motores de búsqueda.
 
 ### CSS:
@@ -76,15 +76,15 @@ El control de versiones será gestionado con GIT desde GitHub, siguiendo las pr�
 ### 5.1.4 Software Deployment Configuration
 La siguiente tabla presenta los commits del repositorio del landing page en GitHub:
 
-| Id del commit                            | Commit                                                                  |
-|------------------------------------------|-------------------------------------------------------------------------|
-| babf1bf8b1439d841dc4fde5b33f2aac61105ce0 | Initial commit                                                          |
-| 6aff73d0b39a7c9a4d5ae1c99d9338f9c6bd662d | Part 1                                                                  |
-| b001457e48e36f514a12f978dbb9475c25c50e06 | Part 2                                                                  |
-| -                                        | Merge branch 'main' of https://github.com/Techstudents-SW74/LandingPage |
-| 70f08b4f25df21ae3535a38c6a58269014181cfd | Part 3                                                                  |
-| bd7bee8feec07792a080e8d29913ebeb7db84b6e | Part 4                                                                  |
-| d38272d239da0f26d26452496e6d3e89f8a871fe | (feat) "add header & footer"                                            |
+| Id del commit                            | Commit                                                             |
+|------------------------------------------|--------------------------------------------------------------------|
+| babf1bf8b1439d841dc4fde5b33f2aac61105ce0 | Initial commit                                                     |
+| 6aff73d0b39a7c9a4d5ae1c99d9338f9c6bd662d | Part 1                                                             |
+| b001457e48e36f514a12f978dbb9475c25c50e06 | Part 2                                                             |
+| -                                        | Merge branch 'main' of https://landing-page-kitchentech.vercel.app |
+| 70f08b4f25df21ae3535a38c6a58269014181cfd | Part 3                                                             |
+| bd7bee8feec07792a080e8d29913ebeb7db84b6e | Part 4                                                             |
+| d38272d239da0f26d26452496e6d3e89f8a871fe | (feat) "add header & footer"                                       |
 
 ## 5.2 Produt Implementation & Deployment
 En esta sección, se explicará y evidenciará el proceso de despliegue para la Landing page de nuestro startup, utilizando la herramienta de despliegue. Para lograr este objetivo se utilizó el CLI de esta herramienta y el GitHub donde se creó el repositorio. 
@@ -94,7 +94,7 @@ En esta sección, se explicará y evidenciará el proceso de despliegue para la 
 <table>
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="6">Sprint </th>
+    <th colspan="6">Sprint 1</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -117,8 +117,138 @@ En esta sección, se explicará y evidenciará el proceso de despliegue para la 
     <th>Seccion de Header</th>
     <th>COMO usuario QUIERO visualizar un encabezado de página que contenga opciones PARA una mejor navegación por la página. </th>
     <th>2</th>
-    <th>Fabrizzio Castro</th>
+    <th>Johan Príncipe Godoy</th>
     <th>Done</th>
+  </tr>
+  <tr>
+    <th>US002</th>
+    <th>Seccion de Footer</th>
+    <th>3</th>
+    <th>Seccion de Footer</th>
+    <th>COMO usuario QUIERO visualizar pie de página que contenga información PARA un mejor entendimiento de la página. </th>
+    <th>1</th>
+    <th>Nicolas Zagal</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US005</th>
+    <th>Boton para ver mas informacion</th>
+    <th>4</th>
+    <th>Boton para ver mas informacion</th>
+    <th>COMO usuario QUIERO ver más información sobre la página PARA comprender más sobre la start-up.  </th>
+    <th>1</th>
+    <th>Diego Jesus Alonso Garay</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US006</th>
+    <th>Sección de contacto </th>
+    <th>5</th>
+    <th>Sección de contacto </th>
+    <th>COMO usuario QUIERO observar una seccion que contenga información de la página PARA poder conocer sobre qué se trata. </th>
+    <th>2</th>
+    <th>Gabriel Anthony Braithuaite Toledo</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US003</th>
+    <th>Barra de Navegación </th>
+    <th>13</th>
+    <th>Barra de Navegación </th>
+    <th>COMO usuario QUIERO presionar botones en el encabezado del landing page para desplazarme por la página.  </th>
+    <th>3</th>
+    <th>Nicolas Zagal</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US004</th>
+    <th>Descripción de la Start-Up </th>
+    <th>14</th>
+    <th>Descripción de la Start-Up </th>
+    <th>COMO usuario QUIERO observar una seccion “Contacto” PARA poder comunicarme directamente con el equipo de desarrollo.</th>
+    <th>2</th>
+    <th>Johan Príncipe Godoy</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US007</th>
+    <th>Sección de información del equipo </th>
+    <th>15</th>
+    <th>Sección de información del equipo </th>
+    <th>COMO usuario QUIERO observar en el encabezado una seccion de información del equipo PARA conocer más a fondo su desarrollo. </th>
+    <th>3</th>
+    <th>Diego Jesus Alonso Garay</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US009</th>
+    <th>Logout </th>
+    <th>1</th>
+    <th>Logout </th>
+    <th>COMO cliente QUIERO salir de la aplicación PARA evitar el uso de mi cuenta por otras personas.  </th>
+    <th>1</th>
+    <th>Gabriel Anthony Braithuaite Toledo</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US014</th>
+    <th>Sección de inicio de sesión  </th>
+    <th>9</th>
+    <th>Sección de inicio de sesión  </th>
+    <th>COMO usuario QUIERO iniciar sesión en mi cuenta PARA acceder a la información de la plataforma.  </th>
+    <th>2</th>
+    <th>Johan Principe Godoy</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US015</th>
+    <th>Sección de registro  </th>
+    <th>10</th>
+    <th>Sección de registro  </th>
+    <th>COMO usuario QUIERO observar una seccion de “Regístrate” PARA crear una cuenta nueva.  </th>
+    <th>2</th>
+    <th>Nicolas Zagal</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US016</th>
+    <th>Dirigir a perfil de usuario  </th>
+    <th>18</th>
+    <th>Dirigir a perfil de usuario  </th>
+    <th>COMO cliente QUIERO acceder a mi perfil PARA cambiar cualquier dato que necesite actualización. </th>
+    <th>3</th>
+    <th>Gabriel Anthony Braithuaite Toledo</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <th>US018</th>
+    <th>Ver y editar datos de usuario  </th>
+    <th>19</th>
+    <th>Ver y editar datos de usuario  </th>
+    <th>COMO usuario QUIERO ver y editar mi información PARA mantenerla actualizada.  </th>
+    <th>3</th>
+    <th>Diego Jesus Alonso Garay</th>
+    <th>In Progress </th>
+  </tr>
+  <tr>
+    <th>US025</th>
+    <th>Enviar pedido guardado a cocina y caja  </th>
+    <th>28</th>
+    <th>Enviar pedido guardado a cocina y caja  </th>
+    <th>COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente. </th>
+    <th>4</th>
+    <th>Johan Principe Godoy</th>
+    <th>In Progress </th>
+  </tr>
+  <tr>
+    <th>US013</th>
+    <th>Ver resumen de ventas</th>
+    <th>30</th>
+    <th>Ver resumen de ventas</th>
+    <th>COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.  </th>
+    <th>4</th>
+    <th>Nicolas Zagal</th>
+    <th>In Progress </th>
   </tr>
 </table>
 
@@ -202,7 +332,7 @@ En esta sección, se realizaron **acceptance tests** en los endpoints de la API 
   <img src="Resources/Evidences/Login.jpeg" >
 - **GetProductByRestaurant**: Endpoint para obtener productos específicos de un restaurante, donde se verificó que la consulta retorne correctamente los productos asociados a un restaurante dado.
   <img src="Resources/Evidences/GetProductByRestaurant.jpeg" >
-- **GetRestaurant**: Endpoint para obtener detalles de un restaurante, validando que los datos del restaurante (nombre, dirección, tipo de cocina, etc.) se recuperen correctamente.
+- **GetRestaurant**: Endpoint para obtener detalles de un restaurante, validando que los datos del restaurante (nombre, dirección, tipo de cocina, etc.) se recuperen correctamente. 
   <img src="Resources/Evidences/getRestaurnant.jpeg" >
 - **GetSupplyByRestaurant**: Endpoint para obtener los suministros disponibles para un restaurante, asegurando que la información de suministros esté correctamente asociada y se muestre sin errores.
   <img src="Resources/Evidences/GetSupplyByRestaurant.jpeg" >
@@ -211,6 +341,9 @@ Las pruebas realizadas en estos endpoints incluyen la validación de las respues
 
 ### 5.2.7. Team Collaboration Insights
 
+Para llevar a cabo los registros de nuestros avances durante el desarrollo de este Sprint, empleamos GitHub. Un miembro del equipo inició el proceso con un primer registro para establecer el repositorio y creó muchas ramas para poder trabajar sin interrumpir el avance de otro compañero. Posteriormente, hicimos una copia local del repositorio mediante Git, realizamos las modificaciones en GitHub. Finalmente, completamos el proceso con un registro de los cambios, el cual será examinado en el repositorio de GitHub.
+
+<img src="./Resources/collaboration_insights1.png">
 
 ## 5.3. Video About-the-Product.
 
