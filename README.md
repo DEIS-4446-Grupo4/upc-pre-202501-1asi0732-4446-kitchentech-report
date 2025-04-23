@@ -19,7 +19,7 @@ Profesor: Lennin Percy Cenas Vasquez
 
 # INFORME DE TRABAJO FINAL - TB1
 
-## tecnogurus //falta cambiar
+## Command Testers
 
 ### KitchenTech
 
@@ -39,27 +39,6 @@ Profesor: Lennin Percy Cenas Vasquez
 | 1.0     | 17/08/2024 | Nicolás Zagal Vallejo | Desarrollo del capitulo e Introducción, Requirements Elicitation, Specification, Product Design y Product Implementation |                                                         |
 
 ---
-
-# Project Report Collaboration Insights
-
-**TB1:** Se realizaron diversas actividades para la entrega TB1, disponibles en el siguiente repositorio de Github del equipo:  
-[Repositorio Github](https://github.com/orgs/DEIS-4446-Grupo4/repositories)
-
-Para la creación del informe se llevaron a cabo las siguientes acciones:
-
-- Redacción y estructuración en formato Markdown de los puntos asignados a cada miembro, con la posterior realización de commits para guardar el progreso.
-- Documentación de los cambios en las herramientas correspondientes y generación de enlaces de imágenes mediante el uso de "issues" en el repositorio del informe.
-- Se organizaron reuniones para coordinar el avance del informe y discutir las primeras versiones de la arquitectura de la solución IoT.
-- Se crearon ramas en el repositorio para dividir el archivo README.md principal en diferentes capítulos.
-- Desarrollo de la primera versión de la arquitectura del software, incluyendo el diseño estratégico orientado a atributos y dominios.
-- Implementación del proceso de Lean UX.
-- Diseño y análisis de entrevistas.
-- Estudio de la competencia.
-- Elaboración de User Stories y del Product Backlog.
-
-
----
-
 
 # Student Outcome
 
