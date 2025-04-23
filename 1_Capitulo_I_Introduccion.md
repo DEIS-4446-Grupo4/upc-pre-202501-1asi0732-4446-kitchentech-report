@@ -2,8 +2,8 @@
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-Somos Tecnogurus, un startup conformado por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Solucionamos problemáticas con herramientas tecnológicas para automatizar y acelerar procesos.
-En esta oportunidad presentamos Tecgnurus una solución IoT que buscará acortar los tiempos de atención de restaurantes por medio de dispositivos tecnológicos que nos ayudaran a facilitar esto. Para ello contaremos con sensores los cuales detectaran si un cliente ha ingresado al local y donde se ha sentado. De la misma forma estos sensores ayudaran a detectar cuando un cliente se para de su mesa o hay platos por recoger. Así mismo ofrecemos una solución tecnológica al tomar los pedidos con dispositivos móviles y caja para llevar un correcto control de las cuentas por clientes o mesas.
+Somos Command testers, un startup conformado por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Solucionamos problemáticas con herramientas tecnológicas para automatizar y acelerar procesos.
+En esta oportunidad presentamos una solución ERP que buscará acortar los tiempos de atención de restaurantes por medio de un sistema integral que permite gestionar comandas, pedidos, generar reportes y realizar facturación de negocios integrando a su vez dispositivos IoT que ayuden a mejorar procesos. Para ello contaremos con sensores los cuales detectaran si un cliente ha ingresado al local y donde se ha sentado. De la misma forma estos sensores ayudaran a detectar cuando un cliente se para de su mesa o hay platos por recoger. Así mismo ofrecemos una solución tecnológica al tomar los pedidos con dispositivos móviles y caja para llevar un correcto control de las cuentas por clientes o mesas.
 
 Misión: Mejorar los tiempos de producción y atención de un negocio centrado en la atención de comensales. Ya sean restaurantes, cafeterías u hoteles.
 
@@ -26,7 +26,7 @@ Visión: Ser la empresa que proporcione la solución más completa y satisfactor
 
 <img src="./Resources/images/nicolas.jpg" width="150px" height="150px" >
 
-+  Mi nombre es Nicolas Zagal, me considero un miemrbo clave para el equipo debido a mis conocimientos y compromiso. Poseo capacidad para enfrentar desafíos y su disposición para colaborar en el backend y frontend
++  Estudiante universitario de la carreta de ingeniería de Software. Soy una persona proactiva que buscará siempre el mejor resultado del projecto, domino diversos lenguajes y frameworks como Vue.js, java, bootstrap, golang y flutter
 
 ## 1.2. Solution Profile
 Para comprender la solución debemos detallar aspectos que se abordaran a lo largo del proyecto y que metas tendremos
