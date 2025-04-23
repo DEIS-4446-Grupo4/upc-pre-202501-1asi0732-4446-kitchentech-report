@@ -1,5 +1,3 @@
-
-
 # Capitulo V: Product Implamentation
 
 ## 5.1 Software Configuration Management 
