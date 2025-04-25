@@ -54,12 +54,16 @@ Profesor: Lennin Percy Cenas Vasquez
 
 <tr> 
 <td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software.</td> 
-<td> TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario. </td>
+<td> 
+    TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario. 
+    TB1 - Nicolás Zagal <br> Diseñó una arquitectura segura y escalonable buscando resguardar los datos y la privacidad de los negocios y sus usuarios, asegurando un entorno confiable<br>
+</td>
 </tr> 
 <tr> 
 <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
-TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios.
+    TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios. <br>
+    TB1 - Nicolás Zagal <br>Propuso soluciones de software relacionados a la problemática descrita mediante un detallado analisis de los segmentos objetivos y de las necesidades del negocio<br>
 <td> 
 </tr> 
 </table>
