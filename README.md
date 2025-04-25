@@ -48,7 +48,6 @@ Profesor: Lennin Percy Cenas Vasquez
 <tr> 
 <th>Criterio específico</th> 
 <th>Acciones Realizadas</th> 
-<th>Conclusiones</th> 
 </tr> 
 
 <tr> 
@@ -59,10 +58,6 @@ Profesor: Lennin Percy Cenas Vasquez
 <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
 
-</td> 
-
-<td> 
-    
 </td> 
 </tr> 
 </table>
