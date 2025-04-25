@@ -58,7 +58,7 @@ Profesor: Lennin Percy Cenas Vasquez
 <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
 TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios.
-<td>  
+<td> 
 </tr> 
 </table>
 
