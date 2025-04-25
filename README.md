@@ -38,6 +38,7 @@ Profesor: Lennin Percy Cenas Vasquez
 |---------|------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 17/08/2024 | Nicolás Zagal Vallejo | Desarrollo del capitulo e Introducción, Requirements Elicitation, Specification, Product Design y Product Implementation | 
 | 1.2     |19/04/2025  | Gabriel Braithuaite   | Desarrollo de los user flow diagrams y wireflow diagrams mobile Application de KitchenTech.                              |
+| 1.3     |21/04/2025  | Diego Alonso          | Desarrollo de los user flow diagrams y wireflow diagrams Web Application de KitchenTech.                                 |
 
 ---
 
