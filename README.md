@@ -52,17 +52,13 @@ Profesor: Lennin Percy Cenas Vasquez
 
 <tr> 
 <td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software.</td> 
-<td> TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario.
-</td>
-TB1 - Diego Alonso <br> Se diseñaron flujos con el objetivo de ofrecer interfaces claras y navegación lógicas, minimizando la posibilidad de errores y facilitando una interacción eficiente para todos los usuarios. </td>
+<td> TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario. </td>
 </tr> 
 <tr> 
 <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
 TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios.
-<td> 
-TB1 - Diego Alonso <br> Se priorizó un diseño intuitivo y eficiente para tener un impacto económico positivo al optimizar la productividad de los usuarios y potencialmente reducir los costos de soporte.
-</td> 
+<td>  
 </tr> 
 </table>
 
