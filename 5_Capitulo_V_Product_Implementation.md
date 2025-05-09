@@ -1,4 +1,4 @@
-# Capitulo V: Product Implamentation
+# Capitulo V: Product Implementation
 
 ## 5.1 Software Configuration Management 
 ### 5.1.1 Software Development Environment Configuration
@@ -310,10 +310,12 @@ Web app (productos):
 <img src="./Resources/webapp/7.jpeg" >
 
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4 Acuerdo de Servicio - SaaS
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Esta sección recopila la evidencia del despliegue de software realizado durante el Sprint. Se incluyen capturas y registros que muestran el proceso de implementación en el entorno correspondiente, verificando que el despliegue se llevó a cabo correctamente y que el sistema cumple con los requisitos definidos para el Sprint Review.
 
@@ -322,7 +324,7 @@ Esta sección recopila la evidencia del despliegue de software realizado durante
 
 <img src="./Resources/Evidences/backenddeployment2_kitchentech.png" >
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 En esta sección, se realizaron **acceptance tests** en los endpoints de la API para cada una de las funcionalidades incluidas en este Sprint. Las funcionalidades relacionadas a estos tests son:
 
@@ -337,7 +339,7 @@ En esta sección, se realizaron **acceptance tests** en los endpoints de la API 
 
 Las pruebas realizadas en estos endpoints incluyen la validación de las respuestas (códigos de estado HTTP, datos retornados) y las condiciones de borde (por ejemplo, manejo de datos no encontrados, autenticación incorrecta). Las pruebas también se realizaron para asegurar que la API cumpla con los requisitos de rendimiento y seguridad establecidos para el Sprint.
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 Para llevar a cabo los registros de nuestros avances durante el desarrollo de este Sprint, empleamos GitHub. Un miembro del equipo inició el proceso con un primer registro para establecer el repositorio y creó muchas ramas para poder trabajar sin interrumpir el avance de otro compañero. Posteriormente, hicimos una copia local del repositorio mediante Git, realizamos las modificaciones en GitHub. Finalmente, completamos el proceso con un registro de los cambios, el cual será examinado en el repositorio de GitHub.
 
