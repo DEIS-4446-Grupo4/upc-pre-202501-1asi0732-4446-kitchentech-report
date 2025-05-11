@@ -41,7 +41,7 @@ Profesor: Lennin Percy Cenas Vasquez
 | 1.3     | 21/04/2025 | Diego Alonso          | Desarrollo de los user flow diagrams y wireflow diagrams Web Application de KitchenTech.                                 |
 | 1.4     | 21/04/2025 | Johan Principe        | Actualización del índice del reporte y links relacionados a los diagramas de flujo y wireframes.                         |
 | 1.5     | 21/04/2025 | Johan Principe        | Implementación de diagramas de clase y base de datos.                                                                    |
-
+| 1.6     | 11/05/2025 | Johan Principe        | Implentación de DevOps Practices                                                                                         | 
 ---
 
 # Student Outcome
@@ -61,6 +61,7 @@ Profesor: Lennin Percy Cenas Vasquez
     TB1 - Nicolás Zagal <br> Diseñó una arquitectura segura y escalonable buscando resguardar los datos y la privacidad de los negocios y sus usuarios, asegurando un entorno confiable. <br>
     TB1 - Diego Alonso <br> Se diseñaron flujos con el objetivo de ofrecer interfaces claras y navegación lógicas, minimizando la posibilidad de errores y facilitando una interacción eficiente para todos los usuarios. <br>
     TB1 - Johan Príncipe <br> Se implementó un sistema de gestión de usuarios con diferentes niveles de acceso, asegurando que cada usuario tenga acceso solo a la información y funciones necesarias para su rol. <br>
+    TB2 - Johan Príncipe <br> Se adoptaron prácticas éticas y profesionales al implementar herramientas y procesos de integración continua, entrega continua y despliegue continuo. Se consideraron la privacidad y la seguridad de los datos en cada etapa del ciclo de vida del software. Las decisiones fueron tomadas para garantizar la calidad y confiabilidad de las soluciones. Además, se respetaron los estándares éticos aplicables en el desarrollo de software.
 </td>
 </tr> 
 <tr> 
@@ -70,6 +71,7 @@ Profesor: Lennin Percy Cenas Vasquez
     TB1 - Nicolás Zagal <br> Propuso soluciones de software relacionados a la problemática descrita mediante un detallado analisis de los segmentos objetivos y de las necesidades del negocio. <br>
     TB1 - Diego Alonso <br> Se priorizó un diseño intuitivo y eficiente para tener un impacto económico positivo al optimizar la productividad de los usuarios y potencialmente reducir los costos de soporte. <br>
     TB1 - Johan Príncipe <br> Se consideraron las necesidades de los usuarios y la importancia de la usabilidad en el diseño de la interfaz, buscando un impacto positivo en la experiencia del usuario. <br>
+    TB2 - Johan Príncipe <br> Las decisiones de herramientas y prácticas DevOps fueron evaluadas por su impacto económico y ambiental. Se promovió la eficiencia en el uso de recursos y la sostenibilidad de los sistemas implementados. Las soluciones se diseñaron para ser accesibles y escalables a nivel global. Además, se consideró el bienestar social y el impacto positivo de las tecnologías implementadas.
 <td> 
 </tr> 
 </table>
