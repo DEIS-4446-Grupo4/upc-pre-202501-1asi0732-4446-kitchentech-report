@@ -7,4 +7,4 @@
 ### 6.1.4 Core System Tests
 Para llevar a cabo las core system test se ha utilizado "Lighthouse" como herramienta. Con esta herramienta se han realizado las pruebas de rendimiento general de la aplicación web, accesibilidad y mejores prácticas. La siguiente figura muestra los resultados de dichas pruebas.
 
-![core system test](resources/images/Capitulo%206/CoreSystemTest.jpg)
+![core system test](Resources/images/Capitulo%206/CoreSystemTest.jpg)
