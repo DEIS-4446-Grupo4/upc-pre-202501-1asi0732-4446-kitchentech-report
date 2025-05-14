@@ -42,6 +42,7 @@ Profesor: Lennin Percy Cenas Vasquez
 | 1.4     | 21/04/2025 | Johan Principe        | Actualización del índice del reporte y links relacionados a los diagramas de flujo y wireframes.                         |
 | 1.5     | 21/04/2025 | Johan Principe        | Implementación de diagramas de clase y base de datos.                                                                    |
 | 1.6     | 11/05/2025 | Johan Principe        | Implentación de DevOps Practices                                                                                         | 
+|1.7      | 13/05/2025 | Gabriel Braithuaite   | Implementación de Core Behavior-Driven Development y Core System Tests|
 ---
 
 # Student Outcome
@@ -58,6 +59,8 @@ Profesor: Lennin Percy Cenas Vasquez
 <td>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software.</td> 
 <td> 
     TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario. <br>
+    TB2 - Gabriel Braithuaite <br> Se definieron y validaron comportamientos del sistema desde la perspectiva del usuario a través de tests ejecutables, priorizamos sus necesidades y la calidad del software, utilizando Selenium IDE como software para automatización.
+    <br>
     TB1 - Nicolás Zagal <br> Diseñó una arquitectura segura y escalonable buscando resguardar los datos y la privacidad de los negocios y sus usuarios, asegurando un entorno confiable. <br>
     TB1 - Diego Alonso <br> Se diseñaron flujos con el objetivo de ofrecer interfaces claras y navegación lógicas, minimizando la posibilidad de errores y facilitando una interacción eficiente para todos los usuarios. <br>
     TB1 - Johan Príncipe <br> Se implementó un sistema de gestión de usuarios con diferentes niveles de acceso, asegurando que cada usuario tenga acceso solo a la información y funciones necesarias para su rol. <br>
@@ -68,6 +71,7 @@ Profesor: Lennin Percy Cenas Vasquez
 <td>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales .</td> 
 <td> 
     TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios. <br>
+    TB2 - Gabriel Braithuaite <br> Se utilizó el enfoque BDD, facilitado por la automatización de tests con Selenium IDE, lo que permite emitir juicios informados sobre el impacto de las soluciones de software, esto nos brinda información valiosa sobre cómo KitchenTech afectará a los usuarios en diversos contextos. <br>
     TB1 - Nicolás Zagal <br> Propuso soluciones de software relacionados a la problemática descrita mediante un detallado analisis de los segmentos objetivos y de las necesidades del negocio. <br>
     TB1 - Diego Alonso <br> Se priorizó un diseño intuitivo y eficiente para tener un impacto económico positivo al optimizar la productividad de los usuarios y potencialmente reducir los costos de soporte. <br>
     TB1 - Johan Príncipe <br> Se consideraron las necesidades de los usuarios y la importancia de la usabilidad en el diseño de la interfaz, buscando un impacto positivo en la experiencia del usuario. <br>
