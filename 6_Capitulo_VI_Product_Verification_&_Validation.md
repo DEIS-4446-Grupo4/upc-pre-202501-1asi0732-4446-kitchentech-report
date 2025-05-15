@@ -2,6 +2,20 @@
 
 ## 6.1 Testing Suites & Validation
 ### 6.1.1 Core Entities Unit Tests
+Realizar pruebas unitarias a las distintas entidades del sistema y sus metodos es fundamental para asegurar que cada componente funcione de manera independiente y cumpla con los requisitos establecidos. En este caso, se han realizado pruebas unitarias a las entidades de la aplicación web KitchenTech, utilizando la herramienta "JUnit" y "Mockito" para validar el correcto funcionamiento de las clases y métodos implementados.
+
+Para ello, se han creado pruebas unitarias para las siguientes entidades:
+### **Authentication**
+![authentication](Resources/UnitTests/AuthUnitTest.png)
+### **Client**
+![client](Resources/UnitTests/ClientUnitTest.png)
+### **Product**
+![product](Resources/UnitTests/ProductUnitTest.png)
+### **Supply**
+![supply](Resources/UnitTests/SupplyUnitTest.png)
+### **Table**
+![table](Resources/UnitTests/TableUnitTest.png)
+
 ### 6.1.2 Core Integration Tests
 ### 6.1.3 Core Behavior-Driven Development
 Esta sección se centra en cómo el equipo definirá y validará el comportamiento esperado de nuestra aplicación web KitchenTech directamente desde la perspectiva de nuestros usuarios. Utilizaremos Cucumber como nuestra herramienta principal, redactando escenarios de usuario claros y concisos que describan el flujo de interacción con KitchenTech. Estos escenarios serán comprobados utilizando selenium.
