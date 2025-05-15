@@ -20,7 +20,7 @@
     <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/6_Capitulo_VI_Product_Verification_&_Validation.md">Capítulo VI: Product Verifiction & Validation</a>
   </li>
   <li>
-    <a href="">Capítulo VII: DevOps Practices //No vinculado aun</a>
+    <a href="https://github.com/DEIS-4446-Grupo4/upc-pre-202501-1asi0732-4446-kitchentech-report/blob/main/7_Capitulo_VII_DevOps_Practices.md">Capítulo VII: DevOps Practices
   </li>
   <li>
     <a href="">Capítulo VIII: Experiment-Driven Development //No vinculado aun</a>
