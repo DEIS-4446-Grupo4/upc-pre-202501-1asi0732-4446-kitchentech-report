@@ -42,7 +42,8 @@ Profesor: Lennin Percy Cenas Vasquez
 | 1.4     | 21/04/2025 | Johan Principe        | Actualización del índice del reporte y links relacionados a los diagramas de flujo y wireframes.                         |
 | 1.5     | 21/04/2025 | Johan Principe        | Implementación de diagramas de clase y base de datos.                                                                    |
 | 1.6     | 11/05/2025 | Johan Principe        | Implentación de DevOps Practices                                                                                         | 
-|1.7      | 13/05/2025 | Gabriel Braithuaite   | Implementación de Core Behavior-Driven Development y Core System Tests|
+| 1.7     | 13/05/2025 | Gabriel Braithuaite   | Implementación de Core Behavior-Driven Development y Core System Tests                                                   |
+| 2.0     | 15/05/2025 | Johan Principe        | Implementación de Core Integration Tests                                                                                 |
 ---
 
 # Student Outcome
