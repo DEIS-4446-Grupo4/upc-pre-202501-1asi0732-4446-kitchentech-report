@@ -75,4 +75,36 @@ El pipeline de producción incluye las siguientes etapas:
 
 - **Feedback**: El equipo recibe notificaciones sobre el estado del build, errores y versiones desplegadas.
 
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+Para el monitoreo continuo de *KitchenTech*, se planteó el uso de herramientas compatibles con nuestro stack, que permitan observar el comportamiento del sistema en producción. En esta fase inicial, el monitoreo se enfoca en el estado de despliegues y ejecución mediante GitHub Actions y Vercel. Como prácticas, se revisan logs, tiempos de respuesta y estado de los servicios a través del panel de control de Vercel y los resultados de workflows en GitHub Actions.
+
+> En versiones futuras se planea integrar herramientas como **Prometheus**, **Grafana** y **Spring Boot Actuator** para una observabilidad más robusta del backend.
+
+### 7.4.2. Monitoring Pipeline Components
+Actualmente, los componentes monitoreados incluyen:
+
+- **Frontend Web**: Monitoreado desde el panel de Vercel (estado del build, logs de errores y rendimiento).
+- **Backend (Spring Boot)**: Se utilizan los registros de consola y logs de errores generados automáticamente por GitHub Actions al ejecutar tests.
+- **Flujos CI/CD**: Visualización de cada paso del pipeline en GitHub Actions (compilación, tests, errores de integración).
+- **Monitoreo básico del servidor**: A través del estado del deploy en Vercel y logs HTTP.
+
+### 7.4.3. Alerting Pipeline Components
+Aún no se han configurado sistemas avanzados de alertas, sin embargo, se utilizan alertas básicas como:
+
+- **Notificaciones de fallas en GitHub Actions**: Cualquier falla en el pipeline CI/CD genera una alerta visible en la interfaz del repositorio y en el correo del equipo.
+- **Vercel deploy error alerts**: Alertas integradas en Vercel cuando ocurre una falla en el despliegue o tiempo de respuesta elevado.
+
+En futuras versiones, se proyecta usar **Alertmanager (Prometheus)** para configurar alertas personalizadas sobre métricas del backend.
+
+### 7.4.4. Notification Pipeline Components
+Las notificaciones actuales se gestionan automáticamente a través de:
+
+- **GitHub Actions**: Notificaciones por correo en caso de fallas en el workflow.
+- **Vercel**: Alertas integradas en la interfaz y correo ante errores en producción.
+- **Emails automatizados**: El equipo recibe notificaciones básicas de errores y estado de despliegue.
+
+Se evalúa la integración futura con canales como **Slack** o **Microsoft Teams** para notificaciones colaborativas en tiempo real, especialmente ante incidentes críticos.
+
+
 
