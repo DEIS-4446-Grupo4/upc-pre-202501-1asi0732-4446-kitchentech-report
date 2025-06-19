@@ -125,90 +125,154 @@ De esta manera, KitchenTech mantiene un alto estándar de calidad en su código,
 
 ## 6.3 Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
-**Preguntas Generales**
-- Nombre completo
-- Edad
-- Ocupación
-- Años de experiencia
 
-**Segmento Meseros**
-- ¿Qué tan intuitivo te pareció el proceso de registro de pedidos?
-- ¿Encontraste alguna dificultad para modificar un pedido existente?
-- ¿La visualización de mesas disponibles es clara y útil?
-- ¿El proceso de cierre de cuenta es eficiente para tu flujo de trabajo habitual?
-- ¿Qué funcionalidades adicionales te gustaría encontrar en el sistema?
+- ¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
 
-**Segmento Administradores**
-- ¿La información presentada en los dashboards es relevante para la toma de decisiones?
-- ¿Qué tan sencillo resultó el proceso de actualización de inventario?
-- ¿La gestión del menú satisface las necesidades de su restaurante?
-- ¿Considera que el sistema podría ayudar a optimizar costos y reducir desperdicios?
-- ¿Qué funcionalidades adicionales le gustaría ver implementadas en el sistema?
+- ¿La información proporcionada en la landing page te ayudó a comprender cómo la solución IoT podría mejorar la atención en el restaurante?
+- ¿Qué aspectos de la aplicación te resultaron intuitivos o confusos al tomar un pedido?
+- ¿Qué tan fácil te resultó recibir y gestionar notificaciones sobre el estado de las mesas (como la llegada de clientes o platos por recoger)?
+- ¿Sientes que el proceso de enviar pedidos a cocina y caja desde la aplicación agiliza tu flujo de trabajo?
+- ¿Cómo evaluas la velocidad y precisión de la aplicación al registrar cambios en los pedidos?
+- ¿La interfaz de la aplicación facilita la gestión de cuentas y pagos de los clientes? ¿Por qué?
+- ¿Qué tan útil te resulta la opción de recibir alertas cuando los clientes entran o salen del restaurante?
+- ¿Crees que el sistema IoT implementado mejora la experiencia de servicio para el cliente? ¿En qué aspectos?
+- ¿Qué cambiarías o mejorarías en la aplicación para facilitar aún más la atención a los clientes?
 
 
 ### 6.3.2. Registro de Entrevistas
+
+-  Primera Entrevista:
+-  Segmento: Meseros
+-  Nombre: Yeret Yucta
+-  Edad: 21
+-  Ocupación: Estudiante universitario y mesero a tiempo parcial
+-  Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110966_upc_edu_pe/ESsC5d2geJZHmvEWDpBGKLgBcXgkFYSqc4YfkWn7CYaRBQ?e=sOxJuy
+-  Duración: 0:00 a 11:21 (11 minutos 21 segundos)
+
+<img src="./Resources/images/ev1.png" width="600" >
+
+-  Resumen:
+   Yeret, un estudiante universitario de 21 años que trabaja a tiempo parcial como mesero en una restaurante familiar, es analítico e ingenioso, lo que le permite actuar de manera correcta con los clientes.
+   Comenta que la landing page le ayudó a entender cómo el sistema IoT agiliza su trabajo al permitirle gestionar notificaciones en tiempo real sobre el estado de las mesas y pedidos. Esta información le permite organizarse mejor y reducir tiempos de espera.
+   Aspectos intuitivos y confusos: Al tomar un pedido, Yeret encontró que el menú digital es fácil de navegar y le permite incluir especificaciones, aunque sugiere mejorar algunos íconos para que sean más claros.
+   Gestión de notificaciones: Yeret considera muy útil la función de notificaciones, ya que son visibles y manejables sin interrumpir su flujo de trabajo, lo cual reduce desplazamientos innecesarios y facilita su labor.
+   Envío de pedidos a cocina y caja: Destaca la eficiencia de poder enviar los pedidos directamente a cocina y caja desde la app, ahorrando tiempo y evitando errores durante horas pico.
+   Velocidad y precisión de la app: La rapidez y precisión de Kitchen Tech al registrar cambios en pedidos es clave para mejorar la satisfacción del cliente y evitar confusiones.
+   Gestión de cuentas y pagos: La interfaz para gestionar cuentas resulta sencilla y permite dividir pagos o registrar transacciones sin dificultad, minimizando errores.
+   Alertas de entrada y salida de clientes: Yeret aprecia esta función, ya que le permite atender a los clientes más oportunamente y preparar mesas rápidamente para nuevos clientes.
+   Experiencia del cliente: Cree que el sistema IoT mejora la experiencia de servicio, ya que los clientes perciben un servicio más atento y eficiente, con pedidos que llegan rápido y la cuenta lista a tiempo.
+   Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselling o sugerencias de platos, además de optimizar íconos y descripciones para hacer la app aún más intuitiva.
+
 ### 6.3.3. Evaluación según heurísticas
-**Tareas a Evaluar**
-1. **Gestión de pedidos:**
-    - Iniciar sesión en el sistema
-    - Visualizar mesas disponibles
-    - Asignar mesa a cliente
-    - Registrar pedido de cliente
-    - Modificar pedido existente
-    - Enviar pedido a cocina
-    - Verificar estado de pedido
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Diseño de Experimentos de Ingeniería de Software   
+**SECCIÓN**: 4446
+**PROFESORES**: Todos  
+**AUDITOR**: Command Testers
+**CLIENTE(S)**: Usuarios entrevistados
 
-2. **Cierre de cuenta:**
-    - Verificar detalle de consumo
-    - Generar cuenta para cliente
-    - Procesar pago
-    - Cerrar mesa
+---
 
-3. **Gestión de inventario:**
-    - Iniciar sesión como administrador
-    - Visualizar productos en inventario
-    - Agregar nuevo producto
-    - Editar producto existente
-    - Eliminar producto del inventario
+**SITE o APP A EVALUAR**: Kitchen Tech
 
-4. **Gestión de menú:**
-    - Crear categorías de productos
-    - Añadir nuevos platos/productos
-    - Modificar precios
-    - Activar/desactivar productos temporalmente
+---
+
+### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Crear botón para desplegar menú de opciones de usuario
+2. Implementar botón de ver perfil en menú desplegable
+3. Implementar botón de crear nuevo mesero en menú desplegable
+4. Crear vista de cuentas guardadas, con search bar y cards que incluyan nombre de la cuenta, cliente, costo y botones
+5. Guardar orden en una cuenta
+6. Implementar botón para eliminar cuenta
+7. Guardar orden en una mesa
+8. Actualización de los pedidos y mesas
+9. Implementar botón para cambiar la vista de cuentas guardadas a mesas junto al search bar
+10. Implementar navegación a la página de caja con el pedido guardado al dar clic en la cuenta
+11. Crear botón de agregar nuevos productos
+12. Implementar validaciones para el guardado de productos
+13. Crear vista de productos
+14. Cargar la vista de nuevo producto con los datos del producto guardado para su edición
+15. Crear botón de eliminar producto
+16. Desarrollar vista en la web app de inicio de sesión
+17. Implementar validaciones de credenciales en la vista de iniciar sesión
+18. Crear botón de cerrar sesión en menú desplegable
+
+---
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
-1. **Gestión de usuarios:**
-    - Crear nuevo usuario
-    - Editar usuario existente
-    - Asignar roles y permisos
-2. **Reportes y análisis:**
-    - Generar reporte de ventas
-    - Analizar consumo por categoría
-    - Identificar productos más vendidos
 
-**Escala de Severidad**
+1. Crear vista de caja con searchbar y sección acceso directo de productos
+2. Implementar la vista de mesas con sus métodos CRUD
+3. Implementar vista de recuperar contraseña
+4. Implementar validaciones para vista de recuperar contraseña
+5. Implementar ver contraseña en vista de recuperar contraseña
+6. Bloquear acceso a la cuenta tras fallar en iniciar sesión 5 veces
+7. Crear validaciones para registro de nuevo mesero
+8. Crear un Sidebar que incluya los botones de navegación a todas las opciones de Mesero
+
+---
+
+### ESCALA DE SEVERIDAD:
+
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
-| Nivel | Descripción                                                                                                                                                                                    |
-|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+| Nivel | Descripción                                                                                                                                                                                       |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                      |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara a la siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                   |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                                 |
 
-**Tabla Resumen**
+---
 
-| # | Problema                                                                                             | Escala de Severidad | Heurística/Principio violada(o)                          |
-|---|------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------|
-| 1 | Al finalizar un pedido, no hay confirmación visual ni botón para volver al inicio                    | 3                   | Usability: Visibilidad del estado del sistema            |
-| 2 | No se puede deshacer la asignación de mesa sin cerrar sesión o reiniciar flujo                       | 3                   | Usability: Libertad y control del usuario                |
-| 3 | Campos como “ID producto” aparecen en interfaces para meseros                                        | 2                   | Usability: Relación entre sistema y mundo real           |
-| 4 | Al editar un producto en inventario, no se muestra la información actual, el usuario debe recordarla | 3                   | Usability: Reconocer antes que recordar                  |
-| 5 | Algunos botones de acción no siguen el mismo diseño o posición en todas las vistas                   | 2                   | Usability: Consistencia y estándares                     |
-| 6 | Al intentar cerrar una cuenta con error de conexión, se muestra “error inesperado” sin guía clara    | 4                   | Usability: Ayuda a reconocer, diagnosticar y recuperarse |
-| 7 | No hay acceso a una guía rápida o tutorial para el nuevo usuario al iniciar sesión                   | 2                   | Usability: Ayuda y documentación                         |
+### TABLA RESUMEN:
 
+| # | Problema                                                                                                   | Escala de severidad | Heurística/Principio violado(a)             |
+|---|------------------------------------------------------------------------------------------------------------|---------------------|---------------------------------------------|
+| 1 | Cuestión de confusión entre vistas                                                                         | 3                   | Usability: Consistencia y estándares        |
+| 2 | Mejorar la organización de funcionalidades                                                                 | 3                   | Information Architecture: Is it findable?   |
+| 3 | Mejora en la sección de pedido para el caso de edición en escenarios de cambios de pedido a último momento | 4                   | Usability: Flexibilidad y eficiencia de uso |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1**: Cuestión de confusión entre vistas  
+**Severidad**: 3  
+**Heurística violada**: Usability – Consistencia y estándares
+
+**Problema**:  
+Los usuarios encuentran dificultades para identificar a qué vista pertenecen ciertas opciones de menú. Esto genera confusión y aumenta el tiempo necesario para completar una tarea específica.
+
+**Recomendación**:  
+Reorganizar las vistas para mejorar la diferenciación visual entre ellas, asegurando que cada vista tenga elementos distintivos claros que guíen al usuario.
+
+---
+
+**PROBLEMA #2**: Mejorar la organización de funcionalidades  
+**Severidad**: 3  
+**Heurística violada**: Information Architecture – Is it findable?
+
+**Problema**:  
+La disposición de las funcionalidades no permite una rápida localización, lo cual impacta negativamente la experiencia del usuario.
+
+**Recomendación**:  
+Agrupar las funcionalidades de acuerdo con su propósito y frecuencia de uso, proporcionando accesos rápidos a las tareas más comunes.
+
+---
+
+**PROBLEMA #3**: Mejora en la sección de pedido para el caso de edición en escenarios de cambios de pedido a último momento  
+**Severidad**: 4  
+**Heurística violada**: Usability – Flexibilidad y eficiencia de uso
+
+**Problema**:  
+Cuando un usuario intenta realizar modificaciones de último momento en un pedido, se encuentra con limitaciones en la interfaz que dificultan completar el cambio sin reiniciar el proceso.
+
+**Recomendación**:  
+Implementar una opción de edición rápida para cambios de último momento, que permita al usuario modificar elementos del pedido sin necesidad de repetir los pasos previos.
 
 ## 6.4 Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría Realizada
