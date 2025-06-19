@@ -44,7 +44,8 @@ Profesor: Lennin Percy Cenas Vasquez
 | 1.6     | 11/05/2025 | Johan Principe        | Implentación de DevOps Practices                                                                                         | 
 | 1.7     | 13/05/2025 | Gabriel Braithuaite   | Implementación de Core Behavior-Driven Development y Core System Tests                                                   |
 | 2.0     | 15/05/2025 | Johan Principe        | Implementación de Core Integration Tests                                                                                 |
-| 2.1     | 16/06/2025 | Johan Principe        | Implementación de Core Experiment-Driven Development y Student Outcome                                                   | 
+| 2.1     | 16/06/2025 | Johan Principe        | Implementación de Core Experiment-Driven Development y Student Outcome                                                   |
+| 2.2     | 19/06/2025 | Johan Principe        | Implementación de diseño y registro de entrevistas, y evaluación según heurísticas                                       |
 ---
 
 # Student Outcome
