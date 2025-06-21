@@ -319,6 +319,55 @@ En esta auditoría, se ha evaluado la experiencia de usuario de la aplicación w
     - Dividir la sección de comentarios en un card flotante para una mejor usabilidad.
 ### 6.4.2. Auditoría Recibida
 #### 6.4.1.1. Información del grupo auditor
+En esta auditoria se hace una evaluación del sistema de KitchenTech enfocándose en la app web y app móvil.
+
+Miembros del equipo auditor:
+
+| Nombre                           |
+|----------------------------------|
+| Juan Alejandro Cuadros Rodriguez |
+| Nicolas Sebastian Esteban Garcia |
+| Manuel Sebastian Peña Rivera     |
+| Sebastián Ramírez Hoffmann       |
+| Sebastian Andre Ramirez Mendez   |
+
+##### Objetivos
+
+El equipo 4 de la startup Kitchen Tech se enfocan en el rubro de la industria de Restaurantes y a lo largo del curso han realizado su aplicacion movil y web, en esta auditoria nos enfocaremos en utilizar las soluciones y el flujo principal.
+
+Objetivo del negocio:
+
+Usuarios Principales (Segmentos):
+- 1 Meseros
+- 2 Administradores
+
+
 #### 6.4.1.2. Cronograma de auditoría recibida
+Tomando en cuenta que el producto del grupo a auditar estaba en fase de pruebas cuando nos contactamos acordamos en hacer la auditoria el 18 de Junio del 2025.
+
+- La auditoria inico el 18 de Junio del 2025
+
+- La auditoria finalizó el 20 de Junio del 2025
+
 #### 6.4.1.3. Contenido de auditoría recibida
+Objetivos de la auditoría: Evaluar la usabilidad de la nueva funcionalidad de reporte y verificar la conformidad con principios de accesibilidad.
+
+Metodología utilizada: Revisión heurística y análisis de flujo de usuario.
+
+Áreas evaluadas: Registro de usuario, funciones principales como: Sistema core de la solucion.
+
+Principales hallazgos y problemas identificados:
+
+- Dificultad para encontrar la sección de ayuda
+- Proceso de pago con demasiados pasos
+- Botones de llamado a la acción no suficientemente visibles
+
+Recomendaciones clave:
+- Simplificar el proceso de registro a 3 pasos
+- Rediseñar la navegación principal con etiquetas más claras
+- Implementar iconos reconocibles en los botones
+
 #### 6.4.1.4. Resumen de modificaciones para subsanar hallazgos
+- Se simplificó el proceso de registro a 3 pasos, eliminando campos innecesarios de manera que sea más intuitivo para el usuario.
+- Se rediseñó la navegación principal, utilizando etiquetas más claras y descriptivas para facilitar la comprensión de las secciones.
+- Se implementaron iconos reconocibles en los botones de acción principal, mejorando su visibilidad y usabilidad.
