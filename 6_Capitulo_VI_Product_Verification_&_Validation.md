@@ -277,8 +277,46 @@ Implementar una opción de edición rápida para cambios de último momento, que
 ## 6.4 Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría Realizada
 #### 6.4.1.1. Información del grupo auditado
+En esta auditoría, se ha evaluado la experiencia de usuario de la aplicación web y móvil AidManager, enfocándose en la usabilidad y la satisfacción del usuario final. El grupo auditado está compuesto por un equipo de desarrollo y diseño de software conformado por los siguientes miembros:
+
+| Nombre                           |
+|----------------------------------|
+| Juan Alejandro Cuadros Rodriguez |
+| Nicolas Sebastian Esteban Garcia |
+| Manuel Sebastian Peña Rivera     |
+| Sebastián Ramírez Hoffmann       |
+| Sebastian Andre Ramirez Mendez   |
+
+- **Objetivo del negocio:** El principal objetivo de AidManager es proporcionar una plataforma intuitiva y eficiente que permita a los usuarios gestionar proyectos a ONGs de manera efectiva, facilitando la colaboración y el seguimiento de tareas.
+- **Usuarios principales:** El principal segmnento objetivo de AidManager son los usuarios que trabajan en ONGs, quienes necesitan una herramienta que les permita gestionar proyectos de manera eficiente y colaborativa. Estos se subsegmentan en: Lider de proyecto y Colaborador.
 #### 6.4.1.2. Cronograma de auditoría realizada
+| Fecha      | Actividad                                      |
+|------------|------------------------------------------------|
+| 17/06/2025 | Revisión de la documentación del proyecto      |
+| 18/05/2025 | Análisis de la arquitectura de la aplicación   |
+| 19/05/2025 | Evaluación de la interfaz de usuario           |
+| 20/05/2025 | Pruebas de usabilidad con usuarios reales      |
+
 #### 6.4.1.3. Contenido de auditoría realizada
+- **Objetivo de la auditoría:** Evaluar la experiencia de usuario de AidManager, identificando áreas de mejora y validando la usabilidad de la aplicación.
+- **Metodología utilizada:** Se utilizó una combinación de revisión de documentación, análisis de la arquitectura de la aplicación y pruebas de usabilidad con usuarios reales.
+- **Áreas evaluadas:**
+  - Usabilidad de la interfaz de usuario
+  - Flujo de navegación
+  - Accesibilidad de las funcionalidades principales: 
+    - Gestión de proyectos
+    - Colaboración entre usuarios
+    - Creación y Seguimiento de tareas y plazos
+  - Satisfacción del usuario final
+- Principales hallazgos:
+  - La interfaz de usuario es intuitiva y fácil de navegar.
+  - Los usuarios valoran positivamente la funcionalidad de gestión de proyectos y la colaboración entre usuarios.
+  - Se identificaron áreas de mejora en:
+    - Visualización general del proyecto
+    - Visualización de publicaciones
+  - Recomendaciones clave:
+    - Mejorar la visualización general del proyecto para que sea más clara y concisa.
+    - Dividir la sección de comentarios en un card flotante para una mejor usabilidad.
 ### 6.4.2. Auditoría Recibida
 #### 6.4.1.1. Información del grupo auditor
 #### 6.4.1.2. Cronograma de auditoría recibida
