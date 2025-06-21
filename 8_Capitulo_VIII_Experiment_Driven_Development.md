@@ -155,18 +155,63 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
+| Hypothesis ID | Hypothesis                                                                                                                                                                    | Question ID |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| HYP001        | Si los meseros consultan el historial de pedidos, reducirán errores en 30% y aumentarán la velocidad de atención en 10%.                                                      | Q001        |
+| HYP002        | Si se muestra el top de productos vendidos, los administradores optimizan el menú y aumentan ventas en 5%.                                                                    | Q002        |
+| HYP003        | Si se habilita mensajería interna mediante pantallas en cocina y barra para seguimiento de preparación de pedidos, se reducirá el tiempo de resolución de incidencias en 30%. | Q003        |
+| HYP004        | El tiempo en gestionar el inventario disminuye en al menos 25% al usar acceso rápido a productos frecuentes o recientes.                                                      | Q004        |
 
 ### 8.2.2. Measures
+| Measure ID | Measure Description                                                                                      | Hypothesis ID |
+|------------|----------------------------------------------------------------------------------------------------------|---------------|
+| M001       | Número de errores en pedidos y tiempo promedio por pedido.                                              | HYP001        |
+| M002       | Variación en las ventas y cambios en el menú.                                                            | HYP002        |
+| M003       | Tiempos de respuesta y cantidad de errores en cocina.                                                     | HYP003        |
+| M004       | Tiempo promedio de gestión del inventario.                                                               | HYP004        |
 
 ### 8.2.3. Conditions
+| Condition ID | Condition Description                                                                                      | Measure ID |
+|--------------|------------------------------------------------------------------------------------------------------------|------------|
+| C001         | El historial de pedidos por mesa está implementado y disponible para los meseros.                          | M001       |
+| C002         | El panel de "Top productos" está visible en el dashboard del administrador y actualizado en tiempo real.   | M002       |
+| C003         | La mensajería interna está habilitada y utilizada por al menos el 70% de los meseros y cocineros.          | M003       |
+| C004         | El acceso rápido a productos frecuentes o recientes está implementado y utilizado en al menos el 60% de las altas de inventario. | M004       |
+
 
 ### 8.2.4. Scale Calculations and Decisions
+| Scale ID | Scale Description                                                                                      | Condition ID |
+|----------|--------------------------------------------------------------------------------------------------------|--------------|
+| S001     | Escala de satisfacción del usuario con el historial de pedidos: 1 (muy insatisfecho) a 5 (muy satisfecho). | C001         |
+| S002     | Escala de efectividad del panel de "Top productos": 1 (poco útil) a 5 (muy útil).                        | C002         |
+| S003     | Escala de mejora en la coordinación con mensajería interna: 1 (sin mejora) a 5 (mejora significativa).   | C003         |
+| S004     | Escala de eficiencia en la gestión del inventario con acceso rápido: 1 (muy ineficiente) a 5 (muy eficiente). | C004         |
+
 
 ### 8.2.5. Methods Selection
+| Method ID | Method Description                                                                                      | Scale ID |
+|-----------|----------------------------------------------------------------------------------------------------------|----------|
+| M001      | Encuestas a meseros y administradores sobre la utilidad del historial de pedidos.                        | S001     |
+| M002      | Análisis de ventas antes y después de implementar el panel de "Top productos".                           | S002     |
+| M003      | Registro de tiempos de respuesta y errores en cocina antes y después de habilitar la mensajería interna.  | S003     |
+| M004      | Medición del tiempo promedio de gestión del inventario antes y después de implementar el acceso rápido.  | S004     |
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+| Goal ID | Goal Description                                                                                      | Method ID |
+|----------|--------------------------------------------------------------------------------------------------------|-----------|
+| G001     | Mejorar la precisión y velocidad del servicio mediante el uso del historial de pedidos.               | M001      |
+| G002     | Optimizar la gestión del menú y aumentar las ventas con el panel de "Top productos".                   | M002      |
+| G003     | Reducir el tiempo de resolución de incidencias y mejorar la coordinación con mensajería interna.       | M003      |
+| G004     | Disminuir el tiempo de gestión del inventario mediante acceso rápido a productos frecuentes.          | M004      |
 
 ### 8.2.7. Web and Mobile Tracking Plan.
+| Tracking ID | Tracking Description                                                                                      | Goal ID |
+|-------------|------------------------------------------------------------------------------------------------------------|---------|
+| T001        | Implementar seguimiento de uso del historial de pedidos por mesa en la app del mesero.                     | G001    |
+| T002        | Medir la interacción con el panel de "Top productos" en el dashboard del administrador.                     | G002    |
+| T003        | Registrar el uso de la mensajería interna entre meseros y cocina, incluyendo tiempos de respuesta.         | G003    |
+| T004        | Monitorear el tiempo de gestión del inventario con el acceso rápido a productos frecuentes.                | G004    |
+
 
 ## 8.3. Experimentation
 
