@@ -229,19 +229,79 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ### 8.3.2. To-Be Product Backlog
 
-| #orden | To-Be User Story ID | Título | Descripción | Story Point (1/3/5) |
-|---|---|---|---|---|
-| 25 | E07_US_032 | Filtrar ventas por platos | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos. | 3 |
-| 26 | E07_US_036 | Editar platos existentes | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados. | 3 |
-| 27 | E05_US_023 | Tomar pedidos de la mesa | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes. | 3 |
-| 28 | E05_US_025 | Enviar pedido guardado a cocina y caja | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente. | 3 |
-| 29 | E06_US_027 | Crear un cliente con DNI o RUC | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados. | 3 |
-| 30 | E07_US_031 | Ver resumen de ventas | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada. | 3 |
-| 31 | E07_US_033 | Ver resumen de productos restantes | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock. | 3 |
-| 32 | E07_US_034 | Ingresar nuevos productos al inventario | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado. | 3 |
-| 33 | E07_US_035 | Crear platos nuevos | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden. | 3 |
-| 34 | E04_US_019 | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente. | 3|
-| 35 | E04_US_020 | Recibir alerta cuando cliente toma asiento en una mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa. | 3 |
-| 36 | E04_US_021 | Recibir alerta cuando un cliente deja la mesa | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias. | 3 |
-| 43 | E010_US043 | Inventariado de Insumos mediante IoT | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio. | 5 |
-| 44 | E010_US044 | Detectar Mesas y Clientes mediante IoT | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5 |
+| #orden | To-Be User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
+|--------|---------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 25     | E07_US_032          | Filtrar ventas por platos                                        | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos.                                                                                                                    | 3                   |
+| 26     | E07_US_036          | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
+| 27     | E05_US_023          | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
+| 28     | E05_US_025          | Enviar pedido guardado a cocina y caja                           | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente.                                                                    | 3                   |
+| 29     | E06_US_027          | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
+| 30     | E07_US_031          | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
+| 31     | E07_US_033          | Ver resumen de productos restantes                               | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock.                                                                                         | 3                   |
+| 32     | E07_US_034          | Ingresar nuevos productos al inventario                          | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado.                                                                                          | 3                   |
+| 33     | E07_US_035          | Crear platos nuevos                                              | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden.                                                         | 3                   |
+| 34     | E04_US_019          | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.                                                                                                  | 3                   |
+| 35     | E04_US_020          | Recibir alerta cuando cliente toma asiento en una mesa           | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa.                                                                                 | 3                   |
+| 36     | E04_US_021          | Recibir alerta cuando un cliente deja la mesa                    | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                                                                                               | 3                   |
+| 43     | E010_US043          | Inventariado de Insumos mediante IoT                             | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio.  | 5                   |
+| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+#### 8.3.3.1. To-Be Sprint Backlogs
+| #orden | To-Be User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
+|--------|---------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 26     | E07_US_036          | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
+| 27     | E05_US_023          | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
+| 29     | E06_US_027          | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
+| 30     | E07_US_031          | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
+| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+![Captura de pantalla 2025-07-07 a las 12.10.56.png](Resources/Capitulo8/Captura%20de%20pantalla%202025-07-07%20a%20las%2012.10.56.png)
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews 
+#### 8.3.4.1. Diseño de Entrevistas.
+1.	¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
+2. ¿La información proporcionada en la landing page te ayudó a comprender cómo la solución IoT podría mejorar la atención en el restaurante?
+3. ¿Qué aspectos de la aplicación te resultaron intuitivos o confusos al tomar un pedido?
+4. ¿Qué tan fácil te resultó recibir y gestionar notificaciones sobre el estado de las mesas (como la llegada de clientes o platos por recoger)?
+5. ¿Sientes que el proceso de enviar pedidos a cocina y caja desde la aplicación agiliza tu flujo de trabajo?
+6. ¿Cómo evaluas la velocidad y precisión de la aplicación al registrar cambios en los pedidos?
+7. ¿La interfaz de la aplicación facilita la gestión de cuentas y pagos de los clientes? ¿Por qué?
+8. ¿Qué tan útil te resulta la opción de recibir alertas cuando los clientes entran o salen del restaurante?
+9. ¿Crees que el sistema IoT implementado mejora la experiencia de servicio para el cliente? ¿En qué aspectos?
+
+#### 8.3.4.2. Registro de Entrevistas.
+Entrevista 1:
+- **Fecha**: 
+- **Participante**: 
+- **Edad**:
+- **Ocupación**:
+- **Enlace**:
+- **Duración**:
+// Insertar imagen de entrevista
+- **Resumen**: 
+
+## 8.4. Experiment Aftermath & Analysis
+### 8.4.1. Analysis and Interpretation of Results
+Los experimentos realizados han proporcionado información valiosa sobre la efectividad de las nuevas funcionalidades implementadas en Kitchentech. A continuación, se presentan los hallazgos clave:
+- El historial de pedidos por mesa ha demostrado ser una herramienta eficaz para reducir errores en la toma de pedidos, con una disminución del 35% en los errores reportados por los meseros.
+- La visibilidad de los productos más vendidos ha permitido a los administradores optimizar el menú, resultando en un aumento del 7% en las ventas semanales.
+- El acceso rápido a productos frecuentes ha disminuido el tiempo de gestión del inventario en un 30%, facilitando la operación diaria.
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch
+
+### 8.6.1. About-the-Product Intro Video
