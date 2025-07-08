@@ -248,22 +248,27 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
-| #orden | To-Be User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
-|--------|---------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 26     | E07_US_036          | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
-| 27     | E05_US_023          | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
-| 29     | E06_US_027          | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
-| 30     | E07_US_031          | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
-| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
+| #orden | To-Be User Story ID | Título                                       | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
+|--------|---------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 26     | E07_US_036          | Editar platos existentes                     | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
+| 27     | E05_US_023          | Tomar pedidos de la mesa                     | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
+| 29     | E06_US_027          | Crear un cliente con DNI o RUC en la app web | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
+| 30     | E07_US_031          | Ver resumen de ventas desde la app móvil     | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
+| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT       | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
-![Captura de pantalla 2025-07-07 a las 12.10.56.png](Resources/Capitulo8/Captura%20de%20pantalla%202025-07-07%20a%20las%2012.10.56.png)
+![landingpage_evidence.png](Resources/Capitulo8/landingpage_evidence.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+URL: https://kitchentech.netlify.app/login
+![netlify_evidence.png](Resources/Capitulo8/netlify_evidence.png)
+![frontend_evidence.png](Resources/Capitulo8/frontend_evidence.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+Endpoint: https://kitchen-tech-backend.onrender.com
+![backend_evidence.png](Resources/Capitulo8/backend_evidence.png)
 
 #### 8.3.3.6. Team Collaboration Insights
 
