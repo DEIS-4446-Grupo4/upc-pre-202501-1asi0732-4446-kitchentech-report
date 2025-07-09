@@ -322,6 +322,56 @@ Los experimentos realizados han proporcionado información valiosa sobre la efec
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+Arquitectura y Tecnologías Utilizadas
+
+#### Arquitectura
+
+- La solución Kitchentech está basada en una arquitectura integral que combina un sistema ERP con dispositivos IoT, permitiendo la gestión centralizada y en tiempo real de procesos en restaurantes y negocios similares.
+- El sistema es escalable y adaptable a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas.
+- Despliegue en la nube para asegurar disponibilidad y crecimiento según demanda.
+
+#### Tecnologías
+
+- Base de datos relacional (SQL) para almacenar información de clientes, pedidos, mesas, productos e inventario.
+- Dispositivos IoT para la detección de clientes, monitoreo de mesas y automatización de procesos operativos.
+- Aplicaciones móviles y web para meseros y personal administrativo, facilitando la toma y gestión de pedidos.
+- Integración con sistemas de facturación y paneles de administración centralizados.
+- Backend expuesto mediante API RESTful (ejemplo: https://kitchen-tech-backend.onrender.com).
+- Frontend web desplegado en Netlify (ejemplo: https://kitchentech.netlify.app/login).
+
+#### Funcionalidades Clave
+
+- Registro y autenticación de usuarios (meseros, administradores) con diferentes niveles de acceso.
+- Toma de pedidos en tiempo real desde dispositivos móviles, con envío automático a cocina y caja.
+- Asignación automática de mesas y monitoreo del estado mediante sensores IoT.
+- Notificaciones automáticas para el personal sobre mesas desocupadas o platos por recoger.
+- Integración con sistemas de facturación para agilizar el proceso de cobro.
+- Panel de administración para monitoreo y gestión centralizada de operaciones.
+- Funciones de inventario, historial de ventas, gestión de productos y clientes.
+- Soporte para pagos con diferentes métodos (efectivo, tarjeta, QR).
+
+#### Proceso de Desarrollo
+
+- Enfoque en la usabilidad, eficiencia operativa y rápida adopción por parte del personal.
+- Validación continua de hipótesis y necesidades mediante el uso de Lean UX Canvas y experimentos controlados.
+- Iteraciones rápidas y feedback constante de usuarios objetivo (meseros y administradores).
+- Pruebas de integración entre dispositivos IoT, aplicaciones móviles/web y backend.
+
+#### Experiencia del Usuario (UX)
+
+- Interfaz intuitiva y fácil de usar en dispositivos móviles y paneles administrativos.
+- Proceso de capacitación breve gracias a la simplicidad de la interfaz.
+- Retroalimentación positiva de usuarios de prueba, destacando la reducción de tiempos y facilidad de uso.
+- Notificaciones y alertas en tiempo real para mejorar la eficiencia del servicio.
+
+#### Testing y Calidad
+
+- Pruebas rigurosas de funcionalidad, usabilidad y rendimiento en los diferentes módulos del sistema.
+- Validación de la integración entre dispositivos IoT, aplicaciones móviles/web y sistemas de backend.
+- Enfoque en la seguridad de los datos y la confiabilidad del sistema en entornos reales.
+- Uso de herramientas de automatización y CI/CD para asegurar la calidad continua del software.
+
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
