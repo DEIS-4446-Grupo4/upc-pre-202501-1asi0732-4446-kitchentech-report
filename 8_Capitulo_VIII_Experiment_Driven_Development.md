@@ -336,8 +336,8 @@ Arquitectura y Tecnologías Utilizadas
 - Dispositivos IoT para la detección de clientes, monitoreo de mesas y automatización de procesos operativos.
 - Aplicaciones móviles y web para meseros y personal administrativo, facilitando la toma y gestión de pedidos.
 - Integración con sistemas de facturación y paneles de administración centralizados.
-- Backend expuesto mediante API RESTful (ejemplo: https://kitchen-tech-backend.onrender.com).
-- Frontend web desplegado en Netlify (ejemplo: https://kitchentech.netlify.app/login).
+- Backend expuesto mediante API RESTful.
+- Frontend web desplegado.
 
 #### Funcionalidades Clave
 
