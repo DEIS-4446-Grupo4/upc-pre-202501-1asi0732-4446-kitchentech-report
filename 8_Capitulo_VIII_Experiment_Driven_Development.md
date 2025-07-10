@@ -274,7 +274,8 @@ Endpoint: https://kitchen-tech-backend.onrender.com
 #### 8.3.3.6. Team Collaboration Insights
 
 ![insights.png](Resources/insights.jpeg)
-
+![Captura de pantalla 2025-07-10 a las 1.04.12.png](Resources/Captura%20de%20pantalla%202025-07-10%20a%20las%201.04.12.png)
+![Captura de pantalla 2025-07-10 a las 1.02.50.png](Resources/Captura%20de%20pantalla%202025-07-10%20a%20las%201.02.50.png)
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas.
