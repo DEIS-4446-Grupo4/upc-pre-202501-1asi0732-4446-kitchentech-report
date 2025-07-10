@@ -56,6 +56,9 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 3. ¿Una mensajería interna mejora la coordinación entre meseros y cocina?
 4. ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos?
 5. ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?
+6. ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?
+7. ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones?
+8. ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?
 
 ### 8.1.4. Question Backlog
 
@@ -66,7 +69,9 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 | 3 | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                  | Alto (reduce errores y demoras)         |
 | 4 | ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos? | Alto (reduce errores operativos)        |
 | 5 | ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?     | Medio-Alto (agiliza cobro y rotación)   |
-
+| 6 | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso? | Alto (mejora experiencia y reduce errores)         |
+| 7 | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones? | Medio-Alto (mejora toma de decisiones) |
+| 8 | ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?                | Alto (mejora control y reduce errores)             |
 ### 8.1.5. Experiment Cards
 
 ### 🧪 *Experiment Card 1: Historial de pedidos por mesa*
@@ -151,6 +156,51 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 | *Metas*           | -25% en tiempo de demora en gestionar el inventario.                                         |
 
 ---
+
+### 🧪 *Experiment Card 6: Pago de Cuentas*
+
+| *Supuestos*                                                  | *Question Backlog*                                                         |
+|--------------------------------------------------------------|----------------------------------------------------------------------------|
+| El proceso de pago de cuentas es lento y propenso a errores. | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro? |
+
+| *Experiment Card* |                                                                                                           |
+|-------------------|-----------------------------------------------------------------------------------------------------------|
+| *Question*        | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro?                                |
+| *Why*             | Mejora la experiencia del cliente y reduce el tiempo de espera en el pago.                                |
+| *What*            | Implementar un sistema de pago rápido con opciones de pago digital y medir el tiempo de cobro.            |
+| *Hypothesis*      | Si se implementa un sistema de pago rápido, se reduce el tiempo de cobro en un 30% y se eliminan errores. |
+| *Métricas*        | Tiempo promedio de cobro y cantidad de errores en el proceso de pago.                                     |
+| *Metas*           | -30% en tiempo de cobro, -90% en errores, +15% en satisfacción del cliente                                |
+
+### 🧪 *Experiment Card 7: Historial de Ventas*
+
+| *Supuestos*                                                           | *Question Backlog*                                     |
+|-----------------------------------------------------------------------|--------------------------------------------------------|
+| Los gerentes necesitan analizar tendencias de ventas de forma rápida. | ¿Un historial de ventas  mejora la toma de decisiones? |
+
+| *Experiment Card* |                                                                                                                                                                      |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Question*        | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos?                                                                           |
+| *Why*             | Permite a los gerentes y administradores identificar rápidamente patrones, productos de alta demanda o rendimientos individuales, facilitando la toma de decisiones. |
+| *What*            | Implementar un historial de ventas accesible desde el dashboard del administrador                                                                                    |
+| *Hypothesis*      | Si se implementa un historial de ventas, los gerentes podrán identificar tendencias y tomar decisiones más informadas, mejorando la eficiencia operativa en un 20%.  |
+| *Métricas*        | Tiempo promedio para generar reportes de ventas y número de insights accionables identificados.                                                                      |
+| *Metas*           | -20% en tiempo de generación de reportes, +30% en insights accionables identificados.                                                                                |
+
+### 🧪 *Experiment Card 8: Movimientos de Caja*
+
+| *Supuestos*                                                                | *Question Backlog*                                                               |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| La gestión de caja es propensa a errores y requiere seguimiento constante. | ¿Un sistema de movimientos de caja mejora la transparencia y control financiero? |
+
+| *Experiment Card* |                                                                                                                                                                |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Question*        | ¿Un sistema de movimientos de caja mejora la transparencia y control financiero?                                                                               |
+| *Why*             | Permite un seguimiento detallado de ingresos y egresos, facilitando control financiero.                                                                        |
+| *What*            | Implementar un sistema de registro de movimientos de caja con reportes diarios accesibles.                                                                     |
+| *Hypothesis*      | Si se implementa un sistema de movimientos de caja, se reducirá el número de errores en el cierre de caja en un 40% y se mejorará la transparencia financiera. |
+| *Métricas*        | Número de errores en cierres de caja y tiempo promedio para generar reportes de caja.                                                                          |
+| *Metas*           | -40% en errores de cierre de caja, +50% en transparencia financiera.                                                                                           |
 
 ## 8.2. Experiment Design
 
