@@ -366,6 +366,19 @@ Endpoint: https://kitchen-tech-backend.onrender.com
    Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselling o sugerencias de platos, además de optimizar íconos y descripciones para hacer la app aún más intuitiva.
 
 
+- Segunda Entrevista:
+- Segmento: ADMINISTADORES
+- Nombre: David Oré Cutipa
+- Edad: 24
+- Ocupación: Ayudante Administrador de polleria
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img src="./Resources/images/e4.png" width="600">
+
+- Resumen:
+  David Oré Cutipa, de 24 años, trabaja como ayudante de administrador en una pollería, donde se enfoca en la gestión diaria y el crecimiento del negocio. Se considera organizado y consciente de la importancia del servicio al cliente, tanto presencial como virtual, para el éxito del restaurante. En la entrevista, mencionó que un gran reto es mantener ingresos positivos mientras busca expandir la marca. Actualmente, el proceso de pedidos y facturación implica que los clientes completen un formulario, ya sea de manera presencial o virtual, lo que asegura una pronta entrega. Utiliza herramientas como códigos QR y plataformas de entrega para alcanzar a más clientes, dedicando alrededor de 8 horas diarias a revisar ventas y facturación. Aunque está satisfecho con la tecnología actual, se muestra abierto a innovaciones como soluciones de IoT, meseros robóticos y asistentes inteligentes para mejorar aún más el servicio. Además, expresó su interés en tener acceso en tiempo real a las preferencias de los clientes para anticipar sus necesidades, optimizar el inventario y tomar decisiones más informadas para expandir el negocio y fortalecer la marca.
+
+
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 Los experimentos realizados han proporcionado información valiosa sobre la efectividad de las nuevas funcionalidades implementadas en Kitchentech. A continuación, se presentan los hallazgos clave:
