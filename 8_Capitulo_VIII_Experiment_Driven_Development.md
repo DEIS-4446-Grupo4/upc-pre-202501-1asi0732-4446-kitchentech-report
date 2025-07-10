@@ -35,113 +35,53 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 **Ideas**:
 
-1. Implementar un historial de pedidos por mesa para que los meseros puedan recuperar rápidamente información de pedidos
-   activos o previos.
-2. Desarrollar una función de división automática de cuentas entre comensales para agilizar el proceso de cobro.
+1. Implementar un historial ventas para que los administradores puedan recopilar las ganancias y ventas emitidas.
+2. Desarrollar una función de pago de cuentas con diversos métodos de pago para agilizar el proceso de cobro.
 3. Añadir un panel de "Top productos" en el dashboard del administrador para facilitar la toma de decisiones sobre el
    menú.
-4. Habilitar una mensajería interna entre meseros y cocina para mejorar la comunicación y coordinación.
+4. Habilitar la opción de anular ventas de manera que se puedan ratificar cobros erróneos sin eliminar las ventas.
 
 **Claims**:
 
-1. La implementación de un historial de pedidos mejorará la precisión y velocidad del servicio.
-2. La división automática de cuentas reducirá el tiempo de cobro y minimizará errores.
+1. La implementación de un historial de ventas mejorará la recopilación de datos del servicio.
+2. Los pagos con diversos métodos reducirá el tiempo de cobro y minimizará errores.
 3. Mostrar los productos más vendidos optimizará la gestión del menú y aumentará las ventas.
-4. Una mensajería interna mejorará la coordinación entre meseros y cocina, reduciendo errores.
+4. Establecer ventas como anuladas ayudará a ratificar errores.
 
 ### 8.1.3. Experiment-Ready Questions
 
-1. ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio?
-2. ¿La visibilidad de los productos más vendidos mejora la gestión del menú?
-3. ¿Una mensajería interna mejora la coordinación entre meseros y cocina?
-4. ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos?
-5. ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?
-6. ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?
-7. ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones?
-8. ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?
+1. ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones?
+2. ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?
+3. ¿La visibilidad de los productos más vendidos mejora la gestión del menú?
+4. ¿Anular ventas mejorará la solución de errores por cobros mal efectuados?
 
 ### 8.1.4. Question Backlog
 
 | # | Pregunta                                                                                                              | Impacto Potencial                          |
 |---|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| 1 | ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio?                                 | Alto (mejora servicio y reduce errores)    |
-| 2 | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?                                             | Medio (optimiza decisiones de menú)        |
-| 3 | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                                                | Alto (reduce errores y demoras)            |
-| 4 | ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos?                               | Alto (reduce errores operativos)           |
-| 5 | ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?                                   | Medio-Alto (agiliza cobro y rotación)      |
-| 6 | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?                    | Alto (mejora experiencia y reduce errores) |
-| 7 | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones? | Medio-Alto (mejora toma de decisiones)     |
-| 8 | ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?                                   | Alto (mejora control y reduce errores)     |
+| 1 | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones? | Medio-Alto (mejora toma de decisiones)     |
+| 2 | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?                    | Alto (mejora experiencia y reduce errores) |
+| 3 | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?                                             | Medio (optimiza decisiones de menú)        |
+| 4 | ¿Anular ventas mejorará la solución de errores por cobros mal efectuados?                                             | Alto (reduce errores y demoras)            |
 
 ### 8.1.5. Experiment Cards
 
-### 🧪 *Experiment Card 1: Historial de pedidos por mesa*
+### 🧪 *Experiment Card 1: Historial de Ventas*
 
-| *Supuestos*                                                                    | *Question Backlog*                                                                    |
-|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Los meseros suelen olvidar detalles de pedidos anteriores si deben retomarlos. | ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio? |
+| *Supuestos*                                                           | *Question Backlog*                                     |
+|-----------------------------------------------------------------------|--------------------------------------------------------|
+| Los gerentes necesitan analizar tendencias de ventas de forma rápida. | ¿Un historial de ventas  mejora la toma de decisiones? |
 
-| *Experiment Card* |                                                                                                                          |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------|
-| *Question*        | ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio?                                    |
-| *Why*             | Permite a los meseros recuperar rápidamente información de pedidos activos o previos.                                    |
-| *What*            | Agregar una sección de historial de pedidos por mesa en la app del mesero. Probar durante una semana.                    |
-| *Hypothesis*      | Si los meseros consultan el historial de pedidos, reducirán errores en 30% y aumentarán la velocidad de atención en 10%. |
-| *Métricas*        | Número de errores en pedidos y tiempo promedio por pedido.                                                               |
-| *Metas*           | -30% en errores y +10% en velocidad de atención.                                                                         |
+| *Experiment Card* |                                                                                                                                                                      |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Question*        | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos?                                                                           |
+| *Why*             | Permite a los gerentes y administradores identificar rápidamente patrones, productos de alta demanda o rendimientos individuales, facilitando la toma de decisiones. |
+| *What*            | Implementar un historial de ventas accesible desde el dashboard del administrador                                                                                    |
+| *Hypothesis*      | Si se implementa un historial de ventas, los gerentes podrán identificar tendencias y tomar decisiones más informadas, mejorando la eficiencia operativa en un 20%.  |
+| *Métricas*        | Tiempo promedio para generar reportes de ventas y número de insights accionables identificados.                                                                      |
+| *Metas*           | -20% en tiempo de generación de reportes, +30% en insights accionables identificados.                                                                                |
 
-### 🧪 *Experiment Card 2: División automática de cuenta entre comensales*
-
-| *Supuestos*                                                        | *Question Backlog*                                                               |
-|--------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| Dividir la cuenta manualmente toma tiempo y puede generar errores. | ¿Los meseros atienden más rápido si el sistema divide la cuenta automáticamente? |
-
-| *Experiment Card* |                                                                                                              |
-|-------------------|--------------------------------------------------------------------------------------------------------------|
-| *Question*        | ¿Los meseros atienden más rápido si el sistema divide la cuenta automáticamente?                             |
-| *Why*             | Mejora la eficiencia del cobro y reduce errores en cálculos, generando mayor rotación de mesas.              |
-| *What*            | Implementar opción de división automática de cuenta por monto o ítems seleccionados.                         |
-| *Hypothesis*      | Si se activa la división automática, se reduce el tiempo de cobro en un 20% y se eliminan errores en un 90%. |
-| *Métricas*        | Tiempo desde solicitud de cuenta hasta cobro, y cantidad de reclamos por error.                              |
-| *Metas*           | -20% en tiempo de cobro, -90% en errores.                                                                    |
-
----
-
-### 🧪 *Experiment Card 3: Vista rápida de productos más vendidos*
-
-| *Supuestos*                                                                  | *Question Backlog*                                                        |
-|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Los administradores toman decisiones sin datos concretos de productos clave. | ¿La visibilidad de los productos más vendidos mejora la gestión del menú? |
-
-| *Experiment Card* |                                                                                                            |
-|-------------------|------------------------------------------------------------------------------------------------------------|
-| *Question*        | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?                                  |
-| *Why*             | Permite tomar decisiones informadas sobre promociones y stock.                                             |
-| *What*            | Añadir panel de “Top productos” al dashboard de administrador y evaluar uso semanal.                       |
-| *Hypothesis*      | Si se muestra el top de productos vendidos, los administradores optimizan el menú y aumentan ventas en 5%. |
-| *Métricas*        | Variación en las ventas y cambios en el menú.                                                              |
-| *Metas*           | +5% en ventas semanales.                                                                                   |
-
----
-
-### 🧪 *Experiment Card 4: Mensajes internos entre meseros y cocina*
-
-| *Supuestos*                                                                 | *Question Backlog*                                                     |
-|-----------------------------------------------------------------------------|------------------------------------------------------------------------|
-| La comunicación oral entre meseros y cocina puede causar errores o demoras. | ¿Una mensajería interna mejora la coordinación entre meseros y cocina? |
-
-| *Experiment Card* |                                                                                               |
-|-------------------|-----------------------------------------------------------------------------------------------|
-| *Question*        | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                        |
-| *Why*             | Mejora la velocidad y precisión en solicitudes especiales o cambios de último minuto.         |
-| *What*            | Habilitar chat interno por pedidos con etiquetas (urgente, sin sal, etc.). Test en 2 turnos.  |
-| *Hypothesis*      | Si se habilita mensajería interna, se reducirá el tiempo de resolución de incidencias en 30%. |
-| *Métricas*        | Tiempos de respuesta y cantidad de errores en cocina.                                         |
-| *Metas*           | -30% en tiempo de respuesta.                                                                  |
-
----
-
-### 🧪 *Experiment Card 5: Agregado rápido de productos frecuentes o recientes*
+### 🧪 *Experiment Card 2: Agregado rápido de productos frecuentes o recientes*
 
 | *Supuestos*                                                                  | *Question Backlog*                                                                           |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
@@ -158,7 +98,7 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ---
 
-### 🧪 *Experiment Card 6: Pago de Cuentas*
+### 🧪 *Experiment Card 3: Pago de Cuentas*
 
 | *Supuestos*                                                  | *Question Backlog*                                                         |
 |--------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -173,46 +113,32 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 | *Métricas*        | Tiempo promedio de cobro y cantidad de errores en el proceso de pago.                                     |
 | *Metas*           | -30% en tiempo de cobro, -90% en errores, +15% en satisfacción del cliente                                |
 
-### 🧪 *Experiment Card 7: Historial de Ventas*
+### 🧪 *Experiment Card 4: Anulación de ventas*
+| *Supuestos*                                                 | *Question Backlog*                                                      |
+|-------------------------------------------------------------|-------------------------------------------------------------------------|
+| Los errores de cobro son comunes y difíciles de corregir.   | ¿Anular ventas mejora la solución de errores por cobros mal efectuados? |
 
-| *Supuestos*                                                           | *Question Backlog*                                     |
-|-----------------------------------------------------------------------|--------------------------------------------------------|
-| Los gerentes necesitan analizar tendencias de ventas de forma rápida. | ¿Un historial de ventas  mejora la toma de decisiones? |
+| *Experiment Card* |                                                                                                  |
+|-------------------|--------------------------------------------------------------------------------------------------|
+| *Question*        | ¿Anular ventas mejora la solución de errores por cobros mal efectuados?                          |
+| *Why*             | Permite corregir errores sin eliminar datos, mejorando la trazabilidad.                          |
+| *What*            | Implementar opción de anular ventas y medir el uso y efectividad.                                |
+| *Hypothesis*      | Si se implementa la anulación de ventas, se reduce el tiempo de resolución de errores en un 20%. |
+| *Métricas*        | Tiempo promedio de resolución de errores y número de anulaciones.                                |
+| *Metas*           | -20% en tiempo de resolución de errores, +30% en satisfacción del usuario.                       |
 
-| *Experiment Card* |                                                                                                                                                                      |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Question*        | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos?                                                                           |
-| *Why*             | Permite a los gerentes y administradores identificar rápidamente patrones, productos de alta demanda o rendimientos individuales, facilitando la toma de decisiones. |
-| *What*            | Implementar un historial de ventas accesible desde el dashboard del administrador                                                                                    |
-| *Hypothesis*      | Si se implementa un historial de ventas, los gerentes podrán identificar tendencias y tomar decisiones más informadas, mejorando la eficiencia operativa en un 20%.  |
-| *Métricas*        | Tiempo promedio para generar reportes de ventas y número de insights accionables identificados.                                                                      |
-| *Metas*           | -20% en tiempo de generación de reportes, +30% en insights accionables identificados.                                                                                |
-
-### 🧪 *Experiment Card 8: Movimientos de Caja*
-
-| *Supuestos*                                                                | *Question Backlog*                                                               |
-|----------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| La gestión de caja es propensa a errores y requiere seguimiento constante. | ¿Un sistema de movimientos de caja mejora la transparencia y control financiero? |
-
-| *Experiment Card* |                                                                                                                                                                |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Question*        | ¿Un sistema de movimientos de caja mejora la transparencia y control financiero?                                                                               |
-| *Why*             | Permite un seguimiento detallado de ingresos y egresos, facilitando control financiero.                                                                        |
-| *What*            | Implementar un sistema de registro de movimientos de caja con reportes diarios accesibles.                                                                     |
-| *Hypothesis*      | Si se implementa un sistema de movimientos de caja, se reducirá el número de errores en el cierre de caja en un 40% y se mejorará la transparencia financiera. |
-| *Métricas*        | Número de errores en cierres de caja y tiempo promedio para generar reportes de caja.                                                                          |
-| *Metas*           | -40% en errores de cierre de caja, +50% en transparencia financiera.                                                                                           |
 
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
 
-| Hypothesis ID | Hypothesis                                                                                                                                                                    | Question ID |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| HYP001        | Si los meseros consultan el historial de pedidos, reducirán errores en 30% y aumentarán la velocidad de atención en 10%.                                                      | Q001        |
-| HYP002        | Si se muestra el top de productos vendidos, los administradores optimizan el menú y aumentan ventas en 5%.                                                                    | Q002        |
-| HYP003        | Si se habilita mensajería interna mediante pantallas en cocina y barra para seguimiento de preparación de pedidos, se reducirá el tiempo de resolución de incidencias en 30%. | Q003        |
-| HYP004        | El tiempo en gestionar el inventario disminuye en al menos 25% al usar acceso rápido a productos frecuentes o recientes.                                                      | Q004        |
+| Hypothesis ID | Hypothesis                                                                                                                                                                             | Question ID |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| HYP001        | Si se implementa un historial de ventas por mesa, entonces los administradores podrán acceder rápidamente a la información de ventas anteriores, mejorando la eficiencia del servicio. | 1           |
+| HYP002        | Si se implementa un acceso rápido a productos frecuentes o recientes en el inventario, entonces se reducirá el tiempo de gestión del inventario y se minimizarán los errores.          | 2           |
+| HYP002        | Si se implementa una función de pago con diversos métodos, entonces los clientes podrán pagar rápidamente y se reducirán los tiempos de atención                                       | 3           |
+| HYP003        | Si se habilita la función de anular ventas, entonces se podrán solucionar errores por cobros equivocados y disminuirán los tiempos de resolución de errores.                           | 4           |
+
 
 ### 8.2.2. Measures
 
