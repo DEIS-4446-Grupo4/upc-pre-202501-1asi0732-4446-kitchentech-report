@@ -64,6 +64,7 @@ Profesor: Lennin Percy Cenas Vasquez
     TB1 - Gabriel Braithuaite <br> Se definieron flujos diferenciados para meseros y administradores, asumiendo una responsabilidad ética en el diseño de interacciones que promueven el uso adecuado del sistema según el rol del usuario. <br>
     TP - Gabriel Braithuaite <br> Se definieron y validaron comportamientos del sistema desde la perspectiva del usuario a través de tests ejecutables, priorizamos sus necesidades y la calidad del software, utilizando Selenium IDE como software para automatización.
     <br>
+    TF - Gabriel Braithuaite <br> Se implementaron prácticas de desarrollo ético y profesional, priorizando la privacidad y seguridad de los datos de los usuarios. Se respetaron los estándares éticos aplicables en el desarrollo de experimentos dirigidos por el comportamiento. <br>
     TB1 - Nicolás Zagal <br> Diseñó una arquitectura segura y escalonable buscando resguardar los datos y la privacidad de los negocios y sus usuarios, asegurando un entorno confiable. <br>
     TB1 - Diego Alonso <br> Se diseñaron flujos con el objetivo de ofrecer interfaces claras y navegación lógicas, minimizando la posibilidad de errores y facilitando una interacción eficiente para todos los usuarios. <br>
     TP - Diego Alonso <br> Implementamos y verificamos cómo el sistema se comporta desde el punto de vista del usuario mediante pruebas automatizadas. Nuestra prioridad fue satisfacer sus necesidades y asegurar la calidad del software, utilizando Selenium IDE como herramienta de automatización. <br>
@@ -78,6 +79,7 @@ Profesor: Lennin Percy Cenas Vasquez
 <td> 
     TB1 - Gabriel Braithuaite <br>Propuso flujos que buscan optimizar la operación en el punto de venta, contribuyendo a la eficiencia de pequeños negocios. <br>
     TP - Gabriel Braithuaite <br> Se utilizó el enfoque BDD, facilitado por la automatización de tests con Selenium IDE, lo que permite emitir juicios informados sobre el impacto de las soluciones de software, esto nos brinda información valiosa sobre cómo KitchenTech afectará a los usuarios en diversos contextos. <br>
+    TF - Gabriel Braithuaite <br> Se realizó investigación, se identificaron las hipótesis y se planificaron los experimentos para validar las soluciones propuestas, considerando el impacto de las decisiones de ingeniería de software en contextos económicos y sociales. <br>
     TB1 - Nicolás Zagal <br> Propuso soluciones de software relacionados a la problemática descrita mediante un detallado analisis de los segmentos objetivos y de las necesidades del negocio. <br>
     TB1 - Diego Alonso <br> Se priorizó un diseño intuitivo y eficiente para tener un impacto económico positivo al optimizar la productividad de los usuarios y potencialmente reducir los costos de soporte. <br>
     TP - Diego Alonso <br> La combinación del enfoque BDD y la automatización de pruebas con Selenium IDE nos facilitó la emisión de juicios informados sobre las consecuencias de nuestras soluciones de software. Esto nos dio información valiosa para comprender cómo KitchenTech impactará a los usuarios en diferentes escenarios. <br>
