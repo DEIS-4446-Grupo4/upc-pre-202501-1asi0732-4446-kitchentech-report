@@ -62,17 +62,16 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ### 8.1.4. Question Backlog
 
-| # | Pregunta                                                                                | Impacto Potencial                       |
-|---|-----------------------------------------------------------------------------------------|-----------------------------------------|
-| 1 | ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio?   | Alto (mejora servicio y reduce errores) |
-| 2 | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?               | Medio (optimiza decisiones de menú)     |
-| 3 | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                  | Alto (reduce errores y demoras)         |
-| 4 | ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos? | Alto (reduce errores operativos)        |
-| 5 | ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?     | Medio-Alto (agiliza cobro y rotación)   |
-| 6 | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso? | Alto (mejora experiencia y reduce errores)         |
-| 7 | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones? | Medio-Alto (mejora toma de decisiones) |
-| 8 | ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?                | Alto (mejora control y reduce errores)             |
-
+| # | Pregunta                                                                                                              | Impacto Potencial                          |
+|---|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| 1 | ¿Tener un historial de pedidos por mesa mejora la precisión y velocidad del servicio?                                 | Alto (mejora servicio y reduce errores)    |
+| 2 | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?                                             | Medio (optimiza decisiones de menú)        |
+| 3 | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                                                | Alto (reduce errores y demoras)            |
+| 4 | ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos?                               | Alto (reduce errores operativos)           |
+| 5 | ¿La división automática de cuentas disminuye el tiempo de espera para los clientes?                                   | Medio-Alto (agiliza cobro y rotación)      |
+| 6 | ¿La implementación de un sistema de pago rápido reduce el tiempo de cobro y errores en el proceso?                    | Alto (mejora experiencia y reduce errores) |
+| 7 | ¿Un historial de ventas mejora la capacidad de los gerentes para obtener insights rápidos y tomar mejores decisiones? | Medio-Alto (mejora toma de decisiones)     |
+| 8 | ¿Un sistema de movimientos de caja mejora la transparencia y el control financiero?                                   | Alto (mejora control y reduce errores)     |
 
 ### 8.1.5. Experiment Cards
 
@@ -207,6 +206,7 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
+
 | Hypothesis ID | Hypothesis                                                                                                                                                                    | Question ID |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
 | HYP001        | Si los meseros consultan el historial de pedidos, reducirán errores en 30% y aumentarán la velocidad de atención en 10%.                                                      | Q001        |
@@ -215,55 +215,58 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 | HYP004        | El tiempo en gestionar el inventario disminuye en al menos 25% al usar acceso rápido a productos frecuentes o recientes.                                                      | Q004        |
 
 ### 8.2.2. Measures
-| Measure ID | Measure Description                                                                                      | Hypothesis ID |
-|------------|----------------------------------------------------------------------------------------------------------|---------------|
-| M001       | Número de errores en pedidos y tiempo promedio por pedido.                                              | HYP001        |
-| M002       | Variación en las ventas y cambios en el menú.                                                            | HYP002        |
-| M003       | Tiempos de respuesta y cantidad de errores en cocina.                                                     | HYP003        |
-| M004       | Tiempo promedio de gestión del inventario.                                                               | HYP004        |
+
+| Measure ID | Measure Description                                        | Hypothesis ID |
+|------------|------------------------------------------------------------|---------------|
+| M001       | Número de errores en pedidos y tiempo promedio por pedido. | HYP001        |
+| M002       | Variación en las ventas y cambios en el menú.              | HYP002        |
+| M003       | Tiempos de respuesta y cantidad de errores en cocina.      | HYP003        |
+| M004       | Tiempo promedio de gestión del inventario.                 | HYP004        |
 
 ### 8.2.3. Conditions
-| Condition ID | Condition Description                                                                                      | Measure ID |
-|--------------|------------------------------------------------------------------------------------------------------------|------------|
-| C001         | El historial de pedidos por mesa está implementado y disponible para los meseros.                          | M001       |
-| C002         | El panel de "Top productos" está visible en el dashboard del administrador y actualizado en tiempo real.   | M002       |
-| C003         | La mensajería interna está habilitada y utilizada por al menos el 70% de los meseros y cocineros.          | M003       |
+
+| Condition ID | Condition Description                                                                                                            | Measure ID |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------|------------|
+| C001         | El historial de pedidos por mesa está implementado y disponible para los meseros.                                                | M001       |
+| C002         | El panel de "Top productos" está visible en el dashboard del administrador y actualizado en tiempo real.                         | M002       |
+| C003         | La mensajería interna está habilitada y utilizada por al menos el 70% de los meseros y cocineros.                                | M003       |
 | C004         | El acceso rápido a productos frecuentes o recientes está implementado y utilizado en al menos el 60% de las altas de inventario. | M004       |
 
-
 ### 8.2.4. Scale Calculations and Decisions
-| Scale ID | Scale Description                                                                                      | Condition ID |
-|----------|--------------------------------------------------------------------------------------------------------|--------------|
-| S001     | Escala de satisfacción del usuario con el historial de pedidos: 1 (muy insatisfecho) a 5 (muy satisfecho). | C001         |
-| S002     | Escala de efectividad del panel de "Top productos": 1 (poco útil) a 5 (muy útil).                        | C002         |
-| S003     | Escala de mejora en la coordinación con mensajería interna: 1 (sin mejora) a 5 (mejora significativa).   | C003         |
+
+| Scale ID | Scale Description                                                                                             | Condition ID |
+|----------|---------------------------------------------------------------------------------------------------------------|--------------|
+| S001     | Escala de satisfacción del usuario con el historial de pedidos: 1 (muy insatisfecho) a 5 (muy satisfecho).    | C001         |
+| S002     | Escala de efectividad del panel de "Top productos": 1 (poco útil) a 5 (muy útil).                             | C002         |
+| S003     | Escala de mejora en la coordinación con mensajería interna: 1 (sin mejora) a 5 (mejora significativa).        | C003         |
 | S004     | Escala de eficiencia en la gestión del inventario con acceso rápido: 1 (muy ineficiente) a 5 (muy eficiente). | C004         |
 
-
 ### 8.2.5. Methods Selection
-| Method ID | Method Description                                                                                      | Scale ID |
+
+| Method ID | Method Description                                                                                       | Scale ID |
 |-----------|----------------------------------------------------------------------------------------------------------|----------|
 | M001      | Encuestas a meseros y administradores sobre la utilidad del historial de pedidos.                        | S001     |
 | M002      | Análisis de ventas antes y después de implementar el panel de "Top productos".                           | S002     |
-| M003      | Registro de tiempos de respuesta y errores en cocina antes y después de habilitar la mensajería interna.  | S003     |
+| M003      | Registro de tiempos de respuesta y errores en cocina antes y después de habilitar la mensajería interna. | S003     |
 | M004      | Medición del tiempo promedio de gestión del inventario antes y después de implementar el acceso rápido.  | S004     |
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
-| Goal ID | Goal Description                                                                                      | Method ID |
-|----------|--------------------------------------------------------------------------------------------------------|-----------|
-| G001     | Mejorar la precisión y velocidad del servicio mediante el uso del historial de pedidos.               | M001      |
-| G002     | Optimizar la gestión del menú y aumentar las ventas con el panel de "Top productos".                   | M002      |
-| G003     | Reducir el tiempo de resolución de incidencias y mejorar la coordinación con mensajería interna.       | M003      |
-| G004     | Disminuir el tiempo de gestión del inventario mediante acceso rápido a productos frecuentes.          | M004      |
+
+| Goal ID | Goal Description                                                                                 | Method ID |
+|---------|--------------------------------------------------------------------------------------------------|-----------|
+| G001    | Mejorar la precisión y velocidad del servicio mediante el uso del historial de pedidos.          | M001      |
+| G002    | Optimizar la gestión del menú y aumentar las ventas con el panel de "Top productos".             | M002      |
+| G003    | Reducir el tiempo de resolución de incidencias y mejorar la coordinación con mensajería interna. | M003      |
+| G004    | Disminuir el tiempo de gestión del inventario mediante acceso rápido a productos frecuentes.     | M004      |
 
 ### 8.2.7. Web and Mobile Tracking Plan.
-| Tracking ID | Tracking Description                                                                                      | Goal ID |
-|-------------|------------------------------------------------------------------------------------------------------------|---------|
-| T001        | Implementar seguimiento de uso del historial de pedidos por mesa en la app del mesero.                     | G001    |
-| T002        | Medir la interacción con el panel de "Top productos" en el dashboard del administrador.                     | G002    |
-| T003        | Registrar el uso de la mensajería interna entre meseros y cocina, incluyendo tiempos de respuesta.         | G003    |
-| T004        | Monitorear el tiempo de gestión del inventario con el acceso rápido a productos frecuentes.                | G004    |
 
+| Tracking ID | Tracking Description                                                                               | Goal ID |
+|-------------|----------------------------------------------------------------------------------------------------|---------|
+| T001        | Implementar seguimiento de uso del historial de pedidos por mesa en la app del mesero.             | G001    |
+| T002        | Medir la interacción con el panel de "Top productos" en el dashboard del administrador.            | G002    |
+| T003        | Registrar el uso de la mensajería interna entre meseros y cocina, incluyendo tiempos de respuesta. | G003    |
+| T004        | Monitorear el tiempo de gestión del inventario con el acceso rápido a productos frecuentes.        | G004    |
 
 ## 8.3. Experimentation
 
@@ -281,51 +284,55 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ### 8.3.2. To-Be Product Backlog
 
-| #orden  | To-Be User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
-|---------|---------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 25      | E07_US_032          | Filtrar ventas por platos                                        | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos.                                                                                                                    | 3                   |
-| 26      | E07_US_036          | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
-| 27      | E05_US_023          | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
-| 28      | E05_US_025          | Enviar pedido guardado a cocina y caja                           | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente.                                                                    | 3                   |
-| 29      | E06_US_027          | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
-| 30      | E07_US_031          | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
-| 31      | E07_US_033          | Ver resumen de productos restantes                               | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock.                                                                                         | 3                   |
-| 32      | E07_US_034          | Ingresar nuevos productos al inventario                          | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado.                                                                                          | 3                   |
-| 33      | E07_US_035          | Crear platos nuevos                                              | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden.                                                         | 3                   |
-| 34      | E04_US_019          | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.                                                                                                  | 3                   |
-| 35      | E04_US_020          | Recibir alerta cuando cliente toma asiento en una mesa           | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa.                                                                                 | 3                   |
-| 36      | E04_US_021          | Recibir alerta cuando un cliente deja la mesa                    | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                                                                                               | 3                   |
-| 43      | E010_US043          | Inventariado de Insumos mediante IoT                             | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio.  | 5                   |
-| 44      | E010_US044          | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
-| 45      | E06_US045           | Pagar cuentas con diversos métodos de pago                       | **COMO** mesero QUIERO registrar pagos con diferentes métodos (efectivo, tarjeta, QR) PARA ofrecer opciones a los clientes y facilitar el cierre de cuentas.                                              | 5                   |
-| 46      | E06_US046           | Generar movimientos de caja                                      | **COMO** administrador QUIERO poder registrar ingresos y egresos de mi caja PARA poder mantener actualizado el sistema ante una emergencia.                                                               | 3                   |
-
-
+| #orden | To-Be User Story ID | Título                                                           | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
+|--------|---------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 25     | E07_US_032          | Filtrar ventas por platos                                        | COMO administrador QUIERO filtrar ventas por platos PARA identificar los más vendidos.                                                                                                                    | 3                   |
+| 26     | E07_US_036          | Editar platos existentes                                         | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
+| 27     | E05_US_023          | Tomar pedidos de la mesa                                         | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
+| 28     | E05_US_025          | Enviar pedido guardado a cocina y caja                           | COMO mesero QUIERO enviar pedidos a cocina o caja PARA continuar con el flujo de trabajo sin necesidad de dictar la orden manualmente.                                                                    | 3                   |
+| 29     | E06_US_027          | Crear un cliente con DNI o RUC                                   | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
+| 30     | E07_US_031          | Ver resumen de ventas                                            | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
+| 31     | E07_US_033          | Ver resumen de productos restantes                               | COMO administrador QUIERO ver cuántos insumos quedan en inventario después de las ventas PARA controlar el stock.                                                                                         | 3                   |
+| 32     | E07_US_034          | Ingresar nuevos productos al inventario                          | COMO administrador QUIERO añadir insumos al inventario después de una compra PARA mantener el stock actualizado.                                                                                          | 3                   |
+| 33     | E07_US_035          | Crear platos nuevos                                              | COMO administrador QUIERO crear nuevos platos con sus precios e insumos necesarios PARA que los meseros puedan seleccionarlos al tomar una orden.                                                         | 3                   |
+| 34     | E04_US_019          | Recibir alerta cuando llega un cliente cruza la puerta del local | COMO mesero QUIERO recibir una alerta cuando un cliente entra al local PARA poder atenderlo rápidamente.                                                                                                  | 3                   |
+| 35     | E04_US_020          | Recibir alerta cuando cliente toma asiento en una mesa           | COMO mesero QUIERO recibir una alerta cuando un cliente se sienta en una mesa PARA poder generar el pedido en dicha mesa.                                                                                 | 3                   |
+| 36     | E04_US_021          | Recibir alerta cuando un cliente deja la mesa                    | COMO mesero QUIERO recibir una alerta cuando un cliente se va sin pagar PARA tomar las acciones necesarias.                                                                                               | 3                   |
+| 43     | E010_US043          | Inventariado de Insumos mediante IoT                             | **COMO** Administrador de restaurante, **QUIERO** recibir información actualizada cuando los insumos críticos estén bajos, **PARA** planificar mejor las compras y evitar interrupciones en el servicio.  | 5                   |
+| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT                           | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
+| 45     | E06_US045           | Pagar cuentas con diversos métodos de pago                       | **COMO** mesero QUIERO registrar pagos con diferentes métodos (efectivo, tarjeta, QR) PARA ofrecer opciones a los clientes y facilitar el cierre de cuentas.                                              | 5                   |
+| 46     | E06_US046           | Generar movimientos de caja                                      | **COMO** administrador QUIERO poder registrar ingresos y egresos de mi caja PARA poder mantener actualizado el sistema ante una emergencia.                                                               | 3                   |
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
 #### 8.3.3.1. To-Be Sprint Backlogs
-| #orden | To-Be User Story ID | Título                                       | Descripción                                                                                                                                                                                               | Story Point (1/3/5) |
-|--------|---------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 26     | E07_US_036          | Editar platos existentes                     | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                                                                                           | 3                   |
-| 27     | E05_US_023          | Tomar pedidos de la mesa                     | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                                                                                   | 3                   |
-| 29     | E06_US_027          | Crear un cliente con DNI o RUC en la app web | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                                                                                      | 3                   |
-| 30     | E07_US_031          | Ver resumen de ventas desde la app móvil     | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                                                                                  | 3                   |
-| 44     | E010_US044          | Detectar Mesas y Clientes mediante IoT       | **COMO** Administrador de restaurante, **QUIERO** conocer en tiempo real la ocupación de las mesas y el número de clientes, **PARA** optimizar la asignación de recursos y reducir los tiempos de espera. | 5                   |
-| 45     | E06_US045           | Pagar cuentas con diversos métodos de pago   | **COMO** mesero QUIERO registrar pagos con diferentes métodos (efectivo, tarjeta, QR) PARA ofrecer opciones a los clientes y facilitar el cierre de cuentas.                                              | 5                   |
-| 46     | E06_US046           | Generar movimientos de caja                  | **COMO** administrador QUIERO poder registrar ingresos y egresos de mi caja PARA poder mantener actualizado el sistema ante una emergencia.                                                               | 3                   |
+
+| ID         | Título                                     | Historia de Usuario (INVEST)                                                                                                              | Criterios de Aceptación (Gherkin)                                                                                                                                                                                                                                                                                                                                                                | Métricas Esperadas                                                      |
+|------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| E07_US_036 | Editar platos existentes                   | COMO administrador QUIERO editar los datos de los platos creados PARA mantenerlos actualizados.                                           | **Scenario: Editar nombre y precio de un plato**<br>Given un plato existente en la base de datos<br>When el administrador actualiza el nombre o el precio<br>Then el sistema debe guardar los cambios y mostrar una confirmación.<br><br>**Scenario: Cancelar edición**<br>Given que el administrador está editando un plato<br>When presiona "Cancelar"<br>Then los cambios no deben guardarse. | Tiempo de edición < 1 minuto<br>100% de cambios guardados correctamente |
+| E05_US_023 | Tomar pedidos de la mesa                   | COMO mesero QUIERO tomar pedidos desde una aplicación PARA agilizar la toma de órdenes.                                                   | **Scenario: Guardar pedido**<br>Given que el mesero selecciona una mesa<br>When agrega platos y presiona "Guardar"<br>Then el pedido debe almacenarse y confirmarse.<br><br>**Scenario: Pedido sin platos**<br>Given que no hay platos seleccionados<br>When intenta guardar<br>Then el sistema debe mostrar un error.                                                                           | Reducción del tiempo de toma de pedidos en un 30%                       |
+| E06_US_027 | Crear cliente con DNI o RUC                | COMO administrador QUIERO crear nuevos clientes con DNI o RUC PARA emitir documentos personalizados.                                      | **Scenario: Registro con DNI válido**<br>Given el formulario de cliente<br>When se ingresa un DNI válido<br>Then se debe guardar el cliente exitosamente.<br><br>**Scenario: Campo obligatorio vacío**<br>Given que falta completar un campo obligatorio<br>When se intenta guardar<br>Then el sistema debe mostrar un mensaje de error.                                                         | 100% de validación de campos obligatorios<br>Registro en < 1 minuto     |
+| E07_US_031 | Ver resumen de ventas desde la app móvil   | COMO administrador QUIERO ver el resumen de ventas por días PARA saber cuánto se vendió en cada jornada.                                  | **Scenario: Visualizar ventas del día actual**<br>Given que el administrador accede a la app móvil<br>When selecciona "Resumen de ventas"<br>Then el sistema muestra ventas agrupadas por fecha.<br><br>**Scenario: No hay ventas**<br>Given que no existen ventas en la fecha seleccionada<br>When accede al resumen<br>Then se muestra un mensaje "No hay datos".                              | Tiempo de carga < 3 segundos<br>100% de fechas con resumen disponible   |
+| E010_US044 | Detectar Mesas y Clientes mediante IoT     | COMO administrador QUIERO conocer en tiempo real la ocupación de las mesas y número de clientes PARA optimizar la asignación de recursos. | **Scenario: Mostrar ocupación de mesa**<br>Given que un cliente se sienta<br>When el sensor detecta presencia<br>Then el sistema actualiza el estado de la mesa en tiempo real.<br><br>**Scenario: Sala vacía**<br>Given que no hay clientes<br>When se consulta el panel<br>Then debe mostrarse que todas las mesas están disponibles.                                                          | Precisión del 95% en ocupación<br>Actualización cada 5 segundos         |
+| E06_US_045 | Pagar cuentas con diversos métodos de pago | COMO mesero QUIERO registrar pagos con efectivo, tarjeta o QR PARA facilitar el cierre de cuentas.                                        | **Scenario: Registrar pago con tarjeta**<br>Given una cuenta pendiente<br>When se selecciona "Tarjeta" como método<br>Then el sistema registra el pago exitosamente.<br><br>**Scenario: Método no seleccionado**<br>Given que el mesero no selecciona método<br>When intenta registrar el pago<br>Then se muestra un mensaje de error.                                                           | Cobros registrados sin error en 100% de los casos                       |
+| E06_US_046 | Generar movimientos de caja                | COMO administrador QUIERO registrar ingresos y egresos de caja PARA mantener actualizado el sistema ante una emergencia.                  | **Scenario: Registrar ingreso**<br>Given que el administrador accede a la caja<br>When registra un ingreso<br>Then el sistema guarda el movimiento con fecha y descripción.<br><br>**Scenario: Campo vacío**<br>Given que falta monto o motivo<br>When intenta guardar<br>Then se muestra error de validación.                                                                                   | Registro completo < 1 minuto<br>Validación en 100% de los campos        |
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
 ![landingpage_evidence.png](Resources/Capitulo8/landingpage_evidence.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
 URL: https://kitchentech.netlify.app/login
 ![netlify_evidence.png](Resources/Capitulo8/netlify_evidence.png)
 ![frontend_evidence.png](Resources/Capitulo8/frontend_evidence.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
 ![Mobile-Evidence.jpg](Resources/Capitulo8/Mobile-Evidence.jpg)
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
 Endpoint: https://kitchen-tech-backend.onrender.com
 ![backend_evidence.png](Resources/Capitulo8/backend_evidence.png)
 
@@ -333,12 +340,16 @@ Endpoint: https://kitchen-tech-backend.onrender.com
 
 ![insights.png](Resources/insights.jpeg)
 
-### 8.3.4. To-Be Validation Interviews 
+### 8.3.4. To-Be Validation Interviews
+
 #### 8.3.4.1. Diseño de Entrevistas.
-1.	¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
-2. ¿La información proporcionada en la landing page te ayudó a comprender cómo la solución IoT podría mejorar la atención en el restaurante?
+
+1. ¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
+2. ¿La información proporcionada en la landing page te ayudó a comprender cómo la solución IoT podría mejorar la
+   atención en el restaurante?
 3. ¿Qué aspectos de la aplicación te resultaron intuitivos o confusos al tomar un pedido?
-4. ¿Qué tan fácil te resultó recibir y gestionar notificaciones sobre el estado de las mesas (como la llegada de clientes o platos por recoger)?
+4. ¿Qué tan fácil te resultó recibir y gestionar notificaciones sobre el estado de las mesas (como la llegada de
+   clientes o platos por recoger)?
 5. ¿Sientes que el proceso de enviar pedidos a cocina y caja desde la aplicación agiliza tu flujo de trabajo?
 6. ¿Cómo evaluas la velocidad y precisión de la aplicación al registrar cambios en los pedidos?
 7. ¿La interfaz de la aplicación facilita la gestión de cuentas y pagos de los clientes? ¿Por qué?
@@ -346,26 +357,39 @@ Endpoint: https://kitchen-tech-backend.onrender.com
 9. ¿Crees que el sistema IoT implementado mejora la experiencia de servicio para el cliente? ¿En qué aspectos?
 
 #### 8.3.4.2. Registro de Entrevistas.
--  Primera Entrevista:
--  Segmento: Meseros
--  Nombre: Yeret Yucta
--  Edad: 21
--  Ocupación: Estudiante universitario y mesero a tiempo parcial
--  Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110966_upc_edu_pe/ESsC5d2geJZHmvEWDpBGKLgBcXgkFYSqc4YfkWn7CYaRBQ?e=sOxJuy
+
+- Primera Entrevista:
+- Segmento: Meseros
+- Nombre: Yeret Yucta
+- Edad: 21
+- Ocupación: Estudiante universitario y mesero a tiempo parcial
+-
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110966_upc_edu_pe/ESsC5d2geJZHmvEWDpBGKLgBcXgkFYSqc4YfkWn7CYaRBQ?e=sOxJuy
 
 <img src="./Resources/images/ev1.png" width="600" >
 
--  Resumen:
-   Yeret, un estudiante universitario de 21 años que trabaja a tiempo parcial como mesero en una restaurante familiar, es analítico e ingenioso, lo que le permite actuar de manera correcta con los clientes.
-   Comenta que la landing page le ayudó a entender cómo el sistema IoT agiliza su trabajo al permitirle gestionar notificaciones en tiempo real sobre el estado de las mesas y pedidos. Esta información le permite organizarse mejor y reducir tiempos de espera.
-   Aspectos intuitivos y confusos: Al tomar un pedido, Yeret encontró que el menú digital es fácil de navegar y le permite incluir especificaciones, aunque sugiere mejorar algunos íconos para que sean más claros.
-   Gestión de notificaciones: Yeret considera muy útil la función de notificaciones, ya que son visibles y manejables sin interrumpir su flujo de trabajo, lo cual reduce desplazamientos innecesarios y facilita su labor.
-   Envío de pedidos a cocina y caja: Destaca la eficiencia de poder enviar los pedidos directamente a cocina y caja desde la app, ahorrando tiempo y evitando errores durante horas pico.
-   Velocidad y precisión de la app: La rapidez y precisión de Kitchen Tech al registrar cambios en pedidos es clave para mejorar la satisfacción del cliente y evitar confusiones.
-   Gestión de cuentas y pagos: La interfaz para gestionar cuentas resulta sencilla y permite dividir pagos o registrar transacciones sin dificultad, minimizando errores.
-   Alertas de entrada y salida de clientes: Yeret aprecia esta función, ya que le permite atender a los clientes más oportunamente y preparar mesas rápidamente para nuevos clientes.
-   Experiencia del cliente: Cree que el sistema IoT mejora la experiencia de servicio, ya que los clientes perciben un servicio más atento y eficiente, con pedidos que llegan rápido y la cuenta lista a tiempo.
-   Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselling o sugerencias de platos, además de optimizar íconos y descripciones para hacer la app aún más intuitiva.
+- Resumen:
+  Yeret, un estudiante universitario de 21 años que trabaja a tiempo parcial como mesero en una restaurante familiar, es
+  analítico e ingenioso, lo que le permite actuar de manera correcta con los clientes.
+  Comenta que la landing page le ayudó a entender cómo el sistema IoT agiliza su trabajo al permitirle gestionar
+  notificaciones en tiempo real sobre el estado de las mesas y pedidos. Esta información le permite organizarse mejor y
+  reducir tiempos de espera.
+  Aspectos intuitivos y confusos: Al tomar un pedido, Yeret encontró que el menú digital es fácil de navegar y le
+  permite incluir especificaciones, aunque sugiere mejorar algunos íconos para que sean más claros.
+  Gestión de notificaciones: Yeret considera muy útil la función de notificaciones, ya que son visibles y manejables sin
+  interrumpir su flujo de trabajo, lo cual reduce desplazamientos innecesarios y facilita su labor.
+  Envío de pedidos a cocina y caja: Destaca la eficiencia de poder enviar los pedidos directamente a cocina y caja desde
+  la app, ahorrando tiempo y evitando errores durante horas pico.
+  Velocidad y precisión de la app: La rapidez y precisión de Kitchen Tech al registrar cambios en pedidos es clave para
+  mejorar la satisfacción del cliente y evitar confusiones.
+  Gestión de cuentas y pagos: La interfaz para gestionar cuentas resulta sencilla y permite dividir pagos o registrar
+  transacciones sin dificultad, minimizando errores.
+  Alertas de entrada y salida de clientes: Yeret aprecia esta función, ya que le permite atender a los clientes más
+  oportunamente y preparar mesas rápidamente para nuevos clientes.
+  Experiencia del cliente: Cree que el sistema IoT mejora la experiencia de servicio, ya que los clientes perciben un
+  servicio más atento y eficiente, con pedidos que llegan rápido y la cuenta lista a tiempo.
+  Sugerencias de mejora: Sugiere añadir funciones de recomendaciones para upselling o sugerencias de platos, además de
+  optimizar íconos y descripciones para hacer la app aún más intuitiva.
 
 
 - Segunda Entrevista:
@@ -373,22 +397,39 @@ Endpoint: https://kitchen-tech-backend.onrender.com
 - Nombre: David Oré Cutipa
 - Edad: 24
 - Ocupación: Ayudante Administrador de polleria
-- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+-
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a493_upc_edu_pe/EXy92vU1WJ5IrWDTmBaOhmkBdHkCDN5eeX4DIRwRlWoWzw?e=p0klnV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <img src="./Resources/images/e4.png" width="600">
 
 - Resumen:
-  David Oré Cutipa, de 24 años, trabaja como ayudante de administrador en una pollería, donde se enfoca en la gestión diaria y el crecimiento del negocio. Se considera organizado y consciente de la importancia del servicio al cliente, tanto presencial como virtual, para el éxito del restaurante. En la entrevista, mencionó que un gran reto es mantener ingresos positivos mientras busca expandir la marca. Actualmente, el proceso de pedidos y facturación implica que los clientes completen un formulario, ya sea de manera presencial o virtual, lo que asegura una pronta entrega. Utiliza herramientas como códigos QR y plataformas de entrega para alcanzar a más clientes, dedicando alrededor de 8 horas diarias a revisar ventas y facturación. Aunque está satisfecho con la tecnología actual, se muestra abierto a innovaciones como soluciones de IoT, meseros robóticos y asistentes inteligentes para mejorar aún más el servicio. Además, expresó su interés en tener acceso en tiempo real a las preferencias de los clientes para anticipar sus necesidades, optimizar el inventario y tomar decisiones más informadas para expandir el negocio y fortalecer la marca.
-
+  David Oré Cutipa, de 24 años, trabaja como ayudante de administrador en una pollería, donde se enfoca en la gestión
+  diaria y el crecimiento del negocio. Se considera organizado y consciente de la importancia del servicio al cliente,
+  tanto presencial como virtual, para el éxito del restaurante. En la entrevista, mencionó que un gran reto es mantener
+  ingresos positivos mientras busca expandir la marca. Actualmente, el proceso de pedidos y facturación implica que los
+  clientes completen un formulario, ya sea de manera presencial o virtual, lo que asegura una pronta entrega. Utiliza
+  herramientas como códigos QR y plataformas de entrega para alcanzar a más clientes, dedicando alrededor de 8 horas
+  diarias a revisar ventas y facturación. Aunque está satisfecho con la tecnología actual, se muestra abierto a
+  innovaciones como soluciones de IoT, meseros robóticos y asistentes inteligentes para mejorar aún más el servicio.
+  Además, expresó su interés en tener acceso en tiempo real a las preferencias de los clientes para anticipar sus
+  necesidades, optimizar el inventario y tomar decisiones más informadas para expandir el negocio y fortalecer la marca.
 
 ## 8.4. Experiment Aftermath & Analysis
+
 ### 8.4.1. Analysis and Interpretation of Results
-Los experimentos realizados han proporcionado información valiosa sobre la efectividad de las nuevas funcionalidades implementadas en Kitchentech. A continuación, se presentan los hallazgos clave:
-- El historial de pedidos por mesa ha demostrado ser una herramienta eficaz para reducir errores en la toma de pedidos, con una disminución del 35% en los errores reportados por los meseros.
-- La visibilidad de los productos más vendidos ha permitido a los administradores optimizar el menú, resultando en un aumento del 7% en las ventas semanales.
-- El acceso rápido a productos frecuentes ha disminuido el tiempo de gestión del inventario en un 30%, facilitando la operación diaria.
+
+Los experimentos realizados han proporcionado información valiosa sobre la efectividad de las nuevas funcionalidades
+implementadas en Kitchentech. A continuación, se presentan los hallazgos clave:
+
+- El historial de pedidos por mesa ha demostrado ser una herramienta eficaz para reducir errores en la toma de pedidos,
+  con una disminución del 35% en los errores reportados por los meseros.
+- La visibilidad de los productos más vendidos ha permitido a los administradores optimizar el menú, resultando en un
+  aumento del 7% en las ventas semanales.
+- El acceso rápido a productos frecuentes ha disminuido el tiempo de gestión del inventario en un 30%, facilitando la
+  operación diaria.
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
 | # | Pregunta                                                                                | Impacto Potencial                             |
 |---|-----------------------------------------------------------------------------------------|-----------------------------------------------|
 | 2 | ¿La visibilidad de los productos más vendidos mejora la gestión del menú?               | Alto (optimiza decisiones de menú)            |
@@ -397,15 +438,16 @@ Los experimentos realizados han proporcionado información valiosa sobre la efec
 | 3 | ¿Una mensajería interna mejora la coordinación entre meseros y cocina?                  | Bajo (reduce errores y demoras)               |
 | 4 | ¿La implementación de un historial de pedidos reduce los errores en la toma de pedidos? | Bajo (reduce errores operativos)              |
 
-
 ## 8.5. Continuous Learning
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
 Arquitectura y Tecnologías Utilizadas
 
 #### Arquitectura
 
-- La solución Kitchentech está basada en una arquitectura integral que combina un sistema ERP con dispositivos IoT, permitiendo la gestión centralizada y en tiempo real de procesos en restaurantes y negocios similares.
+- La solución Kitchentech está basada en una arquitectura integral que combina un sistema ERP con dispositivos IoT,
+  permitiendo la gestión centralizada y en tiempo real de procesos en restaurantes y negocios similares.
 - El sistema es escalable y adaptable a diferentes tamaños de negocio, desde pequeños cafés hasta grandes cadenas.
 - Despliegue en la nube para asegurar disponibilidad y crecimiento según demanda.
 
@@ -449,7 +491,6 @@ Arquitectura y Tecnologías Utilizadas
 - Validación de la integración entre dispositivos IoT, aplicaciones móviles/web y sistemas de backend.
 - Enfoque en la seguridad de los datos y la confiabilidad del sistema en entornos reales.
 - Uso de herramientas de automatización y CI/CD para asegurar la calidad continua del software.
-
 
 ## 8.6. To-Be Software Platform Pre-launch
 
