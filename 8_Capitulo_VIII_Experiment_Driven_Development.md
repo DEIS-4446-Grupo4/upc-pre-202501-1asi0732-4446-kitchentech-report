@@ -452,3 +452,9 @@ Arquitectura y Tecnologías Utilizadas
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
+
+<img src="./Resources/Captura%20de%20pantalla%202024-11-20%20153403.jpg" width="600" >
+
+Link del video:
+
+https://www.youtube.com/watch?v=rSsDI6MaP-4
