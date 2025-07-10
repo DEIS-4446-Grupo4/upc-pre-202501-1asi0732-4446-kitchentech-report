@@ -132,67 +132,76 @@ impacto real de cada mejora a través de experimentos controlados y medibles
 
 ### 8.2.1. Hypotheses
 
-| Hypothesis ID | Hypothesis                                                                                                                                                                             | Question ID |
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| HYP001        | Si se implementa un historial de ventas por mesa, entonces los administradores podrán acceder rápidamente a la información de ventas anteriores, mejorando la eficiencia del servicio. | 1           |
-| HYP002        | Si se implementa un acceso rápido a productos frecuentes o recientes en el inventario, entonces se reducirá el tiempo de gestión del inventario y se minimizarán los errores.          | 2           |
-| HYP002        | Si se implementa una función de pago con diversos métodos, entonces los clientes podrán pagar rápidamente y se reducirán los tiempos de atención                                       | 3           |
-| HYP003        | Si se habilita la función de anular ventas, entonces se podrán solucionar errores por cobros equivocados y disminuirán los tiempos de resolución de errores.                           | 4           |
+| Hypothesis ID | Hypothesis                                                                                                                                                                      | Question ID |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| HYP001        | Si se implementa un historial de ventas, entonces los administradores podrán acceder rápidamente a la información de ventas anteriores, mejorando la eficiencia del servicio.   | 1           |
+| HYP002        | Si se implementa un acceso rápido a productos frecuentes o recientes en el inventario, entonces se reducirá el tiempo de gestión del inventario y se minimizarán los errores.   | 2           |
+| HYP002        | Si se implementa una función de pago con diversos métodos, entonces los clientes podrán pagar rápidamente y se reducirán los tiempos de atención                                | 3           |
+| HYP003        | Si se habilita la función de anular ventas, entonces se podrán solucionar errores por cobros equivocados y disminuirán los tiempos de resolución de errores.                    | 4           |
 
 
 ### 8.2.2. Measures
 
-| Measure ID | Measure Description                                        | Hypothesis ID |
-|------------|------------------------------------------------------------|---------------|
-| M001       | Número de errores en pedidos y tiempo promedio por pedido. | HYP001        |
-| M002       | Variación en las ventas y cambios en el menú.              | HYP002        |
-| M003       | Tiempos de respuesta y cantidad de errores en cocina.      | HYP003        |
-| M004       | Tiempo promedio de gestión del inventario.                 | HYP004        |
+| Measure ID | Measure Description                                                                                    | Hypothesis ID |
+|------------|--------------------------------------------------------------------------------------------------------|---------------|
+| M001       | Tiempo promedio de acceso al historial de ventas y número de consultas realizadas por administradores. | HYP001        |
+| M002       | Tiempo promedio de gestión del inventario y frecuencia de uso del acceso rápido.                       | HYP002        |
+| M003       | Tiempo promedio de procesamiento de pagos y satisfacción del cliente (escala 1-5).                     | HYP003        |
+| M004       | Número de transacciones anuladas y tiempo promedio de resolución de errores.                           | HYP004        |
 
-### 8.2.3. Conditions
+
+#### 8.2.3. Conditions
 
 | Condition ID | Condition Description                                                                                                            | Measure ID |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------|------------|
-| C001         | El historial de pedidos por mesa está implementado y disponible para los meseros.                                                | M001       |
-| C002         | El panel de "Top productos" está visible en el dashboard del administrador y actualizado en tiempo real.                         | M002       |
-| C003         | La mensajería interna está habilitada y utilizada por al menos el 70% de los meseros y cocineros.                                | M003       |
-| C004         | El acceso rápido a productos frecuentes o recientes está implementado y utilizado en al menos el 60% de las altas de inventario. | M004       |
+| C001         | El historial de ventas está implementado y accesible para administradores en menos de 3 clics.                                   | M001       |
+| C002         | El acceso rápido a productos frecuentes/recientes está activo y utilizado en ≥60% de las operaciones de inventario.              | M002       |
+| C003         | Al menos 3 métodos de pago están disponibles y funcionando correctamente.                                                        | M003       |
+| C004         | La función de anular ventas está habilitada y registra el motivo de cada anulación automáticamente.                              | M004       |
+
+---
 
 ### 8.2.4. Scale Calculations and Decisions
 
 | Scale ID | Scale Description                                                                                             | Condition ID |
 |----------|---------------------------------------------------------------------------------------------------------------|--------------|
-| S001     | Escala de satisfacción del usuario con el historial de pedidos: 1 (muy insatisfecho) a 5 (muy satisfecho).    | C001         |
-| S002     | Escala de efectividad del panel de "Top productos": 1 (poco útil) a 5 (muy útil).                             | C002         |
-| S003     | Escala de mejora en la coordinación con mensajería interna: 1 (sin mejora) a 5 (mejora significativa).        | C003         |
-| S004     | Escala de eficiencia en la gestión del inventario con acceso rápido: 1 (muy ineficiente) a 5 (muy eficiente). | C004         |
+| S001     | Escala de eficiencia del historial de ventas: 1 (sin mejora) a 5 (reducción >50% en tiempo de consulta).      | C001         |
+| S002     | Escala de eficacia en gestión de inventario: 1 (≥5 min/operación) a 5 (≤1 min/operación).                     | C002         |
+| S003     | Escala de satisfacción en métodos de pago: 1 (≥3 minutos/proceso) a 5 (≤30 segundos/proceso).                 | C003         |
+| S004     | Escala de resolución de errores: 1 (≥15 min/resolución) a 5 (≤2 min/resolución).                              | C004         |
+
+---
 
 ### 8.2.5. Methods Selection
 
 | Method ID | Method Description                                                                                       | Scale ID |
 |-----------|----------------------------------------------------------------------------------------------------------|----------|
-| M001      | Encuestas a meseros y administradores sobre la utilidad del historial de pedidos.                        | S001     |
-| M002      | Análisis de ventas antes y después de implementar el panel de "Top productos".                           | S002     |
-| M003      | Registro de tiempos de respuesta y errores en cocina antes y después de habilitar la mensajería interna. | S003     |
-| M004      | Medición del tiempo promedio de gestión del inventario antes y después de implementar el acceso rápido.  | S004     |
+| MTH001    | Registro automatizado de tiempo de acceso al historial de ventas y encuesta a administradores.            | S001     |
+| MTH002    | Cronometraje de operaciones de inventario y análisis de logs de uso.                                     | S002     |
+| MTH003    | Encuesta post-pago a clientes y medición de tiempos con herramientas de analytics.                       | S003     |
+| MTH004    | Análisis de registros de transacciones anuladas y tiempos de resolución.                                 | S004     |
 
-### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+---
+
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
 | Goal ID | Goal Description                                                                                 | Method ID |
 |---------|--------------------------------------------------------------------------------------------------|-----------|
-| G001    | Mejorar la precisión y velocidad del servicio mediante el uso del historial de pedidos.          | M001      |
-| G002    | Optimizar la gestión del menú y aumentar las ventas con el panel de "Top productos".             | M002      |
-| G003    | Reducir el tiempo de resolución de incidencias y mejorar la coordinación con mensajería interna. | M003      |
-| G004    | Disminuir el tiempo de gestión del inventario mediante acceso rápido a productos frecuentes.     | M004      |
+| G001    | Reducir en 40% el tiempo de consulta a historial de ventas para administradores.                 | MTH001    |
+| G002    | Disminuir a ≤2 min el tiempo promedio por operación de inventario.                              | MTH002    |
+| G003    | Lograr ≥80% de satisfacción en velocidad de pagos (escala 4-5).                                 | MTH003    |
+| G004    | Reducir a ≤5 min el tiempo de resolución de errores por anulaciones.                            | MTH004    |
 
-### 8.2.7. Web and Mobile Tracking Plan.
+---
+
+### 8.2.7. Web and Mobile Tracking Plan
 
 | Tracking ID | Tracking Description                                                                               | Goal ID |
 |-------------|----------------------------------------------------------------------------------------------------|---------|
-| T001        | Implementar seguimiento de uso del historial de pedidos por mesa en la app del mesero.             | G001    |
-| T002        | Medir la interacción con el panel de "Top productos" en el dashboard del administrador.            | G002    |
-| T003        | Registrar el uso de la mensajería interna entre meseros y cocina, incluyendo tiempos de respuesta. | G003    |
-| T004        | Monitorear el tiempo de gestión del inventario con el acceso rápido a productos frecuentes.        | G004    |
+| TRK001      | Eventos de clics y tiempo en pantalla del historial de ventas (admin dashboard).                   | G001    |
+| TRK002      | Logs de interacción con el módulo de inventario (frecuencia de uso de acceso rápido).              | G002    |
+| TRK003      | Tiempo de checkout y selección de método de pago (integrado con Google Analytics).                 | G003    |
+| TRK004      | Registro de timestamps en anulaciones (desde error hasta resolución).                              | G004    |
 
 ## 8.3. Experimentation
 
