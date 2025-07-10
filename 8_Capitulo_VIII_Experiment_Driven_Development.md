@@ -331,6 +331,8 @@ Endpoint: https://kitchen-tech-backend.onrender.com
 
 #### 8.3.3.6. Team Collaboration Insights
 
+![insights.png](Resources/insights.jpeg)
+
 ### 8.3.4. To-Be Validation Interviews 
 #### 8.3.4.1. Diseño de Entrevistas.
 1.	¿Qué tan fácil te resultó navegar por la landing page y encontrar información relevante sobre el sistema?
